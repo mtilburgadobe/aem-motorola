@@ -1,0 +1,217 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-03T15:13:49.335Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T15:13:49.335Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "at-de-brilliant-collection",
+    "at-de-brilliant-collection-2026",
+    "at-de-business-edition",
+    "at-de-motoverse",
+    "at-de-homepage",
+    "at-de-motocare",
+    "at-de-offers",
+    "at-de-razr-fold-fifa-world-cup-edition",
+    "at-de-contest",
+    "index"
+  ],
+  "steps": [
+    {
+      "slug": "at-de-brilliant-collection",
+      "path": "/at/de/brilliant-collection",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-brilliant-collection-2026",
+      "path": "/at/de/brilliant-collection-2026",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-business-edition",
+      "path": "/at/de/business-edition",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-motoverse",
+      "path": "/at/de/motoverse",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-homepage",
+      "path": "/at/de/homepage",
+      "templateId": "at-de-homepage",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "banner",
+          "edsBlockName": "banner"
+        },
+        {
+          "id": "reco",
+          "edsBlockName": "reco"
+        },
+        {
+          "id": "hcar",
+          "edsBlockName": "hcar"
+        },
+        {
+          "id": "tiles",
+          "edsBlockName": "tiles"
+        },
+        {
+          "id": "trend",
+          "edsBlockName": "trend"
+        },
+        {
+          "id": "gallery",
+          "edsBlockName": "gallery"
+        },
+        {
+          "id": "news",
+          "edsBlockName": "news"
+        },
+        {
+          "id": "legal",
+          "edsBlockName": "legal"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-motocare",
+      "path": "/at/de/motocare",
+      "templateId": "at-de-motocare",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "fullbleed",
+          "edsBlockName": "fullbleed"
+        },
+        {
+          "id": "media-row",
+          "edsBlockName": "media-row"
+        },
+        {
+          "id": "compare",
+          "edsBlockName": "compare"
+        },
+        {
+          "id": "stack",
+          "edsBlockName": "stack"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "at-de-offers",
+      "path": "/at/de/offers",
+      "templateId": "at-de-offers",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "banner",
+          "edsBlockName": "banner",
+          "convertedBy": "at-de-homepage"
+        },
+        {
+          "id": "reco",
+          "edsBlockName": "reco",
+          "convertedBy": "at-de-homepage"
+        }
+      ]
+    },
+    {
+      "slug": "at-de-razr-fold-fifa-world-cup-edition",
+      "path": "/at/de/razr-fold-fifa-world-cup-edition",
+      "templateId": "at-de-razr-fold-fifa-world-cup-edition",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "pchero",
+          "edsBlockName": "pchero"
+        },
+        {
+          "id": "pcarousel",
+          "edsBlockName": "pcarousel"
+        },
+        {
+          "id": "dexp",
+          "edsBlockName": "dexp"
+        },
+        {
+          "id": "vhero",
+          "edsBlockName": "vhero"
+        },
+        {
+          "id": "fbleed",
+          "edsBlockName": "fbleed"
+        },
+        {
+          "id": "cblock",
+          "edsBlockName": "cblock"
+        },
+        {
+          "id": "flexview",
+          "edsBlockName": "flexview"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "stack",
+          "edsBlockName": "stack",
+          "convertedBy": "at-de-motocare"
+        },
+        {
+          "id": "legal",
+          "edsBlockName": "legal",
+          "convertedBy": "at-de-homepage"
+        }
+      ]
+    },
+    {
+      "slug": "at-de-contest",
+      "path": "/at/de/contest",
+      "templateId": "campaign",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+/* banner — live section.banner-container (values from canon.css banner-hero) */
+.banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: var(--module-max);
+  margin: 0 auto 16px;
+}
+
+.banner .banner-link {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner .banner-media {
+  width: 100%;
+  line-height: 0;
+}
+
+.banner .banner-media picture {
+  display: block;
+}
+
+.banner .banner-logo .art {
+  height: 100%;
+}
+
+.banner .banner-media img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 600px;
+  object-fit: cover;
+}
+
+.banner.light-text .banner-media img {
+  height: 598px;
+}
+
+/* art direction: the second authored picture is the ≤600px image */
+.banner .has-mobile .art-mobile {
+  display: none;
+}
+
+.banner .banner-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px 0;
+  padding: 20px 100px;
+  color: #000;
+  pointer-events: none;
+}
+
+.banner.light-text .banner-content {
+  color: #fff;
+}
+
+.banner .banner-textlink {
+  display: block;
+  width: 100%;
+  color: inherit;
+}
+
+.banner .banner-text {
+  width: 40%;
+  text-align: left;
+}
+
+.banner.wide .banner-text {
+  width: 50%;
+}
+
+/* fit / medium (US home): live banner-text-wrapper width auto / 45% */
+.banner.fit .banner-text {
+  width: auto;
+}
+
+.banner.medium .banner-text {
+  width: 45%;
+}
+
+.banner .banner-logo {
+  display: block;
+  width: fit-content;
+  height: 60px;
+  margin-bottom: 20px;
+  line-height: 0;
+}
+
+.banner .banner-logo picture {
+  display: block;
+  height: 100%;
+}
+
+.banner .banner-text .banner-logo img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+
+.banner .banner-title {
+  margin: 16px 0;
+  overflow: hidden;
+}
+
+.banner .banner-title :is(h1, h2, h3) {
+  color: inherit;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.banner .banner-desc {
+  margin: 0 0 9px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.banner .banner-desc strong {
+  font-weight: 700;
+}
+
+.banner .banner-desc sup {
+  font-size: 13.3333px;
+  line-height: normal;
+}
+
+.banner .banner-ctas {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 16px 0;
+  pointer-events: auto;
+}
+
+/* static variant (offers campaign): no link, no CTA — live keeps the empty CTA row (32px) */
+.banner.static .banner-content::after {
+  content: '';
+  margin: 16px 0;
+}
+
+/* solo variant (contest campaign): live homeCarousel with one slide (hero_banner_swiper_solo) —
+   553px cover image, copy top-left at 7% inset, no arrows / dots */
+.banner.solo .banner-media img {
+  height: 553px;
+  border-radius: 0 0 16px 16px;
+}
+
+.banner.solo .banner-content {
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0 10% 0 7%;
+}
+
+.banner.solo .banner-text {
+  width: auto;
+  margin-bottom: 13px;
+}
+
+.banner.solo .banner-title {
+  overflow: visible;
+}
+
+.banner.solo .banner-title :is(h1, h2, h3) {
+  font-size: 50px;
+  line-height: 56px;
+}
+
+.banner.solo .banner-desc {
+  font-size: 23px;
+  line-height: 24px;
+}
+
+.banner.solo.static .banner-content::after {
+  margin: 0;
+  padding-top: 34px;
+}
+
+/* tall-logo (US home): live banner-logo height 100px (desktop) */
+@media (width > 600px) {
+  .banner.tall-logo .banner-logo,
+  .banner.tall-logo .banner-text .banner-logo img {
+    height: 100px;
+  }
+}
+
+@media (width <= 600px) {
+  .banner .has-mobile .art-desktop {
+    display: none;
+  }
+
+  .banner .has-mobile .art-mobile {
+    display: block;
+  }
+
+  .banner .banner-media img,
+  .banner.light-text .banner-media img {
+    height: auto;
+    aspect-ratio: 1080 / 1920;
+    object-fit: contain;
+  }
+
+  .banner .banner-text {
+    width: 90%;
+  }
+
+  .banner.wide .banner-text,
+  .banner.medium .banner-text {
+    width: 90%;
+  }
+
+  .banner .banner-text .banner-logo img {
+    object-fit: contain;
+  }
+
+  .banner .banner-title {
+    overflow-wrap: anywhere;
+  }
+
+  .banner .banner-title :is(h1, h2, h3) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  /* live clips the 40%-wide text column at the banner box */
+  .banner.static {
+    clip-path: inset(0);
+  }
+
+  .banner.static .banner-text {
+    width: 40%;
+  }
+
+  .banner.solo .banner-media img {
+    height: 553px;
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+
+  .banner.solo .banner-text,
+  .banner.solo.static .banner-text {
+    width: auto;
+  }
+
+  .banner.solo .banner-title :is(h1, h2, h3) {
+    font-size: 50px;
+    line-height: 32px;
+  }
+}

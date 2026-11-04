@@ -1,0 +1,361 @@
+/* trend — live moto-trendings-v2 (values from canon.css trending tabs) */
+.trend {
+  width: 100%;
+  max-width: var(--module-max);
+  margin: 0 auto;
+  padding: 40px 35px 20px;
+  background: #fff;
+}
+
+.trend .trend-title {
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.trend .trend-title :is(h1, h2, h3) {
+  margin: 0;
+  color: inherit;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.trend .trend-tabs {
+  position: relative;
+  max-width: 631px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.trend .trend-tabs ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trend .trend-tabs li {
+  min-width: 152px;
+  padding: 10px 12px;
+  background: #fff;
+  color: var(--tab-muted);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.trend .trend-tabs .trend-tab {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  cursor: pointer;
+}
+
+.trend .trend-tabs li.is-active {
+  color: #000;
+}
+
+.trend .trend-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 152px;
+  height: 2px;
+  border-radius: 20px;
+  background: #000;
+  transition: transform 0.2s ease, width 0.2s ease;
+}
+
+.trend .trend-rail {
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.trend .trend-track {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.trend .trend-card {
+  flex: none;
+  width: 326.25px;
+  margin-right: 20px;
+  padding: 26px 18px 0;
+  background: var(--card);
+}
+
+.trend .trend-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 13px;
+  color: var(--navy);
+  font-size: 24px;
+  text-align: center;
+}
+
+.trend .trend-img {
+  height: 211px;
+  line-height: 0;
+}
+
+.trend .trend-img picture {
+  display: block;
+}
+
+.trend .trend-img img {
+  width: 205px;
+  max-width: none;
+  height: 205px;
+  object-fit: cover;
+}
+
+.trend .trend-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.trend .trend-name {
+  height: 60px;
+  margin-top: 16px;
+}
+
+.trend .trend-name :is(h2, h3, h4) {
+  height: 60px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.trend .trend-cta {
+  margin-top: 16px;
+}
+
+.trend .trend-cta p {
+  display: flex;
+  margin: 0;
+}
+
+.trend .trend-cta a:any-link {
+  gap: 10px;
+}
+
+.trend .btn-arrow-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+}
+
+.trend .btn-arrow-box svg {
+  width: 18px;
+  height: 24px;
+}
+
+.trend .trend-dots {
+  display: none;
+}
+
+/* EU energy label row (shared look with reco) */
+.trend .energy {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  height: 30px;
+  padding-top: 10px;
+  color: var(--energy);
+  font-size: 12px;
+}
+
+.trend .energy p {
+  margin: 0;
+  line-height: normal;
+}
+
+.trend .energy picture {
+  display: block;
+  line-height: 0;
+}
+
+.trend .energy img {
+  width: 45px;
+  height: 25px;
+  vertical-align: top;
+}
+
+.trend .energy a:any-link {
+  color: var(--energy);
+  text-decoration: underline;
+}
+
+@media (width <= 600px) {
+  .trend {
+    padding: 42px 0 0;
+  }
+
+  .trend .trend-title :is(h1, h2, h3) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .trend .trend-tabs {
+    max-width: none;
+    margin: 0 6.5px 28px;
+    padding: 0 10px 5px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .trend .trend-tabs ul {
+    justify-content: left;
+    gap: 16px;
+  }
+
+  .trend .trend-tabs li {
+    flex: none;
+    min-width: 0;
+    padding: 5px 0;
+    white-space: nowrap;
+  }
+
+  .trend .trend-rail {
+    margin: 20px 10px 0;
+    padding: 0 10px 20px;
+    overflow: hidden;
+  }
+
+  .trend .trend-track {
+    justify-content: flex-start;
+  }
+
+  .trend .trend-card {
+    width: calc((100% - 10px) / 2);
+    margin-right: 10px;
+  }
+
+  .trend .trend-img {
+    height: 142px;
+  }
+
+  .trend .trend-img img {
+    width: 117px;
+    height: 136px;
+  }
+
+  .trend .trend-top {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .trend .trend-name :is(h2, h3, h4) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .trend .trend-cta {
+    width: max-content;
+  }
+
+  .trend .trend-cta a:any-link {
+    width: min-content;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+
+  .trend .energy {
+    height: auto;
+  }
+
+  .trend .energy p {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .trend .energy img {
+    width: 100%;
+    height: auto;
+  }
+
+  .trend .energy p:has(img) {
+    flex: 0 1 45px;
+  }
+
+  .trend .trend-dots {
+    display: block;
+    height: 19px;
+    margin-top: 16px;
+    padding-top: 12px;
+    line-height: 0;
+    text-align: center;
+  }
+
+  .trend .trend-dots span {
+    display: inline-block;
+    width: 40px;
+    height: 2px;
+    margin: 0 4px;
+    border-radius: 0.5px;
+    background: #000;
+    opacity: 0.2;
+  }
+
+  .trend .trend-dots span.is-active {
+    width: 42px;
+    opacity: 1;
+  }
+}
+
+/* roomy (US home): live moto-trendings-v2 padding 60px 35px 0, one-line tabs, 100px name
+   box and a 53px foot under the CTA (no energy row) — desktop; ≤600 keeps the base rail */
+.trend.roomy .trend-tabs li {
+  white-space: nowrap;
+}
+
+@media (width > 600px) {
+  .trend.roomy {
+    padding: 60px 35px 0;
+  }
+
+  .trend.roomy .trend-name,
+  .trend.roomy .trend-name :is(h2, h3, h4) {
+    height: 100px;
+  }
+
+  .trend.roomy .trend-body {
+    padding-bottom: 43px;
+  }
+}
+
+@media (width <= 600px) {
+  .trend.roomy .trend-name,
+  .trend.roomy .trend-name :is(h2, h3, h4) {
+    height: 96px;
+  }
+
+  .trend.roomy .trend-body {
+    padding-bottom: 27px;
+  }
+
+  .trend.roomy .trend-dots {
+    display: none;
+  }
+}

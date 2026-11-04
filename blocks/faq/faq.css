@@ -1,0 +1,92 @@
+/* faq — live .ofpFe2cAccordionWrap: white band, 1184px column, 32px bold head, 16px bold
+   question rows (16px padding) with a plus glyph, 1px #707070 separators. */
+.faq {
+  padding: 48px 0;
+  background: #fff;
+  color: #000;
+}
+
+.faq .faq-inner {
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+.faq .faq-heading {
+  margin-bottom: 7px;
+}
+
+.faq .faq-heading :is(p, h1, h2, h3, h4, h5, h6) {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.faq .faq-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.faq .faq-question {
+  flex: 1;
+  min-width: 0;
+}
+
+.faq .faq-question p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.faq .faq-question strong {
+  font-weight: 700;
+}
+
+.faq .faq-toggle {
+  position: relative;
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin: 4px 12px 0 20px;
+  cursor: pointer;
+}
+
+.faq .faq-toggle::before,
+.faq .faq-toggle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 2px;
+  background: #000;
+  transform: translate(-50%, -50%);
+}
+
+.faq .faq-toggle::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.faq .faq-item.open .faq-toggle::after {
+  display: none;
+}
+
+.faq .faq-answer {
+  padding-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.faq .faq-answer ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.faq .faq-answer a:any-link {
+  color: #00529c;
+}
+
+.faq .faq-sep {
+  border-bottom: 1px solid #707070;
+}

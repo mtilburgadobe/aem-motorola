@@ -1,0 +1,1959 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-03T13:48:35.800Z",
+    "readArtifacts": [
+      "https://www.motorola.com/",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/pages/at-de-brilliant-collection-2026.json",
+      "stardust/current/pages/at-de-brilliant-collection.json",
+      "stardust/current/pages/at-de-business-edition.json",
+      "stardust/current/pages/at-de-contest.json",
+      "stardust/current/pages/at-de-homepage.json",
+      "stardust/current/pages/at-de-motocare.json",
+      "stardust/current/pages/at-de-motoverse.json",
+      "stardust/current/pages/at-de-offers.json",
+      "stardust/current/pages/at-de-razr-fold-fifa-world-cup-edition.json",
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/*.html (header/footer/main slices, inline molecule dictionary)",
+      "stardust/.work/css/* (21 live stylesheets, see _css-lift-notes.md)"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.36.1",
+    "notes": [
+      "Primary origin https://www.motorola.com/ redirects to /us/en/homepage (slug index); the other 9 captured pages are /at/de/. Home-only fields read the US index per spec; AT homepage equivalents are recorded alongside where they differ.",
+      "#cf4039 (62 weight, button-background on 9 pages) is the third-party Confirmit digital-feedback tab #cffbtb \"Rückmeldung\" (Open Sans, 0px radius) — excluded from palette roles; not brand.",
+      "Header is WHITE (#ffffff, fixed, 88px = 19px announcement bar #e9eaf2 + 69px nav row) on BOTH the US index and AT pages at 1440 and 360 (census surfaces[header]). The brief's \"US black header\" is not supported by the census; the dark band in index-thumb.png is the newsletter-modal overlay.",
+      "Home-only vs cross-page radius: home pages are dominated by 100px pill CTAs (at-de-homepage radii: 100px×20, 16px×2); cross-page mode by area and count is 16px (image tiles/cards). Primary=16px, buttons=100px.",
+      "Palette capped at 8. Dropped: #ffffff4d (white 30% footer borders — leftover from the dark-footer base theme, invisible on white), #514f51 (inactive tab text / swatch dots), #3b3b3b, #757575 (swiper pagination), #3a384d/#3d4161/#7e8f84/#007c6d/#315592/#56644e/#a0b9c6/#e2e2da/#5a4575/#b44580/#d1dee9/#00b5d7 (product colour-swatch dots, offers/contest), #00529c (newsletter consent link), #00264d (newsletter input border).",
+      "Logo PNG brand mark colour is #685bc6 (sampled from assets/logo.png); this purple appears nowhere in computed CSS colour.",
+      "CSS custom properties: 2179 utility \"atom\" tokens (--atom-color-*, --atom-padding-*, …) + legacy Lenovo palette vars (--lenovo-red #E1251B, --dark-blue #11184F …). No semantic --primary/--secondary. Molecule classes (typo-*, btn-*) are the de-facto design system.",
+      "cssBackgrounds: url(\"…/at/de/undefined\") repeats on 4 AT pages — a broken CMS background binding, not a motif.",
+      "at-de-razr-fold-fifa-world-cup-edition contains a looping muted <video> (src null at capture) — page-level, not home; heroMedium stays null.",
+      "Spacing scale not measured by the census (only button paddings, header/footer metrics) — left empty rather than inferred."
+    ]
+  },
+  "site": {
+    "name": "Motorola",
+    "tagline": "Shop Motorola’s latest Android smartphones, budget-friendly options, accessories, Moto Care and support, and find deals that make upgrading to a new mobile device easier.",
+    "taglineSource": "pages/index.json#description",
+    "originUrl": "https://www.motorola.com/",
+    "finalUrl": "https://www.motorola.com/us/en/homepage",
+    "locales": [
+      "us/en (index)",
+      "at/de (9 pages)"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://www.motorola.com",
+      "role": "primary",
+      "pagesCaptured": 10,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "source": "img",
+    "sourceSelector": "header .navigation-logo-pc > a.motorolo-logo > img.navigation-image-logo",
+    "censusSelector": "header > div:nth-of-type(2) > div:nth-of-type(1) > a > img",
+    "url": "https://p4-ofp.static.pub//fes/cms/2026/09/07/ozgxblh6t8u5of7wyxa3odiit3kgub871372.png",
+    "alt": "Motorola Homepage",
+    "localPath": "stardust/current/assets/logo.png",
+    "format": "png",
+    "intrinsicWidth": 200,
+    "intrinsicHeight": 200,
+    "renderedSize": {
+      "w": 40,
+      "h": 40,
+      "x": 20,
+      "y": 34
+    },
+    "dominantColor": "#685bc6",
+    "synthesized": false,
+    "synthesizedBasis": null,
+    "note": "No inline-SVG logo in the header (header SVGs are nav arrows). Same PNG on US and AT.",
+    "favicon": {
+      "localPath": "stardust/current/assets/favicon.ico",
+      "url": "https://p1-ofp.static.pub/MOTO/assets/favicon.ico"
+    }
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#ffffff",
+      "occurrences": 1046,
+      "bgArea": 100866206,
+      "clusterMembers": [
+        "rgb(255, 255, 255)",
+        "rgb(245, 245, 245)",
+        "rgb(248, 246, 246)",
+        "rgb(250, 251, 255)",
+        "rgb(249, 250, 251)"
+      ],
+      "usedAs": [
+        "background",
+        "text",
+        "border"
+      ],
+      "usage": "body background on every page; header/footer ground",
+      "sourceSelectors": [
+        "body",
+        "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > div > a"
+      ],
+      "sources": [
+        "at-de-motocare",
+        "index",
+        "at-de-offers"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "selector": "body",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "selector": "div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > div > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "text-primary",
+      "value": "#000000",
+      "occurrences": 1444,
+      "bgArea": 2856756,
+      "clusterMembers": [
+        "rgb(0, 0, 0)",
+        "rgb(10, 10, 10)"
+      ],
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "usage": "dominant text, heading and link colour",
+      "sourceSelectors": [
+        "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1)",
+        "#column-header-0",
+        "header > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1)"
+      ],
+      "sources": [
+        "at-de-offers",
+        "at-de-motocare",
+        "at-de-business-edition"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1)",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "selector": "#column-header-0",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/business-edition",
+          "selector": "header > div:nth-of-type(2) > ul > li:nth-of-type(1) > div:nth-of-type(1)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "primary",
+      "value": "#131417",
+      "occurrences": 450,
+      "bgArea": 1130172,
+      "clusterMembers": [
+        "rgb(19, 20, 23)",
+        "rgb(28, 28, 28)",
+        "rgb(13, 23, 26)",
+        "rgb(13, 13, 13)"
+      ],
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "usage": "solid dark pill CTA fill (btn-primary-solid-dark-dt → --atom-color-dark-300) and dark CTA text/borders",
+      "sourceSelectors": [
+        "div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > div",
+        "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+        "div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > a"
+      ],
+      "sources": [
+        "at-de-offers",
+        "at-de-homepage",
+        "index"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "selector": "div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(2) > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "div:nth-of-type(1) > article > div:nth-of-type(1) > div > div:nth-of-type(2) > a:nth-of-type(1) > div > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "surface",
+      "value": "#e9eaf2",
+      "occurrences": 237,
+      "bgArea": 23035058,
+      "clusterMembers": [
+        "rgb(233, 234, 242)",
+        "rgb(235, 235, 235)",
+        "rgb(240, 238, 233)",
+        "rgb(241, 241, 241)",
+        "rgb(242, 239, 235)",
+        "rgb(244, 245, 240)"
+      ],
+      "usedAs": [
+        "background",
+        "border",
+        "text"
+      ],
+      "usage": "announcement bar ground (header > div:nth-of-type(1)) and product-card / tile grounds",
+      "sourceSelectors": [
+        "header > div:nth-of-type(1) > div > div > div",
+        "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+        "header > div:nth-of-type(1) > div > div > div"
+      ],
+      "sources": [
+        "at-de-offers",
+        "at-de-motocare",
+        "index"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "selector": "header > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "selector": "div > div > div > div > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2)",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "header > div:nth-of-type(1) > div > div > div",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "role": "secondary",
+      "value": "#001428",
+      "occurrences": 365,
+      "bgArea": 43487,
+      "clusterMembers": [
+        "rgb(0, 20, 40)",
+        "rgb(7, 25, 45)"
+      ],
+      "usedAs": [
+        "text",
+        "border",
+        "background"
+      ],
+      "usage": "navy text: footer links/headings, newsletter submit fill, some body copy (--atom-color-navy-950)",
+      "sourceSelectors": [
+        "#app > div > div:nth-of-type(2) > div:nth-of-type(1) > div > span",
+        "#app > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > p > strong",
+        "#app > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+      ],
+      "sources": [
+        "index",
+        "at-de-brilliant-collection",
+        "at-de-homepage"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#app > div > div:nth-of-type(2) > div:nth-of-type(1) > div > span",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "#app > div > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div > p > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#app > div > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "accent",
+      "value": "#0d5c91",
+      "occurrences": 192,
+      "bgArea": 0,
+      "clusterMembers": [
+        "rgb(13, 92, 145)"
+      ],
+      "usedAs": [
+        "text"
+      ],
+      "usage": "secondary text-link on product cards (2nd link in article CTA row)",
+      "sourceSelectors": [
+        "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)",
+        "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)",
+        "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)"
+      ],
+      "sources": [
+        "at-de-offers",
+        "at-de-homepage",
+        "at-de-contest"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "selector": "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)",
+          "prop": "link"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/contest",
+          "selector": "#swiper-container-swiper-1 > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > article > div:nth-of-type(2) > a:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "role": "border",
+      "value": "#cccccc",
+      "occurrences": 52,
+      "bgArea": 1152,
+      "clusterMembers": [
+        "rgb(204, 204, 204)",
+        "rgb(216, 205, 207)",
+        "rgb(215, 215, 215)"
+      ],
+      "usedAs": [
+        "border",
+        "background"
+      ],
+      "usage": "footer divider rule",
+      "sourceSelectors": [
+        "footer > div:nth-of-type(2) > div > div:nth-of-type(1)",
+        "footer > div:nth-of-type(2) > div > div:nth-of-type(1)",
+        "footer > div:nth-of-type(2) > div > div:nth-of-type(1)"
+      ],
+      "sources": [
+        "index",
+        "at-de-brilliant-collection",
+        "at-de-brilliant-collection-2026"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "footer > div:nth-of-type(2) > div > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "footer > div:nth-of-type(2) > div > div:nth-of-type(1)",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+          "selector": "footer > div:nth-of-type(2) > div > div:nth-of-type(1)",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "role": "accent-2",
+      "value": "#384ddd",
+      "occurrences": 28,
+      "bgArea": 27165,
+      "clusterMembers": [
+        "rgb(56, 77, 221)"
+      ],
+      "usedAs": [
+        "background",
+        "text"
+      ],
+      "usage": "announcement-bar link text (both locales) and US razr CTA fill (hover → #0e77da)",
+      "sourceSelectors": [
+        "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+        "header > div:nth-of-type(1) > div > div > div > a > strong",
+        "header > div:nth-of-type(1) > div > div > div > a > strong"
+      ],
+      "sources": [
+        "index",
+        "at-de-brilliant-collection",
+        "at-de-brilliant-collection-2026"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "header > div:nth-of-type(1) > div > div > div > a > strong",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+          "selector": "header > div:nth-of-type(1) > div > div > div > a > strong",
+          "prop": "text"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": {
+      "name": "Montserrat",
+      "stack": "Montserrat, sans-serif",
+      "weights": [
+        600,
+        700
+      ],
+      "sizes": [
+        "48px (h2, 1440)",
+        "40px (h1, 1440)",
+        "36px (h4, 1440)",
+        "22px (h3, 1440)"
+      ],
+      "lineHeights": [
+        "56px",
+        "normal",
+        "40px",
+        "28px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "h2.typo-headline-h2-dt",
+        "h3 (product card titles)",
+        "h4 (promo tiles)"
+      ],
+      "levels": {
+        "h1": {
+          "fontSize": 40,
+          "fontWeight": "600",
+          "count": 2,
+          "score": 84.85,
+          "lineHeight": "normal",
+          "at360": {
+            "fontSize": 40,
+            "fontWeight": "600"
+          },
+          "note": "only 2 visible h1s in the crawl (business-edition 40/600, brilliant-collection 30/600 → 36 at 360); every other page ships a 0×0 hidden SEO h1"
+        },
+        "h2": {
+          "fontSize": 48,
+          "fontWeight": "600",
+          "count": 27,
+          "score": 374.12,
+          "lineHeight": "56px",
+          "at360": {
+            "fontSize": 28,
+            "fontWeight": "600",
+            "lineHeight": "32px",
+            "count": 23
+          }
+        },
+        "h3": {
+          "fontSize": 22,
+          "fontWeight": "700",
+          "count": 50,
+          "score": 272.24,
+          "lineHeight": "28px",
+          "at360": {
+            "fontSize": 16,
+            "fontWeight": "700",
+            "lineHeight": "16px",
+            "count": 50
+          }
+        },
+        "h4": {
+          "fontSize": 36,
+          "fontWeight": "700",
+          "count": 4,
+          "score": 126,
+          "lineHeight": "40px",
+          "at360": {
+            "fontSize": 24,
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "count": 9
+          },
+          "note": "US index renders the same h4 at 32/700"
+        }
+      },
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "#swarovski-1 > div:nth-of-type(2) > h2",
+          "prop": "font 48/600/56"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/contest",
+          "selector": "article h3",
+          "prop": "font 22/700/28"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "div > div:nth-of-type(1) > h4",
+          "prop": "font 36/700/40"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/business-edition",
+          "selector": "h1",
+          "prop": "font 40/600"
+        }
+      ]
+    },
+    "bodyFamily": {
+      "name": "Montserrat",
+      "stack": "Montserrat, sans-serif",
+      "weights": [
+        400,
+        500
+      ],
+      "sizes": [
+        "16px",
+        "18px",
+        "14px",
+        "12px"
+      ],
+      "lineHeights": [
+        "24px",
+        "24px",
+        "20px",
+        "16px"
+      ],
+      "letterSpacing": [
+        "normal"
+      ],
+      "sourceSelectors": [
+        "p (typo-body-l-dt 16/24)",
+        "p (typo-body-xl-dt 18/24)",
+        "footer .footer-links-accordion-link"
+      ],
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "div:nth-of-type(2) > p",
+          "prop": "font 16/500/24"
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "div > div:nth-of-type(1) > div > p",
+          "prop": "font 18/500/24"
+        }
+      ]
+    },
+    "monoFamily": null,
+    "families": [
+      {
+        "family": "Montserrat",
+        "count": 519,
+        "headings": 254,
+        "text": 160,
+        "buttons": 105
+      },
+      {
+        "family": "Open Sans",
+        "count": 20,
+        "headings": 0,
+        "text": 0,
+        "buttons": 20
+      }
+    ],
+    "weights": [
+      {
+        "weight": "700",
+        "count": 182,
+        "headings": 152,
+        "text": 22,
+        "buttons": 8
+      },
+      {
+        "weight": "500",
+        "count": 127,
+        "headings": 6,
+        "text": 55,
+        "buttons": 66
+      },
+      {
+        "weight": "400",
+        "count": 120,
+        "headings": 0,
+        "text": 69,
+        "buttons": 51
+      },
+      {
+        "weight": "600",
+        "count": 108,
+        "headings": 96,
+        "text": 12,
+        "buttons": 0
+      },
+      {
+        "weight": "300",
+        "count": 2,
+        "headings": 0,
+        "text": 2,
+        "buttons": 0
+      }
+    ],
+    "sizeHistogram": [
+      {
+        "px": 76,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 72,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 64,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 56,
+        "count": 3,
+        "headings": 3,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 50,
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 48,
+        "count": 32,
+        "headings": 27,
+        "text": 5,
+        "buttons": 0
+      },
+      {
+        "px": 45,
+        "count": 2,
+        "headings": 0,
+        "text": 2,
+        "buttons": 0
+      },
+      {
+        "px": 40,
+        "count": 4,
+        "headings": 4,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 36,
+        "count": 13,
+        "headings": 9,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "px": 34.5,
+        "count": 1,
+        "headings": 1,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 32,
+        "count": 17,
+        "headings": 12,
+        "text": 5,
+        "buttons": 0
+      },
+      {
+        "px": 30,
+        "count": 3,
+        "headings": 2,
+        "text": 1,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 33,
+        "headings": 26,
+        "text": 7,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 26,
+        "headings": 19,
+        "text": 7,
+        "buttons": 0
+      },
+      {
+        "px": 22,
+        "count": 50,
+        "headings": 50,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 9,
+        "headings": 2,
+        "text": 7,
+        "buttons": 0
+      },
+      {
+        "px": 18.72,
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 49,
+        "headings": 19,
+        "text": 17,
+        "buttons": 13
+      },
+      {
+        "px": 17.55,
+        "count": 2,
+        "headings": 2,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 212,
+        "headings": 70,
+        "text": 77,
+        "buttons": 65
+      },
+      {
+        "px": 15,
+        "count": 6,
+        "headings": 0,
+        "text": 6,
+        "buttons": 0
+      },
+      {
+        "px": 14,
+        "count": 8,
+        "headings": 1,
+        "text": 5,
+        "buttons": 2
+      },
+      {
+        "px": 13,
+        "count": 5,
+        "headings": 0,
+        "text": 2,
+        "buttons": 3
+      },
+      {
+        "px": 12,
+        "count": 50,
+        "headings": 0,
+        "text": 8,
+        "buttons": 42
+      },
+      {
+        "px": 10,
+        "count": 7,
+        "headings": 0,
+        "text": 7,
+        "buttons": 0
+      }
+    ],
+    "moleculeRamp": {
+      "source": "pages/index.html — inline molecule dictionary ([data-molecule=\"typo-*\"]), mirrored on AT pages",
+      "levels": {
+        "typo-headline-h0-dt": {
+          "desktop": "100px/84px",
+          "mobile": "48px/40px",
+          "tablet": "48px/40px"
+        },
+        "typo-headline-h1-dt": {
+          "desktop": "56px/64px",
+          "mobile": "36px/40px",
+          "tablet": "36px/40px"
+        },
+        "typo-headline-h2-dt": {
+          "desktop": "48px/56px",
+          "mobile": "28px/32px",
+          "tablet": "28px/32px"
+        },
+        "typo-headline-h3-dt": {
+          "desktop": "40px/48px",
+          "mobile": "24px/24px",
+          "tablet": "24px/24px"
+        },
+        "typo-headline-h4-dt": {
+          "desktop": "32px/40px",
+          "mobile": "24px",
+          "tablet": "24px"
+        },
+        "typo-title-l-dt": {
+          "desktop": "28px/32px",
+          "mobile": "20px/24px"
+        },
+        "typo-title-m-dt": {
+          "desktop": "24px/32px",
+          "mobile": "18px/24px"
+        },
+        "typo-body-xl-dt": {
+          "all": "18px/24px"
+        },
+        "typo-body-l-dt": {
+          "all": "16px/24px"
+        },
+        "typo-body-m-dt": {
+          "all": "14px/20px"
+        },
+        "typo-body-s-dt": {
+          "all": "12px/16px"
+        }
+      },
+      "mediaQueries": [
+        "(min-width: 320px) and (max-width: 600px)",
+        "(min-width: 768px) and (max-width: 1024px)"
+      ]
+    },
+    "weightRendering": "Montserrat @font-face rules declare single weights 400/500/700 pointing at a variable (wght 100–900) file. Computed font-weight 600 (all h1/h2) matches the 700 face and is clamped to 700 by the descriptor, so 600 headings RENDER at 700. Replicate by keeping the three single-weight rules, not by declaring a 100 900 range.",
+    "scaleRatio": null,
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.2,
+        1.111,
+        1.636
+      ],
+      "sizesPx": [
+        48,
+        40,
+        36,
+        22
+      ],
+      "matchedScale": null,
+      "basis": "per-level weighted-score sizes at 1440 sorted desc: h2 48 → h1 40 → h4 36 → h3 22. Levels are also non-monotonic (h4 > h3). The authored molecule ramp (100/56/48/40/32/28/24/18/16/14/12) is likewise non-modular."
+    },
+    "loadStrategy": "Montserrat rules carry no font-display (browser default = auto/block); Gotham/MotoSans swap; icomoon block",
+    "files": [
+      {
+        "url": "https://p1-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2",
+        "family": "Montserrat",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "localPath": "stardust/current/assets/fonts/montserrat-cyrillic-ext.woff2",
+        "format": "woff2",
+        "variableAxes": {
+          "wght": [
+            100,
+            900
+          ]
+        },
+        "sourceCss": "https://c1-ofp.static.pub/SystemFragment/moto/fonts/moto-font-css.eb9b705e514d2e18.css",
+        "sourceCssRule": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400|500|700 (three rules, same file); src: url(https://p1-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }",
+        "licensingFlag": "open",
+        "licence": "SIL OFL 1.1 (Google Fonts)"
+      },
+      {
+        "url": "https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2",
+        "family": "Montserrat",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+        "localPath": "stardust/current/assets/fonts/montserrat-cyrillic.woff2",
+        "format": "woff2",
+        "variableAxes": {
+          "wght": [
+            100,
+            900
+          ]
+        },
+        "sourceCss": "https://c1-ofp.static.pub/SystemFragment/moto/fonts/moto-font-css.eb9b705e514d2e18.css",
+        "sourceCssRule": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400|500|700 (three rules, same file); src: url(https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }",
+        "licensingFlag": "open",
+        "licence": "SIL OFL 1.1 (Google Fonts)"
+      },
+      {
+        "url": "https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2",
+        "family": "Montserrat",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+        "localPath": "stardust/current/assets/fonts/montserrat-vietnamese.woff2",
+        "format": "woff2",
+        "variableAxes": {
+          "wght": [
+            100,
+            900
+          ]
+        },
+        "sourceCss": "https://c1-ofp.static.pub/SystemFragment/moto/fonts/moto-font-css.eb9b705e514d2e18.css",
+        "sourceCssRule": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400|500|700 (three rules, same file); src: url(https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2) format('woff2'); unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB; }",
+        "licensingFlag": "open",
+        "licence": "SIL OFL 1.1 (Google Fonts)"
+      },
+      {
+        "url": "https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+        "family": "Montserrat",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "localPath": "stardust/current/assets/fonts/montserrat-latin-ext.woff2",
+        "format": "woff2",
+        "variableAxes": {
+          "wght": [
+            100,
+            900
+          ]
+        },
+        "sourceCss": "https://c1-ofp.static.pub/SystemFragment/moto/fonts/moto-font-css.eb9b705e514d2e18.css",
+        "sourceCssRule": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400|500|700 (three rules, same file); src: url(https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2) format('woff2'); unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }",
+        "licensingFlag": "open",
+        "licence": "SIL OFL 1.1 (Google Fonts)"
+      },
+      {
+        "url": "https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+        "family": "Montserrat",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "localPath": "stardust/current/assets/fonts/montserrat-latin.woff2",
+        "format": "woff2",
+        "variableAxes": {
+          "wght": [
+            100,
+            900
+          ]
+        },
+        "sourceCss": "https://c1-ofp.static.pub/SystemFragment/moto/fonts/moto-font-css.eb9b705e514d2e18.css",
+        "sourceCssRule": "@font-face { font-family: 'Montserrat'; font-style: normal; font-weight: 400|500|700 (three rules, same file); src: url(https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }",
+        "licensingFlag": "open",
+        "licence": "SIL OFL 1.1 (Google Fonts)"
+      },
+      {
+        "url": "https://p1-ofp.static.pub/SystemFragment/iconfont/icomoon.woff2",
+        "family": "icomoon",
+        "weight": "normal",
+        "style": "normal",
+        "localPath": "stardust/current/assets/fonts/icomoon.woff2",
+        "format": "woff2 (declared as format(\"woff\") in CSS)",
+        "sourceCss": "https://c1-ofp.static.pub/t_/en/SystemFragment/iconfont/style.084f3cf496a452ad.css",
+        "sourceCssRule": "@font-face { font-family: 'icomoon'; src: url(\"https://p1-ofp.static.pub/SystemFragment/iconfont/icomoon.woff2\") format(\"woff\"); font-weight: normal; font-style: normal; font-display: block; }",
+        "licensingFlag": "private",
+        "licence": "IcoMoon-generated site icon font (Lenovo/Motorola-owned glyph set); verify before redeploying"
+      }
+    ],
+    "declaredButUnused": [
+      {
+        "family": "Gotham",
+        "weights": [
+          400,
+          700
+        ],
+        "urls": [
+          "https://p2-ofp.static.pub/SystemFragment/moto/fonts/Gotham-Book.woff2",
+          "https://p3-ofp.static.pub/SystemFragment/moto/fonts/Gotham-Medium.woff2"
+        ],
+        "status": "declared in moto-font-css, never loaded by any of the 20 measurements (census fonts[].status=unloaded)",
+        "licensingFlag": "private",
+        "note": "Hoefler&Co commercial face — not downloaded"
+      },
+      {
+        "family": "MotoSans",
+        "weights": [
+          400
+        ],
+        "styles": [
+          "normal",
+          "italic"
+        ],
+        "urls": [
+          "https://p1-ofp.static.pub/SystemFragment/moto/fonts/MotoSans-Regular.woff2",
+          "https://p1-ofp.static.pub/SystemFragment/moto/fonts/MotoSans-Italic.woff2"
+        ],
+        "status": "declared, never loaded (census unloaded on all 20 measurements)",
+        "licensingFlag": "private",
+        "note": "proprietary Motorola brand face — not downloaded"
+      },
+      {
+        "family": "swiper-icons",
+        "status": "data: URI @font-face in swiper-bundle.min.css; loaded on carousel pages (6 measurements)",
+        "licensingFlag": "open",
+        "note": "Swiper (MIT) arrow glyphs, ships with the swiper library"
+      },
+      {
+        "family": "Open Sans",
+        "status": "named only in the third-party Confirmit feedback tab (#cffbtb \"Rückmeldung\"); no @font-face — falls back to system",
+        "licensingFlag": null
+      }
+    ]
+  },
+  "spacing": {
+    "baseUnit": null,
+    "scale": [],
+    "sectionPadding": null,
+    "containerMaxWidth": null,
+    "containerMaxWidthNote": "cap-probe owns this (extensions.breakpoints). CSS-declared: header .navigation-topbar-pc max-width 1464px; footer .moto-footer .container max-width 1170px.",
+    "gridGap": null,
+    "observed": {
+      "navItemGap": "16px",
+      "navItemPadding": "0 8px",
+      "navItemMinHeight": "69px",
+      "buttonPadding": "12px 24px (1440) / 6px 12px (360)",
+      "footerPadding": "20px"
+    }
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "16px",
+      "primaryBasis": "census aggregate.motifs.radius.mode and areaMode both 16px (69 elements, 6.9M px² — image tiles, promo cards, swatch panels)",
+      "secondary": "100px",
+      "secondaryBasis": "100px is the pill radius of every molecule button (btn-*: --atom-border-radius-100px); 246 elements",
+      "pill": "100px (buttons) / 50% (360 circular colour-swatch dots, carousel arrows)",
+      "primarySources": [
+        "at-de-brilliant-collection"
+      ],
+      "occurrences": {
+        "50%": 360,
+        "100px": 246,
+        "16px": 69,
+        "30px": 30,
+        "24px": 28,
+        "27px": 26,
+        "4px": 20,
+        "10px": 16,
+        "100%": 12,
+        "5px": 12,
+        "20px": 11,
+        "0px 24px 24px 0px": 4,
+        "24px 0px 0px 24px": 4,
+        "25px": 4,
+        "0.5px": 2,
+        "8px": 2
+      },
+      "citations": [
+        {
+          "value": "50%",
+          "sources": [
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection",
+              "selector": "div > div > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > button:nth-of-type(1)"
+            },
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection",
+              "selector": "div > div > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > button:nth-of-type(2)"
+            }
+          ]
+        },
+        {
+          "value": "100px",
+          "sources": [
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+              "selector": "#content1text > div > div:nth-of-type(2) > button"
+            },
+            {
+              "url": "https://www.motorola.com/at/de/contest",
+              "selector": "#recommendations-v2 > div > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "sources": [
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection",
+              "selector": "div > div > div > article:nth-of-type(1) > div > div > a > img:nth-of-type(2)"
+            },
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection",
+              "selector": "div > div > div > article:nth-of-type(2) > div > div > a > img:nth-of-type(2)"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgba(0, 0, 0, 0.16) 0px 2px 4px 0px",
+        "count": 238,
+        "uses": "product-card / tile lift (238×, contest/offers/homepage cards)",
+        "source": {
+          "url": "https://www.motorola.com/at/de/contest",
+          "selector": "article > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+        }
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.1) 0px 2px 4px 0px",
+        "count": 6,
+        "uses": "US homepage card (6×)",
+        "source": {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "div:nth-of-type(1) > article > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div"
+        }
+      },
+      {
+        "value": "rgba(0, 0, 0, 0.01) 0px 0.0996855px 0.249214px 0px",
+        "count": 1,
+        "uses": "brilliant-collection hairline (1×, negligible)",
+        "source": {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "main > div:nth-of-type(1) > div > div > div > div > div"
+        }
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0))",
+        "count": 238,
+        "uses": "bottom-up black scrim over tile imagery (238×)",
+        "source": {
+          "url": "https://www.motorola.com/at/de/contest",
+          "selector": "article > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+        }
+      },
+      {
+        "value": "linear-gradient(rgb(227, 227, 227), rgb(196, 196, 196))",
+        "count": 18,
+        "uses": "grey button gradient on a floating link (body > div:nth-of-type(5) > a) — likely third-party widget",
+        "source": {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "body > div:nth-of-type(5) > a"
+        }
+      },
+      {
+        "value": "linear-gradient(297deg, rgb(233, 234, 242) 3.63%, rgba(233, 234, 242, 0.3) 92.26%)",
+        "count": 14,
+        "uses": "pale-lavender panel wash (#e9eaf2 → 30%) on brilliant-collection-2026 hover panels",
+        "source": {
+          "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+          "selector": "#hover_display_panel > div > div:nth-of-type(2) > div > div:nth-of-type(1)"
+        }
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%)",
+        "count": 12,
+        "uses": "top-down black scrim on homepage cards",
+        "source": {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "section > div > section > div:nth-of-type(1) > ol > li:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+        }
+      },
+      {
+        "value": "linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.09) 12%, rgba(0, 0, 0, 0) 34%)",
+        "count": 8,
+        "uses": "top shade on homepage section cards",
+        "source": {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "div > div > section > section > div > div:nth-of-type(1) > a > div"
+        }
+      },
+      {
+        "value": "linear-gradient(90deg, rgba(0, 20, 40, 0.8) 0%, rgba(211, 228, 241, 0.8) 100%)",
+        "count": 2,
+        "uses": "navy→pale-blue overlay on brilliant-collection hero",
+        "source": {
+          "url": "https://www.motorola.com/at/de/brilliant-collection",
+          "selector": "main > div:nth-of-type(1) > div > div > div > div > div"
+        }
+      }
+    ],
+    "patterns": [
+      {
+        "name": "hero-carousel",
+        "evidence": "index + at-de-homepage: swiper hero slides (.hero_slide / #banner-0…) full-bleed image + h2 typo-headline-h2-dt + white solid pill CTA; single-banner (#razr-fold, #home-single-banner) variants"
+      },
+      {
+        "name": "product-card-carousel",
+        "evidence": "\"Recommendations\" / \"Hero BLACK FRIDAY\" rows: 1:1 product image on #e9eaf2 tile, h3 22/700 lowercase product name, colour-swatch dots (50%), price, MEHR ERFAHREN outline pill + JETZT KAUFEN solid pill (offers, contest, homepage, index)"
+      },
+      {
+        "name": "promo-tile-2up",
+        "evidence": "\"Find your edge\" / \"Stylish yet durable\" (index, at-de-homepage): two image tiles with h4 36/700 (32 on US) + subline + pill CTA, black bottom scrim"
+      },
+      {
+        "name": "tabbed-matcher",
+        "evidence": "#trending-v2 \"Find your perfect match\" tabs (Photographers / Gamers …) — square tab buttons 16/700, #514f51 inactive text"
+      },
+      {
+        "name": "newsletter-band",
+        "evidence": "#moto_home_news_letter on index + at-de-homepage only: pill input (24px 0 0 24px) + navy #001428 submit (0 24px 24px 0)"
+      },
+      {
+        "name": "full-bleed-editorial",
+        "evidence": "program pages (brilliant-collection x2, razr-fold-fifa): full-bleed imagery sections 720–1027px tall at 1440 with 48–76px/600 h2 display lines"
+      },
+      {
+        "name": "nav-mega",
+        "evidence": "header .mega-menu-pc per top-level item: level2 list + product cards with images"
+      },
+      {
+        "name": "footer-mega",
+        "evidence": "AT: 4 accordion columns + social row + country selector; US: 6 columns + legal block"
+      },
+      {
+        "name": "lowercase-product-naming",
+        "evidence": "headingsUppercasePercent 2; product names and campaign lines set lowercase (\"motorola razr 70\", \"die brilliant collection\")"
+      }
+    ]
+  },
+  "componentStyle": {
+    "buttons": {
+      "primary": {
+        "name": "btn-primary-solid-dark-dt",
+        "background": "#131417",
+        "color": "#ffffff",
+        "borderRadius": "100px",
+        "padding": "12px 24px",
+        "paddingAt360": "6px 12px",
+        "fontSize": "16px",
+        "fontSizeAt360": "12px",
+        "fontWeight": 500,
+        "textTransform": "uppercase",
+        "minHeightAt360": "32px",
+        "shadow": null,
+        "hoverDelta": "background #131417 → #333333 (--atom-color-semi-dark-grey); focus #454545",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+            "label": "Jetzt kaufen"
+          }
+        ]
+      },
+      "primaryLight": {
+        "name": "btn-primary-solid-light-dt",
+        "background": "#ffffff",
+        "color": "#131417",
+        "borderRadius": "100px",
+        "padding": "12px 24px",
+        "paddingAt360": "6px 12px",
+        "fontSize": "16px",
+        "fontSizeAt360": "12px",
+        "fontWeight": 500,
+        "textTransform": "uppercase",
+        "hoverDelta": "background #ffffff → #e5e5e5",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "#banner-0 > a > div:nth-of-type(2) > div:nth-of-type(2) > a",
+            "label": "Learn more"
+          }
+        ]
+      },
+      "secondary": {
+        "name": "btn-secondary-outline-dark-dt",
+        "background": "transparent",
+        "color": "#131417",
+        "border": "1px solid #131417",
+        "borderRadius": "100px",
+        "padding": "12px 24px",
+        "paddingAt360": "6px 12px",
+        "fontSize": "16px",
+        "fontSizeAt360": "12px",
+        "fontWeight": 500,
+        "textTransform": "uppercase",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "article > div:nth-of-type(2) > div > a",
+            "label": "Mehr erfahren"
+          }
+        ]
+      },
+      "ghostLight": {
+        "name": "btn-secondary-outline-light-dt",
+        "background": "transparent",
+        "color": "#ffffff",
+        "border": "1px solid #ffffff",
+        "borderRadius": "100px",
+        "padding": "12px 24px",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "textTransform": "uppercase",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "… > div > div:nth-of-type(2) > a > button",
+            "label": "Shop edge"
+          }
+        ]
+      },
+      "motoverseChip": {
+        "background": "transparent",
+        "color": "#ffffff",
+        "border": "1px solid #ffffff",
+        "borderRadius": "27px",
+        "padding": "20px 30px",
+        "paddingAt360": "6px 13px",
+        "fontSize": "18px",
+        "fontSizeAt360": "12px",
+        "fontWeight": 400,
+        "textTransform": "uppercase",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/motoverse",
+            "selector": ":nth-of-type(4) > div > a:nth-of-type(1)",
+            "label": "MOTO AI"
+          }
+        ]
+      },
+      "brilliantOutline": {
+        "background": "#ffffff",
+        "color": "#000000",
+        "border": "1px solid #000000",
+        "borderRadius": "20px",
+        "padding": "10px 21px",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "textTransform": "uppercase",
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+            "selector": "#hover_display_panel … > a",
+            "label": "Strahlende Brillanz"
+          }
+        ],
+        "note": "program-page local variant"
+      },
+      "tab": {
+        "background": "#ffffff",
+        "color": "#000000 (active) / #595959 (inactive)",
+        "borderRadius": "0px",
+        "padding": "10px 12px",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "#trending-v2 > div > div:nth-of-type(1) > button:nth-of-type(1)"
+          }
+        ]
+      }
+    },
+    "dualCTAPattern": "secondary-outline-then-primary-solid (product cards: MEHR ERFAHREN outline + JETZT KAUFEN solid; US: LEARN MORE + BUY NOW)",
+    "cards": {
+      "background": "#e9eaf2 (product tile ground) / image",
+      "borderRadius": "16px",
+      "padding": null,
+      "shadow": "rgba(0, 0, 0, 0.16) 0px 2px 4px 0px",
+      "border": null
+    },
+    "inputs": {
+      "newsletter": {
+        "borderRadius": "24px 0px 0px 24px",
+        "border": "1px solid #00264d",
+        "submit": {
+          "background": "#001428",
+          "color": "#ffffff",
+          "borderRadius": "0px 24px 24px 0px",
+          "padding": "10px 50px",
+          "fontSize": "16px",
+          "fontWeight": 400
+        }
+      },
+      "citations": [
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#moto_home_news_letter > div > form > div > div:nth-of-type(2) > button"
+        }
+      ]
+    },
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "backgroundColor": "rgb(229, 229, 229)"
+        },
+        "count": 4,
+        "source": {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(56, 77, 221)",
+          "color": "rgb(241, 245, 248)",
+          "borderColor": "rgb(14, 119, 218)"
+        },
+        "to": {
+          "backgroundColor": "rgb(14, 119, 218)",
+          "color": "rgb(246, 244, 244)",
+          "borderColor": "rgb(255, 255, 255)"
+        },
+        "count": 2,
+        "source": {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#razr-70-ultra > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(56, 77, 221)",
+          "color": "rgb(249, 250, 251)"
+        },
+        "to": {
+          "backgroundColor": "rgb(14, 119, 218)",
+          "color": "rgb(255, 255, 255)"
+        },
+        "count": 2,
+        "source": {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(250, 251, 255)",
+          "color": "rgb(13, 13, 13)",
+          "borderColor": "rgb(3, 3, 3)"
+        },
+        "to": {
+          "backgroundColor": "rgb(246, 247, 248)",
+          "color": "rgb(0, 0, 0)",
+          "borderColor": "rgb(243, 241, 241)"
+        },
+        "count": 2,
+        "source": {
+          "url": "https://www.motorola.com/us/en/homepage",
+          "selector": "#razr-fold > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgb(19, 20, 23)"
+        },
+        "to": {
+          "backgroundColor": "rgb(51, 51, 51)"
+        },
+        "count": 2,
+        "source": {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "borderColor": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "borderColor": "rgb(4, 23, 46)"
+        },
+        "count": 2,
+        "source": {
+          "url": "https://www.motorola.com/at/de/business-edition",
+          "selector": "#moto-webform > div > fieldset > form > div:nth-of-type(2) > button"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)"
+        },
+        "to": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)"
+        },
+        "count": 1,
+        "source": {
+          "url": "https://www.motorola.com/at/de/motoverse",
+          "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(4) > div > a:nth-of-type(1)"
+        }
+      },
+      {
+        "kind": "button",
+        "from": {
+          "backgroundColor": "rgba(0, 0, 0, 0)"
+        },
+        "to": {
+          "backgroundColor": "rgba(255, 255, 255, 0.2)"
+        },
+        "count": 1,
+        "source": {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > a"
+        }
+      }
+    ]
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 10,
+      "variants": {
+        "at": {
+          "pages": 9,
+          "navItems": [
+            "smartphones",
+            "zubehör",
+            "vorteile",
+            "angebote",
+            "motoverse",
+            "für unternehmen"
+          ],
+          "utility": [
+            "support",
+            "Anmelden / Konto erstellen"
+          ],
+          "announcement": "Black Friday – Angebot entdecken"
+        },
+        "us": {
+          "pages": 1,
+          "navItems": [
+            "smartphones",
+            "business",
+            "accessories",
+            "home devices",
+            "videos",
+            "software & support"
+          ],
+          "utility": [
+            "Sign in / Create Account"
+          ],
+          "announcement": "LEAK SALE DEALS. SHOP NOW!"
+        }
+      },
+      "headingSequence": [
+        "smartphones",
+        "zubehör",
+        "vorteile",
+        "angebote",
+        "motoverse",
+        "für unternehmen"
+      ],
+      "ctaLabels": [
+        "Black Friday – Angebot entdecken"
+      ],
+      "metrics": {
+        "height": "88px (1440 & 360)",
+        "position": "fixed",
+        "background": "#ffffff",
+        "announcementBar": {
+          "background": "#e9eaf2",
+          "minHeight": "19px",
+          "linkColor": "#384ddd",
+          "fontWeight": "bold (strong)"
+        },
+        "navRow": {
+          "maxWidth": "1464px",
+          "itemMinHeight": "69px",
+          "itemGap": "16px",
+          "itemWeight": 700
+        },
+        "logo": "40×40 at x20 y34"
+      },
+      "exampleSlug": "at-de-offers",
+      "exampleSelector": "header.navigation-header-pc",
+      "examplePages": [
+        "at-de-offers",
+        "at-de-homepage",
+        "index"
+      ]
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 10,
+      "variants": {
+        "at": {
+          "pages": 9,
+          "columns": [
+            "Produkte",
+            "Zubehör",
+            "Unterstützung",
+            "Über uns"
+          ],
+          "extras": [
+            "Folge uns auf Social Media (5 icons)",
+            "Standort ändern",
+            "Offizielle Website"
+          ],
+          "heightAt1440": "665px (719 on homepage)",
+          "heightAt360": "890px (1020 on homepage)"
+        },
+        "us": {
+          "pages": 1,
+          "columns": [
+            "Shop Motorola",
+            "Featured Products",
+            "Accessories & Home",
+            "Support",
+            "Business & Company",
+            "Legal & Policies"
+          ],
+          "extras": [
+            "Change Location",
+            "Official Website",
+            "legal paragraphs"
+          ],
+          "heightAt1440": "656px",
+          "heightAt360": "840px",
+          "note": "newsletter band \"Don’t miss anything!\" sits above it in main (#moto_home_news_letter)"
+        }
+      },
+      "headingSequence": [
+        "Produkte",
+        "Zubehör",
+        "Unterstützung",
+        "Über uns"
+      ],
+      "ctaLabels": [
+        "Standort ändern"
+      ],
+      "metrics": {
+        "background": "#ffffff",
+        "text": "#001428",
+        "classes": "moto-footer pc moto-footer-light-theme",
+        "padding": "20px",
+        "containerMaxWidthCss": "1170px"
+      },
+      "exampleSlug": "at-de-offers",
+      "exampleSelector": "footer",
+      "examplePages": [
+        "at-de-offers",
+        "index"
+      ]
+    },
+    {
+      "name": "announcement-bar",
+      "kind": "cta-band",
+      "occurrences": 10,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Black Friday – Angebot entdecken",
+        "LEAK SALE DEALS. SHOP NOW!"
+      ],
+      "exampleSlug": "at-de-offers",
+      "exampleSelector": "header .navbar-wrapper-small-banner",
+      "examplePages": [
+        "at-de-offers",
+        "index"
+      ],
+      "note": "part of the fixed header"
+    },
+    {
+      "name": "feedback-tab (third-party Confirmit)",
+      "kind": "other",
+      "occurrences": 10,
+      "ctaLabels": [
+        "Rückmeldung"
+      ],
+      "exampleSlug": "at-de-homepage",
+      "exampleSelector": "#cffbtb",
+      "examplePages": [
+        "at-de-homepage",
+        "at-de-offers"
+      ],
+      "note": "third-party injected; red #cf4039, Open Sans — do not recreate as brand"
+    },
+    {
+      "name": "consent-banner (Evidon)",
+      "kind": "other",
+      "occurrences": 10,
+      "ctaLabels": [
+        "Accept all"
+      ],
+      "exampleSelector": "#_evidon-banner-acceptbutton",
+      "examplePages": [
+        "index",
+        "at-de-homepage"
+      ],
+      "note": "third-party consent manager"
+    }
+  ],
+  "iconFont": {
+    "family": "icomoon",
+    "localPath": "stardust/current/assets/fonts/icomoon.woff2",
+    "sourceCss": "@font-face { font-family: 'icomoon'; src: url(\"https://p1-ofp.static.pub/SystemFragment/iconfont/icomoon.woff2\") format(\"woff\"); font-weight: normal; font-style: normal; font-display: block; }",
+    "glyphCount": 2,
+    "glyphs": [
+      {
+        "class": "iconfont-arrowDown",
+        "codepoint": "\\E91C",
+        "name": "arrow-down",
+        "sources": [
+          "https://www.motorola.com/at/de/brilliant-collection",
+          "https://www.motorola.com/at/de/brilliant-collection",
+          "https://www.motorola.com/at/de/homepage"
+        ]
+      },
+      {
+        "class": "iconfont-plus",
+        "codepoint": "\\E929",
+        "name": "plus",
+        "sources": [
+          "https://www.motorola.com/at/de/business-edition",
+          "https://www.motorola.com/at/de/business-edition"
+        ]
+      }
+    ],
+    "note": "Most UI icons (nav arrows, social, search, cart) are inline SVG; the icon font is used only for FAQ/accordion plus and arrow-down."
+  },
+  "voice": {
+    "heroHeadline": "holiday deals leaked early…",
+    "heroSubcopy": "Up to $700 off and FREE moto things with select purchases.",
+    "heroImage": {
+      "url": "https://p3-ofp.static.pub//fes/cms/2026/11/01/1tlti15irgb98rcg7wzj2acverp3ws498994.png",
+      "alt": "free moto things",
+      "source": "img",
+      "domPath": "main section#razr-fold.banner-container .banner-image > img",
+      "localPath": "stardust/current/assets/media/hero-index-1tlti15i.png",
+      "intrinsic": {
+        "w": 1884,
+        "h": 783
+      },
+      "rect": {
+        "x": 0,
+        "y": 88,
+        "width": 1435,
+        "height": 596
+      },
+      "rectSource": "census surfaces main > div:nth-of-type(1) @1440"
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "SHOP SALE",
+    "ctaSamples": [
+      "Jetzt kaufen",
+      "MEHR ERFAHREN",
+      "Produktdatenblatt",
+      "BUY NOW",
+      "LEARN MORE"
+    ],
+    "navItems": [
+      "smartphones",
+      "zubehör",
+      "vorteile",
+      "angebote",
+      "motoverse",
+      "für unternehmen"
+    ],
+    "navItemsUS": [
+      "smartphones",
+      "business",
+      "accessories",
+      "home devices",
+      "videos",
+      "software & support"
+    ],
+    "footerHeadings": [
+      "Produkte",
+      "Zubehör",
+      "Unterstützung",
+      "Über uns"
+    ],
+    "footerHeadingsUS": [
+      "Shop Motorola",
+      "Featured Products",
+      "Accessories & Home",
+      "Support",
+      "Business & Company",
+      "Legal & Policies"
+    ],
+    "firstParagraph": "Elevate every moment with edge.",
+    "firstParagraphAT": "Entdecke Motorola Collections mit Swarovski® Kristallen – unverwechselbare Geräte und Accessoires, die auffallen.",
+    "atHomeHeroHeadline": "Bis zu 27% Rabatt auf ausgewählte moto g Modelle",
+    "tone": {
+      "guess": "bold-direct",
+      "evidence": "short promotional imperatives (\"Jetzt kaufen\", \"SHOP SALE\"), du-form in German (\"Entdecke\", \"Manage deinen Tag\"), lowercase product/campaign names, price-led offer copy"
+    }
+  },
+  "voiceTable": {
+    "ctaFrequency": [
+      {
+        "label": "Jetzt kaufen",
+        "total": 65,
+        "pageCount": 6,
+        "pages": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-offers",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ]
+      },
+      {
+        "label": "MEHR ERFAHREN",
+        "total": 35,
+        "pageCount": 3,
+        "pages": [
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-offers"
+        ]
+      },
+      {
+        "label": "Produktdatenblatt",
+        "total": 35,
+        "pageCount": 3,
+        "pages": [
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-offers"
+        ]
+      },
+      {
+        "label": "BUY NOW",
+        "total": 17,
+        "pageCount": 1,
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "label": "angebote",
+        "total": 13,
+        "pageCount": 9,
+        "pages": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-business-edition",
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-motocare",
+          "at-de-motoverse",
+          "at-de-offers",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ]
+      },
+      {
+        "label": "LEARN MORE",
+        "total": 12,
+        "pageCount": 1,
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "label": "Black Friday – Angebot entdecken",
+        "total": 9,
+        "pageCount": 9,
+        "pages": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-business-edition",
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-motocare",
+          "at-de-motoverse",
+          "at-de-offers",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ]
+      },
+      {
+        "label": "motoverse",
+        "total": 9,
+        "pageCount": 9,
+        "pages": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-business-edition",
+          "at-de-contest",
+          "at-de-homepage",
+          "at-de-motocare",
+          "at-de-motoverse",
+          "at-de-offers",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ]
+      }
+    ],
+    "headingFrequency": [
+      {
+        "text": "motorola edge 70",
+        "total": 5,
+        "pageCount": 4,
+        "level": 3
+      }
+    ],
+    "toneMetrics": {
+      "headingsTotal": 129,
+      "headingsUppercasePercent": 2,
+      "distinctHeadings": 99,
+      "distinctCtaLabels": 128
+    }
+  },
+  "crossPromo": {
+    "detected": false,
+    "anchorHeading": null,
+    "cluster": null,
+    "pages": null,
+    "pageCount": null,
+    "totalPages": 10,
+    "basis": "headingFrequency has only 1 entry with pageCount ≥ 3 (motorola edge 70, 4 pages)"
+  },
+  "register": "brand"
+}

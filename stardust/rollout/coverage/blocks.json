@@ -1,0 +1,401 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-03T15:13:49.269Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T19:52:50.794Z",
+  "blocks": [
+    {
+      "id": "banner",
+      "label": "banner",
+      "kind": "module",
+      "signature": "module:banner",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage",
+        "at-de-offers"
+      ],
+      "usedByPages": [
+        "at-de-homepage",
+        "at-de-offers"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cblock",
+      "label": "cblock",
+      "kind": "module",
+      "signature": "module:cblock",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cblock",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "compare",
+      "label": "compare",
+      "kind": "module",
+      "signature": "module:compare",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-motocare"
+      ],
+      "usedByPages": [
+        "at-de-motocare"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "compare",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "dexp",
+      "label": "dexp",
+      "kind": "module",
+      "signature": "module:dexp",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "dexp",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "fbleed",
+      "label": "fbleed",
+      "kind": "module",
+      "signature": "module:fbleed",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "fullbleed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "flexview",
+      "label": "flexview",
+      "kind": "module",
+      "signature": "module:flexview",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "flexview",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "fullbleed",
+      "label": "fullbleed",
+      "kind": "module",
+      "signature": "module:fullbleed",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-motocare"
+      ],
+      "usedByPages": [
+        "at-de-motocare"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "fullbleed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "gallery",
+      "label": "gallery",
+      "kind": "module",
+      "signature": "module:gallery",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage"
+      ],
+      "usedByPages": [
+        "at-de-homepage"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hcar",
+      "label": "hcar",
+      "kind": "module",
+      "signature": "module:hcar",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage"
+      ],
+      "usedByPages": [
+        "at-de-homepage"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hcar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "legal",
+      "label": "legal",
+      "kind": "module",
+      "signature": "module:legal",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage",
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-homepage",
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "legal",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "media-row",
+      "label": "media-row",
+      "kind": "module",
+      "signature": "module:media-row",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-motocare"
+      ],
+      "usedByPages": [
+        "at-de-motocare"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "media-row",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news",
+      "label": "news",
+      "kind": "module",
+      "signature": "module:news",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage"
+      ],
+      "usedByPages": [
+        "at-de-homepage"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "news",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pcarousel",
+      "label": "pcarousel",
+      "kind": "module",
+      "signature": "module:pcarousel",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "pcarousel",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "pchero",
+      "label": "pchero",
+      "kind": "module",
+      "signature": "module:pchero",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "pchero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "reco",
+      "label": "reco",
+      "kind": "module",
+      "signature": "module:reco",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage",
+        "at-de-offers"
+      ],
+      "usedByPages": [
+        "at-de-homepage",
+        "at-de-offers"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "reco",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stack",
+      "label": "stack",
+      "kind": "module",
+      "signature": "module:stack",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-motocare",
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-motocare",
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "stack",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tiles",
+      "label": "tiles",
+      "kind": "module",
+      "signature": "module:tiles",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage"
+      ],
+      "usedByPages": [
+        "at-de-homepage"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trend",
+      "label": "trend",
+      "kind": "module",
+      "signature": "module:trend",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-homepage"
+      ],
+      "usedByPages": [
+        "at-de-homepage"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "trend",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "vhero",
+      "label": "vhero",
+      "kind": "module",
+      "signature": "module:vhero",
+      "source": null,
+      "usedByTemplates": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "usedByPages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "vhero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

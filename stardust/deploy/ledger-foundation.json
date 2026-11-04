@@ -1,0 +1,38 @@
+{
+  "/at/de/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T15:44:20.413Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T15:44:20.413Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/footer": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T15:44:27.149Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/nav": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T15:44:28.503Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

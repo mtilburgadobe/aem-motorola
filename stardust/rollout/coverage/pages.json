@@ -1,0 +1,475 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T15:13:43.312Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T22:18:48.220Z",
+  "pages": [
+    {
+      "slug": "at-de-brilliant-collection",
+      "path": "/at/de/brilliant-collection",
+      "title": "Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:66df707bea333ba174b623d6d07a3e6eb316661bbe05805a2f4674a1c4dd2af7",
+        "currentStatePath": "stardust/current/pages/at-de-brilliant-collection.json",
+        "sourceUrl": "https://www.motorola.com/at/de/brilliant-collection"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection",
+        "deployedAt": "2026-11-03T19:15:30.747Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5,
+          "heightDelta": 16,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-brilliant-collection-2026",
+      "path": "/at/de/brilliant-collection-2026",
+      "title": "Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6dba570b42e66fb2bfbb6c9eba736f3f269105655b3e45613b4c59549248aaec",
+        "currentStatePath": "stardust/current/pages/at-de-brilliant-collection-2026.json",
+        "sourceUrl": "https://www.motorola.com/at/de/brilliant-collection-2026"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection-2026",
+        "deployedAt": "2026-11-03T19:15:30.631Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.39,
+          "heightDelta": 23,
+          "clipped": 2,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-business-edition",
+      "path": "/at/de/business-edition",
+      "title": "Business Edition | motorola AT",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:214b881837e01bf24f0a5c6365187359d502e577c0998abd7114c7337359dbca",
+        "currentStatePath": "stardust/current/pages/at-de-business-edition.json",
+        "sourceUrl": "https://www.motorola.com/at/de/business-edition"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition",
+        "deployedAt": "2026-11-03T17:56:33.382Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.42,
+          "heightDelta": 57,
+          "clipped": 2,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 9,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 20,
+            "variable": []
+          },
+          "reasons": [
+            "units off 4 hidden 0 missing 23"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-contest",
+      "path": "/at/de/contest",
+      "title": "Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT",
+      "templateId": "campaign",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ae5f17e3aa4ee7d2a8866b0ead19d3756a18dc5cc48ff1009f6e7b66e3c77333",
+        "currentStatePath": "stardust/current/pages/at-de-contest.json",
+        "sourceUrl": "https://www.motorola.com/at/de/contest"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/contest",
+        "deployedAt": "2026-11-03T18:30:55.249Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.33,
+          "heightDelta": 31,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 1,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-homepage",
+      "path": "/at/de/homepage",
+      "title": "Homepage Austria | Motorola | motorola AT",
+      "templateId": "at-de-homepage",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/at/de/homepage/_meta.json",
+        "sourceHash": "sha256:5b099cddc0f00f813709c13042e49a2687fb194a21b1a9197c08427364159d00",
+        "sourceUrl": "https://www.motorola.com/at/de/homepage",
+        "deliveredAs": "flat document /at/de/homepage (deploy-batch PUT, no trailing slash)",
+        "migratedHtmlDir": "stardust/migrated/at/de/homepage/index.html"
+      },
+      "blocks": [
+        "banner",
+        "reco",
+        "hcar",
+        "tiles",
+        "trend",
+        "gallery",
+        "news",
+        "legal"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage",
+        "deployedAt": "2026-11-03T16:50:07.636Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.96,
+          "heightDelta": 4,
+          "clipped": 1,
+          "content": {
+            "missing": 4,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 2,
+            "hiddenButtons": 0,
+            "findings": 8,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 4 / HIDDEN 0",
+            "units off 46 hidden 12 missing 19"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-motocare",
+      "path": "/at/de/motocare",
+      "title": "Moto Care Garantieverlängerung | motorola AT | motorola AT",
+      "templateId": "at-de-motocare",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/at/de/motocare/_meta.json",
+        "sourceHash": "sha256:c515d4cb5a902c3b4bb26b2c8b61adc76a6048f20c6cd990f449c1ea80ca09e5",
+        "sourceUrl": "https://www.motorola.com/at/de/motocare",
+        "deliveredAs": "flat document /at/de/motocare (deploy-batch PUT, no trailing slash)",
+        "migratedHtmlDir": "stardust/migrated/at/de/motocare/index.html"
+      },
+      "blocks": [
+        "fullbleed",
+        "media-row",
+        "compare",
+        "stack"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/motocare",
+        "deployedAt": "2026-11-03T16:37:23.763Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.65,
+          "heightDelta": 14,
+          "clipped": 6,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [
+            "units off 128 hidden 2 missing 23"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-motoverse",
+      "path": "/at/de/motoverse",
+      "title": "motoverse | motorola AT",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:17a4b3a3ed59a0c4decbf24a6ae28816e04e6e8b79e9dea670cb5e9343057572",
+        "currentStatePath": "stardust/current/pages/at-de-motoverse.json",
+        "sourceUrl": "https://www.motorola.com/at/de/motoverse"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/motoverse",
+        "deployedAt": "2026-11-03T17:56:33.300Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.74,
+          "heightDelta": 14,
+          "clipped": 6,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [
+            "units off 4 hidden 0 missing 23"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-offers",
+      "path": "/at/de/offers",
+      "title": "offer | motorola AT",
+      "templateId": "at-de-offers",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/at/de/offers/_meta.json",
+        "sourceHash": "sha256:bde5dc3530a8f0df65753e903e9a6f420988bd6e3eb94a19c1810ba4bf5ef972",
+        "sourceUrl": "https://www.motorola.com/at/de/offers",
+        "deliveredAs": "flat document /at/de/offers (deploy-batch PUT, no trailing slash)",
+        "migratedHtmlDir": "stardust/migrated/at/de/offers/index.html"
+      },
+      "blocks": [
+        "banner",
+        "reco"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/offers",
+        "deployedAt": "2026-11-03T17:56:01.322Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 5.29,
+          "heightDelta": 24,
+          "clipped": 0,
+          "content": {
+            "missing": 6,
+            "hidden": 3,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 15,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 6 / HIDDEN 3"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "at-de-razr-fold-fifa-world-cup-edition",
+      "path": "/at/de/razr-fold-fifa-world-cup-edition",
+      "title": "motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT",
+      "templateId": "at-de-razr-fold-fifa-world-cup-edition",
+      "source": {
+        "migratedHtml": null,
+        "metaJson": "stardust/migrated/at/de/razr-fold-fifa-world-cup-edition/_meta.json",
+        "sourceHash": "sha256:a96c04cb6245df0c92be828a8c0ffb3263e6898c2efea3c5edafa55c81d8c7e3",
+        "sourceUrl": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+        "deliveredAs": "flat document /at/de/razr-fold-fifa-world-cup-edition (deploy-batch PUT, no trailing slash)",
+        "migratedHtmlDir": "stardust/migrated/at/de/razr-fold-fifa-world-cup-edition/index.html"
+      },
+      "blocks": [
+        "pchero",
+        "pcarousel",
+        "dexp",
+        "vhero",
+        "fbleed",
+        "cblock",
+        "flexview",
+        "stack",
+        "legal"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/razr-fold-fifa-world-cup-edition",
+        "deployedAt": "2026-11-03T18:34:39.008Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.34,
+          "heightDelta": 14,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 2,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US",
+      "templateId": "landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e2c611171d0447dc5ae466285d88fc5260e09c5d52e1b6207a2f245b3898ab27",
+        "currentStatePath": "stardust/current/pages/index.json",
+        "sourceUrl": "https://www.motorola.com/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--0d32c52e--aemcoder.aem.live/",
+        "deployedAt": "2026-11-03T19:09:44.308Z",
+        "verifiedAt": "2026-11-03T21:54:47.704Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.17,
+          "heightDelta": -7,
+          "clipped": 0,
+          "content": {
+            "missing": 5,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [
+            "content MISSING 5 / HIDDEN 0",
+            "units off 60 hidden 3 missing 41"
+          ],
+          "override": "documented-residual",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-03T22:18:48.220Z"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "archetype": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "subnav": ".sticky-nav-container",
+    "hero": ".pc-hero-main",
+    "fullbleed": ".full_bleed_image_container",
+    "flexview": ".flex-view--wrapper",
+    "stack": ".stackmain",
+    "legal": ".moto-cms-legal",
+    "fullbg": ".full_background_display"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "subnav": {
+        "sel": ".sticky-nav-container",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 63
+          },
+          "backgroundLayers": [
+            "linear-gradient(90deg",
+            "rgba(4, 17, 1, 0.8) 33.9%",
+            "rgba(156, 199, 156, 0.8) 96.86%)"
+          ],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "15px 20px 15px 20px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 136,
+            "h": 30
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Jetzt kaufen"
+      },
+      "hero": {
+        "sel": ".pc-hero-main",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 806
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": ""
+      },
+      "fullbleed": {
+        "sel": ".full_bleed_image_container",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 735
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 300",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 56px/47.6px 600 rgb(255, 255, 255)",
+          "image": {
+            "w": 1435,
+            "h": 735
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Vereint durch das SpielDie FIFA World Cup 26™ Collection ist"
+      },
+      "flexview": {
+        "sel": ".flex-view--wrapper",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 900
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 0,
+            "h": 0
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Lass das Spiel laufenErlebe wie Motorola und FIFA® zusammen "
+      },
+      "stack": {
+        "sel": ".stackmain",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 294
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 564,
+            "h": 283
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      },
+      "legal": {
+        "sel": ".moto-cms-legal",
+        "count": 0
+      },
+      "fullbg": {
+        "sel": ".full_background_display",
+        "count": 0
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "subnav",
+          "msg": "rect{w 1435 → 1440, h 63 → 66}; backgroundLayers [linear-gradient(90deg | rgba(4, 17, 1, 0.8) 33.9% | rgba(156, 199, 156, 0.8) 96.86%)] → []; backgroundColor rgba(0, 0, 0, 0) → rgb(87, 90, 101); padding 15px 20px 15px 20px → 10px 20px 10px 20px; image{w 136 → 46, h 30 → 46}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 806 → 720}; backgroundColor rgb(255, 255, 255) → rgb(0, 0, 0)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "fullbleed",
+          "msg": "rect{h 735 → 1019}; backgroundColor rgb(0, 0, 0) → rgba(0, 0, 0, 0); heading h2 montserrat 56px/47.6px 600 rgb(255, 255, 255) → h2 montserrat 40px/48px 600 rgb(255, 255, 255); image{h 735 → 1019}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "flexview",
+          "msg": "\".flex-view--wrapper\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "stack",
+          "msg": "\".stackmain\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "fullbg",
+          "msg": "\".full_background_display\" matches 0 on the archetype, 1 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "subnav": {
+            "sel": ".sticky-nav-container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 66
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(87, 90, 101)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "10px 20px 10px 20px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 46,
+                "h": 46
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Jetzt kaufen"
+          },
+          "hero": {
+            "sel": ".pc-hero-main",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 720
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "fullbleed": {
+            "sel": ".full_bleed_image_container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 1019
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 300",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 40px/48px 600 rgb(255, 255, 255)",
+              "image": {
+                "w": 1435,
+                "h": 1019
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Brilliant by designWir präsentieren das neueste Modell in de"
+          },
+          "flexview": {
+            "sel": ".flex-view--wrapper",
+            "count": 0
+          },
+          "stack": {
+            "sel": ".stackmain",
+            "count": 0
+          },
+          "legal": {
+            "sel": ".moto-cms-legal",
+            "count": 0
+          },
+          "fullbg": {
+            "sel": ".full_background_display",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 1081
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 76px/83.6px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 1435,
+                "h": 777
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "die brilliant collectionDiese Kollektion zelebriert Brillanz"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.motorola.com/at/de/brilliant-collection",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "subnav",
+          "msg": "rect{w 1435 → 1440, h 63 → 59}; backgroundLayers [linear-gradient(90deg | rgba(4, 17, 1, 0.8) 33.9% | rgba(156, 199, 156, 0.8) 96.86%)] → [linear-gradient(90deg | rgba(0, 20, 40, 0.8) 0% | rgba(211, 228, 241, 0.8) 100%)]; padding 15px 20px 15px 20px → 10px 20px 10px 20px; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "hero",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "hero",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "heading h2 montserrat 48px/56px 600 rgb(0, 0, 0) → h2 montserrat 48px/56px 600 rgb(255, 255, 255)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "fullbleed",
+          "msg": "rect{h 735 → 806}; backgroundColor rgb(0, 0, 0) → rgb(255, 255, 255); heading h2 montserrat 56px/47.6px 600 rgb(255, 255, 255) → h2 montserrat 20px/38px 600 rgb(255, 255, 255); image{h 735 → 806}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "flexview",
+          "msg": "rect{h 900 → 882}; backgroundColor rgb(255, 255, 255) → rgba(0, 0, 0, 0); heading h2 montserrat 48px/56px 600 rgb(0, 0, 0) → null"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "stack",
+          "msg": "\".stackmain\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "legal",
+          "msg": "\".moto-cms-legal\" matches 0 on the archetype, 1 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "subnav": {
+            "sel": ".sticky-nav-container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 59
+              },
+              "backgroundLayers": [
+                "linear-gradient(90deg",
+                "rgba(0, 20, 40, 0.8) 0%",
+                "rgba(211, 228, 241, 0.8) 100%)"
+              ],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "10px 20px 10px 20px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Jetzt kaufen"
+          },
+          "hero": {
+            "sel": ".pc-hero-main",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 806
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(255, 255, 255)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Eine neue Ära des DesignsMotorola präsentiert eine Kollektio"
+          },
+          "fullbleed": {
+            "sel": ".full_bleed_image_container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 806
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 300",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 20px/38px 600 rgb(255, 255, 255)",
+              "image": {
+                "w": 1435,
+                "h": 806
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Zeitloser LuxusHandwerkliche Brillanz in jedem DetailDie Bri"
+          },
+          "flexview": {
+            "sel": ".flex-view--wrapper",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 882
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 0,
+                "h": 0
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          },
+          "stack": {
+            "sel": ".stackmain",
+            "count": 0
+          },
+          "legal": {
+            "sel": ".moto-cms-legal",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 143
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 20, 40)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Rechtliche HinweiseBestimmte Funktionen, Dienste und Anwendu"
+          },
+          "fullbg": {
+            "sel": ".full_background_display",
+            "count": 0
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "subnav",
+      "hero",
+      "fullbleed",
+      "flexview",
+      "stack",
+      "fullbg",
+      "legal"
+    ]
+  }
+}

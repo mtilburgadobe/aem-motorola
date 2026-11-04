@@ -1,0 +1,92 @@
+{
+  "/at/de/motocare": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:53:47.874Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/brilliant-collection-2026": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:05.009Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/brilliant-collection": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:05.009Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/business-edition": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:11.104Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/contest": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:11.282Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/homepage": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:16.216Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/motoverse": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:16.443Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/offers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:21.607Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/razr-fold-fifa-world-cup-edition": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:28.960Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:54:35.165Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

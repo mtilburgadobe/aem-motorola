@@ -1,0 +1,353 @@
+{
+ "source": "http://localhost:8461/at-de-razr-fold-fifa-world-cup-edition-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "pchero",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "pchero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unfold the spirit of the world's greatest game"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Design, Leidenschaft und innovative Technologie treffen aufeinander und feiern das großartigste Spiel der Welt mit der mit dem"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "FIFA World Cup 26™ Collection"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "motorola razr fold."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "pcarousel",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Item 1 of 2"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Entwickelt für alle, die das Spiel leben"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Kultiges Design, entwickelt für Leidenschaft"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Die ist vom weltweit legendärsten Sportereignis inspiriert und verwandelt das in ein Symbol der Verbundenheit. Drücke deine Leidenschaft stilvoll aus mit einer lederartigen, mit einem 24 Karat vergoldeten FIFA World Cup 26™-Logo verzierten Oberfläche, die die Spannung auf und neben dem Platz vermittelt."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "FIFA World Cup 26™ Collection"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "motorola razr fold"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Item 1 of 2"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "FIGURE.pcarousel__slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "FIGURE.pcarousel__slide",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "dexp",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Jeder Moment fühlt sich an wie ein Spieltag"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Von deinem Display bis hin zu deinem Klingelton – jedes Detail feiert den FIFA World Cup 26™: mit exklusiven Hintergrundbildern, dem offiziellen Jingle als Klingelton und einem intelligenten Kamera-Wasserzeichen, das die Farbe deines Trikots erkennt und jedes Fanfoto in eine Feier verwandelt."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Exclusive ringtone"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "FIFA World Cup 26™ wallpapers"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Photo Watermark"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "0:00"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "0:00"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.dexp__item",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.dexp__layer",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "vhero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Deine Fußballreise beginnt mit FIFA Heroes"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Item 1 of 1"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Komm aufs Feld mit FIFA Heroes – Arcade-Fußball neu gedacht, bei dem Legenden und Starspieler im direkten Duell gegen die Lieblingsspieler der Fans, Maskottchen und mehr gegeneinander antreten. Das neue schafft ein exklusives Spielerlebnis mit einer größeren Ansicht des Feldes, ungehindertem Gameplay und anpassbaren Bedienelementen auf dem riesigen, aufgeklappten 8,1-Zoll-Display."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "®"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "razr fold"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "fbleed",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vereint durch das Spiel"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Die FIFA World Cup 26™ Collection ist inspiriert von der Kraft des Fußballs, die Welt zu vereinen, und verwandelt ikonische Motorola-Geräte in den Ausdruck von Stolz und Verbundenheit der Fangemeinde."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/p/pmipmjj43mx"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "cblock",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Alles, was du für den Spieltag brauchst."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit der FIFA World Cup 26™ Collection kannst du die nächste Stufe erreichen. Entdecke als Teil der Kollektion das mit dem , mit dem du Spiele skizzieren und Spielerfahrungen festhalten kannst. Abgerundet mit einem eleganten Gehäuse, das für das Leben in Bewegung geschaffen ist. Der Vorteil liegt bei dir, auf dem Platz und in deiner Tasche."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "motorola razr"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "moto pen ultra"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Schreiben mit dem moto pen ultra"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.cblock__col",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "flexview",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lass das Spiel laufen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Erlebe wie Motorola und FIFA zusammen spielen"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "®"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Learn more",
+     "href": "https://www.motorola.com/at/de/p/pmipmjj43mx"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Entdecke jedes Detail des motorola razr fold"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Learn more",
+     "href": "https://www.motorola.com/at/de/fifa"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.flexview__item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "stack",
+   "items": [],
+   "imgCount": 1,
+   "editableTexts": 0,
+   "repeats": []
+  },
+  {
+   "section": "legal",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Zeitlich begrenztes Angebot gültig für qualifizierende Käufe des motorola razr fold, Teil der FIFA World Cup 26™ Collection, vom 13.04.26 bis 22.06.26, solange der Vorrat reicht. Teilnahmeberechtigt sind nur Einwohner (18+) der teilnehmenden Länder. Registrierung erforderlich. Spieltickets unterliegen der Verfügbarkeit sowie den FIFA-Geschäftsbedingungen, sind nicht übertragbar, nicht umtauschbar und haben keinen Geldwert. Reise- und Unterkunftskosten sind nicht enthalten. Es gelten die vollständigen Teilnahmebedingungen sowie Einlöse- und Berechtigungsdetails: siehe redemption.motorola.com"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

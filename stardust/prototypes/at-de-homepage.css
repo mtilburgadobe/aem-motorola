@@ -1,0 +1,64 @@
+/* ==========================================================================
+   at-de-homepage — page-only modules (promo tile groups, catch-all gallery)
+   Shared chrome + modules live in canon.css.
+   ========================================================================== */
+
+/* ---- promo tiles (live gridLayoulSectionWrapper, two groups) ---- */
+.tiles { max-width: 1900px; margin: 0 auto; width: 100%; padding: 0 10px 10px; background: #fff; }
+.tiles--shade { background: transparent; color: #fff; }
+.tiles__grid { display: flex; gap: 15px; }
+.tile { position: relative; flex: 1 1 0; min-width: 0; }
+.tile__media { position: relative; display: block; line-height: 0; }
+.tile__media img { display: block; width: 100%; height: 650px; object-fit: cover; }
+.tile__shade { position: absolute; top: 0; left: 0; width: 100%; height: 40px; border-radius: 16px; background-image: linear-gradient(rgba(0,0,0,.25) 0%, rgba(0,0,0,.09) 12%, rgba(0,0,0,0) 34%); }
+.tile__body { position: absolute; top: 39px; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding: 20px 0; pointer-events: none; }
+.tile__text { color: #fff; text-align: center; }
+.tile__title { margin-top: 19px; font-size: 36px; color: #fff; }
+.tile__desc { padding: 15px 0; color: #fff; }
+.tile__cta { display: flex; justify-content: center; align-items: center; gap: 10px; margin-top: 20px; padding-left: 10px; pointer-events: auto; }
+.tile__cta b { font-weight: 700; }
+.tile__cta .btn span { font-size: 16px; }
+@media (max-width: 768px) {
+  .tiles { padding: 10px 5px 10px 10px; }
+  .tiles__grid { flex-direction: column; }
+  .tile { flex: none; }
+  .tile__media img { height: 500px; }
+  .tile__body { top: 20px; }
+}
+@media (max-width: 600px) {
+  .tile__title { font-size: 24px; }
+  .tile__desc { padding: 13px 0; }
+  .tile__cta { margin-top: 15px; }
+}
+
+/* ---- catch-all gallery (live catch-allv3 carousel; autoplay, centred active slide) ---- */
+.gallery { display: flex; flex-direction: column; padding-bottom: 20px; color: #fff; overflow: hidden; }
+.gallery__region { position: relative; text-align: center; }
+.gallery__viewport { overflow: hidden; }
+.gallery__track { display: flex; transform: translateX(var(--gx, -1510px)); transition: transform .5s ease; }
+.gallery__slide { position: relative; flex: none; width: 495px; padding: 0 0 8px 15px; }
+.gallery__item { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 266px; overflow: hidden; background: #f5f5f5; }
+.gallery__media { width: 100%; height: 100%; line-height: 0; }
+.gallery__media img { width: 100%; height: 262px; object-fit: cover; }
+.gallery__fade { position: absolute; left: 0; bottom: 0; z-index: 1; width: 100%; height: 106px; background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.6) 100%); }
+.gallery__dim { position: absolute; inset: 0; background: rgba(0,0,0,.3); transition: opacity .3s; }
+.gallery__item { transition: background-color .3s; }
+.gallery__btn { position: absolute; top: 50%; left: 50%; z-index: 2; transform: translate(-50%, -50%); opacity: 0; transition: opacity .3s ease; }
+.gallery__item:hover .gallery__btn, .gallery__btn:focus-visible { opacity: 1; }
+.gallery__caption { position: absolute; left: 20px; bottom: 20px; z-index: 3; max-width: 80%; padding: 0 0 11px 18px; border-radius: 5px; color: #fff; }
+.gallery__caption-text { display: flex; }
+.gallery__caption-text p { text-align: left; }
+.gallery__controls { display: flex; justify-content: flex-end; align-items: center; height: 70px; padding: 20px; }
+.gallery__pause { display: flex; justify-content: center; align-items: center; width: 30px; height: 30px; margin-right: 13px; border-radius: 100%; background: #fff; }
+.gallery__pause svg { flex: none; width: 30px; height: 40px; }
+@media (max-width: 600px) {
+  .gallery__viewport { padding-left: 10px; }
+  .gallery__track { transform: translateX(var(--gx-m, -1156px)); }
+  .gallery__slide { width: 288px; padding: 0 16px 1px 0; }
+  .gallery__item { height: 296px; }
+  .gallery__media img { height: 292px; }
+  .gallery__fade { height: 118px; }
+  .gallery__btn { margin-top: 0; }
+  .gallery__caption { left: 0; bottom: 21px; padding: 0 0 18px 11px; }
+  .gallery__controls { margin: 0 12px; }
+}

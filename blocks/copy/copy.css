@@ -1,0 +1,189 @@
+/* copy — centred rich-text panel (live moto-flex-content text-only / stackmain heading /
+   html_upload partner list; at-de-contest, live computed 1440 / 360) */
+.copy {
+  padding: 30px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+}
+
+/* live keeps an empty 0px h2 with a 20px bottom margin above the copy */
+.copy .copy-body {
+  padding-top: 20px;
+}
+
+.copy .copy-body p {
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
+
+.copy .copy-body a:any-link {
+  color: #898989;
+  text-decoration: underline;
+}
+
+/* title: live stackmain headline */
+.copy.title {
+  padding: 40px;
+}
+
+.copy.title .copy-body {
+  padding-top: 0;
+}
+
+.copy.title .copy-body p {
+  padding: 0;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+/* fine: legal fine print in a 1020px column */
+.copy.fine {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.copy.fine .copy-body p {
+  padding: 0;
+  color: #898989;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* partners: centred heading over a dark band with a 6-column name grid */
+.copy.partners {
+  padding: 0;
+}
+
+.copy.partners .copy-body {
+  padding-top: 0;
+}
+
+.copy.partners .copy-head :is(h1, h2, h3) {
+  margin: 40px 0 30px;
+  color: #0a0a0a;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.copy.partners .copy-band {
+  padding: 50px 40px;
+  background: linear-gradient(180deg, #061a2f 0%, #020d1a 100%);
+}
+
+.copy.partners .copy-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 22px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.copy.partners .copy-grid p {
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (width <= 1024px) {
+  .copy.partners .copy-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width <= 767px) {
+  .copy {
+    padding: 30px 64px;
+  }
+
+  .copy .copy-body {
+    padding-top: 35px;
+  }
+
+  .copy .copy-body p {
+    padding: 10px 20px 30px;
+    font-weight: 500;
+  }
+
+  .copy.title {
+    padding: 40px;
+  }
+
+  .copy.title .copy-body {
+    padding-top: 0;
+  }
+
+  .copy.title .copy-body p {
+    padding: 0;
+    line-height: 32px;
+  }
+
+  .copy.fine .copy-body {
+    padding-top: 20px;
+  }
+
+  .copy.fine .copy-body p {
+    padding: 10px 20px;
+  }
+
+  .copy.partners {
+    padding: 0;
+  }
+
+  .copy.partners .copy-body {
+    padding-top: 0;
+  }
+
+  .copy.partners .copy-grid p {
+    padding: 0;
+    font-weight: 700;
+  }
+}
+
+@media (width <= 600px) {
+  .copy.partners .copy-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* seo (US home): live moto-cms-legal seoText — 1200px column, 16px inset, navy copy; the
+   bottom pad includes the empty 100px layout container live keeps after the row */
+.copy.seo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 13px 198px 16px;
+  color: rgb(0 20 40);
+}
+
+.copy.seo .copy-body {
+  padding: 0;
+}
+
+.copy.seo .copy-body p {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: normal;
+  text-align: left;
+}
+
+@media (width <= 767px) {
+  .copy.seo .copy-body {
+    padding: 0;
+  }
+
+  .copy.seo .copy-body p {
+    padding: 0;
+    font-weight: 400;
+  }
+}

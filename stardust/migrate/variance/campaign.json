@@ -1,0 +1,278 @@
+{
+  "archetype": "https://www.motorola.com/at/de/offers",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "banner": ".banner-container",
+    "carousel": ".homeCarousel",
+    "hero": ".hero_container",
+    "stack": ".stackmain",
+    "reco": ".moto-recommendations-v2",
+    "webform": ".moto-webform"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "banner": {
+        "sel": ".banner-container",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 600
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 1435,
+            "h": 600
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Bis zu 27% Rabatt auf ausgewählte moto g ModelleZeitlich beg"
+      },
+      "carousel": {
+        "sel": ".homeCarousel",
+        "count": 0
+      },
+      "hero": {
+        "sel": ".hero_container",
+        "count": 0
+      },
+      "stack": {
+        "sel": ".stackmain",
+        "count": 0
+      },
+      "reco": {
+        "sel": ".moto-recommendations-v2",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 795
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "12px 20px 16px 22px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 187,
+            "h": 187
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Hero BLACK FRIDAYmoto g87PANTONE Overture€ 399,00€ 319,00Meh"
+      },
+      "webform": {
+        "sel": ".moto-webform",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 0
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": ""
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.motorola.com/at/de/contest",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "banner",
+          "msg": "\".banner-container\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "carousel",
+          "msg": "\".homeCarousel\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "hero",
+          "msg": "\".hero_container\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "EXTRA",
+          "probe": "stack",
+          "msg": "\".stackmain\" matches 0 on the archetype, 1 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "reco",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "reco",
+          "msg": "rect{h 795 → 787}; padding 12px 20px 16px 22px → 0px 20px 16px 22px"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "banner": {
+            "sel": ".banner-container",
+            "count": 0
+          },
+          "carousel": {
+            "sel": ".homeCarousel",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 569
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 50px/56px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 1435,
+                "h": 553
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "FOOTBALL ISCALLINGBist du bereit?"
+          },
+          "hero": {
+            "sel": ".hero_container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1191,
+                "h": 553
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 50px/56px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 1435,
+                "h": 553
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "FOOTBALL ISCALLINGBist du bereit?"
+          },
+          "stack": {
+            "sel": ".stackmain",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 136
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "40px 40px 40px 40px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Die Aktion ist beendet"
+          },
+          "reco": {
+            "sel": ".moto-recommendations-v2",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 787
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 20px 16px 22px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 187,
+                "h": 187
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Dein passendes Smartphone findenmotorola razr 60 ultraPANTON"
+          },
+          "webform": {
+            "sel": ".moto-webform",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 0
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "banner",
+      "carousel",
+      "hero",
+      "stack",
+      "reco"
+    ]
+  }
+}

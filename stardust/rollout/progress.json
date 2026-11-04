@@ -1,0 +1,253 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "campaign",
+        "static",
+        "program"
+      ],
+      "startedAt": "2026-11-03T15:16:00Z",
+      "blocks": 2,
+      "endedAt": "2026-11-03T16:10:19.833Z",
+      "gates": {
+        "360": {
+          "chromeCompare": "exit 0 (390)",
+          "chromeParity": "header fixed→sticky, Δw-5; footer Standort ändern underline"
+        },
+        "1440": {
+          "chromeCompare": "exit 0 (0 err, 3 warn)",
+          "chromeParity": "2 header deltas (fixed→sticky, Δw-5) + footer offset/icon-rename only"
+        },
+        "crop": "header 88px both widths; footer 719/1020px = live",
+        "chrome": "parity residuals queued in foundation-requests.md"
+      },
+      "verdict": "foundation: chrome docs 4/4 live, header/footer blocks done, chrome-compare 1440 exit 0 / 390 exit 0, lint pass, commit f5e9d74"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T16:11:11.129Z",
+      "blocks": 8,
+      "endedAt": "2026-11-03T16:50:33.566Z",
+      "gates": {
+        "360": {
+          "at-de-homepage": "6.25% Δh0.06% clip1 (allowed, live-identical) MISSING4 (nested-link double count) → override"
+        },
+        "1440": {
+          "at-de-homepage": "3.77% Δh0 clip0 content 0/0; units = cache artefact → override"
+        }
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 8, gate 1440 3.77% Δh 0% / 360 6.25% Δh 0.06%, clipped 0/1 (allowed), missing 0/4 (nested-link double count, documented), requests 0"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T18:49:49.787Z",
+      "resumedAt": "2026-11-03T20:13:53.000Z",
+      "endedAt": "2026-11-03T20:13:53.000Z",
+      "blocks": [
+        "hcar(small-logo,landscape)",
+        "reco(titled)",
+        "trend",
+        "tiles(compact)",
+        "gallery"
+      ],
+      "gates": {
+        "index": {
+          "360": "6.26% Δh−7 clip0 MISSING 5 (nested Buy now ×4 + hero link JOIN) → documented-residual",
+          "1440": "4.61% Δh−5 clip0 MISSING 1 (hero link JOIN) → documented-residual"
+        }
+      },
+      "verdict": "landing: pages 1/1 live (US home), pixel 4.61/6.26% within bar, clip 0; content/units residuals documented (overrides.json both widths)"
+    },
+    "archetype-campaign": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T17:43:08.989Z",
+      "endedAt": "2026-11-03T18:15:31.415Z",
+      "blocks": [
+        "banner",
+        "reco"
+      ],
+      "gates": {
+        "360": {
+          "pixel": 5.3,
+          "dh": "24px",
+          "clipped": 0,
+          "missing": "6+hidden 3 (double count + prototype-identical spill, override)"
+        },
+        "1440": {
+          "pixel": 2.3,
+          "dh": "0.26%",
+          "clipped": 0,
+          "missing": "12 (nested-link double count, override)"
+        }
+      },
+      "verdict": "archetype-campaign: offers live, blocks banner(+static) reco(+deal), gate 1440 2.3% / 360 5.3%, clipped 0, missing/hidden = nested-link double count (override, as homepage), requests 0"
+    },
+    "campaign": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T18:15:54.428Z",
+      "endedAt": "2026-11-03T18:49:24.385Z",
+      "blocks": [
+        "banner(+solo)",
+        "reco(+flush,deal oos)",
+        "copy(new)"
+      ],
+      "gates": {
+        "at-de-contest": {
+          "360": "6.37% Δh31 clip0 0/0 PASS",
+          "1440": "1.76% Δh2 clip0 MISSING3 (nested-link, override)"
+        }
+      },
+      "verdict": "campaign: contest live, blocks 3 (new copy), gate 1440 1.76% / 360 6.37%, offers re-gated unchanged, requests 1"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T16:11:11.129Z",
+      "blocks": 4,
+      "endedAt": "2026-11-03T16:40:47.859Z",
+      "gates": {
+        "360": {
+          "at-de-motocare": "1.65% Δh14 clip6(allow 6, live-identical) content 0/0; units residual = prototype → documented override"
+        },
+        "1440": {
+          "at-de-motocare": "0.4% Δh0 clip0 content 0/0 PASS"
+        }
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 4, gate 1440 0.4% Δh 0 / 360 1.65% Δh 14px, clipped 0 / 6 (allowed, live-identical), missing 0, requests 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T16:43:06.733Z",
+      "resumedAt": "2026-11-03T17:43:08.989Z",
+      "endedAt": "2026-11-03T18:19:28.464Z",
+      "blocks": [
+        "spotlight",
+        "hub",
+        "slider",
+        "webform",
+        "faq",
+        "fullbleed(+left)"
+      ],
+      "gates": {
+        "at-de-motoverse": {
+          "360": "1.73% Δh14 clip6(live, allowed) 0/0",
+          "1440": "0.62% Δh0 clip0 0/0"
+        },
+        "at-de-business-edition": {
+          "360": "7.43% Δh57 clip2(live, allowed) 0/0",
+          "1440": "3.44% Δh50 clip0 0/0"
+        }
+      },
+      "verdict": "static: pages 2/2 live, blocks 6 (new spotlight, hub, slider, webform, faq), gate 1440 0.62/3.44% · 360 1.73/7.43%; units = archetype families absent (override); requests 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T18:19:50.644Z",
+      "endedAt": "2026-11-03T18:55:54.675Z",
+      "blocks": [
+        "subnav",
+        "pchero(+warm)",
+        "pcarousel",
+        "dexp",
+        "vhero",
+        "cblock",
+        "flexview",
+        "stack",
+        "fullbleed(+program)",
+        "legal(+plain)"
+      ],
+      "gates": {
+        "360": "3.34% Δh+14 clip0 0/0 PASS",
+        "1440": "5.64% Δh+1 clip0 0/0 PASS"
+      },
+      "verdict": "archetype-program: razr-fold live, blocks 9 (7 new), gate 1440 5.64% / 360 3.34%, clipped 0, missing 0, requests 0"
+    },
+    "program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T18:56:11.931Z",
+      "endedAt": "2026-11-03T19:53:46.780Z",
+      "blocks": [
+        "dualcar",
+        "pcards",
+        "catchlist",
+        "+variants subnav pchero fullbleed vhero flexview cblock legal"
+      ],
+      "gates": {
+        "at-de-brilliant-collection-2026": {
+          "1440": "2.90% Δh+30 clip0 0/0",
+          "360": "8.51% Δh+23 clip2(allow 2) 0/0"
+        },
+        "at-de-brilliant-collection": {
+          "1440": "7.67% Δh−59 clip0 0/0",
+          "360": "4.91% Δh+16 clip0 0/0"
+        }
+      },
+      "verdict": "program: pages 2/2 live, blocks 13 (3 new); after the fix round bc26 2.90/8.51% · bc 7.67/4.91% — all PASS (bc26 360 live-identical cblock clip allowance 2); archetype re-gated 8.86/9.09% PASS"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "pages": 10,
+      "startedAt": "2026-11-03T21:03:00.000Z",
+      "endedAt": "2026-11-03T21:03:00.000Z",
+      "gates": {
+        "1440": "4 PASS + 6 documented overrides = 10/10 delivered",
+        "360": "4 PASS + 6 documented overrides = 10/10 delivered"
+      },
+      "verdict": "roster published-origin gate 10/10 delivered at 1440 and 360 (--skip-existing; razr-fold archetype re-captured 8.86/9.09%); coverage updated from both summaries"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-03T21:20:05.000Z",
+      "endedAt": "2026-11-03T21:20:05.000Z",
+      "gates": {
+        "1440": "archetypes re-gated after footer request: homepage 1.87, offers PASS(override), motocare 0.40, razr-fold 8.77 — 4/4 delivered",
+        "360": "homepage 6.95 (first run 24.66 = live rail loaded-state flip), motocare 1.65, offers override, razr-fold live stitch blocked (scroll stall at 7153/8159px, crawl-fullpage asym 61.6% — instrument limit; row stands at 20:55 stitch 9.09% PASS, content 0/0)"
+      },
+      "verdict": "C-final: freeze check clean; 4 foundation requests dispositioned (footer locale underline applied, header fixed/sticky not applied — roster passes); foundation re-frozen; archetypes re-gated; roster 10/10 delivered both widths"
+    }
+  }
+}
