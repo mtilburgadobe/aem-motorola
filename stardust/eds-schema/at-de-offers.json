@@ -1,0 +1,1900 @@
+{
+ "source": "http://localhost:8782/at-de-offers-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Bis zu 27% Rabatt auf ausgewählte moto g Modelle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zeitlich begrenztes Angebot. Gültig bis zum 8. November."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "reco",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hero BLACK FRIDAY"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "moto g87"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "PANTONE Overture"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "€ 399,00"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€ 319,00"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/87/pmipmjh44mo?pn=PBBS0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/87/pmipmjh44mo?pn=PBBS0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2650792"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "moto g77"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "PANTONE Black Olive"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "€ 300,00"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "€ 250,00"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/77/pmipmjh43mw?pn=PBAW0034ES"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/77/pmipmjh43mw?pn=PBAW0034ES"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2558400"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "moto g67"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "PANTONE Arctic Seal"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "€ 260,00"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "€ 190,00"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/67/pmipmjh43mu?pn=PBAU0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/67/pmipmjh43mu?pn=PBAU0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2564902"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "moto g47"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "PANTONE Impenetrable"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "€ 319,00"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "€ 269,00"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/47/pmipmjs44mz?pn=PBCC0027SE"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/47/pmipmjs44mz?pn=PBCC0027SE"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2667465"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "moto g57 power"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "PANTONE Pink Lemonade"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "€ 249,99"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "€ 199,99"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/57-power/pmipmjf43ml?pn=PBAH0010SE"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/57-power/pmipmjf43ml?pn=PBAH0010SE"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2499219"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "moto g37 power"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "PANTONE Nautical Blue"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "€ 279,00"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "€ 229,00"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/37-power/pmipmjs45m1?pn=PBCD0005SE"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/37-power/pmipmjs45m1?pn=PBCD0005SE"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2668576"
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "moto g37"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "PANTONE Impenetrable"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "€ 249,00"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "€ 199,00"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/37/pmipmjs45m2?pn=PBCE0003SE"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/37/pmipmjs45m2?pn=PBCE0003SE"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2667468"
+    },
+    {
+     "role": "heading",
+     "order": 64,
+     "text": "moto g17 power"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "PANTONE Alaskan Blue"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "€ 300,00"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "€ 250,00"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/17-power/pmipmjn44ml?pn=PBBM0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/17-power/pmipmjn44ml?pn=PBBM0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2563001"
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "moto g17"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "PANTONE Alaskan Blue"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "€ 279,99"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "€ 229,99"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/17/pmipmjn44mj?pn=PBBK0001SE"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/17/pmipmjn44mj?pn=PBBK0001SE"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2556308"
+    },
+    {
+     "role": "heading",
+     "order": 82,
+     "text": "moto g06"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "PANTONE Tapestry"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "€ 229,99"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "€ 199,99"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/moto-g06/pmipmhy43m6?pn=PBA20017SE"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/moto-g06/pmipmhy43m6?pn=PBA20017SE"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2348184"
+    }
+   ],
+   "imgCount": 20,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.reco__card",
+     "count": 10,
+     "unit": {
+      "headings": 1,
+      "ctas": 5,
+      "imgs": 3,
+      "textRuns": 7
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "reco",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Other BLACK FRIDAY"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Motorola signature"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "PANTONE Carbon"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "€ 999,99"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€ 899,99"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-signature/signature/pmipmje43mf?pn=PBAB0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-signature/signature/pmipmje43mf?pn=PBAB0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2548993"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "motorola edge 70 max"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "PANTONE Dark Shadow"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "€ 799,00"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "€ 699,00"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2725834"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "motorola edge 70 pro"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "PANTONE Chicory Coffee"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "€ 799,00"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "€ 699,00"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20089SE"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20089SE"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2648502"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "motorola edge 70"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "PANTONE Cloud Dancer"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "€ 799,99"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "€ 599,99"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2464250"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "motorola edge 70 fusion (5200 mAh)"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "PANTONE Silhouette"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "€ 419,99"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "€ 379,99"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-fusion/pmipmjm44mc?pn=PBBD0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-fusion/pmipmjm44mc?pn=PBBD0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2578740"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "motorola edge 60 neo"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "PANTONE Poinciana"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "€ 349,99"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "€ 299,99"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-60-neo/pmipmjd43mc?pn=PBA80035IT"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-60-neo/pmipmjd43mc?pn=PBA80035IT"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2453313"
+    },
+    {
+     "role": "heading",
+     "order": 55,
+     "text": "moto g87"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "PANTONE Overture"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "€ 399,00"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "€ 319,00"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/87/pmipmjh44mo?pn=PBBS0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/87/pmipmjh44mo?pn=PBBS0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2650792"
+    },
+    {
+     "role": "heading",
+     "order": 64,
+     "text": "moto g77"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "PANTONE Black Olive"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "€ 300,00"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "€ 250,00"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/77/pmipmjh43mw?pn=PBAW0034ES"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/77/pmipmjh43mw?pn=PBAW0034ES"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2558400"
+    },
+    {
+     "role": "heading",
+     "order": 73,
+     "text": "moto g67"
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "PANTONE Arctic Seal"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "€ 260,00"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "€ 190,00"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/67/pmipmjh43mu?pn=PBAU0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 79,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/67/pmipmjh43mu?pn=PBAU0018ES"
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2564902"
+    },
+    {
+     "role": "heading",
+     "order": 82,
+     "text": "moto g57 power"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "PANTONE Pink Lemonade"
+    },
+    {
+     "role": "body",
+     "order": 84,
+     "text": "€ 249,99"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "€ 199,99"
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/57-power/pmipmjf43ml?pn=PBAH0010SE"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/57-power/pmipmjf43ml?pn=PBAH0010SE"
+    },
+    {
+     "role": "cta",
+     "order": 89,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 90,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2499219"
+    },
+    {
+     "role": "heading",
+     "order": 91,
+     "text": "moto g47"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "PANTONE Impenetrable"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "€ 319,00"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "€ 269,00"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/47/pmipmjs44mz?pn=PBCC0027SE"
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/47/pmipmjs44mz?pn=PBCC0027SE"
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 99,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2667465"
+    },
+    {
+     "role": "heading",
+     "order": 100,
+     "text": "moto g17 power"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "PANTONE Alaskan Blue"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "€ 300,00"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "€ 250,00"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/17-power/pmipmjn44ml?pn=PBBM0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/17-power/pmipmjn44ml?pn=PBBM0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2563001"
+    },
+    {
+     "role": "heading",
+     "order": 109,
+     "text": "moto g17"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "PANTONE Alaskan Blue"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "€ 279,99"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "€ 229,99"
+    },
+    {
+     "role": "cta",
+     "order": 113,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/moto-g/17/pmipmjn44mj?pn=PBBK0001SE"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/moto-g/17/pmipmjn44mj?pn=PBBK0001SE"
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2556308"
+    }
+   ],
+   "imgCount": 26,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.reco__card",
+     "count": 13,
+     "unit": {
+      "headings": 1,
+      "ctas": 5,
+      "imgs": 3,
+      "textRuns": 7
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "reco",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Produkte mit KOSTENLOSEN Geschenken"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "motorola edge 70 plus"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von €149.98"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "PANTONE Gray Lilac"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "€ 599,00"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "€ 579,00"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-plus/pmipmju45ml?pn=PBD40016SE"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-plus/pmipmju45ml?pn=PBD40016SE"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2801967"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "motorola edge 70 max"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von €149.98"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "PANTONE Dark Shadow"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "€ 799,00"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "€ 699,00"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2725834"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "motorola razr 70 ultra"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 171"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "PANTONE Orient Blue"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "€ 1.399,00"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "€ 1.299,00"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/razr/razr-70-ultra/pmipmjk44m2?pn=PBB20001SE"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-ultra/pmipmjk44m2?pn=PBB20001SE"
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2631202"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "motorola razr 70 plus"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 161.99"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "PANTONE Mountain View"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "€ 1.149,00"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "€ 999,00"
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/razr/razr-70-plus/pmipmjq45m3?pn=PBCF0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-plus/pmipmjq45m3?pn=PBCF0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 40,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2627933"
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "motorola razr 70"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 150"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "PANTONE Hematite"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "€ 869,00"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "€ 799,00"
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/razr/razr-70/pmipmjl44m6?pn=PBB60003SE"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70/pmipmjl44m6?pn=PBB60003SE"
+    },
+    {
+     "role": "cta",
+     "order": 49,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2606359"
+    },
+    {
+     "role": "heading",
+     "order": 51,
+     "text": "motorola edge 70 pro"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 114.99"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "PANTONE Chicory Coffee"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "€ 799,00"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "€ 699,00"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20089SE"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20089SE"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2648502"
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "motorola razr fold - FIFA Edition"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Displayschutz Wert von € 221"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "FIFA World Cup 26™ Collection + moto pen ultra"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "€ 1.999,99"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/razr/razr-fold-fifa-edition/pmipmjj43mp"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-fold-fifa-edition/pmipmjj43mp"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/screen/product/smartphonestablets20231669/2647691?navigatingFrom=qr"
+    },
+    {
+     "role": "heading",
+     "order": 70,
+     "text": "motorola razr fold"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "GRATIS Geschenk im Wert von € 221"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "PANTONE Blackened Blue + moto pen ultra"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "€ 1.999,99"
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/razr/razr-fold/pmipmjj43mx?pn=PBAX0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 75,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-fold/pmipmjj43mx?pn=PBAX0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2647691"
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "motorola edge 70 fusion (5200 mAh)"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 110"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "PANTONE Silhouette"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "€ 419,99"
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "€ 379,99"
+    },
+    {
+     "role": "cta",
+     "order": 84,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-fusion/pmipmjm44mc?pn=PBBD0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 85,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-fusion/pmipmjm44mc?pn=PBBD0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 87,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2578740"
+    },
+    {
+     "role": "heading",
+     "order": 89,
+     "text": "motorola edge 70 fusion (7000 mAh)"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 110"
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "PANTONE Orient Blue"
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "€ 440,00"
+    },
+    {
+     "role": "body",
+     "order": 93,
+     "text": "€ 400,00"
+    },
+    {
+     "role": "cta",
+     "order": 94,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/pmipmjm44md/pmipmjm44md?pn=PBBE0048SE"
+    },
+    {
+     "role": "cta",
+     "order": 95,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 96,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/pmipmjm44md/pmipmjm44md?pn=PBBE0048SE"
+    },
+    {
+     "role": "cta",
+     "order": 97,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 98,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2582967"
+    },
+    {
+     "role": "heading",
+     "order": 99,
+     "text": "Motorola signature"
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € 123"
+    },
+    {
+     "role": "body",
+     "order": 101,
+     "text": "PANTONE Carbon"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "€ 999,99"
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "€ 899,99"
+    },
+    {
+     "role": "cta",
+     "order": 104,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-signature/signature/pmipmje43mf?pn=PBAB0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 105,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 106,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-signature/signature/pmipmje43mf?pn=PBAB0002SE"
+    },
+    {
+     "role": "cta",
+     "order": 107,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 108,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2548993"
+    },
+    {
+     "role": "heading",
+     "order": 109,
+     "text": "motorola edge 70"
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Displayschutz & GRATIS Geschenk im Wert von € € 79.00"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "PANTONE Cloud Dancer"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "€ 799,99"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "€ 599,99"
+    },
+    {
+     "role": "cta",
+     "order": 114,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE"
+    },
+    {
+     "role": "cta",
+     "order": 115,
+     "text": "Mehr erfahren",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 116,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE"
+    },
+    {
+     "role": "cta",
+     "order": 117,
+     "text": "Jetzt kaufen",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 118,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2464250"
+    }
+   ],
+   "imgCount": 24,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.reco__card",
+     "count": 12,
+     "unit": {
+      "headings": 1,
+      "ctas": 5,
+      "imgs": 3,
+      "textRuns": 8
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

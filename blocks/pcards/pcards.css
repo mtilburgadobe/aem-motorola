@@ -1,0 +1,247 @@
+/* pcards — live .icg_container / .hdp_container (brilliant-collection-2026 values, 1440 / 360) */
+.pcards {
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
+
+.pcards .pcards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.pcards .pcards-card {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.pcards .pcards-media {
+  position: relative;
+  height: 287px;
+  overflow: hidden;
+}
+
+.pcards .pcards-img,
+.pcards .pcards-img picture {
+  position: absolute;
+  inset: 0;
+  display: block;
+  line-height: 0;
+}
+
+.pcards .pcards-img img,
+.pcards .pcards-lead img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pcards .pcards-img-hover {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.pcards .pcards-card.is-hovered .pcards-img-hover {
+  opacity: 1;
+}
+
+.pcards .pcards-body {
+  padding: 18px 38px 0;
+}
+
+.pcards .pcards-text :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 7px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.96px;
+}
+
+.pcards .pcards-text p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.pcards .pcards-cta {
+  position: absolute;
+  bottom: 1px;
+  left: 38px;
+  z-index: 2;
+  display: none;
+}
+
+.pcards .pcards-card.is-hovered .pcards-cta {
+  display: block;
+}
+
+.pcards .pcards-cta p {
+  margin: 0;
+}
+
+.pcards .pcards-cta a:any-link {
+  display: inline-block;
+  padding: 10px 14px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+/* variant lead — live .hdp_container: large lead image + one tall card */
+.pcards.lead .pcards-grid {
+  grid-template-columns: 876fr 490fr;
+  gap: 0;
+}
+
+.pcards.lead .pcards-lead,
+.pcards.lead .pcards-lead picture {
+  display: block;
+  height: 910px;
+  line-height: 0;
+}
+
+.pcards.lead .pcards-card {
+  padding-bottom: 0;
+}
+
+.pcards.lead .pcards-media {
+  height: 786px;
+}
+
+.pcards.lead .pcards-body {
+  padding: 20px 36px 0;
+}
+
+.pcards.lead .pcards-text :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.pcards.lead .pcards-text p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.pcards.lead .pcards-card .pcards-cta {
+  position: static;
+  margin-top: 16px;
+}
+
+.pcards :is(sup) {
+  font-size: 0.8em;
+}
+
+@media (width <= 767px) {
+  /* live ≤767: the card clips at image + copy (overflow hidden); the hover picture sits in flow
+     under the resting one and, inside the positioned wrapper, paints over the copy */
+  .pcards .pcards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-bottom: 23px;
+  }
+
+  .pcards .pcards-card {
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .pcards .pcards-media {
+    height: 251px;
+    overflow: visible;
+    background-image: linear-gradient(297deg, rgb(233 234 242) 3.63%, rgb(233 234 242 / 30%) 92.26%);
+  }
+
+  .pcards .pcards-img img {
+    object-fit: contain;
+    border-radius: 16px;
+  }
+
+  .pcards .pcards-img-hover {
+    inset: 100% 0 auto;
+    opacity: 1;
+    transition: none;
+  }
+
+  .pcards .pcards-img-hover picture {
+    position: static;
+  }
+
+  .pcards .pcards-img-hover img {
+    height: auto;
+  }
+
+  .pcards .pcards-body {
+    padding: 16px 0 0;
+  }
+
+  .pcards .pcards-text :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .pcards .pcards-text p {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+
+  .pcards .pcards-cta,
+  .pcards .pcards-card.is-hovered .pcards-cta {
+    position: static;
+    display: block;
+    margin-top: 16px;
+  }
+
+  .pcards.lead .pcards-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-bottom: 34px;
+  }
+
+  .pcards.lead .pcards-lead,
+  .pcards.lead .pcards-lead picture {
+    height: 600px;
+  }
+
+  .pcards.lead .pcards-card {
+    padding: 16px 39px 0;
+  }
+
+  .pcards.lead .pcards-media {
+    height: 251px;
+    border-radius: 0;
+  }
+
+  .pcards.lead .pcards-img img {
+    border-radius: 0;
+  }
+
+  /* live .hdp_content is positioned: the copy paints over the hover picture */
+  .pcards.lead .pcards-body {
+    position: relative;
+    padding: 16px 0;
+  }
+
+  .pcards.lead .pcards-text :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 6px;
+  }
+
+  .pcards.lead .pcards-text p {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+
+  .pcards.lead .pcards-cta a:any-link {
+    padding: 10px 21px;
+  }
+}

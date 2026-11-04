@@ -1,0 +1,146 @@
+/* news — newsletter band (values from canon.css newsletter) */
+.news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 40px;
+  background: #fff;
+}
+
+.news .news-inner {
+  width: 100%;
+}
+
+.news .news-headline {
+  margin: 32px 0;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+
+.news .news-headline :is(h2, h3, p) {
+  color: inherit;
+  font: inherit;
+}
+
+.news .news-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.news .news-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  width: 100%;
+}
+
+.news .news-field {
+  position: relative;
+  flex: 1 1 0;
+}
+
+.news .news-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.news .news-field input {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  border: 1px solid var(--navy);
+  border-right: 0;
+  border-radius: 24px 0 0 24px;
+  outline: none;
+  font: inherit;
+}
+
+.news .news-submit {
+  flex: none;
+  width: 247px;
+}
+
+.news .news-submit-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 49px;
+  padding: 10px 50px;
+  border: 1px solid var(--navy);
+  border-radius: 0 24px 24px 0;
+  background: var(--navy);
+  color: #fff;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+.news .news-submit-btn p {
+  margin: 0;
+}
+
+.news .news-check {
+  display: flex;
+  width: 100%;
+}
+
+.news .news-check input {
+  flex: none;
+  width: 30px;
+  height: 20px;
+  margin: 0;
+}
+
+.news .news-check label {
+  font-size: 14px;
+}
+
+.news .news-check a:any-link {
+  display: block;
+  color: var(--link-blue);
+}
+
+.news .form-status {
+  width: 100%;
+  color: #b8322e;
+  font-size: 14px;
+}
+
+@media (width <= 600px) {
+  .news .news-headline {
+    margin: 24px 0;
+    font-size: 24px;
+  }
+
+  .news .news-field {
+    flex: none;
+    width: 210px;
+  }
+
+  .news .news-submit {
+    width: 105px;
+  }
+
+  .news .news-submit-btn {
+    width: 125px;
+    justify-content: flex-start;
+    padding: 10px 0 10px 51px;
+    text-align: left;
+  }
+}

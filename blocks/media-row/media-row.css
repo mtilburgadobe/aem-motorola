@@ -1,0 +1,53 @@
+/* media-row — live .contentBlockContainer: 2-col image / text row.
+   Values lifted from the at-de-motocare prototype (live computed 1440 / 360). */
+.media-row {
+  background: #fff;
+  color: #000;
+}
+
+.media-row .media-row-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.media-row .media-row-cell {
+  min-width: 0;
+  max-height: 960px;
+  overflow: hidden;
+  padding: 64px 64px 64px clamp(64px, 10vw, 128px);
+}
+
+.media-row .media-row-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  padding-bottom: 16px;
+  text-align: left;
+}
+
+.media-row .media-row-title :is(h1, h2, h3, h4, h5, h6) {
+  padding-top: 16px;
+}
+
+.media-row .media-row-desc {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.media-row .media-row-media img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+@media (width <= 600px) {
+  .media-row .media-row-cell {
+    display: grid;
+  }
+}

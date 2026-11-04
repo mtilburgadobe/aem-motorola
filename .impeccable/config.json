@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-11-03T14:41:47.823Z",
+        "reason": "replica flow: Montserrat is the live motorola.com brand face (census + @font-face capture); a same-design migration must keep it"
+      }
+    ]
+  }
+}

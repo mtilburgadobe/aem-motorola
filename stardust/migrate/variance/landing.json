@@ -1,0 +1,477 @@
+{
+  "archetype": "https://www.motorola.com/at/de/homepage",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "banner": ".banner-container",
+    "reco": ".moto-recommendations-v2",
+    "hcar": ".homeCarousel",
+    "tiles": ".gridLayoulSectionWrapper",
+    "trend": ".moto-trendings-v2",
+    "gallery": ".catch-allv3-carousel-container",
+    "news": ".newsLetterContainer",
+    "legal": ".moto-cms-legal"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "banner": {
+        "sel": ".banner-container",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 600
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 1435,
+            "h": 600
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Bis zu 27% Rabatt auf ausgewählte moto g ModelleZeitlich beg"
+      },
+      "reco": {
+        "sel": ".moto-recommendations-v2",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 371
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 20px 16px 22px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h3 montserrat 22px/28px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 187,
+            "h": 187
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "motorola edge 70 maxAngeboteJetzt kaufenProduktdatenblattmot"
+      },
+      "hcar": {
+        "sel": ".homeCarousel",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 639
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(255, 255, 255)",
+          "image": {
+            "w": 1313,
+            "h": 553
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Für jeden Moment in FormSag Hallo zur moto watch ultra. Imme"
+      },
+      "tiles": {
+        "sel": ".gridLayoulSectionWrapper",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 660
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 10px 10px 10px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h4 montserrat 36px/40px 700 rgb(255, 255, 255)",
+          "image": {
+            "w": 700,
+            "h": 650
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Find your edgeMit edge wird jeder Moment perfekt.edge kaufen"
+      },
+      "trend": {
+        "sel": ".moto-trendings-v2",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 672
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "40px 35px 20px 35px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 205,
+            "h": 205
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Finde dein passendes SmartphoneFotograferGamerContent creato"
+      },
+      "gallery": {
+        "sel": ".catch-allv3-carousel-container",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 364
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px 0px 20px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 495,
+            "h": 270
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Erfahre mehrZeig deinen style mit antone™Erfahre mehrMotorol"
+      },
+      "news": {
+        "sel": ".newsLetterContainer",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 308
+          },
+          "backgroundLayers": [
+            "url(…)"
+          ],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 20px 40px 20px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Melde dich für unseren Newsletter an und erhalte einen 10%-R"
+      },
+      "legal": {
+        "sel": ".moto-cms-legal",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 101
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 20, 40)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Rechtlicher HinweisAktion gültig bis zum 25. Oktober 2026 fü"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.motorola.com/",
+      "findings": [
+        {
+          "kind": "COUNT",
+          "probe": "banner",
+          "msg": "2 → 3 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "banner",
+          "msg": "rect{h 600 → 596}; heading h2 montserrat 48px/56px 600 rgb(0, 0, 0) → h2 montserrat 48px/56px 600 rgb(248, 246, 246); image{h 600 → 596}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "reco",
+          "msg": "rect{h 371 → 438}; heading h3 montserrat 22px/28px 700 rgb(0, 0, 0) → h2 montserrat 48px/56px 600 rgb(0, 0, 0)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "tiles",
+          "msg": "rect{h 660 → 1340}; padding 0px 10px 10px 10px → 10px 10px 10px 10px; heading h4 montserrat 36px/40px 700 rgb(255, 255, 255) → h4 montserrat 32px/40px 700 rgb(255, 255, 255)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "trend",
+          "msg": "rect{h 672 → 712}; padding 40px 35px 20px 35px → 60px 35px 0px 35px"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "gallery",
+          "msg": "rect{h 364 → 355}; image{w 495 → 478, h 270 → 261}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "news",
+          "msg": "rect{h 308 → 232}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "legal",
+          "msg": "rect{h 101 → 136}"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "banner": {
+            "sel": ".banner-container",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 596
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(248, 246, 246)",
+              "image": {
+                "w": 1435,
+                "h": 596
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "holiday dealsleaked early…Up to $700 off and FREE moto thing"
+          },
+          "reco": {
+            "sel": ".moto-recommendations-v2",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 438
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 20px 16px 22px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 187,
+                "h": 187
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Recommendationsmotorola razr fold - 2026specialsBuy nowmotor"
+          },
+          "hcar": {
+            "sel": ".homeCarousel",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 639
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(255, 255, 255)",
+              "image": {
+                "w": 1313,
+                "h": 553
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Active pen within reachLearn moreMake it iconicFlexible desi"
+          },
+          "tiles": {
+            "sel": ".gridLayoulSectionWrapper",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 1340
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "10px 10px 10px 10px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h4 montserrat 32px/40px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 700,
+                "h": 650
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Find your edgeElevate every moment with edge.Shop edgeStylis"
+          },
+          "trend": {
+            "sel": ".moto-trendings-v2",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 712
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "60px 35px 0px 35px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+              "image": {
+                "w": 205,
+                "h": 205
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Find your perfect matchPhotographersGamersContent creatorsAd"
+          },
+          "gallery": {
+            "sel": ".catch-allv3-carousel-container",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 355
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 0px 20px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 478,
+                "h": 261
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Learn moreThe official smartphone partner of FIFALearn moreG"
+          },
+          "news": {
+            "sel": ".newsLetterContainer",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 232
+              },
+              "backgroundLayers": [
+                "url(…)"
+              ],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 20px 40px 20px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Don't miss anything!Subscribe now!I agree to receive product"
+          },
+          "legal": {
+            "sel": ".moto-cms-legal",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1435,
+                "h": 136
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(0, 20, 40)",
+              "padding": "0px 0px 0px 0px",
+              "font": "montserrat 16px/normal 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Leak Sale Deals good from November 2nd at 12:01 a.m. CDT thr"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "banner",
+      "reco",
+      "tiles",
+      "trend",
+      "gallery",
+      "news",
+      "legal"
+    ]
+  }
+}

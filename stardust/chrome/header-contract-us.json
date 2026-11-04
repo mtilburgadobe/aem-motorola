@@ -1,0 +1,2353 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.motorola.com/us/en/homepage",
+ "at": "2026-11-03T13:47:08.755Z",
+ "shots": "stardust/.work/chrome/header-contract-us",
+ "widths": {
+  "390": {
+   "root": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "LEAK SALE DEALS. SHOP NOW!",
+     "key": "leak sale deals shop now",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div>div>a",
+     "href": "https://www.motorola.com/us/en/specials",
+     "expanded": null,
+     "rect": [
+      63,
+      0,
+      264,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "smartphones × ALL PHONES razr edge moto g tablets All smartphones switch to moto",
+     "key": "smartphones all phones razr edge moto g tablets all smartphones switch to moto",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      38,
+      19,
+      151,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALL PHONES",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/us/en/family/razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/us/en/family/edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/us/en/family/g"
+         },
+         {
+          "text": "tablets",
+          "href": "https://www.motorola.com/us/en/family/tablet"
+         },
+         {
+          "text": "All smartphones",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "motorola razr fold",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US"
+         },
+         {
+          "text": "motorola edge - 2025",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         },
+         {
+          "text": "Compare phones",
+          "href": "https://www.motorola.com/us/en/compare/"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-001-smartphones-ALL-PHONES-razr-edge-moto-g-.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-0>button",
+       "expanded": null,
+       "rect": [
+        338,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      },
+      {
+       "name": "Compare phones",
+       "key": "compare phones",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div>div>a",
+       "href": "https://www.motorola.com/us/en/compare/",
+       "expanded": null,
+       "rect": [
+        246,
+        533,
+        164,
+        20
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "business × business enquiry solutions moto for business thinkshield B2B Inquiry ",
+     "key": "business business enquiry solutions moto for business thinkshield b2b inquiry",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      205,
+      19,
+      113,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "business",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "enquiry",
+          "href": "https://www.motorola.com/us/en/b2b-inquiry"
+         },
+         {
+          "text": "solutions",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "moto for business",
+          "href": "https://www.motorola.com/us/en/business"
+         }
+        ],
+        "headings": [],
+        "images": 1,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-002-business-business-enquiry-solutions-moto.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-1>button",
+       "expanded": null,
+       "rect": [
+        338,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 6
+        },
+        "key": {
+         "opened": false,
+         "hides": 6
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "accessories × ACCESSORIES earbuds chargers smartwatches tags cases stylus auto a",
+     "key": "accessories accessories earbuds chargers smartwatches tags cases stylus auto a",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      333,
+      19,
+      135,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ACCESSORIES",
+          "href": "https://www.motorola.com/us/en/family/moto-things-accessories"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/us/en/family/headphones"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/us/en/family/power-and-charger"
+         },
+         {
+          "text": "smartwatches",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/us/en/family/moto-tags"
+         },
+         {
+          "text": "cases",
+          "href": "https://www.motorola.com/us/en/family/all-cases-and-protection"
+         },
+         {
+          "text": "stylus",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "auto accessories",
+          "href": "https://www.motorola.com/us/en/family/auto-accessories"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "moto watch",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "390-003-accessories-ACCESSORIES-earbuds-chargers.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-2>button",
+       "expanded": null,
+       "rect": [
+        338,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 3,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "LEAK SALE DEALS. SHOP NOW!",
+     "key": "leak sale deals shop now",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div>div>a",
+     "href": "https://www.motorola.com/us/en/specials",
+     "expanded": null,
+     "rect": [
+      588,
+      0,
+      264,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Motorola Homepage",
+     "key": "motorola homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.motorola.com/us/en/homepage",
+     "expanded": null,
+     "rect": [
+      20,
+      59,
+      40,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "smartphones × ALL PHONES razr edge moto g tablets All smartphones switch to moto",
+     "key": "smartphones all phones razr edge moto g tablets all smartphones switch to moto",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      78,
+      19,
+      151,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALL PHONES",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/us/en/family/razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/us/en/family/edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/us/en/family/g"
+         },
+         {
+          "text": "tablets",
+          "href": "https://www.motorola.com/us/en/family/tablet"
+         },
+         {
+          "text": "All smartphones",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "motorola razr fold",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US"
+         },
+         {
+          "text": "motorola razr ultra - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjk44m3"
+         },
+         {
+          "text": "motorola edge - 2025",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         },
+         {
+          "text": "moto g stylus - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjg43mp"
+         },
+         {
+          "text": "Compare phones",
+          "href": "https://www.motorola.com/us/en/compare/"
+         },
+         {
+          "text": "FEATURED",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "razr ultra 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra/pmipmhn40ms"
+         },
+         {
+          "text": "g stylus 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/moto-g/g-stylus-gen-5/pmipmhl40me"
+         },
+         {
+          "text": "Leak Sale Deals",
+          "href": "https://www.motorola.com/us/en/specials"
+         },
+         {
+          "text": "compatibility",
+          "href": "https://www.motorola.com/us/en/carrier-compatibility"
+         },
+         {
+          "text": "Featured",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        }
+       ],
+       "shot": "1440-001-smartphones-ALL-PHONES-razr-edge-moto-g-.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALL PHONES",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/us/en/family/razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/us/en/family/edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/us/en/family/g"
+         },
+         {
+          "text": "tablets",
+          "href": "https://www.motorola.com/us/en/family/tablet"
+         },
+         {
+          "text": "All smartphones",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "motorola razr fold",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US"
+         },
+         {
+          "text": "motorola razr ultra - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjk44m3"
+         },
+         {
+          "text": "motorola edge - 2025",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         },
+         {
+          "text": "moto g stylus - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjg43mp"
+         },
+         {
+          "text": "Compare phones",
+          "href": "https://www.motorola.com/us/en/compare/"
+         },
+         {
+          "text": "FEATURED",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "razr ultra 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra/pmipmhn40ms"
+         },
+         {
+          "text": "g stylus 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/moto-g/g-stylus-gen-5/pmipmhl40me"
+         },
+         {
+          "text": "Leak Sale Deals",
+          "href": "https://www.motorola.com/us/en/specials"
+         },
+         {
+          "text": "compatibility",
+          "href": "https://www.motorola.com/us/en/carrier-compatibility"
+         },
+         {
+          "text": "Featured",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-002-smartphones-ALL-PHONES-razr-edge-moto-g-.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-0>button",
+       "expanded": null,
+       "rect": [
+        1388,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 24,
+         "panel": {
+          "links": [
+           {
+            "text": "ACCESSORIES",
+            "href": "https://www.motorola.com/us/en/family/moto-things-accessories"
+           },
+           {
+            "text": "earbuds",
+            "href": "https://www.motorola.com/us/en/family/headphones"
+           },
+           {
+            "text": "chargers",
+            "href": "https://www.motorola.com/us/en/family/power-and-charger"
+           },
+           {
+            "text": "smartwatches",
+            "href": "https://www.motorola.com/us/en/family/wearables"
+           },
+           {
+            "text": "tags",
+            "href": "https://www.motorola.com/us/en/family/moto-tags"
+           },
+           {
+            "text": "cases",
+            "href": "https://www.motorola.com/us/en/family/all-cases-and-protection"
+           },
+           {
+            "text": "stylus",
+            "href": "https://www.motorola.com/us/en/p/pg38c08252"
+           },
+           {
+            "text": "auto accessories",
+            "href": "https://www.motorola.com/us/en/family/auto-accessories"
+           },
+           {
+            "text": "moto pen ultra",
+            "href": "https://www.motorola.com/us/en/p/pg38c08252"
+           },
+           {
+            "text": "moto buds 2 plus - Swarovski Edition",
+            "href": "https://www.motorola.com/us/en/p/pg38c08989"
+           },
+           {
+            "text": "moto watch",
+            "href": "https://www.motorola.com/us/en/family/wearables"
+           },
+           {
+            "text": "moto tag",
+            "href": "https://www.motorola.com/us/en/family/moto-tags"
+           }
+          ],
+          "headings": [],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Close menu"
+          ],
+          "options": 0,
+          "rect": [
+           106,
+           19,
+           1314,
+           495
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg.arrow"
+          }
+         ],
+         "shot": "1440-003-Close-menu-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "hides": 24
+        },
+        "key": {
+         "opened": false,
+         "hides": 24
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": [
+        {
+         "name": "Close menu",
+         "key": "close menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mega-menu-2>button",
+         "expanded": null,
+         "rect": [
+          1388,
+          103,
+          32,
+          32
+         ],
+         "actions": {
+          "hover": null,
+          "click": {
+           "opened": false,
+           "hides": 17
+          },
+          "key": {
+           "opened": false,
+           "hides": 17
+          }
+         }
+        }
+       ]
+      },
+      {
+       "name": "Compare phones",
+       "key": "compare phones",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div>div>a",
+       "href": "https://www.motorola.com/us/en/compare/",
+       "expanded": null,
+       "rect": [
+        272,
+        533,
+        164,
+        20
+       ],
+       "actions": {}
+      },
+      {
+       "name": "FEATURED",
+       "key": "featured",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-0>div>div:nth-of-type(2)>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        894,
+        110,
+        91,
+        23
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 24,
+         "panel": {
+          "links": [
+           {
+            "text": "business",
+            "href": "https://www.motorola.com/us/en/business"
+           },
+           {
+            "text": "enquiry",
+            "href": "https://www.motorola.com/us/en/b2b-inquiry"
+           },
+           {
+            "text": "solutions",
+            "href": "https://www.motorola.com/us/en/business"
+           },
+           {
+            "text": "moto for business",
+            "href": "https://www.motorola.com/us/en/business"
+           },
+           {
+            "text": "thinkshield",
+            "href": "https://www.motorola.com/us/en/thinkshield"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [
+           "Close menu"
+          ],
+          "options": 0,
+          "rect": [
+           106,
+           19,
+           1314,
+           458
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg.arrow"
+          }
+         ],
+         "shot": "1440-004-FEATURED-hover.png"
+        },
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 24
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": [
+        {
+         "name": "Close menu",
+         "key": "close menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mega-menu-1>button",
+         "expanded": null,
+         "rect": [
+          1388,
+          103,
+          32,
+          32
+         ],
+         "actions": {
+          "hover": null,
+          "click": {
+           "opened": false,
+           "hides": 8
+          },
+          "key": {
+           "opened": false,
+           "hides": 8
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "business × business enquiry solutions moto for business thinkshield B2B Inquiry ",
+     "key": "business business enquiry solutions moto for business thinkshield b2b inquiry",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      245,
+      19,
+      113,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "business",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "enquiry",
+          "href": "https://www.motorola.com/us/en/b2b-inquiry"
+         },
+         {
+          "text": "solutions",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "moto for business",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "thinkshield",
+          "href": "https://www.motorola.com/us/en/thinkshield"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.carousel__track"
+        }
+       ],
+       "shot": "1440-005-business-business-enquiry-solutions-moto.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "business",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "enquiry",
+          "href": "https://www.motorola.com/us/en/b2b-inquiry"
+         },
+         {
+          "text": "solutions",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "moto for business",
+          "href": "https://www.motorola.com/us/en/business"
+         },
+         {
+          "text": "thinkshield",
+          "href": "https://www.motorola.com/us/en/thinkshield"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-006-business-business-enquiry-solutions-moto.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-1>button",
+       "expanded": null,
+       "rect": [
+        1388,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 8,
+         "panel": {
+          "links": [
+           {
+            "text": "HOME DEVICES",
+            "href": "javascript:void(0)"
+           },
+           {
+            "text": "modems + routers",
+            "href": "https://www.motorola.com/us/en/family/modems-networking"
+           },
+           {
+            "text": "home and office phones",
+            "href": "https://www.motorola.com/us/en/family/home-office-phones"
+           },
+           {
+            "text": "smart nursery & monitors",
+            "href": "https://www.motorola.com/us/en/family/smart-monitors"
+           },
+           {
+            "text": "Motorola ML25055",
+            "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+           },
+           {
+            "text": "Motorola ML25260",
+            "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+           },
+           {
+            "text": "Motorola CT610",
+            "href": "https://www.motorola.com/us/en/p/motorolact610"
+           },
+           {
+            "text": "PIP1610-2 HD CONNECT 5.0\" Wi-fi Video Baby Monitor",
+            "href": "https://www.motorola.com/us/en/p/pip16102"
+           }
+          ],
+          "headings": [],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Close menu"
+          ],
+          "options": 0,
+          "rect": [
+           106,
+           19,
+           1314,
+           495
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg.arrow"
+          }
+         ],
+         "shot": "1440-007-Close-menu-hover.png"
+        },
+        "click": {
+         "opened": false,
+         "hides": 8
+        },
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": [
+        {
+         "name": "Close menu",
+         "key": "close menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mega-menu-3>button",
+         "expanded": null,
+         "rect": [
+          1388,
+          103,
+          32,
+          32
+         ],
+         "actions": {
+          "hover": null,
+          "click": {
+           "opened": false,
+           "hides": 13
+          },
+          "key": {
+           "opened": false,
+           "hides": 13
+          }
+         }
+        },
+        {
+         "name": "HOME DEVICES",
+         "key": "home devices",
+         "role": "toggle",
+         "kind": "menu",
+         "sel": "#mega-menu-3>div>div:nth-of-type(1)>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+         "expanded": null,
+         "rect": [
+          106,
+          110,
+          130,
+          23
+         ],
+         "actions": {
+          "hover": null,
+          "click": null,
+          "key": {
+           "opened": false,
+           "hides": 13
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "accessories × ACCESSORIES earbuds chargers smartwatches tags cases stylus auto a",
+     "key": "accessories accessories earbuds chargers smartwatches tags cases stylus auto a",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      373,
+      19,
+      135,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ACCESSORIES",
+          "href": "https://www.motorola.com/us/en/family/moto-things-accessories"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/us/en/family/headphones"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/us/en/family/power-and-charger"
+         },
+         {
+          "text": "smartwatches",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/us/en/family/moto-tags"
+         },
+         {
+          "text": "cases",
+          "href": "https://www.motorola.com/us/en/family/all-cases-and-protection"
+         },
+         {
+          "text": "stylus",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "auto accessories",
+          "href": "https://www.motorola.com/us/en/family/auto-accessories"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "moto buds 2 plus - Swarovski Edition",
+          "href": "https://www.motorola.com/us/en/p/pg38c08989"
+         },
+         {
+          "text": "moto watch",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         },
+         {
+          "text": "moto tag",
+          "href": "https://www.motorola.com/us/en/family/moto-tags"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        }
+       ],
+       "shot": "1440-008-accessories-ACCESSORIES-earbuds-chargers.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ACCESSORIES",
+          "href": "https://www.motorola.com/us/en/family/moto-things-accessories"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/us/en/family/headphones"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/us/en/family/power-and-charger"
+         },
+         {
+          "text": "smartwatches",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/us/en/family/moto-tags"
+         },
+         {
+          "text": "cases",
+          "href": "https://www.motorola.com/us/en/family/all-cases-and-protection"
+         },
+         {
+          "text": "stylus",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "auto accessories",
+          "href": "https://www.motorola.com/us/en/family/auto-accessories"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/us/en/p/pg38c08252"
+         },
+         {
+          "text": "moto buds 2 plus - Swarovski Edition",
+          "href": "https://www.motorola.com/us/en/p/pg38c08989"
+         },
+         {
+          "text": "moto watch",
+          "href": "https://www.motorola.com/us/en/family/wearables"
+         },
+         {
+          "text": "moto tag",
+          "href": "https://www.motorola.com/us/en/family/moto-tags"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-009-accessories-ACCESSORIES-earbuds-chargers.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-2>button",
+       "expanded": null,
+       "rect": [
+        1388,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 17
+        },
+        "key": {
+         "opened": false,
+         "hides": 17
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "home devices × HOME DEVICES modems + routers home and office phones smart nurser",
+     "key": "home devices home devices modems routers home and office phones smart nurser",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(4)",
+     "expanded": "false",
+     "rect": [
+      525,
+      19,
+      155,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "HOME DEVICES",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "modems + routers",
+          "href": "https://www.motorola.com/us/en/family/modems-networking"
+         },
+         {
+          "text": "home and office phones",
+          "href": "https://www.motorola.com/us/en/family/home-office-phones"
+         },
+         {
+          "text": "smart nursery & monitors",
+          "href": "https://www.motorola.com/us/en/family/smart-monitors"
+         },
+         {
+          "text": "Motorola ML25055",
+          "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+         },
+         {
+          "text": "Motorola ML25260",
+          "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+         },
+         {
+          "text": "Motorola CT610",
+          "href": "https://www.motorola.com/us/en/p/motorolact610"
+         },
+         {
+          "text": "PIP1610-2 HD CONNECT 5.0\" Wi-fi Video Baby Monitor",
+          "href": "https://www.motorola.com/us/en/p/pip16102"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.carousel__track"
+        }
+       ],
+       "shot": "1440-010-home-devices-HOME-DEVICES-modems-routers.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "HOME DEVICES",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "modems + routers",
+          "href": "https://www.motorola.com/us/en/family/modems-networking"
+         },
+         {
+          "text": "home and office phones",
+          "href": "https://www.motorola.com/us/en/family/home-office-phones"
+         },
+         {
+          "text": "smart nursery & monitors",
+          "href": "https://www.motorola.com/us/en/family/smart-monitors"
+         },
+         {
+          "text": "Motorola ML25055",
+          "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+         },
+         {
+          "text": "Motorola ML25260",
+          "href": "https://www.motorola.com/us/en/p/motorolaml25260"
+         },
+         {
+          "text": "Motorola CT610",
+          "href": "https://www.motorola.com/us/en/p/motorolact610"
+         },
+         {
+          "text": "PIP1610-2 HD CONNECT 5.0\" Wi-fi Video Baby Monitor",
+          "href": "https://www.motorola.com/us/en/p/pip16102"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-011-home-devices-HOME-DEVICES-modems-routers.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-3>button",
+       "expanded": null,
+       "rect": [
+        1388,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 13
+        },
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       }
+      },
+      {
+       "name": "HOME DEVICES",
+       "key": "home devices",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-3>div>div:nth-of-type(1)>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        106,
+        110,
+        130,
+        23
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 13,
+         "panel": {
+          "links": [
+           {
+            "text": "ACCESSORIES",
+            "href": "https://www.motorola.com/us/en/family/moto-things-accessories"
+           },
+           {
+            "text": "earbuds",
+            "href": "https://www.motorola.com/us/en/family/headphones"
+           },
+           {
+            "text": "chargers",
+            "href": "https://www.motorola.com/us/en/family/power-and-charger"
+           },
+           {
+            "text": "smartwatches",
+            "href": "https://www.motorola.com/us/en/family/wearables"
+           },
+           {
+            "text": "tags",
+            "href": "https://www.motorola.com/us/en/family/moto-tags"
+           },
+           {
+            "text": "cases",
+            "href": "https://www.motorola.com/us/en/family/all-cases-and-protection"
+           },
+           {
+            "text": "stylus",
+            "href": "https://www.motorola.com/us/en/p/pg38c08252"
+           },
+           {
+            "text": "auto accessories",
+            "href": "https://www.motorola.com/us/en/family/auto-accessories"
+           },
+           {
+            "text": "moto pen ultra",
+            "href": "https://www.motorola.com/us/en/p/pg38c08252"
+           },
+           {
+            "text": "moto buds 2 plus - Swarovski Edition",
+            "href": "https://www.motorola.com/us/en/p/pg38c08989"
+           },
+           {
+            "text": "moto watch",
+            "href": "https://www.motorola.com/us/en/family/wearables"
+           },
+           {
+            "text": "moto tag",
+            "href": "https://www.motorola.com/us/en/family/moto-tags"
+           }
+          ],
+          "headings": [],
+          "images": 4,
+          "inputs": [],
+          "buttons": [
+           "Close menu"
+          ],
+          "options": 0,
+          "rect": [
+           106,
+           19,
+           1314,
+           495
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "svg.arrow"
+          }
+         ],
+         "shot": "1440-012-HOME-DEVICES-hover.png"
+        },
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 13
+        }
+       },
+       "close": {
+        "escape": false,
+        "focusReturn": false,
+        "outside": true,
+        "leave": true
+       },
+       "children": [
+        {
+         "name": "Close menu",
+         "key": "close menu",
+         "role": "toggle",
+         "kind": "drawer",
+         "sel": "#mega-menu-2>button",
+         "expanded": null,
+         "rect": [
+          1388,
+          103,
+          32,
+          32
+         ],
+         "actions": {
+          "hover": null,
+          "click": {
+           "opened": false,
+           "hides": 17
+          },
+          "key": {
+           "opened": false,
+           "hides": 17
+          }
+         }
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "videos",
+     "key": "videos",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>ul>li:nth-of-type(5)>a",
+     "href": "https://www.motorola.com/us/en/videopage",
+     "expanded": null,
+     "rect": [
+      704,
+      38,
+      55,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "software & support × Services moto care moto parts Support order lookup contact ",
+     "key": "software support services moto care moto parts support order lookup contact",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div:nth-of-type(2)>ul>li",
+     "expanded": "false",
+     "rect": [
+      1039,
+      19,
+      199,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Services",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "moto care",
+          "href": "https://www.motorola.com/us/en/moto-care"
+         },
+         {
+          "text": "moto parts",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "Support",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "order lookup",
+          "href": "https://www.motorola.com/us/en/trackmyorder"
+         },
+         {
+          "text": "contact us",
+          "href": "https://en-us.support.motorola.com/app/mcp/contactus"
+         },
+         {
+          "text": "product support",
+          "href": "https://en-us.support.motorola.com/app/home"
+         },
+         {
+          "text": "repair",
+          "href": "https://en-us.support.motorola.com/app/repair-faqs"
+         },
+         {
+          "text": "repair status",
+          "href": "https://en-us.support.motorola.com/app/repair-faqs/category/how-track-service"
+         },
+         {
+          "text": "E-Sim Info",
+          "href": "https://www.motorola.com/us/en/motorola-esim"
+         },
+         {
+          "text": "Software",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "software fix",
+          "href": "https://en-us.support.motorola.com/app/softwarefix"
+         },
+         {
+          "text": "software updates",
+          "href": "https://en-us.support.motorola.com/app/software-upgrade/g_id/1949/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         475
+        ]
+       },
+       "expanded": "false",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.carousel__track"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        }
+       ],
+       "shot": "1440-013-software-support-Services-moto-care-moto.png"
+      },
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALL PHONES",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/us/en/family/razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/us/en/family/edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/us/en/family/g"
+         },
+         {
+          "text": "tablets",
+          "href": "https://www.motorola.com/us/en/family/tablet"
+         },
+         {
+          "text": "All smartphones",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "motorola razr fold",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US"
+         },
+         {
+          "text": "motorola razr ultra - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjk44m3"
+         },
+         {
+          "text": "motorola edge - 2025",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         },
+         {
+          "text": "moto g stylus - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjg43mp"
+         },
+         {
+          "text": "Compare phones",
+          "href": "https://www.motorola.com/us/en/compare/"
+         },
+         {
+          "text": "FEATURED",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "razr ultra 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra/pmipmhn40ms"
+         },
+         {
+          "text": "g stylus 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/moto-g/g-stylus-gen-5/pmipmhl40me"
+         },
+         {
+          "text": "Leak Sale Deals",
+          "href": "https://www.motorola.com/us/en/specials"
+         },
+         {
+          "text": "compatibility",
+          "href": "https://www.motorola.com/us/en/carrier-compatibility"
+         },
+         {
+          "text": "Featured",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         19,
+         1342,
+         534
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 299,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.arrow"
+        }
+       ],
+       "shot": "1440-014-software-support-Services-moto-care-moto.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALL PHONES",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/us/en/family/razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/us/en/family/edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/us/en/family/g"
+         },
+         {
+          "text": "tablets",
+          "href": "https://www.motorola.com/us/en/family/tablet"
+         },
+         {
+          "text": "All smartphones",
+          "href": "https://www.motorola.com/us/en/smartphones"
+         },
+         {
+          "text": "switch to moto",
+          "href": "https://www.motorola.com/us/en/switch"
+         },
+         {
+          "text": "motorola razr fold",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US"
+         },
+         {
+          "text": "motorola razr ultra - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjk44m3"
+         },
+         {
+          "text": "motorola edge - 2025",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         },
+         {
+          "text": "moto g stylus - 2026",
+          "href": "https://www.motorola.com/us/en/p/pmipmjg43mp"
+         },
+         {
+          "text": "Compare phones",
+          "href": "https://www.motorola.com/us/en/compare/"
+         },
+         {
+          "text": "FEATURED",
+          "href": "javascript:void(0)"
+         },
+         {
+          "text": "razr ultra 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra/pmipmhn40ms"
+         },
+         {
+          "text": "g stylus 2025 offer",
+          "href": "https://www.motorola.com/us/en/p/phones/moto-g/g-stylus-gen-5/pmipmhl40me"
+         },
+         {
+          "text": "Leak Sale Deals",
+          "href": "https://www.motorola.com/us/en/specials"
+         },
+         {
+          "text": "compatibility",
+          "href": "https://www.motorola.com/us/en/carrier-compatibility"
+         },
+         {
+          "text": "Featured",
+          "href": "https://www.motorola.com/us/en/p/pmipmhp40mv"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [
+         "Close menu"
+        ],
+        "options": 0,
+        "rect": [
+         78,
+         19,
+         1342,
+         534
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [],
+       "shot": "1440-015-software-support-Services-moto-care-moto.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Close menu",
+       "key": "close menu",
+       "role": "toggle",
+       "kind": "drawer",
+       "sel": "#mega-menu-0>button",
+       "expanded": null,
+       "rect": [
+        1388,
+        103,
+        32,
+        32
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 24
+        },
+        "key": {
+         "opened": false,
+         "hides": 24
+        }
+       }
+      },
+      {
+       "name": "Compare phones",
+       "key": "compare phones",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>div>div>a",
+       "href": "https://www.motorola.com/us/en/compare/",
+       "expanded": null,
+       "rect": [
+        272,
+        533,
+        164,
+        20
+       ],
+       "actions": {}
+      },
+      {
+       "name": "FEATURED",
+       "key": "featured",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-0>div>div:nth-of-type(2)>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        894,
+        110,
+        91,
+        23
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 24
+        },
+        "key": {
+         "opened": false,
+         "hides": 24
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Open search",
+     "key": "open search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      1267,
+      35,
+      37,
+      38
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Go to Cart Page, cart is empty",
+     "key": "go to cart page cart is empty",
+     "role": "link",
+     "kind": "cart",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>a",
+     "href": "https://www.motorola.com/us/en/cart",
+     "expanded": null,
+     "rect": [
+      1325,
+      53,
+      32,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "account",
+     "key": "account",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>div:nth-of-type(2)>div:nth-of-type(1)>div:nth-of-type(1)>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>div>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      1378,
+      38,
+      32,
+      32
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sign in / Create Account",
+          "href": "https://account.motorola.com/us/en/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1298,
+         70,
+         142,
+         55
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.login-modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.login-modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.carousel__track"
+        }
+       ],
+       "shot": "1440-016-account-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Sign in / Create Account",
+          "href": "https://account.motorola.com/us/en/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1298,
+         70,
+         142,
+         55
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.login-modal"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.login-modal"
+        }
+       ],
+       "shot": "1440-017-account-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 17,
+   "truncated": null,
+   "loads": 3
+  }
+ },
+ "probe": "leak"
+}

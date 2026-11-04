@@ -1,0 +1,702 @@
+{
+ "source": "http://localhost:8771/at-de-homepage-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Bis zu 27% Rabatt auf ausgewählte moto g Modelle"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zeitlich begrenztes Angebot. Gültig bis zum 8. November."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Jetzt kaufen",
+     "href": "https://www.motorola.com/at/de/offers"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Unser bisher fortschrittlichstes Smartphone"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "setzt neue Maßstabe – mit Snapdragon 8 Elite Extreme Gen 6, Bang & Olufsen Audio und einem 200-MP-Periskop-Teleobjektiv."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "motorola signature 27"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "®"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr erfahren in",
+     "href": "https://www.motorola.com/at/de/motorola-signature/motorola-signature-2027"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "reco",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "motorola edge 70 max"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Angebote",
+     "href": "/at/de/offers"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Angebote",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0000GB"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0000GB"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2725834"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "motorola razr 70 ultra"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Angebote",
+     "href": "/at/de/offers"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Angebote",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-ultra/pmipmjk44m2?pn=PBB20000GB"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-ultra/pmipmjk44m2?pn=PBB20000GB"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2631202"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "motorola razr 70 plus"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Angebote",
+     "href": "/at/de/offers"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Angebote",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-plus/pmipmjq45m3?pn=PBCF0000GB"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/razr/razr-70-plus/pmipmjq45m3?pn=PBCF0000GB"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2627933"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "motorola edge 70 pro"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Angebote",
+     "href": "/at/de/offers"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Angebote",
+     "href": ""
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20000GB"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Jetzt kaufen",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20000GB"
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2648502"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.reco__card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 5,
+      "imgs": 3,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hcar",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Für jeden Moment in Form"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Sag Hallo zur . Immer verbunden und unverkennbar hochwertig – mit Fitness-Tracking von Polar."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "moto watch ultra"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "1"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mehr erfahren",
+     "href": "https://www.motorola.com/at/de/p/PWIPWIA11W5"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Grenzenlos strahlen"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Entdecke Motorola Collections mit – unverwechselbare Geräte und Accessoires, die auffallen."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Swarovski Kristallen"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "®"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Razr 70",
+     "href": "https://www.motorola.com/at/de/p/pmipmjl44m6"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Motorola Signature",
+     "href": "https://www.motorola.com/at/de/p/pmipmje43mc"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.hcar__slide",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "tiles",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Find your edge"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mit edge wird jeder Moment perfekt."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "edge kaufen",
+     "href": "https://www.motorola.com/at/de/family/moto-edge"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Stylisch und robust zugleich"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Manage deinen Tag stylisch mit dem moto g."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "moto G kaufen",
+     "href": "https://www.motorola.com/at/de/family/moto-g"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tile",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "tiles",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Pantone™-Farbe des Jahres 2026"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "PANTONE Cloud Dancer, jetzt für edge."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/pantone"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Die smartere Art einzukaufen"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Kaufe auf motorola.com und hol mehr aus deinem Gerät heraus."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "MEHR ERFAHREN",
+     "href": "https://www.motorola.com/at/de/why-moto"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tile",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "trend",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Finde dein passendes Smartphone"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fotografer"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Gamer"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Content creator"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Abenteurer"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "motorola edge 70 max"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-max/pmipmjt45mc?pn=PBCU0004SE"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2725834"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "motorola edge 70 pro"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70-pro/pmipmjp44mp?pn=PBC20089SE"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2648502"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "motorola edge 70"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Mehr erfahren",
+     "href": "/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Produktdatenblatt",
+     "href": "https://eprel.ec.europa.eu/qr/2464250"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.trend__card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 2,
+      "imgs": 3,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "gallery",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/pantone"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Zeig deinen style mit antone™"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/euroleague"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Motorola nimmt an der EuroLeague teil"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/formula-1"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Motorola steht in der startaufstellung der formel 1"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Erfahre mehr",
+     "href": "https://blog.motorola.co.uk/motorola-and-euroleague-basketballs-one-team-partner/"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Mit bounce for good veränderungen bewirken"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/pantone"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Zeig deinen style mit antone™"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/euroleague"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Motorola nimmt an der EuroLeague teil"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/formula-1"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Motorola steht in der startaufstellung der formel 1"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Erfahre mehr",
+     "href": "https://blog.motorola.co.uk/motorola-and-euroleague-basketballs-one-team-partner/"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Mit bounce for good veränderungen bewirken"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/pantone"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Zeig deinen style mit antone™"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/euroleague"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Motorola nimmt an der EuroLeague teil"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Erfahre mehr",
+     "href": "https://www.motorola.com/at/de/motoverse/formula-1"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Motorola steht in der startaufstellung der formel 1"
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "Erfahre mehr",
+     "href": "https://blog.motorola.co.uk/motorola-and-euroleague-basketballs-one-team-partner/"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Mit bounce for good veränderungen bewirken"
+    }
+   ],
+   "imgCount": 12,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.gallery__slide",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "news",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Melde dich für unseren Newsletter an und erhalte einen 10%-Rabattgutschein für deinen nächsten Einkauf *"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Senden"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ich bin damit einverstanden, Produktinformationen und Angebote von Motorola per E-Mail zu erhalten und bestätige mindestens 16 Jahre oder älter zu sein. * Gültig nur für Erstregistrierungen und ausschließlich anwendbar auf den Kauf von Smartphones. Nicht mit anderen Rabatten oder Gutscheinen kombinierbar."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Datenschutzerklärung",
+     "href": "https://www.motorola.com/at/de/legal/privacy-policy"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": []
+  },
+  {
+   "section": "legal",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Rechtlicher Hinweis"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Aktion gültig bis zum 25. Oktober 2026 für ausgewählte Motorola-Geräte, solange der Vorrat reicht. Nicht mit anderen Aktionen kombinierbar. Die Aktionsbedingungen können jederzeit geändert werden."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

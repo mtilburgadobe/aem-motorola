@@ -1,0 +1,62 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "static",
+        "campaign",
+        "program"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-03T15:13:11Z",
+      "endedAt": "2026-11-03T15:13:22Z",
+      "verdict": "plan: 4 archetypes Path A rendered (rendered 4, unchanged 0, refused 0, passthrough 0); 6 siblings Path A′ queued behind their archetype units"
+    },
+    "landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T18:49:49.787Z",
+      "endedAt": "2026-11-03T20:13:53.000Z",
+      "verdict": "rendered 1 (index, US home) Path A′ from the landing archetype"
+    },
+    "program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T18:56:11.931Z",
+      "endedAt": "2026-11-03T19:53:46.780Z",
+      "verdict": "rendered 2 (brilliant-collection-2026, brilliant-collection), refused 0"
+    },
+    "static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-03T16:43:06.733Z",
+      "endedAt": "2026-11-03T18:19:28.464Z",
+      "verdict": "rendered 2 (motoverse, business-edition), refused 0"
+    },
+    "campaign": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "campaign"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-03T18:15:54.429Z",
+      "endedAt": "2026-11-03T18:49:24.385Z",
+      "verdict": "rendered 1 (contest), refused 0"
+    }
+  }
+}

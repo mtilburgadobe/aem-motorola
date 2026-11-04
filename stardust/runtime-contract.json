@@ -1,0 +1,45 @@
+{
+  "runtime": "vanilla-eds",
+  "probedFrom": ["scripts/scripts.js", "scripts/aem.js", "blocks/fragment/fragment.js"],
+  "probedAt": "2026-11-03",
+  "blockWrapperClass": "block",
+  "blockDom": "div.section.<name>-container > div.<name>-wrapper > div.<name>.block[data-block-name]; default content in div.default-content-wrapper",
+  "buttonClasses": "a.button + .primary (strong) / .secondary (em) / .accent (strong+em), parent p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonizationNotes": "decorateButtons() matches p a[href] only, alone in its <p>, not containing an <img>, emphasis must be an ANCESTOR of the <a> (<strong><a>); <a><strong>text</strong></a> stays a plain link",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "fragmentLoader": "blocks/fragment/fragment.js loadFragment(path): fetch <path>.plain.html, decorateMain() (buttons decorate inside fragments too), loadSections()",
+  "sectionMetadata": "server-side (pipeline renders section-metadata style as classes; no client decorator in aem.js)",
+  "emptySectionCollapse": true,
+  "wrapTextNodes": true,
+  "headerReservation": "header { height: var(--nav-height) } = 88px at every width (fixed 19px promo + 69px bar, live contract scroll rows: height 88, position fixed, 390 and 1440)",
+  "chrome": {
+    "header": "blocks/header — template-slotted from the nav document; mega menus = nested lists",
+    "footer": "blocks/footer — template-slotted from the footer document",
+    "navResolution": "nav/footer page metadata wins (stock rule); otherwise the locale prefix of the page path: /<cc>/<ll>/… loads /<cc>/<ll>/nav and /<cc>/<ll>/footer; any other path (US root /) loads /nav and /footer",
+    "documents": {
+      "/at/de/nav": "AT header (locale de-AT)",
+      "/at/de/footer": "AT footer",
+      "/nav": "US header (locale en-US)",
+      "/footer": "US footer"
+    },
+    "navDocumentContract": [
+      "section 1: promo bar — one <p> holding the promo link (<a><strong>text</strong></a>, emphasis INSIDE the link so it is never buttonized)",
+      "section 2: brand — <p><a href=home><img logo></a></p>",
+      "section 3: main nav — one <ul>; an item whose label is a plain link is a nav link; an item with a text label and nested lists is a mega menu: first nested <ul> = left tab block, a following <ol> = right (featured) tab block; each tab = <li><a>tab</a><ul>…</ul></li>; inside a tab list an item WITH an image is a product card (<img> + <a>title</a>), an item WITHOUT an image is a 'more' link",
+      "section 4: tools — a <ul> of utility nav items (same item model as section 3, mega menus allowed), then <p><a href=cart><img cart icon></a></p>, <p><img account icon></p>, <p><a href=login>sign-in label</a></p>"
+    ],
+    "footerDocumentContract": [
+      "section 1: brand — <p>tip</p>, <p><img logo></p>",
+      "section 2: social — <p>title</p> + <ul> of <a><img icon></a> (section may be absent/empty: US)",
+      "section 3: locale — <p><a href=country-selector><img flag> label</a></p>",
+      "section 4: link columns — repeated <p><strong>column title</strong></p> + <ul> of links",
+      "section 5: legal copy — one or more <p> (blank line between paragraphs)"
+    ],
+    "footerVariant": "default = the AT/US program footer (un-padded 1170 rows, 16/50 link row, 176px columns, #ccc mobile dividers, 300px centred social). Page metadata 'Footer Variant | padded' restores the bootstrap-padded variant the live AT homepage serves (20px container padding, 170px columns, 340px mobile social shifted -32px).",
+    "robots": "every chrome document carries a metadata row Robots | noindex"
+  },
+  "locale": "scripts.js sets <html lang> from the path prefix: /at/de/ → de-AT, otherwise en-US",
+  "fonts": "Montserrat (OFL) self-hosted in fonts/ (latin, latin-ext, cyrillic, cyrillic-ext, vietnamese subsets; declared 400/500/700 like live), icomoon icon font (site icon glyphs); metric-matched montserrat-fallback (local Arial) in styles.css",
+  "breakpoints": "no DESIGN.json extensions.breakpoints.target — lint:breakpoints not wired; chrome uses the live steps 600 / 767 / 1024"
+}

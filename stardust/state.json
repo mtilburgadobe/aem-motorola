@@ -1,0 +1,578 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "writtenAt": "2026-11-03T15:11:58Z",
+    "stardustVersion": "0.36.1"
+  },
+  "site": {
+    "originUrl": "https://www.motorola.com/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-03T13:41:28.886Z",
+    "pageCap": null,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": {
+    "resolvedAt": "2026-11-03T13:56:33.267Z",
+    "phrase": "replica (preserve mode)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-03T13:41:28.886Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.motorola.com/",
+      "title": "Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US",
+      "type": "landing",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:40:19.754Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-homepage",
+      "url": "https://www.motorola.com/at/de/homepage",
+      "title": "Homepage Austria | Motorola | motorola AT",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:39:51.909Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-03T14:40:54Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T14:40:54Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-homepage.json",
+      "prototypePath": "stardust/prototypes/at-de-homepage-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-brilliant-collection-2026",
+      "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+      "title": "Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:36:12.237Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-brilliant-collection-2026.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-brilliant-collection",
+      "url": "https://www.motorola.com/at/de/brilliant-collection",
+      "title": "Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT",
+      "type": "program",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:41:04.126Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-brilliant-collection.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-motocare",
+      "url": "https://www.motorola.com/at/de/motocare",
+      "title": "Moto Care Garantieverlängerung | motorola AT | motorola AT",
+      "type": "static",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:28:47.476Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-03T14:59:25Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T14:59:25Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-motocare.json",
+      "prototypePath": "stardust/prototypes/at-de-motocare-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-motoverse",
+      "url": "https://www.motorola.com/at/de/motoverse",
+      "title": "motoverse | motorola AT",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:28:48.943Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-motoverse.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-offers",
+      "url": "https://www.motorola.com/at/de/offers",
+      "title": "offer | motorola AT",
+      "type": "campaign",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:28:55.460Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-03T15:05:20Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T15:05:21Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-offers.json",
+      "prototypePath": "stardust/prototypes/at-de-offers-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-business-edition",
+      "url": "https://www.motorola.com/at/de/business-edition",
+      "title": "Business Edition | motorola AT",
+      "type": "static",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:28:56.750Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-business-edition.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-contest",
+      "url": "https://www.motorola.com/at/de/contest",
+      "title": "Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT",
+      "type": "campaign",
+      "status": "directed",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:28:57.373Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-contest.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "at-de-razr-fold-fifa-world-cup-edition",
+      "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+      "title": "motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT",
+      "type": "program",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-03T13:29:04.722Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-03T13:56:33Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-03T15:11:58Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-03T15:11:58Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/at-de-razr-fold-fifa-world-cup-edition.json",
+      "prototypePath": "stardust/prototypes/at-de-razr-fold-fifa-world-cup-edition-proposed.html",
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-03T19:50:25Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/at/de/homepage",
+        "outputPath": "at/de/homepage/index.html",
+        "slug": "at-de-homepage",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/brilliant-collection-2026",
+        "outputPath": "at/de/brilliant-collection-2026/index.html",
+        "slug": "at-de-brilliant-collection-2026",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/brilliant-collection",
+        "outputPath": "at/de/brilliant-collection/index.html",
+        "slug": "at-de-brilliant-collection",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/motocare",
+        "outputPath": "at/de/motocare/index.html",
+        "slug": "at-de-motocare",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/motoverse",
+        "outputPath": "at/de/motoverse/index.html",
+        "slug": "at-de-motoverse",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/offers",
+        "outputPath": "at/de/offers/index.html",
+        "slug": "at-de-offers",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/business-edition",
+        "outputPath": "at/de/business-edition/index.html",
+        "slug": "at-de-business-edition",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/contest",
+        "outputPath": "at/de/contest/index.html",
+        "slug": "at-de-contest",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/at/de/razr-fold-fifa-world-cup-edition",
+        "outputPath": "at/de/razr-fold-fifa-world-cup-edition/index.html",
+        "slug": "at-de-razr-fold-fifa-world-cup-edition",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 161,
+    "bundledAssets": [
+      "at-de-homepage.css",
+      "at-de-homepage.js",
+      "at-de-motocare.css",
+      "at-de-offers.css",
+      "at-de-offers.js",
+      "at-de-razr-fold-fifa-world-cup-edition.css",
+      "at-de-razr-fold-fifa-world-cup-edition.js",
+      "canon.css",
+      "chrome.js",
+      "favicon.ico",
+      "fonts/icomoon.woff2",
+      "fonts/montserrat-cyrillic-ext.woff2",
+      "fonts/montserrat-cyrillic.woff2",
+      "fonts/montserrat-latin-ext.woff2",
+      "fonts/montserrat-latin.woff2",
+      "fonts/montserrat-vietnamese.woff2",
+      "media/02z526954bvw23mhk4u1xjm807cxj9005737.png",
+      "media/0s6z1kjxd2ienjvbqxea0obzca0oq1611078.png",
+      "media/14h701s7odjp2zjjgdikfmq6ujwacf939972.png",
+      "media/14vrl9jmbgs59uewg4ljihonde9gj3172008.webp",
+      "media/1jtcmm2e06m5r7383ytb05j169p9ab070890.webp",
+      "media/1omvajcazvfp30nrqey9dzdv3m018t313864.jpg",
+      "media/1te2443x5jkf74yrwmn2fmq5oso8qn632263.png",
+      "media/27645148346_motorola-g06-pdp-all-phones-tapestry-_202509300355331759224788173.png",
+      "media/27691032188_moto-g57-power-pdp-all-phones-pink-lemonade-vnzqgx20_202510220420391761128530061.png",
+      "media/28249861264_motoG67_202603040204051782297220563.png",
+      "media/28421289310_Moto_G17_Power_PANTONE_Alaskan_Blue_202604271140511777296933009.png",
+      "media/28884351958_PANTONE_Impenetrable_202606260549551782469260949.png",
+      "media/28908730184_g47_PANTONE_Impenetrable_202606290532531782827232629.png",
+      "media/28923467465_g37_power_PANTONE_Nautical_Blue_202607011203391782880968758.png",
+      "media/2bwrk1w7l4f9bhwafub327332utg2w303092.png",
+      "media/36sq0nv9pqgmkvz081rix2wgw3n9qy053337.png",
+      "media/3bbfw3w5oh6u23mk6wywv0lledc9xj708371.jpg",
+      "media/3hl539c1soczci9nwb9t21s9egglag663435.png",
+      "media/3npofk94rxh3qv7bg3nvy10dgjvtlz053888.jpg",
+      "media/48t65pxh3xnho8ml5lam1p9vo37o4h338558.png",
+      "media/4aba7bhon2lxtfzlzjq985wg6nic61443355.jpg",
+      "media/4eqvw4b20agsw9hbh6r8f0wjilo3mx680266.png",
+      "media/4kfpavbeabbmv9yasnhblblpo7h7d1407864.jpg",
+      "media/4yjjbubaltbgmv2ifsi4svwnt7a9q1343656.png",
+      "media/5lsech39koxflgb5vktqgh51p2sp9k820241.png",
+      "media/5pac1od5bynblwkap3wlm31j3ck6cc369037.png",
+      "media/6801gro3yfuqz8c3hsdeny7k13n4it642226.png",
+      "media/6ljnmie66yqfq80w61koymsdr33c41672900.png",
+      "media/6zuhitskrwexs3ch4tx5mb7rlizik2666152.png",
+      "media/7zl8w6szafm16cezqwwa173p6j71l6832727.png",
+      "media/93x15cb1q82ruol7viic66fjrzjrja018321.png",
+      "media/9ernxl3f9r4mjvo18whx1clw2f7v01532895.png",
+      "media/9mwdif70ojx978jsclm0b4brdiu7re341713.png",
+      "media/AT.png",
+      "media/Edge_60_neo_poinciana_bundle_product.png",
+      "media/Edge_70_Fusion_5200mah_orient_blue_bundle_product.png",
+      "media/Edge_70_Fusion_7000mah_silhouette_bundle_product.png",
+      "media/Edge_70_Plus_gray_lilac_bundle_product.png",
+      "media/Edge_70_cloud_dancer_bundle_product.png",
+      "media/Edge_70_max_dark_shadow_bundle_product.png",
+      "media/Edge_70_max_dark_shadow_moto_watch_fit_bundle_product.png",
+      "media/Edge_70_pro_chicory_coffee_bundle_product.png",
+      "media/Edge_70_pro_max_titan_moto_watch_fit_bundle_product.png",
+      "media/G_17_alaskan_blue_bundle_product.png",
+      "media/G_77_black_olive_bundle_product.png",
+      "media/G_87_overture_bundle_product.png",
+      "media/Razr-fold-FIFA-World-Cup-26-Collection-bundle-product.png",
+      "media/Razr-fold-PANTONE-Blackened-Blue-bundle-product.png",
+      "media/aebgthk31tu8ecbym1zg65n4hzzotl081945.png",
+      "media/b87ofytx8gjratkv8cjkeihdbz1yp2358708.png",
+      "media/bcxt10z6v2sjjqgdxcf7bxuj0s6us2893691.jpg",
+      "media/bfnqez44jnwth9al8lu99pt7704sto215138.png",
+      "media/d2g3atwm76toc46dvqbo21qrche6gy898421.png",
+      "media/d3140ivwvmojn33d7f7yin8ez5uvul289403.png",
+      "media/eaw3wqphm2jg4thoxuk5pki5uxhogd395090.png",
+      "media/esodpjmq3gh25hu1z1nnl2203df109528118.png",
+      "media/exzxo5yjz320qabtjllkxq4ulnh6dr946827.png",
+      "media/f37gbrva5c98vvthvxtj6xy6n69bw6981213.jpg",
+      "media/fe97cirgixah8lknq04398olnykuvp037696.png",
+      "media/fifa_2026_wave_2_logo_b_1_.png",
+      "media/fifa_razr_fold_fifa_heroes_poster_d.png",
+      "media/fifa_razr_fold_fusion_pdp_bundle_collection_dm_1_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_cmf_showcase_1_d_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_cmf_showcase_2_d_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_cmf_showcase_right_01_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_cmf_showcase_right_02_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_collection_hero_m_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_digital_experience_01_d_.png",
+      "media/fifa_razr_fold_fusion_pdp_digital_experience_02_d_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_digital_experience_03_d_.png",
+      "media/fifa_razr_fold_fusion_pdp_digital_experience_04_d_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_digital_experience_background_image_d_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_family_devices_01_01_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_family_devices_01_02_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_family_devices_02_01_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_family_devices_02_02_dm_.jpg",
+      "media/fifa_razr_fold_fusion_pdp_fifa_family_collections_logo_dm_.png",
+      "media/fifa_razr_fold_fusion_pdp_fifa_family_dm_.jpg",
+      "media/fifa_razr_fold_partnership_poster_d.png",
+      "media/fifa_razr_fold_sizzle_poster_d.png",
+      "media/fifa_razr_fold_sizzle_poster_m.png",
+      "media/fturfezvwlv439376nzqf5fk7shdgu825811.png",
+      "media/g23i7skigdek9lqzpgw2f9uhkmjm3z877038.png",
+      "media/gjlgerubjfby07tm3lwbv29ao018m1080096.jpg",
+      "media/gthombrthyfoppg0tu1d09l6f6j254372307.webp",
+      "media/gu65rmwfkivzm63hlabxzyttps5qqy936945.jpg",
+      "media/hkeu3cyt9z7akrxk84wle5qllremra856975.png",
+      "media/hnftvngk71w772lb2xyprd99c9h48z925218.png",
+      "media/ianh61oqcv2i17q7u3exw1fziq9bwk376268.svg",
+      "media/ih23lynnq5i30d68setkcfzow8fgtj443995.jpg",
+      "media/ikfkqatf42zkflq8uaw9lr3bplmegx734420.png",
+      "media/iv5mq618bvjle1grfhlz6fjjcfo5ir197316.webp",
+      "media/l32i368xio48tm86u7u3iojn15m42e561494.png",
+      "media/lj93o7ea3hj5xq2j82ertypqksffu6969778.png",
+      "media/mdgxo6v6wm0ceurm8e2lfxhjc3f3ir518559.png",
+      "media/moto_signature_carbon_bundle_product.png",
+      "media/motocare-tick.svg",
+      "media/ms3bh1wz4h6sjwneszzts3fdas6boy643460.svg",
+      "media/ms8zh2yqb8o8jpqe2mupwodzikvqp7329261.png",
+      "media/nhs90wtx9moxup7u7eut9h03ai6o09252625.png",
+      "media/nil91nq2bvqtc8ddlm6c5im31cm2p9339025.png",
+      "media/nmh143kjrwny6k33nr7z292bcgo2ul114238.png",
+      "media/nn0alo0hef12a6grc362oavniev9q8421730.png",
+      "media/nrk10wplaxnw80upeyp6v23wxzqmnb208389.svg",
+      "media/nuybu2aswe7n1fu7rcrieszlmg0p25687452.jpg",
+      "media/o556oxzv3wjiuly2cjltrkzh1j7t8h984831.png",
+      "media/oa9m7jixvphybmkwvsi6bnlxs1gyuj374706.jpg",
+      "media/odwqa4i7djaphtwbhu5qjficumiqi3828310.png",
+      "media/oi3d4mbiddrrti3msgfi8m5vo2fccf692412.png",
+      "media/ozgxblh6t8u5of7wyxa3odiit3kgub871372.png",
+      "media/pl31o2hufcwr1fh9xstusmptkzos21494421.png",
+      "media/pmxk7tz186dzzbf03l2fs1lk4xq722263297.png",
+      "media/px3bcjcglf836tsfjnqrriuwttwcnh162859.png",
+      "media/q8fqzp2ctrqfuzac5xuzhyw4tcb9ww654502.png",
+      "media/qa7mjflshu7cb5qy4ejuk11zvyl1se324868.png",
+      "media/r98kp9xsnsw32rupwqq7lkz1rchmtj349850.svg",
+      "media/razr_70_hematite_bundle_product.png",
+      "media/razr_70_plus_moto_buds_loop_bundle_product.png",
+      "media/razr_70_plus_mountain_view_bundle_product.png",
+      "media/razr_70_ultra_moto_buds_loop_bundle_product.png",
+      "media/razr_70_ultra_orient_blue_bundle_product.png",
+      "media/rlx50kgq1ivepge8rusrxmha1bf3nx069119.png",
+      "media/rs3565kxam9f4i57mvmmg7llvrinao360981.png",
+      "media/s3k037220otamfl0civ5vrc6spc6z5530441.webp",
+      "media/s68roaam6ix1oop7hliz086nlpntix745741.png",
+      "media/sldamluoiivxbfr76hsohkza1g4ty7979882.png",
+      "media/t141fcectp5xi9iqohs2hccqep6v9z790461.png",
+      "media/tp7oc0ehcfmyaadckpp4fi5rvn9onn776912.png",
+      "media/u1u68pe178j29qvz1kqwtpaw69sw63706316.jpg",
+      "media/u5a38u1bcphep0thh1zldaic6wurt1825190.png",
+      "media/uh2ui2aumnk9s6lqvt4vmsm9zkskkz849955.jpg",
+      "media/um1f6x7jznmjxntp5ljl37obyk9ibl092025.svg",
+      "media/vreg044qj504q7r7mgzfa367wqjlas200625.png",
+      "media/we8au11g3xdajfwiyixz6zo2cdqg1n652162.png",
+      "media/wzxjbxgmki0avg19lie2148sood3cg082919.png",
+      "media/xpi86l7mk34i79gba6l5gm5qwkvxmo827391.png",
+      "media/xx2yshgcvwfh1p8ejeyg4vemaei6p1076774.png",
+      "media/y4xh32dtglo0eaus5w4d6bxbvk7t77432521.png",
+      "media/ylzy5w8rgkjwvs4f3t0a32d2edlybt369279.png",
+      "media/yn86ax9hb5n7f7g1jgcygwbkprn97k064927.jpg",
+      "media/yut06dpy3woe0lvijsgaobm7sgnuf2211068.png",
+      "media/z01td742txqq5z7tc0hp2soax6y7c7431855.png",
+      "media/z2dwbghm4fxijw4gd96hd89whsoitd393180.png",
+      "media/zin4lmaib1gpjlnaiyus5vuzt6dtpe513171.png",
+      "media/zpaypl16e4pzhsnndhuxg906k3iy2g870238.png"
+    ],
+    "pages": [
+      {
+        "slug": "at-de-homepage",
+        "file": "stardust/migrated/at/de/homepage/index.html",
+        "assetsBundled": 102
+      },
+      {
+        "slug": "at-de-motocare",
+        "file": "stardust/migrated/at/de/motocare/index.html",
+        "assetsBundled": 70
+      },
+      {
+        "slug": "at-de-offers",
+        "file": "stardust/migrated/at/de/offers/index.html",
+        "assetsBundled": 90
+      },
+      {
+        "slug": "at-de-razr-fold-fifa-world-cup-edition",
+        "file": "stardust/migrated/at/de/razr-fold-fifa-world-cup-edition/index.html",
+        "assetsBundled": 84
+      },
+      {
+        "slug": "at-de-motoverse",
+        "file": "stardust/migrated/at/de/motoverse/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "at-de-business-edition",
+        "file": "stardust/migrated/at/de/business-edition/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "at-de-contest",
+        "file": "stardust/migrated/at/de/contest/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "at-de-brilliant-collection-2026",
+        "file": "stardust/migrated/at/de/brilliant-collection-2026/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "at-de-brilliant-collection",
+        "file": "stardust/migrated/at/de/brilliant-collection/index.html",
+        "assetsBundled": 7
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-03T19:50:25Z",
+      "rendered": [
+        "at-de-brilliant-collection"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}
