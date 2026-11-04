@@ -1,0 +1,522 @@
+/* fullbleed — live .full_bleed_image_container: image + overlaid copy/CTA.
+   Values lifted from the at-de-motocare prototype (live computed 1440 / 360). */
+.fullbleed {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-weight: 300;
+}
+
+.fullbleed.dark {
+  color: #fff;
+}
+
+.fullbleed .fullbleed-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.fullbleed .fullbleed-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.fullbleed .fullbleed-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 27px;
+  text-align: left;
+}
+
+.fullbleed .fullbleed-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fullbleed .fullbleed-text {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.fullbleed .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  color: inherit;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fullbleed .fullbleed-text p {
+  font-weight: 300;
+}
+
+.fullbleed .fullbleed-lead p {
+  font-size: 30px;
+}
+
+/* live: an empty <p><br></p> spacer follows the lead line (19px at 16px type) */
+.fullbleed .fullbleed-lead {
+  margin-bottom: 19px;
+}
+
+.fullbleed .fullbleed-actions p {
+  display: block;
+  margin: 0;
+}
+
+.fullbleed .fullbleed-actions a:any-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 40px;
+  min-width: 150px;
+  min-height: 0;
+  margin-bottom: 25px;
+  padding: 14px 20px;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background: #07192d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: none;
+  white-space: nowrap;
+  transition: none;
+}
+
+@media (width <= 1024px) {
+  .fullbleed {
+    overflow: hidden;
+  }
+
+  .fullbleed .fullbleed-body {
+    max-width: 100%;
+    padding: 0 16px;
+    overflow: hidden;
+  }
+
+  /* live: the hero keeps an empty CTA wrap (padding 6px 0) */
+  .fullbleed .fullbleed-body-bare {
+    padding-bottom: 12px;
+  }
+
+  .fullbleed .fullbleed-actions p {
+    align-self: flex-start;
+  }
+
+  .fullbleed .fullbleed-text {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 0;
+    overflow: hidden;
+  }
+
+  .fullbleed .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+    line-height: 1.2;
+  }
+
+  .fullbleed .fullbleed-text p {
+    font-size: 10px;
+    line-height: 1.3;
+  }
+
+  .fullbleed .fullbleed-text .fullbleed-lead p {
+    font-size: 30px;
+  }
+
+  .fullbleed .fullbleed-lead {
+    margin-bottom: 13px;
+  }
+
+  .fullbleed .fullbleed-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 100%;
+    padding: 6px 0;
+  }
+
+  .fullbleed .fullbleed-actions a:any-link {
+    min-width: auto;
+    max-width: 160px;
+    padding: 6px 10px;
+  }
+}
+
+/* variant left — live business-edition hero: copy confined to the left column
+   (full_component_text padding-right 899px ≥541, 829px ≥1024), 40px/700 headline. */
+.fullbleed.left .fullbleed-body {
+  justify-content: safe center;
+}
+
+.fullbleed.left .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0.67em 0;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fullbleed.left .fullbleed-text {
+  padding: 20px 0;
+}
+
+@media (width >= 541px) {
+  .fullbleed.left .fullbleed-text {
+    padding-right: 899px;
+  }
+}
+
+@media (width >= 1024px) {
+  .fullbleed.left .fullbleed-text {
+    padding-right: 829px;
+  }
+}
+
+@media (width <= 1024px) {
+  .fullbleed.left .fullbleed-text {
+    padding: 12px 0;
+  }
+}
+
+/* variant program — live .full_bleed_image_container on the program template (razr fold FIFA):
+   white copy over a dark image, logo above a 56px headline, outline pill CTA; body inset 137px. */
+.fullbleed.program {
+  background: #000;
+  color: #fff;
+}
+
+.fullbleed.program .fullbleed-body {
+  position: absolute;
+  inset: 0 137px;
+  height: auto;
+  max-width: 1161px;
+  margin: 0;
+  padding: 12px 27px;
+  overflow: visible;
+}
+
+.fullbleed.program .fullbleed-logo img {
+  display: block;
+  width: 200px;
+  height: 79px;
+  margin-bottom: 24px;
+}
+
+.fullbleed.program .fullbleed-text {
+  display: block;
+  width: auto;
+  padding: 0;
+  overflow: visible;
+}
+
+.fullbleed.program .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  max-width: 390px;
+  margin-bottom: 36px;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 47.6px;
+  letter-spacing: -0.56px;
+}
+
+.fullbleed.program .fullbleed-text p {
+  max-width: 390px;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.fullbleed.program .fullbleed-actions {
+  display: block;
+  padding: 12px 0;
+}
+
+.fullbleed.program .fullbleed-actions a:any-link {
+  justify-content: flex-start;
+  height: auto;
+  min-width: 150px;
+  max-width: none;
+  margin: 0;
+  padding: 14px 20px;
+  background: transparent;
+}
+
+@media (width <= 767px) {
+  .fullbleed.program .fullbleed-media img {
+    height: 800px;
+    object-fit: fill;
+  }
+
+  .fullbleed.program .fullbleed-body {
+    right: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .fullbleed.program .fullbleed-logo img {
+    margin-bottom: 30px;
+  }
+
+  .fullbleed.program .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+    max-width: none;
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 34.4px;
+    letter-spacing: -0.4px;
+  }
+
+  .fullbleed.program .fullbleed-text p {
+    max-width: none;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .fullbleed.program .fullbleed-actions {
+    padding: 15px 0 6px;
+  }
+
+  .fullbleed.program .fullbleed-actions a:any-link {
+    min-width: 0;
+    padding: 6px 10px;
+  }
+}
+
+/* variant top — live razr 70 full-bleed-image: copy centred at the top, white, 40px title */
+.fullbleed.top {
+  color: #fff;
+}
+
+.fullbleed.top .fullbleed-body {
+  justify-content: flex-start;
+  align-items: center;
+  max-width: none;
+  padding: 0 145px;
+  text-align: center;
+}
+
+.fullbleed.top .fullbleed-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.fullbleed.top .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  padding: 66px 0 19px;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.fullbleed.top .fullbleed-text p {
+  max-width: 474px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* variant luxe — live brilliant-collection swarovski-luxury: left copy, vertically centred */
+.fullbleed.luxe {
+  color: #fff;
+}
+
+.fullbleed.luxe .fullbleed-body {
+  justify-content: center;
+  max-width: none;
+  padding: 0 0 0 182px;
+}
+
+.fullbleed.luxe .fullbleed-text {
+  display: block;
+  padding: 0;
+}
+
+.fullbleed.luxe .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 19px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.fullbleed.luxe .fullbleed-title:first-child :is(h1, h2, h3, h4, h5, h6) {
+  font-size: 20px;
+  line-height: 38px;
+}
+
+.fullbleed.luxe .fullbleed-text p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fullbleed.luxe .fullbleed-text :is(b, strong) {
+  font-weight: 700;
+}
+
+/* variant side — live full_background_display: heading above, copy left over the image */
+.fullbleed.side {
+  padding-top: 304px;
+  background: #fff;
+  color: #000;
+}
+
+.fullbleed.side .fullbleed-media {
+  line-height: 0;
+}
+
+.fullbleed.side .fullbleed-body {
+  position: static;
+  justify-content: center;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+  padding: 304px 0 0 135px;
+}
+
+.fullbleed.side .fullbleed-text {
+  display: block;
+  width: 338px;
+  padding: 0;
+}
+
+.fullbleed.side .fullbleed-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.fullbleed.side .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+  padding: 116px 120px 44px;
+  font-size: 76px;
+  font-weight: 600;
+  line-height: 83.6px;
+  text-align: center;
+}
+
+.fullbleed.side .fullbleed-text p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media (width <= 1024px) {
+  .fullbleed.top .fullbleed-body,
+  .fullbleed.luxe .fullbleed-body {
+    overflow: visible;
+  }
+
+  .fullbleed.luxe,
+  .fullbleed.side,
+  .fullbleed.luxe .fullbleed-text,
+  .fullbleed.side .fullbleed-body,
+  .fullbleed.side .fullbleed-text {
+    overflow: visible;
+  }
+}
+
+@media (width <= 767px) {
+  .fullbleed.top {
+    color: #000;
+  }
+
+  .fullbleed.top .fullbleed-body {
+    padding: 0;
+  }
+
+  .fullbleed.top .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+    padding: 26px 0 10px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .fullbleed.top .fullbleed-text p {
+    max-width: none;
+    padding: 10px 70px 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .fullbleed.luxe .fullbleed-body {
+    justify-content: flex-start;
+    padding: 12px 16px 0;
+  }
+
+  .fullbleed.luxe .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+    margin-bottom: 13px;
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .fullbleed.luxe .fullbleed-title:first-child :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 20px;
+    line-height: 38px;
+  }
+
+  .fullbleed.luxe .fullbleed-text p {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
+
+  .fullbleed.side {
+    padding-top: 60px;
+  }
+
+  /* live ≤767: the positioned image frame follows the absolute heading in the tree and paints
+     over it (heading present, occluded); the copy stays above the image */
+  .fullbleed.side .fullbleed-media {
+    position: relative;
+    z-index: 1;
+  }
+
+  .fullbleed.side .fullbleed-media img {
+    height: 692px;
+    object-fit: cover;
+  }
+
+  .fullbleed.side .fullbleed-body {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 328px 0 0;
+  }
+
+  .fullbleed.side .fullbleed-text {
+    width: 281px;
+  }
+
+  .fullbleed.side .fullbleed-title {
+    top: 560px;
+    padding: 0 30px;
+  }
+
+  .fullbleed.side .fullbleed-title :is(h1, h2, h3, h4, h5, h6) {
+    padding: 0 0 8px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .fullbleed.side .fullbleed-text p {
+    position: relative;
+    z-index: 2;
+    font-size: 12px;
+    line-height: 14.5px;
+    text-align: center;
+  }
+}

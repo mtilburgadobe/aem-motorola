@@ -1,0 +1,2594 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-03T15:14:05.448Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.motorola.com/",
+   "https://www.motorola.com/at/de/brilliant-collection-2026",
+   "https://www.motorola.com/at/de/motocare",
+   "https://www.motorola.com/at/de/offers"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.motorola.com/",
+   "status": 200,
+   "host": "www.motorola.com",
+   "title": "Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US",
+   "forms": [
+    {
+     "name": "form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:moto.newsletter.email",
+      "checkbox:terms"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 6,
+     "signature": [
+      "text:moto.first.name",
+      "text:moto.last.name",
+      "text:moto.email.address",
+      "radio:moto.email.optin",
+      "radio:moto.email.optin",
+      "checkbox:moto.contact.privacy"
+     ],
+     "hidden": [
+      "moto.contact.privacy",
+      "moto.campaign.name"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Sign in / Create Account",
+     "href": "https://account.motorola.com/us/en/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage",
+     "marker": "modal-item",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 24,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 24,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "YOUR EXCLUSIVE OFFER AWAITS....",
+     "textLen": 450,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 367,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 5,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://3822063.fls.doubleclick.net/activityi;src=3822063;type=aud;cat=undefined;rcb=14;ord=588835687611;npa=0;auiddc=1719068486.1793718847;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noa",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://3822063.fls.doubleclick.net/activityi;src=3822063;type=aud;cat=undefined;rcb=14;ord=588835687611;npa=0;auiddc=1719068486.1793718847;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123322201~123691370~123814183;epver=2;dc_random=1793718848_yIOmLiQBaDfQMqglWFPYmklnJ_HWDRe9qQ;_dc_test=1;~oref=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "IND - Default Props",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.motorola.com/us/en/family/moto-things-accessories",
+    "https://www.motorola.com/us/en/family/auto-accessories",
+    "https://www.motorola.com/us/en/p/motoaccessories/moto-buds-loop/pg38c07168",
+    "https://www.motorola.com/us/en/p/motoaccessories/moto-buds-2/pg38c08166",
+    "https://www.motorola.com/us/en/p/motoaccessories/all-moto-tags/pg38c06068",
+    "https://www.motorola.com/us/en/family/auto-accessories",
+    "https://www.motorola.com/us/en/p/motoaccessories/motohome/modems---routers/mnq1525",
+    "https://account.motorola.com/us/en/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 6
+   },
+   "locale": {
+    "lang": "en-US",
+    "hreflang": [],
+    "switcher": [
+     "https://help.motorola.com/hc/apps/privacy/product/en-us/",
+     "https://help.motorola.com/hc/apps/privacy/notice/us/en-us/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "push"
+    ],
+    "utag_data": [
+     "country_code",
+     "language_code",
+     "site_id",
+     "customer_email",
+     "BPID",
+     "PageTitle",
+     "area",
+     "bu",
+     "cc",
+     "country",
+     "currency",
+     "currencycode",
+     "description",
+     "experience",
+     "loginName",
+     "lenovoID",
+     "sheeridverified",
+     "le_id",
+     "fusionABSessionID",
+     "fusionExpID",
+     "fusionQueryID",
+     "fusionReccExpID",
+     "fusionReccQueryID",
+     "fusionReccABSessionID",
+     "sid",
+     "groupID",
+     "internalsearchcanonical",
+     "keywords",
+     "language",
+     "lc"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "clarity"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "hero-wrapper swiper-wrapper",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel_grid swiper-wrapper",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "carousel__track",
+     "cards": 9,
+     "sameSite": 6,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 85,
+   "inlineFetch": true,
+   "mainText": 2668,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.motorola.com": 11,
+    "c1-ofp.static.pub": 10,
+    "p1-ofp.static.pub": 32,
+    "p2-ofp.static.pub": 23,
+    "p4-ofp.static.pub": 22,
+    "p3-ofp.static.pub": 14,
+    "j1-ofp.static.pub": 10,
+    "assets.motorola.com": 2,
+    "api.motorola.com": 16,
+    "s2.go-mpulse.net": 1,
+    "www.googletagmanager.com": 4,
+    "c.evidon.com": 7,
+    "digitalfeedback.us.confirmit.com": 9,
+    "c.amazon-adsystem.com": 5,
+    "www.redditstatic.com": 1,
+    "static.narrativ.com": 1,
+    "sc-static.net": 2,
+    "bat.bing.com": 3,
+    "motorolaus500z.btttag.com": 1,
+    "connect.facebook.net": 1,
+    "cdn.equalweb.com": 8,
+    "www.upsellit.com": 1,
+    "t.contentsquare.net": 2,
+    "ad.doubleclick.net": 5,
+    "c.tvpixel.com": 1,
+    "www.google.com": 8,
+    "api.ipify.org": 2,
+    "analytics.tiktok.com": 8,
+    "www.clarity.ms": 1,
+    "analytics.google.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "l.evidon.com": 4,
+    "pixel-config.reddit.com": 1,
+    "alb.reddit.com": 2,
+    "c.go-mpulse.net": 1,
+    "p.tvpixel.com": 1,
+    "tr.snapchat.com": 5,
+    "googleads.g.doubleclick.net": 2,
+    "pixel.tapad.com": 1,
+    "www.googleadservices.com": 1,
+    "3822063.fls.doubleclick.net": 2,
+    "scripts.clarity.ms": 1,
+    "c.az.contentsquare.net": 1,
+    "adservice.google.com": 1,
+    "s.amazon-adsystem.com": 2,
+    "tr6.snapchat.com": 1,
+    "analytics-ipv6.tiktokw.us": 1,
+    "c.clarity.ms": 2,
+    "c.bing.com": 1,
+    "app.upsellit.com": 2,
+    "trial-eum-clientnsv4-s.akamaihd.net": 1,
+    "trial-eum-clienttons-s.akamaihd.net": 1,
+    "naojrgixhbw4i2xj7jaa-pyb1bt-e56927f7c-clientnsv4-s.akamaihd.net": 1,
+    "o.clarity.ms": 4,
+    "fie3vrlcjiiyojqacqde4aaaczvot6sa-pyb1bt-977e5aa8f-clienttons-s.akamaihd.net": 1,
+    "acef42ba.akstat.io": 2
+   },
+   "thirdPartyHosts": [
+    "c1-ofp.static.pub",
+    "p1-ofp.static.pub",
+    "p2-ofp.static.pub",
+    "p4-ofp.static.pub",
+    "p3-ofp.static.pub",
+    "j1-ofp.static.pub",
+    "s2.go-mpulse.net",
+    "www.googletagmanager.com",
+    "c.evidon.com",
+    "digitalfeedback.us.confirmit.com",
+    "c.amazon-adsystem.com",
+    "www.redditstatic.com",
+    "static.narrativ.com",
+    "sc-static.net",
+    "bat.bing.com",
+    "motorolaus500z.btttag.com",
+    "connect.facebook.net",
+    "cdn.equalweb.com",
+    "www.upsellit.com",
+    "t.contentsquare.net",
+    "ad.doubleclick.net",
+    "c.tvpixel.com",
+    "www.google.com",
+    "api.ipify.org",
+    "analytics.tiktok.com",
+    "www.clarity.ms",
+    "analytics.google.com",
+    "stats.g.doubleclick.net",
+    "l.evidon.com",
+    "pixel-config.reddit.com",
+    "alb.reddit.com",
+    "c.go-mpulse.net",
+    "p.tvpixel.com",
+    "tr.snapchat.com",
+    "googleads.g.doubleclick.net",
+    "pixel.tapad.com",
+    "www.googleadservices.com",
+    "3822063.fls.doubleclick.net",
+    "scripts.clarity.ms",
+    "c.az.contentsquare.net",
+    "adservice.google.com",
+    "s.amazon-adsystem.com",
+    "tr6.snapchat.com",
+    "analytics-ipv6.tiktokw.us",
+    "c.clarity.ms",
+    "c.bing.com",
+    "app.upsellit.com",
+    "trial-eum-clientnsv4-s.akamaihd.net",
+    "trial-eum-clienttons-s.akamaihd.net",
+    "naojrgixhbw4i2xj7jaa-pyb1bt-e56927f7c-clientnsv4-s.akamaihd.net",
+    "o.clarity.ms",
+    "fie3vrlcjiiyojqacqde4aaaczvot6sa-pyb1bt-977e5aa8f-clienttons-s.akamaihd.net",
+    "acef42ba.akstat.io"
+   ],
+   "scripts": [
+    "https://j1-ofp.static.pub/SystemFragment/common/content/global.min.a4153dfa5709c5f4.js",
+    "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+    "https://j1-ofp.static.pub/SystemFragment/static/vendors-ignorejq.min.31252b090b8b0b0c.js",
+    "https://j1-ofp.static.pub/t_/en/version/js/7212cc4ba64f0cf986fe053d9f52a074.js",
+    "https://j1-ofp.static.pub/t_/en_us/version/batch/ids/74a15c98c0d9a299aa5a8fdc340f40ef_6bbca73f0fda5a96c597d1eeefb95149_f7ad886088540e46b0409a94b602957e_7d52db726ab9eff99bbe9d5e048c747c_0201432f3161d38",
+    "https://j1-ofp.static.pub/t_/en/version/js/4a3b8b8227ccb829c3095a78357948b4.js",
+    "https://j1-ofp.static.pub/SystemFragment/static/extension.min.329c35058c01fa79.js",
+    "https://j1-ofp.static.pub/version/js/ed7ed96aed6b25beb30933be0cc2802a.js",
+    "https://j1-ofp.static.pub/t_/en/version/js/74024fef4193e695896fd923c330dfa8.js",
+    "https://www.motorola.com/akam/13/17700b2d",
+    "https://s2.go-mpulse.net/boomerang/QR4MV-WWCTC-337JB-3LT7K-9RBLH",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-56W3X3SN",
+    "https://j1-ofp.static.pub/SystemFragment/moto/swiper_11/swiper-bundle.min.js",
+    "https://c.evidon.com/tag-us/country.js",
+    "https://c.evidon.com/sitenotice/8651/motorola/settingsV3.js",
+    "https://c.evidon.com/sitenotice/8651/snthemes.js",
+    "https://c.evidon.com/sitenotice/evidon-sitenotice-tag.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader?programKey=ngwAGv",
+    "https://c.evidon.com/sitenotice/8651/translations/en-216413.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-S2HVF2CKCG&cx=c&gtm=4e6au1h1",
+    "https://c.amazon-adsystem.com/aat/amzn-consent.js",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://static.narrativ.com/tags/motorola.js",
+    "https://c.evidon.com/sitenotice/evidon-banner.js",
+    "https://sc-static.net/scevent.min.js",
+    "https://bat.bing.com/bat.js",
+    "https://motorolaus500z.btttag.com/btt.js",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://cdn.equalweb.com/core/5.0.10/accessibility.js",
+    "https://www.upsellit.com/active/motorola.jsp",
+    "https://t.contentsquare.net/uxa/627aaf7fc9df8.js",
+    "https://c.tvpixel.com/js/current/dpm_pixel_min.js?aid=nbc-motorola-d18330a1-997d-4aa6-bb4b-43969d85e631",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/static/v34/intercept-survey.js",
+    "https://www.motorola.com/proxydirectory/tags/525753205746/tag.js",
+    "https://www.googletagmanager.com/gtag/destination?id=AW-984311756&cx=c&gtm=4e6au1h1",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=C3NJENNB3D4L4OG53BP0&lib=ttq",
+    "https://www.googletagmanager.com/gtag/destination?id=DC-3822063&cx=c&gtm=4e6au1h1",
+    "https://www.clarity.ms/tag/wswhs54nq5",
+    "https://c.amazon-adsystem.com/aat/amzn.js",
+    "https://bat.bing.com/p/action/5321443.js",
+    "https://tr.snapchat.com/config/com/6d8989ac-913b-4bb8-b79e-fe98bd7c7bc4.js?v=3.61.0-2610191940",
+    "https://t.contentsquare.net/releases/15.275.0/es2019/3f02404-10548579.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/984311756/?random=1793718848247&cv=11&fst=1793718848247&bg=ffffff&guid=ON&async=1&gtm=45be6au1h1v880025350z89182520809za20gzb9182520809",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=6302&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14278&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14773&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14512&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14547&programVersion=241",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTJjYzk1MmQ1MQ.js",
+    "https://scripts.clarity.ms/0.8.73-beta/clarity.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/identify_9fbdaf50.js",
+    "https://app.upsellit.com/utility/session_data.jsp?extended=false&si=s2j5mu_1793718849",
+    "https://app.upsellit.com/view.jsp?hash=5UGlVUkexySBthnuUzGX3bP&siteID=37891&keys=desktop&si=s2j5mu_1793718849"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/dict/getdictinfo",
+     "query": [],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://api.motorola.com/us/en/dict/getdictinfo"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/auth/assign_cookie",
+     "query": [
+      "searchabran",
+      "wishlistpns",
+      "zipcode"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/auth/assign_cookie"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/api/cart/count",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/api/cart/count"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/online/moto/getMotoPictureSwitch",
+     "query": [
+      "subseriesCodes"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/online/moto/getMotoPictureSwitch"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/detail/price/batch/get",
+     "query": [
+      "configId",
+      "enteredCode",
+      "mcode",
+      "preSelect"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/detail/price/batch/get"
+    },
+    {
+     "method": "POST",
+     "host": "api.motorola.com",
+     "path": "/us/en/marketing/webformComponent/getWrbforms",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/marketing/webformComponent/getWrbforms"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/us/en/online/moto/getAccessoryBindsForList",
+     "query": [
+      "groupCodes",
+      "productNumbers"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/us/en/online/moto/getAccessoryBindsForList"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/akam/{n}/pixel_17700b2d",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.motorola.com/akam/13/pixel_17700b2d"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/proxydirectory/{n}/pageInfo",
+     "query": [],
+     "status": 200,
+     "contentType": "image/png",
+     "example": "https://www.motorola.com/proxydirectory/525753205746/pageInfo"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST www.google.com/ccm/collect",
+    "GET api.ipify.org/",
+    "POST analytics.google.com/g/collect",
+    "GET pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config",
+    "POST alb.reddit.com/rp",
+    "GET c.go-mpulse.net/api/config.json",
+    "POST p.tvpixel.com/com.snowplowanalytics.snowplow/tp2",
+    "GET cdn.equalweb.com/assets/data/methods.json",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program",
+    "POST www.google.com/rmkt/collect/984311756/",
+    "GET www.googleadservices.com/pagead/conversion/984311756/",
+    "GET cdn.equalweb.com/assets/data/lang.json",
+    "GET cdn.equalweb.com/style/shadow_style.css",
+    "GET cdn.equalweb.com/assets/scripts/classManager.js",
+    "GET cdn.equalweb.com/style/btncolor.css",
+    "GET cdn.equalweb.com/assets/locale/en.json",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/984311756/",
+    "GET www.google.com/pagead/1p-conversion/984311756/",
+    "POST ad.doubleclick.net/activity;src=3822063;type=aud;cat=undefined;rcb=14;ord=588835687611;npa=0;auidd",
+    "GET c.amazon-adsystem.com/aat/amzn.js",
+    "GET cdn.equalweb.com/assets/images/11.svg",
+    "GET c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite",
+    "POST c.az.contentsquare.net/pageview",
+    "GET s.amazon-adsystem.com/iu3",
+    "POST ad.doubleclick.net/activity;src=3822063;type=motos0;cat=2020_002;rcb=14;ord=881347473741;npa=0;aui",
+    "POST ad.doubleclick.net/activity;src=3822063;type=motos0;cat=2020_002;rcb=14;ord=4964868445561;npa=0;au",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=13177938596187096867;_dc_ptd=ChAIgKmm1wYQxPmSu6qUy",
+    "GET ad.doubleclick.net/activity;dc_pre=CI2nqLaL7JcDFdBb4QYdXyceoQ;src=3822063;type=motos0;cat=2020_002",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=3945309890449458870;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyK",
+    "GET trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt",
+    "GET trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt",
+    "GET naojrgixhbw4i2xj7jaa-pyb1bt-e56927f7c-clientnsv4-s.akamaihd.net/eum/results.txt",
+    "POST o.clarity.ms/collect",
+    "GET fie3vrlcjiiyojqacqde4aaaczvot6sa-pyb1bt-977e5aa8f-clienttons-s.akamaihd.net/eum/results.txt",
+    "POST www.google.com/measurement/conversion"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;4273974;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;54,0,0,2,3,0;I\\\"~vs\\\"1\\\"7rF^&Fe(F<!1bFxj\\\"B\\\"3tV\\\"1Q+=J.~.\\\"uDQ\\\"^GI#p?^iz\\\"@Sg\\\"CYL\\\"e@x\\\"<TC:@gH\\\"hYn\\\"<\\\"|XHf,&v-K+_G/|\\\"=zR\\\"uso\\\"(\\\"QMBT!6>`/,U^SXfX!OG#JqhBvd$0`/[C_[Vzd!|iUFdk/)j4r%rU\\\">\\\"TEk\\\"ig<fiOJWj\\\"sh\\\"C\\\"\\\",\\\"uQl\\\"w\\\"\\\"Y|T\\\"ng\\\"=\\\"q\\\"=0@\\\"Pn}\\\"aV<)S\\\"R~\\\"~Zc@D*pI0w=\\\"Hz[\\\"!3ASVLO[V[\\\"fup\\\"g\\\"q6&CZ\\\"R\\\"p,m1\\\"u"
+    },
+    {
+     "url": "https://api.motorola.com/us/en/marketing/webformComponent/getWrbforms",
+     "body": "ids=5724bc21-982c-4d1b-94b1-5cfdb0979e90&_t=1793718846988"
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=1719068486.1793718847&dt=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices%20%7C%20Motorola%20US&en=page_vie",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?auid=1719068486.1793718847&gtm=45He6au1h1v9182520809za200zd9182520809xeaxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-S2HVF2CKCG&gtm=45je6au1h1v871783428za20ozb9182520809zd9182520809xf1&_p=1793718846322&_gaz=1&gcs=G111&gcd=13v3v3v3v5l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1656",
+     "body": ""
+    },
+    {
+     "url": "https://www.motorola.com/akam/13/pixel_17700b2d",
+     "body": "ap=true&bt=%7B%22charging%22%3Atrue%2C%22chargingTime%22%3A0%2C%22dischargingTime%22%3A%22Infinity%22%2C%22level%22%3A1%2C%22onchargingchange%22%3Anull%2C%22onchargingtimechange%22%3Anull%2C%22ondischargingtimechange%22%3Anull%2C%22onlevelchange%22%3Anull%7D&fonts=null&fh=null&timing=%7B%221%22%3A29%2C%222%22%3A198%2C%223%22%3A315%2C%224%22%3A473%2C%225%22%3A616%2C%22profile%22%3A%7B%22bp%22%3A2%2"
+    },
+    {
+     "url": "https://p.tvpixel.com/com.snowplowanalytics.snowplow/tp2",
+     "body": "{\"schema\":\"iglu:com.snowplowanalytics.snowplow/payload_data/jsonschema/1-0-4\",\"data\":[{\"e\":\"pv\",\"url\":\"https://www.motorola.com/us/en/homepage\",\"page\":\"Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US\",\"tv\":\"js-2.14.0\",\"tna\":\"co\",\"aid\":\"nbc-motorola-d18330a1-997d-4aa6-bb4b-43969d85e631\",\"p\":\"web\",\"tz\":\"UTC\",\"lang\":\"en-US\",\"cs\":\"UTF-8\",\"f_pdf\":\"1\",\"f_qt\":\"0\",\"f_realp\":\"0\",\""
+    },
+    {
+     "url": "https://www.motorola.com/proxydirectory/525753205746/pageInfo",
+     "body": ""
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_ewmhtocglt95&event=PageVisit",
+     "body": "ts=1793718847720&id=a2_ewmhtocglt95&event=PageVisit&m.value=&m.transactionId=&m.orderId=&m.customEventName=&m.products=&m.conversionId=&uuid=2eec7e96-6ea1-415f-8585-1641561690e7&aaid=&external_id=&idfa=&integration=gtm&partner=&partner_version=&opt_out=0&sh=1440&sw=900&v=rdt_d3960254&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage&db=tsc-0.isc-0.pp-0.fetch-1.mo-1.iframe-"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_ewmhtocglt95&event=ViewContent",
+     "body": "ts=1793718847725&id=a2_ewmhtocglt95&event=ViewContent&m.value=&m.transactionId=&m.orderId=&m.customEventName=&m.products=&m.conversionId=&uuid=2eec7e96-6ea1-415f-8585-1641561690e7&aaid=&external_id=&idfa=&integration=gtm&partner=&partner_version=&opt_out=0&sh=1440&sw=900&v=rdt_d3960254&dpm=&dpcc=&dprc=&esurl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage&db=tsc-0.isc-0.pp-0.fetch-1.mo-1.ifram"
+    },
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;4273974;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;11,61,0,0,4,278;\\\"3\\\"1-c\\\"%Z%\\\"#\\\"+{)!:6|!{8%^f)T3P.Fg*$mBoI|]%Rk0O`vej5Ra1x8@\\\"5\\\"74k\\\"F\\\"6NL?VnZ68*(!:z#dEg.zw4E(YI0%XN~e|A13ZwaBQ=IH[TP/~Fskm-N8l\\\"H\\\"eb@\\\"c%\\\"u\\\"YmZ[\\\"y\\\"<8:[|i5[s?[JgzVbKC\\\"_\\\"1:F\\\"o/5\\\"<O^\\\"?\\\"93\\\",\\\"&q<%\\\"|\\\"rT_<\\\"Y\\\"v;vT\\\">W`qtE<\\\"-#iL\\\"}\\\"$uUcZcP\\\"E\\\"^%3\\\"S\\\"Mw/Fj$>Ph[jG >l\\\"X\\\"#TTk\\\"u\\\"~U2%*wTcA_"
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/984311756/?random=1793718848247&cv=11&fst=1793718848247&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6au1h1v880025350z89182520809za20gzb9182520809zd9182520809xeaxf1&gcd=",
+     "body": ""
+    }
+   ],
+   "textAtLoad": 1827,
+   "mainEmptyAtLoad": false
+  },
+  "/at/de/brilliant-collection-2026": {
+   "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+   "status": 200,
+   "host": "www.motorola.com",
+   "title": "Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Anmelden / Konto erstellen",
+     "href": "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026",
+     "marker": "modal-item",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 520,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [
+    {
+     "tag": "video",
+     "src": "https://assets.motorola.com/global/merlin_se/moto_razr_se_pdp_row_sizzle_d.m3u8",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026",
+    "https://www.motorola.com/at/de/p/motoaccessories/moto-buds-2-plus/pg38c08069?pn=PG38C08526",
+    "https://www.motorola.com/at/de/p/motoaccessories/moto-buds-loop/pg38c07172",
+    "https://www.motorola.com/at/de/p/motoaccessories/all-moto-tags/pg38c06071",
+    "https://account.motorola.com/at/de/account/order/list.html"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de-AT",
+    "hreflang": [],
+    "switcher": [
+     "https://www.motorola.com/gb/en/legal/website-privacy"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "push"
+    ],
+    "utag_data": [
+     "country_code",
+     "language_code",
+     "site_id",
+     "customer_email",
+     "BPID",
+     "PageTitle",
+     "area",
+     "bu",
+     "cc",
+     "country",
+     "currency",
+     "currencycode",
+     "description",
+     "experience",
+     "loginName",
+     "lenovoID",
+     "sheeridverified",
+     "le_id",
+     "fusionABSessionID",
+     "fusionExpID",
+     "fusionQueryID",
+     "fusionReccExpID",
+     "fusionReccQueryID",
+     "fusionReccABSessionID",
+     "sid",
+     "groupID",
+     "internalsearchcanonical",
+     "keywords",
+     "language",
+     "lc"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "icg_grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "icg_grid",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 44,
+   "inlineFetch": true,
+   "mainText": 1053,
+   "domAddedAfterLoad": 1,
+   "hosts": {
+    "www.motorola.com": 8,
+    "c1-ofp.static.pub": 7,
+    "p2-ofp.static.pub": 20,
+    "p4-ofp.static.pub": 15,
+    "p3-ofp.static.pub": 11,
+    "j1-ofp.static.pub": 7,
+    "p1-ofp.static.pub": 18,
+    "api.motorola.com": 3,
+    "assets.motorola.com": 11,
+    "s2.go-mpulse.net": 1,
+    "www.googletagmanager.com": 1,
+    "c.evidon.com": 6,
+    "c.go-mpulse.net": 1,
+    "digitalfeedback.us.confirmit.com": 9,
+    "l.evidon.com": 3,
+    "trial-eum-clientnsv4-s.akamaihd.net": 1,
+    "trial-eum-clienttons-s.akamaihd.net": 1,
+    "naojrgixhbw4i2xj7jgq-pj04tx-f6b444eb4-clientnsv4-s.akamaihd.net": 1,
+    "fie3vrlcjmiyojqacqde4aaaczvot6sn-pj04tx-1e5880e14-clienttons-s.akamaihd.net": 1,
+    "ace99add.akstat.io": 2
+   },
+   "thirdPartyHosts": [
+    "c1-ofp.static.pub",
+    "p2-ofp.static.pub",
+    "p4-ofp.static.pub",
+    "p3-ofp.static.pub",
+    "j1-ofp.static.pub",
+    "p1-ofp.static.pub",
+    "s2.go-mpulse.net",
+    "www.googletagmanager.com",
+    "c.evidon.com",
+    "c.go-mpulse.net",
+    "digitalfeedback.us.confirmit.com",
+    "l.evidon.com",
+    "trial-eum-clientnsv4-s.akamaihd.net",
+    "trial-eum-clienttons-s.akamaihd.net",
+    "naojrgixhbw4i2xj7jgq-pj04tx-f6b444eb4-clientnsv4-s.akamaihd.net",
+    "fie3vrlcjmiyojqacqde4aaaczvot6sn-pj04tx-1e5880e14-clienttons-s.akamaihd.net",
+    "ace99add.akstat.io"
+   ],
+   "scripts": [
+    "https://j1-ofp.static.pub/SystemFragment/static/vendors-ignorejq.min.31252b090b8b0b0c.js",
+    "https://j1-ofp.static.pub/SystemFragment/common/content/global.min.a4153dfa5709c5f4.js",
+    "https://j1-ofp.static.pub/t_/en/version/js/7212cc4ba64f0cf986fe053d9f52a074.js",
+    "https://j1-ofp.static.pub/t_/en/version/batch/ids/326ea761c2664340eb5df354897ef9db_aeb4a88c30197c6d4c6b9a7b5bfb940f_f4ab41536ae474bbb9e6fc80c8e976cb_6df1d2dee74193c28ae56f75c7f164c9_901301532085417c72",
+    "https://j1-ofp.static.pub/SystemFragment/static/extension.min.329c35058c01fa79.js",
+    "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+    "https://www.motorola.com/akam/13/17700b2d",
+    "https://j1-ofp.static.pub/t_/es_es/version/js/74024fef4193e695896fd923c330dfa8.js",
+    "https://s2.go-mpulse.net/boomerang/QR4MV-WWCTC-337JB-3LT7K-9RBLH",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-56W3X3SN",
+    "https://j1-ofp.static.pub/SystemFragment/moto/hls.js",
+    "https://c.evidon.com/sitenotice/8651/snthemes.js",
+    "https://c.evidon.com/sitenotice/evidon-sitenotice-tag.js",
+    "https://c.evidon.com/tag-at/country.js",
+    "https://c.evidon.com/sitenotice/8651/motorola/settingsV3.js",
+    "https://c.evidon.com/sitenotice/8651/translations/en-216413.js",
+    "https://c.evidon.com/sitenotice/evidon-barrier.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader?programKey=ngwAGv",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/static/v34/intercept-survey.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14512&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14278&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14773&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14547&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=6302&programVersion=241"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/dict/getdictinfo",
+     "query": [],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://api.motorola.com/at/de/dict/getdictinfo"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/auth/assign_cookie",
+     "query": [
+      "searchabran",
+      "wishlistpns",
+      "zipcode"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/auth/assign_cookie"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/api/cart/count",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/api/cart/count"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/akam/{n}/pixel_17700b2d",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.motorola.com/akam/13/pixel_17700b2d"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET c.go-mpulse.net/api/config.json",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite",
+    "GET trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt",
+    "GET trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt",
+    "GET naojrgixhbw4i2xj7jgq-pj04tx-f6b444eb4-clientnsv4-s.akamaihd.net/eum/results.txt",
+    "GET fie3vrlcjmiyojqacqde4aaaczvot6sn-pj04tx-1e5880e14-clienttons-s.akamaihd.net/eum/results.txt"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3359537;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;91,0,0,2,4,0;Y\\\"+Z:\\\"C\\\"G0uZGE:INC~>vzv:\\\"-\\\"X&z\\\"sQN/!By&\\\"uKh\\\"n2d)h CY1\\\"6eN\\\"^RL\\\"{fh\\\"sn7~ K(\\\"v{^\\\">\\\"S&lIl-I7{E[H~\\\"JR;\\\"r&K\\\"-\\\": 7b]7*0ubRV/MZ$Xy<u&YTW>!n~<y@T%m;V0aiu{[@CXj>=*/F*\\\"t\\\"YZh\\\"9pv*jeJy%\\\"C4\\\"H\\\"\\\"Q\\\"9re\\\"`\\\"\\\"QCn\\\"cC\\\"Y\\\"-\\\"{$~\\\"YVz\\\"=:~ X\\\"d \\\"c3SA-.i{r36\\\"0sL\\\"ea1;|98u+l\\\"J=a\\\"|\\\")teX?\\\"d\\\"ybIV\\\"Es"
+    },
+    {
+     "url": "https://www.motorola.com/akam/13/pixel_17700b2d",
+     "body": "ap=true&bt=%7B%22charging%22%3Atrue%2C%22chargingTime%22%3A0%2C%22dischargingTime%22%3A%22Infinity%22%2C%22level%22%3A1%2C%22onchargingchange%22%3Anull%2C%22onchargingtimechange%22%3Anull%2C%22ondischargingtimechange%22%3Anull%2C%22onlevelchange%22%3Anull%7D&fonts=null&fh=null&timing=%7B%221%22%3A45%2C%222%22%3A192%2C%223%22%3A303%2C%224%22%3A404%2C%225%22%3A506%2C%226%22%3A663%2C%22profile%22%3A%"
+    },
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3359537;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;18,101,0,0,6,366;\\\"k\\\"sQr\\\"!kA\\\"~\\\"*PJ+A4,7Q6SUPKzCtL+gMtEVjBm]-iK@:z{]LxCuPnI(\\\"O\\\"73#\\\"6\\\"mh@%8R:)FKuE:o[1tFs(C7|JaGxgVSNK>BmW|D+%2V$]@~uVClFb xn8\\\"<\\\"MNU\\\" o\\\"Q\\\">~ m\\\"U\\\"|$Z>4Uo$(d[R*L\\\"m\\\"C]X\\\"0Z]\\\"g5;\\\"*\\\"+f\\\"2\\\"k%Z@\\\"=\\\"0X,x\\\"p\\\"p$?J\\\"=4W0v/J\\\"C{%w\\\";\\\"hV!HHY.\\\"[\\\";5R\\\"A\\\"&L>mK[]6QJ+9#/M\\\"d\\\"s_w(\\\">\\\"Ohujn,6a;4$ctf"
+    }
+   ],
+   "textAtLoad": 1085,
+   "mainEmptyAtLoad": false
+  },
+  "/at/de/motocare": {
+   "url": "https://www.motorola.com/at/de/motocare",
+   "status": 200,
+   "host": "www.motorola.com",
+   "title": "Moto Care Garantieverlängerung | motorola AT | motorola AT",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Anmelden / Konto erstellen",
+     "href": "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare",
+     "marker": "modal-item",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 520,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare",
+    "https://www.motorola.com/at/de/p/motoaccessories/all-moto-tags/pg38c06071",
+    "https://account.motorola.com/at/de/account/order/list.html"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de-AT",
+    "hreflang": [],
+    "switcher": [
+     "https://www.motorola.com/gb/en/legal/extended-service-plan-agreement",
+     "https://www.motorola.com/gb/en/legal/website-privacy"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "push"
+    ],
+    "utag_data": [
+     "country_code",
+     "language_code",
+     "site_id",
+     "customer_email",
+     "BPID",
+     "PageTitle",
+     "area",
+     "bu",
+     "cc",
+     "country",
+     "currency",
+     "currencycode",
+     "description",
+     "experience",
+     "loginName",
+     "lenovoID",
+     "sheeridverified",
+     "le_id",
+     "fusionABSessionID",
+     "fusionExpID",
+     "fusionQueryID",
+     "fusionReccExpID",
+     "fusionReccQueryID",
+     "fusionReccABSessionID",
+     "sid",
+     "groupID",
+     "internalsearchcanonical",
+     "keywords",
+     "language",
+     "lc"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 43,
+   "inlineFetch": true,
+   "mainText": 4173,
+   "domAddedAfterLoad": 7,
+   "hosts": {
+    "www.motorola.com": 8,
+    "c1-ofp.static.pub": 7,
+    "p3-ofp.static.pub": 15,
+    "p4-ofp.static.pub": 14,
+    "p2-ofp.static.pub": 24,
+    "j1-ofp.static.pub": 6,
+    "p1-ofp.static.pub": 19,
+    "s2.go-mpulse.net": 1,
+    "www.googletagmanager.com": 1,
+    "api.motorola.com": 3,
+    "c.evidon.com": 6,
+    "digitalfeedback.us.confirmit.com": 9,
+    "c.go-mpulse.net": 1,
+    "l.evidon.com": 3,
+    "acef42ba.akstat.io": 2
+   },
+   "thirdPartyHosts": [
+    "c1-ofp.static.pub",
+    "p3-ofp.static.pub",
+    "p4-ofp.static.pub",
+    "p2-ofp.static.pub",
+    "j1-ofp.static.pub",
+    "p1-ofp.static.pub",
+    "s2.go-mpulse.net",
+    "www.googletagmanager.com",
+    "c.evidon.com",
+    "digitalfeedback.us.confirmit.com",
+    "c.go-mpulse.net",
+    "l.evidon.com",
+    "acef42ba.akstat.io"
+   ],
+   "scripts": [
+    "https://j1-ofp.static.pub/t_/de_at/version/batch/ids/da935540bec63c0e24b9950e6f81041a_51cbe3e23f873eaf54b85160016892d1_6df1d2dee74193c28ae56f75c7f164c9_68d01d228727e573b5b4a6334ed79421_cd8db1a457f40f4",
+    "https://j1-ofp.static.pub/t_/en/version/js/7212cc4ba64f0cf986fe053d9f52a074.js",
+    "https://j1-ofp.static.pub/SystemFragment/common/content/global.min.a4153dfa5709c5f4.js",
+    "https://j1-ofp.static.pub/SystemFragment/static/extension.min.329c35058c01fa79.js",
+    "https://j1-ofp.static.pub/SystemFragment/static/vendors-ignorejq.min.31252b090b8b0b0c.js",
+    "https://j1-ofp.static.pub/t_/es_es/version/js/74024fef4193e695896fd923c330dfa8.js",
+    "https://www.motorola.com/akam/13/17700b2d",
+    "https://s2.go-mpulse.net/boomerang/QR4MV-WWCTC-337JB-3LT7K-9RBLH",
+    "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-56W3X3SN",
+    "https://c.evidon.com/sitenotice/8651/snthemes.js",
+    "https://c.evidon.com/sitenotice/8651/motorola/settingsV3.js",
+    "https://c.evidon.com/sitenotice/evidon-sitenotice-tag.js",
+    "https://c.evidon.com/tag-at/country.js",
+    "https://c.evidon.com/sitenotice/8651/translations/en-216413.js",
+    "https://c.evidon.com/sitenotice/evidon-barrier.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader?programKey=ngwAGv",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/static/v34/intercept-survey.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=6302&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14512&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14773&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14278&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14547&programVersion=241"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/dict/getdictinfo",
+     "query": [],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://api.motorola.com/at/de/dict/getdictinfo"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/api/cart/count",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/api/cart/count"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/auth/assign_cookie",
+     "query": [
+      "searchabran",
+      "wishlistpns",
+      "zipcode"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/auth/assign_cookie"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/akam/{n}/pixel_17700b2d",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.motorola.com/akam/13/pixel_17700b2d"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET c.go-mpulse.net/api/config.json",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3688001;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;26,0,0,1,3,0;T\\\"N9A\\\"s\\\"J7SAVP$#YRe-@@i-\\\"D\\\"OVH\\\"n}~6 z`+\\\"K%w\\\"Pn DVrZzy\\\"Y;E\\\"}-O\\\"IDh\\\"MPB(f2?\\\"Xf#\\\"-\\\"sJo9BX8*DnZ?UL\\\"U,$\\\"(Ey\\\"e\\\"|Vs+$P*wMzA0EE)xzmSW4)7bdXYp9(Ok80Na5T@C!Ot^M>At+[5^\\\"|\\\"G`x\\\"l]^~SV7dq\\\"`?\\\"-\\\"\\\"?\\\"EMo\\\"x\\\"\\\"|(m\\\"G/\\\"a\\\"M\\\"HRF\\\"xh$\\\"|])r*\\\";B\\\"!tox%K?m%hb\\\"wo`\\\"ba)>mz`*,P\\\"]{#\\\">\\\"UVoA7\\\"9\\\",(d0\\\"0"
+    },
+    {
+     "url": "https://www.motorola.com/akam/13/pixel_17700b2d",
+     "body": "ap=true&bt=%7B%22charging%22%3Atrue%2C%22chargingTime%22%3A0%2C%22dischargingTime%22%3A%22Infinity%22%2C%22level%22%3A1%2C%22onchargingchange%22%3Anull%2C%22onchargingtimechange%22%3Anull%2C%22ondischargingtimechange%22%3Anull%2C%22onlevelchange%22%3Anull%7D&fonts=null&fh=null&timing=%7B%221%22%3A31%2C%222%22%3A208%2C%223%22%3A322%2C%224%22%3A424%2C%225%22%3A527%2C%226%22%3A628%2C%22profile%22%3A%"
+    },
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3688001;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;12,35,0,1,4,334;\\\"Y\\\"QXv\\\"cnH\\\"e\\\"5;$6Pxx_u)FyhJqsBW%5}{D1PFp3exc!v89K?2d`G4}|\\\"o\\\":2O\\\"6\\\"GJK-|9QD)6;e)evTn=>O:0Fud>TIUc13IU[B%[srUryOq@hMo2E]YRi7\\\"h\\\"a~8\\\"9N\\\"a\\\")i=/\\\"T\\\"Qeh][DzVdmd6XY\\\"X\\\"VpO\\\"O$O\\\"5P*\\\"Q\\\"%]\\\"f\\\"fU5C\\\"y\\\"Biu\\\"y\\\">rPm\\\"DXSVjTD\\\"Sp]5\\\"|\\\"6w8RWn7\\\"o\\\"ywM\\\"w\\\":u>6:!IX].T;lag\\\"_\\\"`DU]\\\"u\\\"Km63b9]CGY&1l:LO"
+    }
+   ],
+   "textAtLoad": 4173,
+   "mainEmptyAtLoad": false
+  },
+  "/at/de/offers": {
+   "url": "https://www.motorola.com/at/de/offers",
+   "status": 200,
+   "host": "www.motorola.com",
+   "title": "offer | motorola AT",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Anmelden / Konto erstellen",
+     "href": "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers",
+     "marker": "modal-item",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 26,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 520,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 3,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers",
+    "https://www.motorola.com/at/de/p/motoaccessories/all-moto-tags/pg38c06071",
+    "https://account.motorola.com/at/de/account/order/list.html"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 80
+   },
+   "locale": {
+    "lang": "de-AT",
+    "hreflang": [],
+    "switcher": [
+     "https://eprel.ec.europa.eu/qr/2650792",
+     "https://eprel.ec.europa.eu/qr/2558400",
+     "https://eprel.ec.europa.eu/qr/2564902",
+     "https://eprel.ec.europa.eu/qr/2667465",
+     "https://eprel.ec.europa.eu/qr/2499219"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "push"
+    ],
+    "utag_data": [
+     "country_code",
+     "language_code",
+     "site_id",
+     "customer_email",
+     "BPID",
+     "PageTitle",
+     "area",
+     "bu",
+     "cc",
+     "country",
+     "currency",
+     "currencycode",
+     "description",
+     "experience",
+     "loginName",
+     "lenovoID",
+     "sheeridverified",
+     "le_id",
+     "fusionABSessionID",
+     "fusionExpID",
+     "fusionQueryID",
+     "fusionReccExpID",
+     "fusionReccQueryID",
+     "fusionReccABSessionID",
+     "sid",
+     "groupID",
+     "internalsearchcanonical",
+     "keywords",
+     "language",
+     "lc"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 59,
+   "inlineFetch": true,
+   "mainText": 4297,
+   "domAddedAfterLoad": 118,
+   "hosts": {
+    "www.motorola.com": 6,
+    "p2-ofp.static.pub": 22,
+    "c1-ofp.static.pub": 8,
+    "p1-ofp.static.pub": 29,
+    "j1-ofp.static.pub": 11,
+    "p3-ofp.static.pub": 16,
+    "p4-ofp.static.pub": 23,
+    "api.motorola.com": 13,
+    "s2.go-mpulse.net": 1,
+    "www.googletagmanager.com": 1,
+    "c.evidon.com": 6,
+    "digitalfeedback.us.confirmit.com": 9,
+    "c.go-mpulse.net": 1,
+    "l.evidon.com": 3,
+    "trial-eum-clientnsv4-s.akamaihd.net": 1,
+    "trial-eum-clienttons-s.akamaihd.net": 1,
+    "naojrgixhbw4i2xj7jsq-pj1pm7-5bcaab5db-clientnsv4-s.akamaihd.net": 1,
+    "fie3vrlcjiiyojqacqde4aaaczvot6tf-pj1pm7-081f6a8a5-clienttons-s.akamaihd.net": 1,
+    "acef42ba.akstat.io": 2
+   },
+   "thirdPartyHosts": [
+    "p2-ofp.static.pub",
+    "c1-ofp.static.pub",
+    "p1-ofp.static.pub",
+    "j1-ofp.static.pub",
+    "p3-ofp.static.pub",
+    "p4-ofp.static.pub",
+    "s2.go-mpulse.net",
+    "www.googletagmanager.com",
+    "c.evidon.com",
+    "digitalfeedback.us.confirmit.com",
+    "c.go-mpulse.net",
+    "l.evidon.com",
+    "trial-eum-clientnsv4-s.akamaihd.net",
+    "trial-eum-clienttons-s.akamaihd.net",
+    "naojrgixhbw4i2xj7jsq-pj1pm7-5bcaab5db-clientnsv4-s.akamaihd.net",
+    "fie3vrlcjiiyojqacqde4aaaczvot6tf-pj1pm7-081f6a8a5-clienttons-s.akamaihd.net",
+    "acef42ba.akstat.io"
+   ],
+   "scripts": [
+    "https://j1-ofp.static.pub/t_/en/version/js/7212cc4ba64f0cf986fe053d9f52a074.js",
+    "https://j1-ofp.static.pub/t_/en_gb/version/batch/ids/97a2f66916d4094814e06de9176951cb_0201432f3161d3801a2ad808d9caea28_a5a90fa26de9467b05beb2a4db6ef875.js",
+    "https://j1-ofp.static.pub/SystemFragment/common/content/global.min.a4153dfa5709c5f4.js",
+    "https://j1-ofp.static.pub/SystemFragment/static/extension.min.329c35058c01fa79.js",
+    "https://j1-ofp.static.pub/SystemFragment/static/vendors-ignorejq.min.31252b090b8b0b0c.js",
+    "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+    "https://www.motorola.com/akam/13/17700b2d",
+    "https://j1-ofp.static.pub/t_/en/version/js/4a3b8b8227ccb829c3095a78357948b4.js",
+    "https://j1-ofp.static.pub/version/js/db2d6b96e6b8551223d40130f4cdd984.js",
+    "https://j1-ofp.static.pub/version/js/64a5f721249e24ca544013b7bf2777bf.js",
+    "https://j1-ofp.static.pub/t_/es_es/version/js/74024fef4193e695896fd923c330dfa8.js",
+    "https://s2.go-mpulse.net/boomerang/QR4MV-WWCTC-337JB-3LT7K-9RBLH",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-56W3X3SN",
+    "https://j1-ofp.static.pub/SystemFragment/moto/swiper_11/swiper-bundle.min.js",
+    "https://c.evidon.com/sitenotice/evidon-sitenotice-tag.js",
+    "https://c.evidon.com/tag-at/country.js",
+    "https://c.evidon.com/sitenotice/8651/motorola/settingsV3.js",
+    "https://c.evidon.com/sitenotice/8651/snthemes.js",
+    "https://c.evidon.com/sitenotice/8651/translations/en-216413.js",
+    "https://c.evidon.com/sitenotice/evidon-barrier.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader?programKey=ngwAGv",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/static/v34/intercept-survey.js",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=6302&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14512&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14278&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14773&programVersion=241",
+    "https://digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/scenario?programKey=ngwAGv&scenarioId=14547&programVersion=241"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/dict/getdictinfo",
+     "query": [],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://api.motorola.com/at/de/dict/getdictinfo"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "query": [],
+     "status": 201,
+     "contentType": "application/json",
+     "example": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/api/cart/count",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/api/cart/count"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/auth/assign_cookie",
+     "query": [
+      "searchabran",
+      "wishlistpns",
+      "zipcode"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/auth/assign_cookie"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/online/moto/getMotoPictureSwitch",
+     "query": [
+      "subseriesCodes"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/online/moto/getMotoPictureSwitch"
+    },
+    {
+     "method": "GET",
+     "host": "api.motorola.com",
+     "path": "/at/de/detail/price/batch/get",
+     "query": [
+      "configId",
+      "enteredCode",
+      "mcode",
+      "preSelect"
+     ],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://api.motorola.com/at/de/detail/price/batch/get"
+    },
+    {
+     "method": "POST",
+     "host": "www.motorola.com",
+     "path": "/akam/{n}/pixel_17700b2d",
+     "query": [],
+     "status": 200,
+     "contentType": "text/html",
+     "example": "https://www.motorola.com/akam/13/pixel_17700b2d"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET c.go-mpulse.net/api/config.json",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program",
+    "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite",
+    "GET trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt",
+    "GET trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt",
+    "GET naojrgixhbw4i2xj7jsq-pj1pm7-5bcaab5db-clientnsv4-s.akamaihd.net/eum/results.txt",
+    "GET fie3vrlcjiiyojqacqde4aaaczvot6tf-pj1pm7-081f6a8a5-clienttons-s.akamaihd.net/eum/results.txt"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3158339;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;47,0,0,2,3,0;&\\\"$wq\\\"z\\\"1]2Z59<ATO]2;f3{\\\")\\\"0^M\\\"R3J=K0Ds\\\"s79\\\"!2z=$Z5kW\\\"Tu8\\\"`V:\\\"eb_\\\"HUIU#!:\\\"[V7\\\"i\\\"5lsfYF&Q~w Q}w\\\"_ds\\\"v}$\\\"A\\\"D=? k`WzZiV3{e*2otEg9iy}0x%>.xu=IGS;VWI*y eDNA{_XFoP\\\"B\\\"Fuk\\\"{-# gCBT/\\\"F#\\\"_\\\"\\\"g\\\",s=\\\"F\\\"\\\"H/v\\\"8s\\\"S\\\"e\\\"?+5\\\"waL\\\"*z}*5\\\"sC\\\"u%p2;643` >\\\"|j(\\\"%3N~A(iv$;\\\"K?/\\\"A\\\"83z2c\\\"@\\\"&={^\\\"1"
+    },
+    {
+     "url": "https://www.motorola.com/akam/13/pixel_17700b2d",
+     "body": "ap=true&bt=%7B%22charging%22%3Atrue%2C%22chargingTime%22%3A0%2C%22dischargingTime%22%3A%22Infinity%22%2C%22level%22%3A1%2C%22onchargingchange%22%3Anull%2C%22onchargingtimechange%22%3Anull%2C%22ondischargingtimechange%22%3Anull%2C%22onlevelchange%22%3Anull%7D&fonts=null&fh=null&timing=%7B%221%22%3A38%2C%222%22%3A175%2C%223%22%3A276%2C%224%22%3A377%2C%225%22%3A490%2C%226%22%3A594%2C%22profile%22%3A%"
+    },
+    {
+     "url": "https://www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+     "body": "{\"sensor_data\":\"3;0;1;0;3158339;QJqkVuO3GtLtOE76quOF3yR4z9JOBmGj8Blg0owpIII=;27,54,0,1,14,475;\\\"J\\\"2+ \\\"?Tn\\\"~\\\"{RB1Mp}Y=P7+LIQzG hHI$nD518Zv:hR:32w(jT>H/Yo\\\"Q\\\"$!k\\\"-\\\"BORZ:*L~,&Nrb28wu`[<)T|w(R~wTli#(F6K58b:<>p8!nkZ^GH5yS!,\\\"Y\\\"faz\\\"cn\\\"/\\\"y1m@\\\"Y\\\"rxqFUtA<6GL)pBvOOI\\\"j\\\"lGQ\\\"$LL\\\"3,}\\\"s\\\"]T\\\"f\\\"DV9f\\\"F\\\"Ubh$\\\"R\\\"~Jkl\\\"Y3Jc*sd\\\"SQlr\\\"9\\\"k[g~pQT\\\"%\\\"RY(\\\"D\\\"s)u4N<h|e*$NCj4\\\"=\\\"1dUM\\\"c\\\"uFjt1SdtT3"
+    }
+   ],
+   "textAtLoad": 178,
+   "mainEmptyAtLoad": true
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-digitalfeedback-us-confirmit-com",
+   "class": "A",
+   "feature": "unknown third-party host digitalfeedback.us.confirmit.com",
+   "hint": "inspect",
+   "evidence": [
+    "digitalfeedback.us.confirmit.com"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-9qtlu9-y-wl-dqn-i2d-msdxsirc-ov5t0m4p",
+   "class": "A",
+   "feature": "first-party API POST /9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg",
+   "api": {
+    "method": "POST",
+    "path": "/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg → 201"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "internalsearchcanonical"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-trial-eum-clientnsv4-s-akamaihd-n",
+   "class": "A",
+   "feature": "unknown third-party host trial-eum-clientnsv4-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "trial-eum-clientnsv4-s.akamaihd.net"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-trial-eum-clienttons-s-akamaihd-n",
+   "class": "A",
+   "feature": "unknown third-party host trial-eum-clienttons-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "trial-eum-clienttons-s.akamaihd.net"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-at-de-auth-assign-cookie",
+   "class": "A",
+   "feature": "first-party API GET /at/de/auth/assign_cookie",
+   "api": {
+    "method": "GET",
+    "path": "/at/de/auth/assign_cookie"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /at/de/auth/assign_cookie?searchabran,wishlistpns,zipcode → 200"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 9,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-at-de-api-cart-count",
+   "class": "A",
+   "feature": "first-party API GET /at/de/api/cart/count",
+   "api": {
+    "method": "GET",
+    "path": "/at/de/api/cart/count"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /at/de/api/cart/count → 200"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-c-amazon-adsystem-com",
+   "class": "A",
+   "feature": "unknown third-party host c.amazon-adsystem.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.amazon-adsystem.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-cdn-equalweb-com",
+   "class": "A",
+   "feature": "unknown third-party host cdn.equalweb.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.equalweb.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-pixel-config-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host pixel-config.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "pixel-config.reddit.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-alb-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host alb.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "alb.reddit.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-p-tvpixel-com",
+   "class": "A",
+   "feature": "unknown third-party host p.tvpixel.com",
+   "hint": "inspect",
+   "evidence": [
+    "p.tvpixel.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-s-amazon-adsystem-com",
+   "class": "A",
+   "feature": "unknown third-party host s.amazon-adsystem.com",
+   "hint": "inspect",
+   "evidence": [
+    "s.amazon-adsystem.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-naojrgixhbw4i2xj7jaa-pyb1bt-e5692",
+   "class": "A",
+   "feature": "unknown third-party host naojrgixhbw4i2xj7jaa-pyb1bt-e56927f7c-clientnsv4-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "naojrgixhbw4i2xj7jaa-pyb1bt-e56927f7c-clientnsv4-s.akamaihd.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-fie3vrlcjiiyojqacqde4aaaczvot6sa-",
+   "class": "A",
+   "feature": "unknown third-party host fie3vrlcjiiyojqacqde4aaaczvot6sa-pyb1bt-977e5aa8f-clienttons-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "fie3vrlcjiiyojqacqde4aaaczvot6sa-pyb1bt-977e5aa8f-clienttons-s.akamaihd.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-us-en-auth-assign-cookie",
+   "class": "A",
+   "feature": "first-party API GET /us/en/auth/assign_cookie",
+   "api": {
+    "method": "GET",
+    "path": "/us/en/auth/assign_cookie"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /us/en/auth/assign_cookie?searchabran,wishlistpns,zipcode → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-us-en-api-cart-count",
+   "class": "A",
+   "feature": "first-party API GET /us/en/api/cart/count",
+   "api": {
+    "method": "GET",
+    "path": "/us/en/api/cart/count"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /us/en/api/cart/count → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-us-en-online-moto-getmotopictureswitch",
+   "class": "A",
+   "feature": "first-party API GET /us/en/online/moto/getMotoPictureSwitch",
+   "api": {
+    "method": "GET",
+    "path": "/us/en/online/moto/getMotoPictureSwitch"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /us/en/online/moto/getMotoPictureSwitch?subseriesCodes → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-us-en-detail-price-batch-get",
+   "class": "A",
+   "feature": "first-party API GET /us/en/detail/price/batch/get",
+   "api": {
+    "method": "GET",
+    "path": "/us/en/detail/price/batch/get"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /us/en/detail/price/batch/get?configId,enteredCode,mcode,preSelect → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-post-us-en-marketing-webformcomponent-getw",
+   "class": "A",
+   "feature": "first-party API POST /us/en/marketing/webformComponent/getWrbforms",
+   "api": {
+    "method": "POST",
+    "path": "/us/en/marketing/webformComponent/getWrbforms"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /us/en/marketing/webformComponent/getWrbforms → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-us-en-online-moto-getaccessorybindsfor",
+   "class": "A",
+   "feature": "first-party API GET /us/en/online/moto/getAccessoryBindsForList",
+   "api": {
+    "method": "GET",
+    "path": "/us/en/online/moto/getAccessoryBindsForList"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /us/en/online/moto/getAccessoryBindsForList?groupCodes,productNumbers → 200"
+   ],
+   "pages": [
+    "/"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-unknown-third-party-host-naojrgixhbw4i2xj7jgq-pj04tx-f6b44",
+   "class": "A",
+   "feature": "unknown third-party host naojrgixhbw4i2xj7jgq-pj04tx-f6b444eb4-clientnsv4-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "naojrgixhbw4i2xj7jgq-pj04tx-f6b444eb4-clientnsv4-s.akamaihd.net"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-fie3vrlcjmiyojqacqde4aaaczvot6sn-",
+   "class": "A",
+   "feature": "unknown third-party host fie3vrlcjmiyojqacqde4aaaczvot6sn-pj04tx-1e5880e14-clienttons-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "fie3vrlcjmiyojqacqde4aaaczvot6sn-pj04tx-1e5880e14-clienttons-s.akamaihd.net"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-naojrgixhbw4i2xj7jsq-pj1pm7-5bcaa",
+   "class": "A",
+   "feature": "unknown third-party host naojrgixhbw4i2xj7jsq-pj1pm7-5bcaab5db-clientnsv4-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "naojrgixhbw4i2xj7jsq-pj1pm7-5bcaab5db-clientnsv4-s.akamaihd.net"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-fie3vrlcjiiyojqacqde4aaaczvot6tf-",
+   "class": "A",
+   "feature": "unknown third-party host fie3vrlcjiiyojqacqde4aaaczvot6tf-pj1pm7-081f6a8a5-clienttons-s.akamaihd.net",
+   "hint": "inspect",
+   "evidence": [
+    "fie3vrlcjiiyojqacqde4aaaczvot6tf-pj1pm7-081f6a8a5-clienttons-s.akamaihd.net"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-at-de-online-moto-getmotopictureswitch",
+   "class": "A",
+   "feature": "first-party API GET /at/de/online/moto/getMotoPictureSwitch",
+   "api": {
+    "method": "GET",
+    "path": "/at/de/online/moto/getMotoPictureSwitch"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /at/de/online/moto/getMotoPictureSwitch?subseriesCodes → 200"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 10
+   }
+  },
+  {
+   "id": "a-first-party-api-get-at-de-detail-price-batch-get",
+   "class": "A",
+   "feature": "first-party API GET /at/de/detail/price/batch/get",
+   "api": {
+    "method": "GET",
+    "path": "/at/de/detail/price/batch/get"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /at/de/detail/price/batch/get?configId,enteredCode,mcode,preSelect → 200"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 10
+   }
+  },
+  {
+   "id": "cr-main-empty-at-load-filled-after-client-rendered-page",
+   "class": "CR",
+   "feature": "main empty at load, filled after (client-rendered page)",
+   "hint": "client-rendered-page",
+   "evidence": [
+    "text at load 178 → settled 4297"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "f-form-form-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"form\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "email:moto.newsletter.email",
+    "checkbox:terms"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "email:moto.newsletter.email,checkbox:terms"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-text-moto-first-name-text-moto-last-name-no-action-js",
+   "class": "F",
+   "feature": "form \"text:moto.first.name+text:moto.last.name\" → no action (JS-wired) (6 fields)",
+   "signature": [
+    "text:moto.first.name",
+    "text:moto.last.name",
+    "text:moto.email.address",
+    "radio:moto.email.optin",
+    "radio:moto.email.optin",
+    "checkbox:moto.contact.privacy"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:moto.first.name,text:moto.last.name,text:moto.email.address,radio:moto.email.optin,radio:moto.email.optin,checkbox:moto.contact.privacy",
+    "moto.contact.privacy,moto.campaign.name"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-hc-hc",
+   "class": "I18N",
+   "feature": "locale variants hc,hc",
+   "hint": "locale",
+   "evidence": [
+    "https://help.motorola.com/hc/apps/privacy/product/en-us/",
+    "https://help.motorola.com/hc/apps/privacy/notice/us/en-us/"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-gb",
+   "class": "I18N",
+   "feature": "locale variants gb",
+   "hint": "locale",
+   "evidence": [
+    "https://www.motorola.com/gb/en/legal/website-privacy"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-gb-gb",
+   "class": "I18N",
+   "feature": "locale variants gb,gb",
+   "hint": "locale",
+   "evidence": [
+    "https://www.motorola.com/gb/en/legal/extended-service-plan-agreement",
+    "https://www.motorola.com/gb/en/legal/website-privacy"
+   ],
+   "pages": [
+    "/at/de/motocare"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-qr-qr-qr-qr-qr",
+   "class": "I18N",
+   "feature": "locale variants qr,qr,qr,qr,qr",
+   "hint": "locale",
+   "evidence": [
+    "https://eprel.ec.europa.eu/qr/2650792",
+    "https://eprel.ec.europa.eu/qr/2558400",
+    "https://eprel.ec.europa.eu/qr/2564902"
+   ],
+   "pages": [
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-carousel-track-9-cards",
+   "class": "L",
+   "feature": "listing candidate carousel__track (9 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-modal-item-chrome-only-target-outside-dom-at",
+   "class": "M",
+   "feature": "modal trigger modal-item (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "https://account.motorola.com/us/en/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ],
+   "reach": {
+    "pages": 10,
+    "of": 10
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-c1-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host c1-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "c1-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p1-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host p1-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "p1-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p2-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host p2-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "p2-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p4-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host p4-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "p4-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-p3-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host p3-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "p3-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-j1-ofp-static-pub",
+   "class": "T",
+   "feature": "unknown third-party host j1-ofp.static.pub",
+   "hint": "inspect",
+   "evidence": [
+    "j1-ofp.static.pub"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-rum-akamai-mpulse",
+   "class": "T",
+   "feature": "RUM: Akamai mPulse",
+   "role": "RUM: Akamai mPulse",
+   "hint": "tags",
+   "evidence": [
+    "s2.go-mpulse.net",
+    "c.go-mpulse.net"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-evidon-com",
+   "class": "T",
+   "feature": "unknown third-party host c.evidon.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.evidon.com"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-l-evidon-com",
+   "class": "T",
+   "feature": "unknown third-party host l.evidon.com",
+   "hint": "inspect",
+   "evidence": [
+    "l.evidon.com"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-acef42ba-akstat-io",
+   "class": "T",
+   "feature": "unknown third-party host acef42ba.akstat.io",
+   "hint": "inspect",
+   "evidence": [
+    "acef42ba.akstat.io"
+   ],
+   "pages": [
+    "/",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-redditstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.redditstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.redditstatic.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-static-narrativ-com",
+   "class": "T",
+   "feature": "unknown third-party host static.narrativ.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.narrativ.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-sc-static-net",
+   "class": "T",
+   "feature": "unknown third-party host sc-static.net",
+   "hint": "inspect",
+   "evidence": [
+    "sc-static.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "bat.bing.com",
+    "connect.facebook.net",
+    "ad.doubleclick.net",
+    "analytics.tiktok.com",
+    "stats.g.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "3822063.fls.doubleclick.net"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-motorolaus500z-btttag-com",
+   "class": "T",
+   "feature": "unknown third-party host motorolaus500z.btttag.com",
+   "hint": "inspect",
+   "evidence": [
+    "motorolaus500z.btttag.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-upsellit-com",
+   "class": "T",
+   "feature": "unknown third-party host www.upsellit.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.upsellit.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "t.contentsquare.net",
+    "www.clarity.ms",
+    "scripts.clarity.ms",
+    "c.az.contentsquare.net",
+    "c.clarity.ms",
+    "o.clarity.ms"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-tvpixel-com",
+   "class": "T",
+   "feature": "unknown third-party host c.tvpixel.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.tvpixel.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com",
+    "www.googleadservices.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tr-snapchat-com",
+   "class": "T",
+   "feature": "unknown third-party host tr.snapchat.com",
+   "hint": "inspect",
+   "evidence": [
+    "tr.snapchat.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-pixel-tapad-com",
+   "class": "T",
+   "feature": "unknown third-party host pixel.tapad.com",
+   "hint": "inspect",
+   "evidence": [
+    "pixel.tapad.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-tr6-snapchat-com",
+   "class": "T",
+   "feature": "unknown third-party host tr6.snapchat.com",
+   "hint": "inspect",
+   "evidence": [
+    "tr6.snapchat.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-analytics-ipv6-tiktokw-us",
+   "class": "T",
+   "feature": "unknown third-party host analytics-ipv6.tiktokw.us",
+   "hint": "inspect",
+   "evidence": [
+    "analytics-ipv6.tiktokw.us"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-bing-com",
+   "class": "T",
+   "feature": "unknown third-party host c.bing.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.bing.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-app-upsellit-com",
+   "class": "T",
+   "feature": "unknown third-party host app.upsellit.com",
+   "hint": "inspect",
+   "evidence": [
+    "app.upsellit.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ace99add-akstat-io",
+   "class": "T",
+   "feature": "unknown third-party host ace99add.akstat.io",
+   "hint": "inspect",
+   "evidence": [
+    "ace99add.akstat.io"
+   ],
+   "pages": [
+    "/at/de/brilliant-collection-2026"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "IND - Default Props"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.motorola.com/us/en/family/moto-things-accessories",
+    "https://www.motorola.com/us/en/family/auto-accessories",
+    "https://www.motorola.com/us/en/p/motoaccessories/moto-buds-loop/pg38c07168",
+    "https://www.motorola.com/us/en/p/motoaccessories/moto-buds-2/pg38c08166",
+    "https://www.motorola.com/at/de/family/all-accessories",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026",
+    "https://www.motorola.com/at/de/p/motoaccessories/moto-buds-2-plus/pg38c08069?pn=PG38C08526",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare",
+    "https://www.motorola.com/at/de/p/motoaccessories/all-moto-tags/pg38c06071",
+    "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers"
+   ],
+   "pages": [
+    "/",
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare",
+    "/at/de/offers"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/at/de/brilliant-collection-2026",
+    "/at/de/motocare"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-6",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 6)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-80",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 80)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/at/de/offers"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 10,
+  "of": 10,
+  "endpoints": {
+   "GET api.motorola.com/at/de/auth/assign_cookie": 9,
+   "GET api.motorola.com/at/de/dict/getdictinfo": 9,
+   "POST www.motorola.com/9qTLU9/Y_wL/dqN/I2d/MSdXSiRc/OV5t0m4p1XbbrpV3/EltsWg/NzohY30/FPAg": 10,
+   "GET c.go-mpulse.net/api/config.json": 10,
+   "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/program": 10,
+   "GET digitalfeedback.us.confirmit.com/api/digitalfeedback/loader/prod/invite": 10,
+   "POST www.google.com/ccm/collect": 10,
+   "POST ad.doubleclick.net/ccm/s/collect": 5,
+   "GET api.ipify.org/": 10,
+   "GET pixel-config.reddit.com/pixels/a2_ewmhtocglt95/config": 10,
+   "POST l.evidon.com/site/v3/userPref/": 5,
+   "POST alb.reddit.com/rp": 10,
+   "GET gum.criteo.com/sid/json": 9,
+   "GET mug.criteo.com/sid": 9,
+   "POST www.google-analytics.com/g/collect": 5,
+   "GET c.amazon-adsystem.com/aat/amzn.js": 10,
+   "GET c.amazon-adsystem.com/aat/allowlist/allowlist.json": 10,
+   "GET cdn.equalweb.com/assets/data/methods.json": 10,
+   "GET cdn.equalweb.com/assets/data/lang.json": 10,
+   "GET cm.teads.tv/v2/advertiser": 9,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=8;ord=3584804994093;npa=0;auiddc=234805778.1793712963;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123322203~123691370~123692834;epver=2;dc_random=1793712964_Y9H1ZeLz-1t_crqwBVvWP6YBZPVT6BqFJQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLKh28D165cDFWkOhAgdeXMDag;src=11829995;type=aud;cat=undefined;rcb=8;ord=3584804994093;npa=0;auiddc=234805778.1793712963;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123322203~123691370~123692834;epver=2;dc_random=1793712964_Y9H1ZeLz-1t_crqwBVvWP6YBZPVT6BqFJQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026": 1,
+   "GET cdn.equalweb.com/style/shadow_style.css": 10,
+   "GET cdn.equalweb.com/style/btncolor.css": 10,
+   "GET cdn.equalweb.com/assets/locale/de.json": 9,
+   "GET cdn.equalweb.com/assets/scripts/classManager.js": 10,
+   "GET aax-eu.amazon-adsystem.com/s/iu3": 9,
+   "GET cdn.equalweb.com/assets/images/11.svg": 10,
+   "GET t.teads.tv/track": 9,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=8;ord=4548587230881;npa=0;auiddc=234805778.1793712963;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection-2026;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Das%20motorola%20razr%2070%20kaufen%20%7C%20Premium-Smartphone%20%7C%20Flip-Smartphone;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123322203~123691370~123692834;dc_random=1793712964_dDtEQlxwFeq3hs772k7kV1q1CYUpr0MFLQ;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLeA28D165cDFScNhAgd5jgt2g;src=11829995;type=allpa0;cat=motor001;rcb=8;ord=4548587230881;npa=0;auiddc=234805778.1793712963;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection-2026;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Das%20motorola%20razr%2070%20kaufen%20%7C%20Premium-Smartphone%20%7C%20Flip-Smartphone;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123322203~123691370~123692834;dc_random=1793712964_dDtEQlxwFeq3hs772k7kV1q1CYUpr0MFLQ;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=5486068230241199960;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8n2WDUIks3f3di2bZZ-lluFKuYGxOBWoZcoI;_dc_time=1793712964;dc_pre=CLeA28D165cDFScNhAgd5jgt2g;src=11829995;type=allpa0;cat=motor001;rcb=8;ord=4548587230881;npa=0;auiddc=234805778.1793712963;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection-2026;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection-2026;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Das%20motorola%20razr%2070%20kaufen%20%7C%20Premium-Smartphone%20%7C%20Flip-Smartphone;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120412528~120420414~120469145~120469153~121246026~121246034~123322203~123691370~123692834;dc_random=1793712964_dDtEQlxwFeq3hs772k7kV1q1CYUpr0MFLQ;epver=2": 1,
+   "POST www.google.com/rmkt/collect/{n}/": 10,
+   "GET www.googleadservices.com/pagead/conversion/{n}/": 10,
+   "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/{n}/": 10,
+   "GET www.google.com/pagead/1p-conversion/{n}/": 10,
+   "POST insight.adsrvr.org/track/realtimeconversion": 9,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=6;ord=5527246242603;npa=0;auiddc=24123013.1793713185;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793713194_I2YIaDNUCFMiqGs-g7mtQ8Vfh8JVxou_WQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CKayga7265cDFeFXhwMdzjw44w;src=11829995;type=aud;cat=undefined;rcb=6;ord=5527246242603;npa=0;auiddc=24123013.1793713185;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793713194_I2YIaDNUCFMiqGs-g7mtQ8Vfh8JVxou_WQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=1683097239451;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Entdecke%20die%20Dazzling%20Collection%20von%20motorola%20razr%20und%20moto%20buds%20loop%20mit%20Crystals%20by%20Swarovski%C2%AE%20%7C%20motorola%20DE;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;dc_random=1793713194_9d9pIm0JDHOSA9OhB3zV3OZ8gyOM9rTvjg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CNKmga7265cDFeRX4QYduqgbgg;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=1683097239451;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Entdecke%20die%20Dazzling%20Collection%20von%20motorola%20razr%20und%20moto%20buds%20loop%20mit%20Crystals%20by%20Swarovski%C2%AE%20%7C%20motorola%20DE;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;dc_random=1793713194_9d9pIm0JDHOSA9OhB3zV3OZ8gyOM9rTvjg;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=456979752241535769;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8ksxI8UMadFe2RV-r7cY2Y7JmgiqwTF9IoKW;_dc_time=1793713193;cid=CAQS4QEAQM4h3MlucSbSCQIOMFz4O938bWWX0Q4xOGsm_o6MaJMuC0irhqjoiOPwOFj-sK6wBZMOZVgw5l1jnhFBpzA54qXNQIlKocEnuJCn9sVDS4n6F8lfivlDRIFd1Vx77BezGL5KordYjxG5gYTlBPJ9g6GHq6Pv0G9074_rWLbroxs7b9lHZPKp5X1PKT4feefQvSs7xYZcHbMZ_dgFEcAPkTLBSrck-LDJqwZlsv90hLN81GjLZt8CyzmZGGaSSqnu1SPC5XDS3LJu-eIJBBfmvgXMf0vy_h6WTFbkCSKItRc;eps=AHas8cBLf53cdoh4gpqkQSCq2QFUFqIIRs9Zmsw83Fbp-RcBewjGq9XhVZo5S3QuZZeVeB0OVvG42PCKPKPcKmW2cFHZxLhLrTFLtMnft2whrXpmHQ;dc_pre=CNKmga7265cDFeRX4QYduqgbgg;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=1683097239451;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbrilliant-collection;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbrilliant-collection;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Entdecke%20die%20Dazzling%20Collection%20von%20motorola%20razr%20und%20moto%20buds%20loop%20mit%20Crystals%20by%20Swarovski%C2%AE%20%7C%20motorola%20DE;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;dc_random=1793713194_9d9pIm0JDHOSA9OhB3zV3OZ8gyOM9rTvjg;epver=2": 1,
+   "POST api.motorola.com/at/de/marketing/webformComponent/getWrbforms": 2,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=16;ord=418051580788;npa=0;auiddc=923928165.1793712481;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712532_Q0M1GZjVblaO16Tsu7592IbjXlok1P_LPw;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbusiness-edition": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CIO6uvLz65cDFUoNhAgdsjwelQ;src=11829995;type=aud;cat=undefined;rcb=16;ord=418051580788;npa=0;auiddc=923928165.1793712481;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712532_Q0M1GZjVblaO16Tsu7592IbjXlok1P_LPw;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbusiness-edition": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=4776116169944;npa=0;auiddc=923928165.1793712481;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbusiness-edition;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbusiness-edition;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Business%20Edition%20;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;dc_random=1793712532_-6GieQ6EdBUKQVzAmhNerQlBQ1r-oTgtxQ;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=17471303877234022743;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEiUA1kaD8ka_RW41IoC9vMhxDupMfAoYHRbZnYS1rvTJBj2pZr_M;_dc_time=1793712532;cid=CAQS4QEAQM4h3JfnO0erMFnPuVKOXCMsIt3LNN4plbYIctuA9a4ZMEGLtyVBoVkOtnh9YvBMd4uoTUC_3ZAC87hWpfEiGFubP9Qgilx6jInkvccPbfAj55OS-PbP7ulLWO1sVXc994mGg_pUezLwpxTZBh2zH734SmUg2Qgk4BtDFeYVthhvgSjiSmHXLRlBDyqLh9UP4hDe5XyHtu8h2mYQ-jFnYs9P0cfIUl0Q7PIx2UT02BYxh4Bi9gNGcBQOS3Jft1Hq5mZl-eveWjKMKRUT0h7qcL8dixEjuVxhifJHl4YvOD0;eps=AHas8cBygTPoZ6OCKqD5wD6BetYgj_OtiOo1YtZkiMQxUqUkX9KY81IfqHYu_kEXQNJYOiJtZQRVfb_AsFA9iWCLvclWY9w7wEJVThb0uZywCzK6Ig;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=4776116169944;npa=0;auiddc=923928165.1793712481;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fbusiness-edition;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fbusiness-edition;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Business%20Edition%20;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370;dc_random=1793712532_-6GieQ6EdBUKQVzAmhNerQlBQ1r-oTgtxQ;epver=2": 1,
+   "POST analytics.google.com/g/collect": 5,
+   "POST www.google.com/measurement/conversion": 3,
+   "GET api.motorola.com/at/de/online/moto/getMotoPictureSwitch": 3,
+   "GET api.motorola.com/at/de/detail/price/batch/get": 3,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=16;ord=7358786678407;npa=0;auiddc=629623221.1793712522;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121191153~121246026~121246034~123691370~123785234;epver=2;dc_random=1793712532_y7bNgaf-9Y4f5tey4mMgEXVYdNi-laL91Q;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fcontest": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CMG9vPLz65cDFbtb4QYdsEUzFw;src=11829995;type=aud;cat=undefined;rcb=16;ord=7358786678407;npa=0;auiddc=629623221.1793712522;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121191153~121246026~121246034~123691370~123785234;epver=2;dc_random=1793712532_y7bNgaf-9Y4f5tey4mMgEXVYdNi-laL91Q;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fcontest": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=5533880006516;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fcontest;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fcontest;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Motorola%20AT%20FIFA%3A%20Erlebe%20die%20FIFA%20Fussball-Weltmeisterschaft%202026%E2%84%A2%20vor%20Ort.;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121191153~121246026~121246034~123691370~123785234;dc_random=1793712532_9Uw1j4Uk7zbo_8yEUMEV3kP62mnUVxLcUg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CLqyvPLz65cDFdQNhAgdLgcY0A;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=5533880006516;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fcontest;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fcontest;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Motorola%20AT%20FIFA%3A%20Erlebe%20die%20FIFA%20Fussball-Weltmeisterschaft%202026%E2%84%A2%20vor%20Ort.;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121191153~121246026~121246034~123691370~123785234;dc_random=1793712532_9Uw1j4Uk7zbo_8yEUMEV3kP62mnUVxLcUg;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=15953460340812975544;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8sxkTfdRrJT7ONU-fixK5YrPNWfejMgrXzWR;_dc_time=1793712532;cid=CAQS4QEAQM4h3JXQKHIJn4H_rso3vLl3wAYbFORIVnDmp8TvKxNSh1sfy_xu4KbZhfBy-Gv3FYdevvjwPK8R8TpJulrcUwP6HQxqh60XxqKCiZTS1i_pN6KmZ4n2K8jUHgH-4JwKgHQoYtVBCZy_gSq821dKbcQik3v_mXz8nG3Xmdv-EDpQH5HI98IlwbsmE2tbQPfFO9wxDRsDdekIb8OiDY-b-i1Tz4-HawYIv3LWuBjPqyO8tiifmgfXnxIcrmWt6Gaud1gU34P8SugK3imlz1vGNreEBhKNhr9DtNSY2XTZtig;eps=AHas8cCE6F-sUCIBBs2XO99guNoNxim_FWk_NF_OsK7Sg_HzxeVE9TuTtNYqgok-B8dmIKXy_dZBlQRaPIc8hl88mBPGX1UeGvKjPq5V_FPa03zDXA;dc_pre=CLqyvPLz65cDFdQNhAgdLgcY0A;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=5533880006516;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fcontest;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fcontest;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Motorola%20AT%20FIFA%3A%20Erlebe%20die%20FIFA%20Fussball-Weltmeisterschaft%202026%E2%84%A2%20vor%20Ort.;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121191153~121246026~121246034~123691370~123785234;dc_random=1793712532_9Uw1j4Uk7zbo_8yEUMEV3kP62mnUVxLcUg;epver=2": 1,
+   "GET api.motorola.com/at/de/api/cart/count": 2,
+   "POST www.motorola.com/akam/{n}/pixel_17700b2f": 2,
+   "GET trial-eum-clienttons-s.akamaihd.net/eum/getdns.txt": 3,
+   "GET trial-eum-clientnsv4-s.akamaihd.net/eum/getdns.txt": 3,
+   "GET fie3vrlcjqiyojqacqdlyaaabvvoty75-pqy32y-166d6b06f-clienttons-s.akamaihd.net/eum/results.txt": 1,
+   "GET naojrgixhbw4w2xj4p6q-pqy32y-2499af24c-clientnsv4-s.akamaihd.net/eum/results.txt": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=11;ord=3304263613395;npa=0;auiddc=24123013.1793713185;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;epver=2;dc_random=1793713185_vYxGQ2I1RvOHGYtStWQP2F_hypfFWSs1xw;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=undefined;cat=undefined;rcb=11;ord=6088235999032;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u7=Homepage%20Austria%20%7C%20Motorola;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_RDnArURRXV2yajsSrMjVqP4yVSvhA8uErg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CPyxg6r265cDFUMNhAgdeLQj5Q;src=11829995;type=aud;cat=undefined;rcb=11;ord=3304263613395;npa=0;auiddc=24123013.1793713185;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;epver=2;dc_random=1793713185_vYxGQ2I1RvOHGYtStWQP2F_hypfFWSs1xw;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CL6mg6r265cDFS0OhAgdvP8AaA;src=11829995;type=undefined;cat=undefined;rcb=11;ord=6088235999032;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u7=Homepage%20Austria%20%7C%20Motorola;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_RDnArURRXV2yajsSrMjVqP4yVSvhA8uErg;epver=2": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=homep0;cat=motor001;rcb=11;ord=7921459305290;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Homepage%20Austria%20%7C%20Motorola;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_WT3upkioCnDht0P56R-XrtoxfPerDQHpzQ;epver=2": 1,
+   "GET adservice.google.com/ddm/fls/z/dc_pre=CL6mg6r265cDFS0OhAgdvP8AaA;src=11829995;type=undefined;cat=undefined;rcb=11;ord=6088235999032;npa=0;auiddc=*;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u7=Homepage%20Austria%20%7C%20Motorola;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_RDnArURRXV2yajsSrMjVqP4yVSvhA8uErg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CPSEg6r265cDFeoNhAgdFFodFw;src=11829995;type=homep0;cat=motor001;rcb=11;ord=7921459305290;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Homepage%20Austria%20%7C%20Motorola;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_WT3upkioCnDht0P56R-XrtoxfPerDQHpzQ;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=4994183612409654587;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8gtHW81vVYvpoLFj0jaLT-yP_lRK66IqQK1p;_dc_time=1793713185;dc_pre=CPSEg6r265cDFeoNhAgdFFodFw;src=11829995;type=homep0;cat=motor001;rcb=11;ord=7921459305290;npa=0;auiddc=24123013.1793713185;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Homepage%20Austria%20%7C%20Motorola;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370~123692836~123814944;dc_random=1793713185_WT3upkioCnDht0P56R-XrtoxfPerDQHpzQ;epver=2": 1,
+   "POST i.clarity.ms/collect": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=2;ord=6596563183113;npa=0;auiddc=923928165.1793712481;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814183;epver=2;dc_random=1793712522_lgrcxy8EE3O5s9Td48Vk9GJNT7V0t8e-Rg;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=COb04e3z65cDFV0OhAgdaP01ZA;src=11829995;type=aud;cat=undefined;rcb=2;ord=6596563183113;npa=0;auiddc=923928165.1793712481;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814183;epver=2;dc_random=1793712522_lgrcxy8EE3O5s9Td48Vk9GJNT7V0t8e-Rg;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=2;ord=2774222056725;npa=0;auiddc=923928165.1793712481;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotocare;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Moto%20Care%20Garantieverl%C3%A4ngerung%20%7C%20motorola%20AT;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814183;dc_random=1793712522_sERg63gTTeVwSnApWVY28aGuK7GKi-3ADg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CP794e3z65cDFcAMhAgd4TgYww;src=11829995;type=allpa0;cat=motor001;rcb=2;ord=2774222056725;npa=0;auiddc=923928165.1793712481;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotocare;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Moto%20Care%20Garantieverl%C3%A4ngerung%20%7C%20motorola%20AT;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814183;dc_random=1793712522_sERg63gTTeVwSnApWVY28aGuK7GKi-3ADg;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=13659615923547885017;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8vat45viMnj8-s6j6LUlMB7_p9SMIFwWYQnR;_dc_time=1793712522;cid=CAQS4QEAQM4h3HtJV0oD3kQezcnIr-V1LMEulW1EYIK8iFNj3SMbVpdFP3fWcjW44_L1jv9Y44x4uG3KY5tshcPOdlkGNfS5l8TzQJG3gqKxpN3n3gdy0SeitZ8KqvMV1KjSjj3ea-JT-sGQqn705RaMSqKCvJpxvoj808ke46ZO6WyTVaTlYadshAU8HSrOZKJVo6ZTzAtedQhmEIEGQ1PXynyZWsmsNwZXV1lOVNJLNUjH6BR46HYB8osU3SbmMdgC1JyGdYgXEV9SxzGvpcb7RMKBZBXlL2Jy5P9d39bQW3YbpBE;eps=AHas8cBjJhd_C6WKKOfQ2_t9p9GgfxZEzbB4QmTGuFDBQOQ6C_MgClKCltJfXb0wPanJ6oOQ2tpEwguDjYNFxQS0mB1POmVJn48T8oo1DG0nGdrI9Q;dc_pre=CP794e3z65cDFcAMhAgd4TgYww;src=11829995;type=allpa0;cat=motor001;rcb=2;ord=2774222056725;npa=0;auiddc=923928165.1793712481;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotocare;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotocare;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Moto%20Care%20Garantieverl%C3%A4ngerung%20%7C%20motorola%20AT;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~123691370~123814183;dc_random=1793712522_sERg63gTTeVwSnApWVY28aGuK7GKi-3ADg;epver=2": 1,
+   "GET fie3vrlcjeiyojqacqde4aaaczvotymm-psdj2j-1234fd5df-clienttons-s.akamaihd.net/eum/results.txt": 1,
+   "GET naojrgixhbw4i2xj4gga-psdj2j-10b83fa14-clientnsv4-s.akamaihd.net/eum/results.txt": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=6;ord=1444097432830;npa=0;auiddc=629623221.1793712522;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191153~121246026~121246034~123691370~123814184~123814946;epver=2;dc_random=1793712522_JFyClndNlQePOAHH2oVMg2BPoSSExPPS-w;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotoverse": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=5239324103033;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotoverse;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotoverse;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motoverse;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191153~121246026~121246034~123691370~123814184~123814946;dc_random=1793712522_KxtFIxgjKGg1jA-AcC32T8cDk5MpBPA9hg;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CMbU7O3z65cDFf8NhAgdFL4qPA;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=5239324103033;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotoverse;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotoverse;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motoverse;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191153~121246026~121246034~123691370~123814184~123814946;dc_random=1793712522_KxtFIxgjKGg1jA-AcC32T8cDk5MpBPA9hg;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=3898993903740589537;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8ucZdG09GPDyHH3kEGDOgEFNqxHAi5JELk0e;_dc_time=1793712522;dc_pre=CMbU7O3z65cDFf8NhAgdFL4qPA;src=11829995;type=allpa0;cat=motor001;rcb=6;ord=5239324103033;npa=0;auiddc=629623221.1793712522;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fmotoverse;u13=accessories;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Fmotoverse;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motoverse;u8=NA;u9=accessories;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1h1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~121191153~121246026~121246034~123691370~123814184~123814946;dc_random=1793712522_KxtFIxgjKGg1jA-AcC32T8cDk5MpBPA9hg;epver=2": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=16;ord=1945503699504;npa=0;auiddc=944899542.1793712528;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712529_RN6f3nSbx2bT0czXVwJAaRqWllObiRVZsQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CP_IpvHz65cDFRIOhAgdTMcSGA;src=11829995;type=aud;cat=undefined;rcb=16;ord=1945503699504;npa=0;auiddc=944899542.1793712528;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712529_RN6f3nSbx2bT0czXVwJAaRqWllObiRVZsQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=9950280416058;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Foffers;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=offer;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;dc_random=1793712529_fRRklJ-jsa9YLNuqS5u5pRrMF1ltVqt37A;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CNuUpvHz65cDFUANhAgdqaYYnw;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=9950280416058;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Foffers;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=offer;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;dc_random=1793712529_fRRklJ-jsa9YLNuqS5u5pRrMF1ltVqt37A;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=12325068418279579261;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8rhOmpnPhKwkqS84KeCazz6a4lA5DxZpRcoI;_dc_time=1793712529;dc_pre=CNuUpvHz65cDFUANhAgdqaYYnw;src=11829995;type=allpa0;cat=motor001;rcb=16;ord=9950280416058;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Foffers;u13=home;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Foffers;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=offer;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120412526~120469145~120469153~121246026~121246034~123691370;dc_random=1793712529_fRRklJ-jsa9YLNuqS5u5pRrMF1ltVqt37A;epver=2": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=aud;cat=undefined;rcb=0;ord=5902433507141;npa=0;auiddc=944899542.1793712528;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712538_wV2Lxw4-MAgzWaxivJ6y_svgAW0V33SNLQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CJWZr_Xz65cDFeENhAgd8D8wQw;src=11829995;type=aud;cat=undefined;rcb=0;ord=5902433507141;npa=0;auiddc=944899542.1793712528;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793712538_wV2Lxw4-MAgzWaxivJ6y_svgAW0V33SNLQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition": 1,
+   "POST ad.doubleclick.net/activity;src=11829995;type=allpa0;cat=motor001;rcb=0;ord=1659772449718;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u13=about;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motorola%20razr%20fold%20FIFA%20Edition%20Smartphone%20%7C%20motorola%20razr%20fold%2C%20Teil%20der%20FIFA%20World%20Cup%2026%E2%84%A2%20Collection%20%7C%20motorola%20AT;u8=NA;u9=about;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123691370;dc_random=1793712538_HPI3-cwnBjNgRDw1uBSRDyZi2r83-3YO4w;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CMCQr_Xz65cDFXMOhAgdHS4txg;src=11829995;type=allpa0;cat=motor001;rcb=0;ord=1659772449718;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u13=about;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motorola%20razr%20fold%20FIFA%20Edition%20Smartphone%20%7C%20motorola%20razr%20fold%2C%20Teil%20der%20FIFA%20World%20Cup%2026%E2%84%A2%20Collection%20%7C%20motorola%20AT;u8=NA;u9=about;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123691370;dc_random=1793712538_HPI3-cwnBjNgRDw1uBSRDyZi2r83-3YO4w;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=17998719165111638689;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8h_rXKCVkhDBc1ZS4umpxJOKg7rwmyuri-xa;_dc_time=1793712538;cid=CAQS4QEAQM4h3DIi3yNeDg93oPkNfO8TTdFBS0buFprU_53XS6FA1FYebtOLohmQVEECb7ELB3Q6cEbKIXQC_IITxKkLI1W4SlvyEvCCM6eeENsyfmz0a7VqE-SOxqLzCB5LyU205EjnE3O7oSe_tnnCTidSP5sRCaaxnkSFixpsSYRRTQ_JEufsCBkfJffjs99Fu1gmUzBkRf7d5x5dnuEA9MXbBupJ36ls_VAGWpH9vWSNstp0E0crxwdsBt_klsnX_ycqnToOjZSfyW5dnV3kdK6Ec7BbnKGao1hgJPKrX-OgZik;eps=AHas8cAxLLtUCxc6RD7k-dde8B7ETrfVgdUdgDCDXvnfvoHIibGx9PoLBV4B3TdAvuMmiCih-wMYrAMTB7f8HW_M8brXy42Dl85yura5uTlnQ_Ao4w;dc_pre=CMCQr_Xz65cDFXMOhAgdHS4txg;src=11829995;type=allpa0;cat=motor001;rcb=0;ord=1659772449718;npa=0;auiddc=944899542.1793712528;u10=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u13=about;u14=false;u15=;u17=at;u18=;u28=at;u33=%2Fat%2Fde%2Frazr-fold-fifa-world-cup-edition;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=motorola%20razr%20fold%20FIFA%20Edition%20Smartphone%20%7C%20motorola%20razr%20fold%2C%20Teil%20der%20FIFA%20World%20Cup%2026%E2%84%A2%20Collection%20%7C%20motorola%20AT;u8=NA;u9=about;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9171075696z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13r3r3r3r5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120412528~120469145~120469153~121246026~121246034~123691370;dc_random=1793712538_HPI3-cwnBjNgRDw1uBSRDyZi2r83-3YO4w;epver=2": 1,
+   "GET api.motorola.com/us/en/dict/getdictinfo": 1,
+   "GET api.motorola.com/us/en/auth/assign_cookie": 1,
+   "GET api.motorola.com/us/en/api/cart/count": 1,
+   "GET api.motorola.com/us/en/online/moto/getMotoPictureSwitch": 1,
+   "GET api.motorola.com/us/en/detail/price/batch/get": 1,
+   "POST api.motorola.com/us/en/marketing/webformComponent/getWrbforms": 1,
+   "GET api.motorola.com/us/en/online/moto/getAccessoryBindsForList": 1,
+   "POST www.motorola.com/proxydirectory/{n}/pageInfo": 1,
+   "POST p.tvpixel.com/com.snowplowanalytics.snowplow/tp2": 1,
+   "POST ad.doubleclick.net/activity;src=3822063;type=aud;cat=undefined;rcb=10;ord=5358119487410;npa=0;auiddc=18355998.1793713149;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793713149_FR-O644gsCzW-j2sbpToBYnIH-XSx4HnFQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CIzN9Zj265cDFSUNhAgdpXombQ;src=3822063;type=aud;cat=undefined;rcb=10;ord=5358119487410;npa=0;auiddc=18355998.1793713149;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=3;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793713149_FR-O644gsCzW-j2sbpToBYnIH-XSx4HnFQ;~oref=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage": 1,
+   "POST ad.doubleclick.net/activity;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=7012840522181;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_NEVKrgX0WZmZrCNHFzXOWO23EsBjZu7MOQ;epver=2": 1,
+   "POST ad.doubleclick.net/activity;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=442347717153;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_AyNifWqhOWX02Kr4upcqiDpZA9fiVlKvEw;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CODO9Jj265cDFWwOhAgdW5Ec2A;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=7012840522181;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_NEVKrgX0WZmZrCNHFzXOWO23EsBjZu7MOQ;epver=2": 1,
+   "GET ad.doubleclick.net/activity;dc_pre=CJ2_9Zj265cDFR4NhAgdQV0fzw;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=442347717153;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_AyNifWqhOWX02Kr4upcqiDpZA9fiVlKvEw;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=2650694948135917091;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8ge-BVnVZEHwtat5O3OvkAz9VFec4FuoYOuk;_dc_time=1793713149;dc_pre=CODO9Jj265cDFWwOhAgdW5Ec2A;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=7012840522181;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u34=NA;u35=Product%20Storage;u36=Motorola%20US;u37=false;u38=NA;u4=NA;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u8=NA;u9=home;u32=NA;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_NEVKrgX0WZmZrCNHFzXOWO23EsBjZu7MOQ;epver=2": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=14614859863849773252;_dc_ptd=ChAIgKmm1wYQxPmSu6qUyKQyEh8A1kaD8uQr6FTw4wCpVaGLjVXAQ67D0CPe4_s4Muo4;_dc_time=1793713149;dc_pre=CJ2_9Zj265cDFR4NhAgdQV0fzw;src=3822063;type=motos0;cat=2020_002;rcb=10;ord=442347717153;npa=0;auiddc=18355998.1793713149;u10=https%3A%2F%2Fwww.motorola.com%2Fus%2Fen%2Fhomepage;u13=home;u14=false;u15=;u17=us;u18=;u28=us;u33=%2Fus%2Fen%2Fhomepage;u7=Shop%205G%20smartphones%2C%20Tablets%2C%20Accessories%20and%20Smart%20Devices;u9=home;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=KFA;gtm=45fe6au1v9190828541z89182520809za20gzb9182520809zd9182520809xeaxf1;gcs=G111;gcd=13v3v3v3v5l1;dma=0;dc_fmt=6;tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120420416~120469145~120469153~121246026~121246034~123691370;dc_random=1793713149_AyNifWqhOWX02Kr4upcqiDpZA9fiVlKvEw;epver=2": 1,
+   "GET s.amazon-adsystem.com/iu3": 1,
+   "GET cdn.equalweb.com/assets/locale/en.json": 1,
+   "POST c.az.contentsquare.net/pageview": 1,
+   "POST f.clarity.ms/collect": 1,
+   "GET fie3vrlcjqiyojqacqdlyaaabvvoty76-p3u2ui-85231706e-clienttons-s.akamaihd.net/eum/results.txt": 1,
+   "GET naojrgixhbw4i2xj4p7a-p3u2ui-7fe3212d8-clientnsv4-s.akamaihd.net/eum/results.txt": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 3,
+  "triggerPages": {
+   "modal-item": 10
+  }
+ }
+}

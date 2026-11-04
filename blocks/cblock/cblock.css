@@ -1,0 +1,230 @@
+/* cblock — live .contentBlockContainer (program prototype values, 1440 / 360) */
+.cblock {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 1166px;
+  margin: 0 auto;
+}
+
+.cblock .cblock-media {
+  padding: 80px 25px 84px 0;
+  line-height: 0;
+}
+
+.cblock .cblock-media picture {
+  display: block;
+}
+
+.cblock .cblock-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.cblock .cblock-text {
+  padding: 80px 0 80px 25px;
+}
+
+.cblock .cblock-headline :is(h1, h2, h3, h4, h5, h6) {
+  padding-top: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.cblock .cblock-desc {
+  margin-top: 32px;
+}
+
+.cblock .cblock-desc + .cblock-desc {
+  margin-top: 0;
+}
+
+.cblock .cblock-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.cblock .cblock-desc :is(b, strong) {
+  font-weight: 700;
+}
+
+.cblock .cblock-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 250px;
+  margin-top: 32px;
+  padding: 12px 18px;
+  border: 1px solid #000;
+  border-radius: 100px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cblock .cblock-action p,
+.cblock .cblock-action :is(em, strong, a) {
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  font-style: normal;
+}
+
+.cblock .cblock-action svg {
+  flex: none;
+}
+
+@media (width <= 767px) {
+  /* live keeps the two-column grid at 360 (columns 178px; fixed 960px rows) */
+  .cblock {
+    height: 960px;
+  }
+
+  .cblock .cblock-desc {
+    margin-top: 16px;
+  }
+
+  .cblock .cblock-desc p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .cblock .cblock-headline :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .cblock .cblock-action {
+    max-width: 173px;
+    margin-top: 16px;
+    padding: 14px 20px;
+    font-weight: 400;
+  }
+}
+
+/* variant card — live content-block1 (razr 70 page): picture beside a grey text card */
+.cblock.card {
+  height: 500px;
+  margin: 80px auto;
+}
+
+.cblock.card .cblock-media {
+  padding: 0;
+}
+
+.cblock.card .cblock-media :is(picture, img) {
+  height: 100%;
+}
+
+.cblock.card .cblock-media img {
+  aspect-ratio: auto;
+}
+
+.cblock.card .cblock-text {
+  padding: 0 82px;
+  background: #e9eaf2;
+}
+
+.cblock.card .cblock-headline :is(h1, h2, h3, h4, h5, h6) {
+  padding-top: 0;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.cblock.card .cblock-headline:first-child :is(h1, h2, h3, h4, h5, h6) {
+  padding: 16px 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.cblock.card .cblock-desc {
+  margin-top: 24px;
+}
+
+.cblock.card .cblock-desc p {
+  line-height: 20px;
+}
+
+.cblock.card .cblock-action {
+  max-width: none;
+  width: fit-content;
+  margin-top: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media (width <= 767px) {
+  /* live content-block1 ≤767: two halves, each a grey 500px box that clips its content
+     (picture box inset 42px 30px, text box inset 0 30px with 16px 15px 32px padding) */
+  .cblock.card {
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  .cblock.card .cblock-media {
+    height: 500px;
+    margin: 42px 30px;
+    padding: 0;
+    overflow: hidden;
+    background: #e9eaf2;
+  }
+
+  .cblock.card .cblock-media :is(picture, img) {
+    height: auto;
+  }
+
+  .cblock.card .cblock-text {
+    height: 500px;
+    margin: 0 30px 36px;
+    padding: 16px 15px 32px;
+    overflow: hidden;
+  }
+
+  .cblock.card .cblock-headline:first-child :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: none;
+  }
+
+  .cblock.card .cblock-headline :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 24px;
+    line-height: 24px;
+    overflow-wrap: anywhere;
+  }
+
+  .cblock.card .cblock-desc p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cblock.card .cblock-action {
+    max-width: none;
+    width: 100%;
+    margin-top: 16px;
+    padding: 8px 0;
+    border-radius: 100px;
+    background: #e9eaf2;
+    text-transform: none;
+  }
+
+  .cblock.card .cblock-action svg {
+    display: none;
+  }
+}

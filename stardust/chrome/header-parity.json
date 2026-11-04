@@ -1,0 +1,73 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-03T21:58:18.308Z",
+ "source": "https://www.motorola.com/at/de/homepage",
+ "build": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 6,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "motion@390 smartphones ALLE PHONES signature razr edge moto g moto e thinkphone razr 70 ult [key]",
+   "width": 390,
+   "path": "smartphones ALLE PHONES signature razr edge moto g moto e thinkphone razr 70 ult",
+   "action": "key",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the build animates transform; the source does not"
+  },
+  {
+   "key": "motion@390 zubehör ZUBEHÖR pens speakers earbuds watches tags chargers fälle moto pen ultra [key]",
+   "width": 390,
+   "path": "zubehör ZUBEHÖR pens speakers earbuds watches tags chargers fälle moto pen ultra",
+   "action": "key",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the build animates transform; the source does not"
+  },
+  {
+   "key": "motion@390 vorteile VORTEILE sonderrabatte moto trade-in moto care EMPFOHLEN die intelligen [key]",
+   "width": 390,
+   "path": "vorteile VORTEILE sonderrabatte moto trade-in moto care EMPFOHLEN die intelligen",
+   "action": "key",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the build animates transform; the source does not"
+  },
+  {
+   "key": "link-href@1440 für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe [hover]",
+   "width": 1440,
+   "path": "für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe",
+   "action": "hover",
+   "id": "link-href",
+   "severity": "warn",
+   "detail": "3 link(s) point elsewhere: FÜR UNTERNEHMEN: void(0) → /at/de/homepage; phones: void(0) → /at/de/homepage; support: void(0) → /at/de/homepage"
+  },
+  {
+   "key": "state-extra@1440 für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe > phones [key]",
+   "width": 1440,
+   "path": "für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe > phones",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  },
+  {
+   "key": "state-extra@1440 für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe > support [key]",
+   "width": 1440,
+   "path": "für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe > support",
+   "action": "key",
+   "id": "state-extra",
+   "severity": "warn",
+   "detail": "opens on key on the build only"
+  }
+ ]
+}

@@ -1,0 +1,658 @@
+/* reco — live moto-recommendations-v2 (values from canon.css product-recommendations) */
+.reco {
+  width: 100%;
+  max-width: var(--module-max);
+  margin: 0 auto;
+  padding: 0 20px 16px 22px;
+  background: #fff;
+}
+
+.reco .reco-rail {
+  margin-top: 20px;
+}
+
+.reco .reco-track {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reco .reco-card {
+  display: flex;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% - 48px) / 4);
+  margin-right: 16px;
+  padding: 35px 0 24px;
+  background: var(--card);
+}
+
+.reco .reco-card:last-child {
+  margin-right: 0;
+}
+
+.reco .reco-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.reco .reco-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* live: the inline picture keeps a 4px baseline gap under the product image */
+.reco .reco-product picture {
+  display: block;
+  padding-bottom: 4px;
+  line-height: 0;
+}
+
+.reco .reco-product img {
+  width: 187px;
+  max-width: none;
+  height: 187px;
+  object-fit: cover;
+  vertical-align: baseline;
+  transition: transform 0.5s ease-in-out;
+}
+
+.reco .reco-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.reco .reco-config {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.reco .reco-name {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.reco .reco-name :is(h2, h3, h4) {
+  height: 55px;
+  color: inherit;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.reco .reco-ctas {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 0;
+  margin-bottom: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.reco .reco-ctas p {
+  display: flex;
+  margin: 0;
+}
+
+.reco .reco-ctas .btn-arrow {
+  flex: none;
+  width: 24px;
+  height: 24px;
+}
+
+.reco .reco-ctas a:any-link {
+  gap: 10px;
+}
+
+/* live hover: product lifts, CTAs fade in, name rises */
+@media (width >= 1025px) {
+  .reco .reco-body:hover .reco-product img {
+    transform: translateY(-18.4px);
+  }
+
+  .reco .reco-ctas a:any-link {
+    min-height: 50px;
+  }
+}
+
+.reco .reco-ctas:focus-within {
+  height: auto;
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.reco .reco-body:hover .reco-ctas {
+  height: auto;
+  opacity: 1;
+  transform: translateY(-20px);
+}
+
+.reco .reco-body:hover .reco-config {
+  transform: translateY(-30px);
+}
+
+/* EU energy label row (shared look with trend) */
+.reco .energy {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+  height: 30px;
+  padding-top: 10px;
+  color: var(--energy);
+  font-size: 12px;
+}
+
+.reco .energy p {
+  margin: 0;
+  line-height: normal;
+}
+
+.reco .energy picture {
+  display: block;
+  line-height: 0;
+}
+
+.reco .energy img {
+  width: 45px;
+  height: 25px;
+  vertical-align: top;
+}
+
+.reco .energy a:any-link {
+  color: var(--energy);
+  text-decoration: underline;
+}
+
+@media (width <= 1024px) {
+  .reco .reco-ctas {
+    flex-flow: column wrap;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 14px;
+    opacity: 1;
+  }
+}
+
+@media (width <= 600px) {
+  .reco {
+    overflow-x: clip;
+  }
+
+  .reco .reco-card {
+    padding: 19px 0 18px;
+    overflow: hidden;
+  }
+
+  .reco .reco-body {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .reco .reco-product picture {
+    width: 130px;
+  }
+
+  /* live sets the art box to 186px tall on phones (inline height, cover crop) */
+  .reco .reco-product img {
+    width: 130px;
+    height: 186px;
+  }
+
+  .reco .reco-name :is(h2, h3, h4) {
+    height: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    white-space: normal;
+  }
+
+  .reco .reco-ctas p {
+    display: block;
+  }
+
+  .reco .reco-ctas a:any-link {
+    width: 100%;
+  }
+
+  .reco .energy {
+    width: 100%;
+  }
+
+  .reco .energy p {
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .reco .energy img {
+    width: 45px;
+    height: auto;
+  }
+}
+
+/* ---- deal variant: offers campaign rail (live moto-recommendations-v2 on /offers) ---- */
+.reco.deal {
+  padding: 12px 20px 16px 22px;
+}
+
+.reco.deal .reco-rail {
+  margin-top: 0;
+}
+
+.reco.deal .reco-title {
+  margin: 0;
+  padding: 5px 5px 10px;
+  color: inherit;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+
+/* live renders the (often empty) description line: 10px */
+.reco.deal .reco-desc {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: center;
+}
+
+.reco.deal .reco-viewport {
+  overflow: hidden;
+}
+
+.reco.deal .reco-track {
+  transition: transform 0.5s ease;
+}
+
+.reco.deal .reco-card {
+  max-width: 603px;
+}
+
+.reco.deal .reco-card:last-child {
+  margin-right: 16px;
+}
+
+.reco.deal .reco-name {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.reco.deal .reco-name :is(h2, h3, h4) {
+  max-width: 100%;
+}
+
+.reco.deal .reco-gift {
+  color: #3b3b3b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reco.deal .reco-gift p {
+  margin: 0;
+}
+
+.reco.deal .reco-sku {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.reco.deal .reco-sku-name {
+  margin: 0;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reco.deal .reco-swatches {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.reco.deal .reco-swatch {
+  display: block;
+  padding: 2px;
+  font-size: 0;
+  line-height: 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.reco.deal .reco-swatch.is-selected {
+  border-color: #000;
+  border-radius: 50%;
+}
+
+.reco.deal .reco-swatch::before {
+  content: '';
+  display: block;
+  background-color: var(--swatch, #ccc);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 16%);
+  background-image: linear-gradient(0deg, rgb(0 0 0 / 60%), transparent);
+}
+
+.reco.deal .reco-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.reco.deal .reco-price-inner {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 24px;
+}
+
+.reco.deal .reco-was {
+  display: block;
+  align-self: center;
+  color: #8b8b8b;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.reco.deal :is(s, del).reco-was {
+  position: relative;
+  z-index: 1;
+  padding: 0 4px;
+  text-decoration: line-through;
+  text-shadow: 0 0 1px rgb(255 255 255 / 20%), 0 0 2px rgb(0 0 0 / 20%);
+}
+
+.reco.deal .reco-now {
+  display: block;
+  padding: 0 4px;
+  font-size: 21px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* CTAs always visible on this variant (live: no hide-cta) */
+.reco.deal .reco-content > .reco-ctas {
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  opacity: 1;
+}
+
+/* paging (live .custom-navigation: Swiper prev/next + bullets) */
+.reco.deal .reco-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.reco.deal :is(.reco-prev, .reco-next) {
+  display: flex;
+  width: 12px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: center / 12px 20px no-repeat;
+  cursor: pointer;
+}
+
+.reco.deal .reco-prev {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 20'%3E%3Cpath d='M11 1 2 10l9 9' fill='none' stroke='%23828282' stroke-width='1.3'/%3E%3C/svg%3E");
+}
+
+.reco.deal .reco-next {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 20'%3E%3Cpath d='m1 1 9 9-9 9' fill='none' stroke='%23828282' stroke-width='1.3'/%3E%3C/svg%3E");
+}
+
+.reco.deal :is(.reco-prev, .reco-next):disabled {
+  opacity: 0.35;
+  cursor: auto;
+}
+
+.reco.deal .reco-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1px;
+}
+
+.reco.deal .reco-dot {
+  display: block;
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: #757575;
+  transition: all 0.3s ease;
+}
+
+.reco.deal .reco-dot.is-active {
+  width: 50px;
+  border-radius: 100px;
+  background: #333;
+}
+
+@media (width >= 1024px) {
+  .reco.deal .reco-price-inner {
+    white-space: nowrap;
+  }
+}
+
+@media (width <= 1024px) {
+  .reco.deal .reco-content > .reco-ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (width <= 640px) {
+  .reco.deal :is(.reco-prev, .reco-next) {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+  }
+
+  .reco.deal .reco-dots {
+    gap: 8px;
+    width: fit-content;
+    max-width: 180px;
+    margin-left: 0;
+    overflow: hidden;
+  }
+}
+
+@media (width <= 600px) {
+  .reco.deal .reco-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .reco.deal .reco-desc {
+    font-size: 24px;
+  }
+
+  .reco.deal .reco-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .reco.deal .reco-ctas a:any-link {
+    white-space: normal;
+  }
+
+  .reco.deal .reco-ctas .btn-arrow {
+    width: 18px;
+  }
+
+  .reco.deal .reco-product {
+    flex: none;
+    width: 129px;
+  }
+
+  .reco.deal .reco-product picture {
+    width: 129px;
+  }
+
+  .reco.deal .reco-product img {
+    width: 129px;
+    height: 186px;
+  }
+}
+
+/* ---- deal: out-of-stock card (contest) + flush rail ---- */
+.reco.deal.flush {
+  padding-top: 0;
+}
+
+.reco.deal.flush .reco-card {
+  background: #f5f5f5;
+}
+
+@media (width > 600px) {
+  .reco.deal.flush .reco-ctas a:any-link {
+    max-width: 180px;
+    padding: 6px 16px;
+    white-space: normal;
+  }
+}
+
+.reco.deal.flush .energy a:any-link {
+  text-decoration: none;
+}
+
+.reco.deal .reco-status {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reco.deal .reco-status .reco-oos {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.reco.deal .reco-ctas .reco-notify {
+  margin: 5px;
+}
+
+.reco.deal .reco-ctas .reco-notify strong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 42px;
+  padding: 6px 16px;
+  border: 1px solid var(--cta-ink);
+  border-radius: 24px;
+  background: var(--cta-ink);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+}
+
+/* ---- titled: US home rail — section title over the plain rail (live title-class h2) ---- */
+.reco.titled {
+  padding-top: 2px;
+}
+
+.reco.titled .reco-title {
+  margin: 0;
+  padding: 5px 5px 10px;
+  color: inherit;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
+}
+
+.reco.titled .reco-desc {
+  margin: 0;
+}
+
+.reco.titled .reco-rail {
+  margin-top: 10px;
+}
+
+/* live: one-line names and the empty energy_rating row under them — 341px cards */
+.reco.titled .reco-track .reco-card {
+  padding-top: 42px;
+  padding-bottom: 60px;
+}
+
+.reco.titled .reco-name :is(h2, h3, h4) {
+  height: auto;
+}
+
+@media (width <= 600px) {
+  .reco.titled {
+    padding-top: 4px;
+  }
+
+  /* live US rail on phones: 120px product art, 341px cards (19px pad + inline-image gap) */
+  .reco.titled .reco-track .reco-card {
+    padding-top: 21px;
+    padding-bottom: 50px;
+  }
+
+  .reco.titled .reco-product picture,
+  .reco.titled .reco-product img {
+    width: 120px;
+  }
+
+  .reco.titled .reco-product img {
+    height: 120px;
+  }
+
+  .reco.titled .reco-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}

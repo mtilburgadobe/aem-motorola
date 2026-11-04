@@ -1,0 +1,199 @@
+/* ==========================================================================
+   at-de-razr-fold-fifa-world-cup-edition — product-campaign (program) modules.
+   Generic module names: reused by the brilliant-collection siblings.
+   Values lifted from the live computed styles (measure.mjs, 1440 / 360).
+   Shared chrome + type molecules live in canon.css (imported, never edited).
+   ========================================================================== */
+
+/* ---- sticky sub-nav with CTA (live .sticky-nav-container) ---- */
+.subnav { position: relative; z-index: 50; width: 100%; }
+.subnav__bar { display: flex; justify-content: space-between; align-items: center; width: 100%; height: 63px; padding: 15px 20px; background-image: linear-gradient(90deg, rgba(4, 17, 1, .8) 33.9%, rgba(156, 199, 156, .8) 96.86%); transition: box-shadow .3s, z-index .3s; }
+.subnav.is-fixed .subnav__bar { position: fixed; top: var(--header-h); left: 0; width: calc(100vw - 5px); z-index: 1000; box-shadow: 0 2px 5px #0003; }
+.subnav__logo { display: block; width: auto; height: 30px; margin-left: 35px; }
+.subnav__cta { display: inline-block; margin-right: 103px; padding: 10px 26px; border-radius: 30px; background: #fff; color: #000; font-size: 16px; font-weight: 500; line-height: 19px; letter-spacing: -.384px; white-space: nowrap; }
+
+/* ---- product hero (live .pc-hero-main; height = the video's inline 56vw) ---- */
+.pchero { position: relative; display: flex; width: 100%; height: 56vw; overflow: visible; background: #fff; }
+.pchero--warm { background: #f2efeb; }
+.pchero__media { position: absolute; inset: 0; overflow: hidden; line-height: 0; }
+.pchero__media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.pchero__content { position: absolute; top: 0; left: 0; display: flex; flex-direction: column; width: 100%; padding: 150px 30px 30px 80px; }
+.pchero__headline { max-width: 440px; margin-bottom: 32px; font-size: 72px; font-weight: 600; line-height: 64px; }
+.pchero__sub { max-width: 340px; margin-bottom: 32px; font-size: 16px; font-weight: 400; line-height: 24px; }
+.pchero__sub b { font-weight: 700; }
+.pchero__headline--empty { margin: 0; }
+
+/* ---- product carousel, close-up (live .product_carousel_wrapper) ---- */
+.pcarousel { width: 100%; max-width: 1200px; margin: 0 auto; }
+.pcarousel__grid { display: grid; grid-template-columns: minmax(0, 707fr) minmax(0, 381fr); gap: 16px; padding: 64px 48px 84px; align-items: start; }
+.pcarousel__track { position: relative; overflow: hidden; }
+.pcarousel__rail { display: flex; transition: transform .3s; }
+.pcarousel__slide { flex: 0 0 100%; min-width: 0; margin: 0; line-height: 0; }
+.pcarousel__slide img { display: block; width: 100%; height: 529px; object-fit: cover; }
+.pcarousel__side .pcarousel__slide img { object-fit: fill; }
+.pcarousel__side { position: relative; }
+.pcarousel__text { padding: 24px 0 6px; }
+.pcarousel__title { font-size: 16px; font-weight: 700; line-height: 24px; }
+.pcarousel__headline { max-width: 670px; padding-top: 16px; font-size: 56px; font-weight: 600; line-height: 48.16px; }
+.pcarousel__desc { margin-top: 16px; font-size: 16px; font-weight: 400; line-height: 24px; }
+.pcarousel__desc strong { font-weight: 700; }
+.pcarousel__dots { position: absolute; left: 0; top: 503px; display: flex; justify-content: center; align-items: center; gap: 8px; width: 100%; height: 26px; padding-bottom: 16px; }
+.pcarousel__dot { width: 8px; height: 8px; padding: 0; border: 0; border-radius: 8px; background: rgba(255, 255, 255, .5); cursor: pointer; }
+.pcarousel__dot.is-active { width: 24px; background: #fff; }
+
+/* ---- digital experience (live .digitalExpContainer) ---- */
+.dexp { position: relative; display: flex; justify-content: center; width: 100%; max-width: 1920px; margin: 0 auto; background: url("assets/media/fifa_razr_fold_fusion_pdp_digital_experience_background_image_d_.jpg") center / cover no-repeat; }
+.dexp__inner { display: flex; width: 100%; max-width: 1366px; min-height: 982px; }
+.dexp__text { display: flex; flex-direction: column; justify-content: center; width: 50%; padding: 0 20px 0 100px; }
+.dexp__headline { margin-bottom: 16px; font-size: 48px; font-weight: 600; line-height: 56px; }
+.dexp__desc { font-size: 16px; font-weight: 500; line-height: 24px; }
+.dexp__icons { display: flex; gap: 51px; margin-top: 108px; }
+.dexp__item { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 90px; }
+.dexp__btn { display: flex; justify-content: center; align-items: center; width: 90px; height: 90px; padding: 18px; border: 0; border-radius: 16px; background: #1c1c1c; cursor: pointer; }
+.dexp__btn svg { display: block; flex: none; width: 60px; height: 60px; }
+.dexp__audio { position: absolute; left: 0; right: 0; bottom: 24px; display: flex; flex-direction: column; align-items: center; gap: 12px; color: #fff; }
+.dexp__play { padding: 0; border: 0; background: none; color: #fff; cursor: pointer; line-height: 0; }
+.dexp__progress { position: relative; width: 80%; height: 4px; border-radius: 2px; background: rgba(255,255,255,.4); }
+.dexp__fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: #fff; }
+.dexp__thumb { position: absolute; top: -4px; left: 0; width: 12px; height: 12px; border-radius: 50%; background: #fff; }
+.dexp__time { display: flex; justify-content: space-between; padding-top: 10px; color: #919191; font-size: 12px; line-height: 16px; }
+.dexp__label { max-width: 90px; font-size: 16px; font-weight: 500; line-height: 24px; text-align: center; word-break: normal; overflow-wrap: normal; }
+.dexp__media { position: relative; display: flex; align-items: center; width: 50%; padding-left: 100px; }
+.dexp__layer { position: absolute; top: 50%; left: 100px; transform: translateY(-50%); opacity: 0; visibility: hidden; transition: opacity .4s, visibility .4s; line-height: 0; }
+.dexp__layer.is-active { opacity: 1; visibility: visible; }
+.dexp__layer--default { position: relative; top: auto; left: auto; transform: none; }
+.dexp__layer img { display: block; width: 483px; height: 600px; border-radius: 16px; object-fit: cover; }
+.dexp__layer--default img { height: 710px; border-radius: 0; }
+.dexp__layer--audio { left: 120px; }
+.dexp__layer--audio img { width: 400px; height: 450px; }
+
+/* ---- video hero (live .hero_container + navigation_v2 single video) ---- */
+.vhero { max-width: 1920px; margin: 0 auto; width: 100%; padding: 0 20px 104px; background: #fff; }
+.vhero__heading { max-width: 895px; margin: 0 auto; padding: 46px 0 32px; font-size: 64px; font-weight: 600; line-height: 55.04px; text-align: center; }
+/* live sup = font-size: smaller (0.833em), line-height inherited — canon sup is a fixed 13.33px */
+.vhero sup, .flexview sup, .pchero sup, .pcarousel sup, .dexp sup, .fbleed sup, .cblock sup { font-size: smaller; line-height: inherit; }
+.vhero__frame { width: min(78.2vw, 1920px); margin: 0 auto; padding-bottom: 24px; line-height: 0; }
+.vhero__frame img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border-radius: 16px; object-fit: cover; }
+.vhero__detail { max-width: 800px; margin: 10px auto 0; font-size: 14px; font-weight: 500; line-height: 20px; text-align: center; }
+.vhero__detail b { font-weight: 700; }
+
+/* ---- full-bleed image with overlay copy (live .full_bleed_image_container) ---- */
+.fbleed { position: relative; display: flex; width: 100%; background: #000; color: #fff; }
+.fbleed__bg { display: block; width: 100%; height: auto; }
+.fbleed__body { position: absolute; top: 0; bottom: 0; left: 137px; right: 137px; max-width: 1161px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 12px 27px; }
+.fbleed__logo { display: block; width: 200px; height: 79px; margin-bottom: 24px; }
+.fbleed__title { max-width: 390px; margin-bottom: 36px; font-size: 56px; font-weight: 600; line-height: 47.6px; letter-spacing: -.56px; }
+.fbleed__desc { max-width: 390px; margin-bottom: 4px; font-size: 16px; font-weight: 500; line-height: 20px; }
+.fbleed__ctas { padding: 12px 0; }
+.fbleed__cta { display: inline-flex; align-items: center; min-width: 150px; padding: 14px 20px; border: 2px solid #fff; border-radius: 25px; color: #fff; font-size: 18px; font-weight: 500; line-height: 24px; }
+
+/* ---- content block, image + copy (live .contentBlockContainer) ---- */
+.cblock { display: grid; grid-template-columns: 1fr 1fr; max-width: 1166px; margin: 0 auto; width: 100%; }
+.cblock__col--media { padding: 80px 25px 80px 0; line-height: 0; }
+.cblock__col--media { padding-bottom: 84px; }
+.cblock__col--media img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
+.cblock__col--text { padding: 80px 0 80px 25px; }
+.cblock__headline { padding-top: 16px; font-size: 48px; font-weight: 600; line-height: 56px; }
+.cblock__desc { margin-top: 32px; font-size: 16px; font-weight: 400; line-height: 24px; }
+.cblock__desc b { font-weight: 700; }
+.cblock__btn { display: flex; align-items: center; gap: 8px; max-width: 250px; margin-top: 32px; padding: 12px 18px; border: 1px solid #000; border-radius: 100px; background: #fff; color: #000; font-family: inherit; font-size: 16px; font-weight: 500; text-align: center; cursor: pointer; }
+.cblock__btn svg { flex: none; }
+
+/* ---- flex view, two-up image tiles (live .flex-view--wrapper) ---- */
+.flexview { display: flex; flex-direction: column; align-items: center; width: 100%; padding-top: 48px; background: #fff; }
+.flexview__heading { margin-bottom: 64px; font-size: 48px; font-weight: 600; line-height: 56px; text-align: center; }
+.flexview__gallery { display: grid; grid-template-columns: 1fr 1fr; width: 100%; max-width: 1920px; overflow: hidden; }
+.flexview__item { position: relative; display: flex; height: 732px; color: #000; }
+.flexview__item--light { color: #fff; }
+.flexview__img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.flexview__media { position: absolute; inset: 0; display: block; }
+.flexview__cta { position: absolute; z-index: 3; left: 0; right: 0; bottom: 48px; display: flex; justify-content: center; }
+.flexview__cta[hidden] { display: none; }
+.flexview__cta a { padding: 12px 24px; border: 1px solid currentColor; border-radius: 100px; font-size: 16px; font-weight: 500; }
+.dexp__btn { transition: width .3s; }
+.dexp__btn.is-active { outline: 2px solid #fff; outline-offset: -2px; }
+.flexview__img:not(.flexview__img--hover) { transition: opacity .3s; }
+.flexview__item.is-hovered .flexview__img:not(.flexview__img--hover) { opacity: 0; }
+.flexview__desc { position: absolute; z-index: 2; top: 0; left: 0; right: 0; width: fit-content; margin: 0 auto; padding: 62px 0; font-size: 24px; font-weight: 600; line-height: 30px; text-align: center; }
+
+/* ---- stack: partner logo (live .stackmain) ---- */
+.stack { display: flex; justify-content: flex-end; width: 100%; max-width: 605px; margin: 0 auto; padding-bottom: 11px; background: #fff; }
+.stack__logo { display: block; width: 564px; height: auto; padding: 59px 0 79px; box-sizing: content-box; }
+
+/* ---- legal copy (live .moto-flex-content) ---- */
+.legal { padding: 30px 0; }
+.legal__text { width: min(66.6667vw, 1020px); margin: 0 auto; padding-top: 20px; font-size: 16px; font-weight: 400; line-height: 24px; }
+
+/* ---- footer compensation (this page's live footer: un-padded 1170 rows, 176px columns).
+   Back-port candidate for canon's program/static footer variant. ---- */
+.ftr__top, .ftr__copy-inner { padding: 0; }
+.ftr__links-inner { padding: 16px 0 50px; }
+.ftr__col { width: 176px; }
+@media (min-width: 768px) { .ftr__copy { padding: 26px 0 23px; } }
+
+/* ======================= ≤767px (live mobile values at 360) ======================= */
+@media (max-width: 767px) {
+  .subnav__bar { height: 106px; padding: 38px 20px 10px; }
+  .subnav.is-fixed .subnav__bar { width: 100%; }
+  .ftr__col { width: auto; }
+  .ftr__links { border-top-color: #ccc; }
+  .ftr__col:not(:last-child) { border-bottom: 1px solid #ccc; }
+  .ftr__social { align-self: center; width: 300px; margin: 0; }
+  .ftr__social-inner { padding: 0; }
+  .subnav__logo { height: 24px; }
+  .subnav__cta { width: 109px; margin-right: 63px; padding: 10px 26px; font-weight: 400; letter-spacing: 0; white-space: normal; text-align: center; }
+
+  .pchero__content { padding: 30px; }
+  .pchero__headline { max-width: none; font-size: 28px; line-height: 32px; }
+  .pchero__sub { max-width: none; font-size: 18px; font-weight: 500; line-height: 24px; }
+
+  .pcarousel__grid { display: flex; flex-direction: column; gap: 0; padding: 63px 24px; }
+  .pcarousel__slide img { height: auto; aspect-ratio: 790 / 560; }
+  .pcarousel__side .pcarousel__slide img { height: 529px; aspect-ratio: auto; object-fit: cover; }
+  .pcarousel__text { padding: 30px 0; }
+  .pcarousel__title { line-height: 23px; }
+  .pcarousel__headline { font-size: 28px; line-height: 32px; }
+  .pcarousel__desc { margin-top: 0; }
+
+  .dexp__inner { flex-direction: column; min-height: 0; padding: 40px 20px; }
+  .dexp__text { width: 100%; padding: 0; }
+  .dexp__headline { font-size: 28px; line-height: 32px; }
+  .dexp__icons { gap: 37px; margin-top: 30px; } /* live 40px overflows the 355px body by 5px (scrollWidth 365); 37px keeps the row inside */
+  .dexp__item { flex: none; width: min-content; min-width: 80px; max-width: 90px; }
+  .dexp__label { word-break: normal; overflow-wrap: normal; }
+  .dexp__btn { width: 80px; height: 80px; }
+  .dexp__label { font-weight: 600; }
+  .dexp__media { width: 100%; margin-top: 38px; padding: 0; }
+  .dexp__layer { left: 0; }
+  .dexp__layer img, .dexp__layer--default img { width: 315px; height: 432px; }
+  .dexp__layer--audio { left: 10px; }
+  .dexp__layer--audio img { width: 295px; height: 300px; }
+
+  .vhero { padding: 53px 30px 58px; }
+  .vhero__heading { max-width: none; padding: 0; font-size: 36px; line-height: 40px; letter-spacing: -.36px; text-align: left; }
+  .vhero__frame { width: auto; padding: 40px 0 4px; }
+  .vhero__detail { max-width: none; margin: 16px 0 40px; font-size: 16px; font-weight: 400; line-height: 24px; }
+
+  .fbleed__bg { height: 800px; object-fit: fill; }
+  .fbleed__body { left: 0; right: 0; max-width: 100%; padding: 30px; }
+  .fbleed__logo { margin-bottom: 30px; }
+  .fbleed__title { max-width: none; margin-bottom: 15px; font-size: 40px; line-height: 34.4px; letter-spacing: -.4px; }
+  .fbleed__desc { max-width: none; margin-bottom: 0; font-size: 14px; line-height: 18px; }
+  .fbleed__ctas { padding: 15px 0 6px; }
+  .fbleed__cta { min-width: 0; padding: 6px 10px; }
+
+  /* live keeps the two-column grid at 360 (columns 178px; fixed 960px rows) */
+  .cblock { height: 960px; }
+  .cblock__desc { margin-top: 16px; font-size: 17px; line-height: 23px; }
+  .cblock__headline { font-size: 28px; line-height: 32px; }
+  .cblock__btn { max-width: 173px; margin-top: 16px; padding: 14px 20px; font-weight: 400; }
+
+  .flexview__heading { margin-bottom: 32px; padding: 0 16px; font-size: 36px; line-height: 36px; }
+  .flexview__desc { max-width: 293px; width: auto; margin: 0; padding: 11px 16px; font-size: 18px; line-height: 21px; text-align: left; }
+  .flexview__img { left: 16px; border-radius: 16px; }
+
+  .stack { justify-content: center; padding: 32px 0 6px; }
+  .stack__logo { width: 295px; padding: 10px 30px 32px; }
+
+  .legal__text { width: auto; padding: 20px 30px 0; }
+}

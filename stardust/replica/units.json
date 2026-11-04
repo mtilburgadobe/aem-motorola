@@ -1,0 +1,119 @@
+{
+  "home-reco-card": {
+    "origin": "section.moto-recommendations-v2 .swiper-slide",
+    "build": ".reco__card, .reco-card",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "at-de-homepage"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes within 0-1px at 360; inner-element matching off on squeezed 66px cards / off-screen 3rd slide — advisory"
+  },
+  "home-trending-card": {
+    "origin": "section.moto-trendings-v2 .swiper-slide",
+    "build": ".trend__card, .trend-card",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "at-de-homepage"
+    ],
+    "templates": [
+      "landing"
+    ],
+    "note": "unit boxes within 0-1px at 360; inner-element matching off on squeezed 66px cards / off-screen 3rd slide — advisory"
+  },
+  "home-promo-tile": {
+    "origin": "section.gridLayoulSection .allWrapperDiv",
+    "build": ".tile",
+    "n": 4,
+    "required": true,
+    "pages": [
+      "at-de-homepage"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "footer-link-column": {
+    "origin": "footer .footer-links-accordion",
+    "build": ".ftr__col, .ftr-col",
+    "n": 4,
+    "required": false,
+    "pages": [
+      "at-de-homepage",
+      "at-de-offers",
+      "at-de-motocare"
+    ],
+    "templates": [
+      "landing",
+      "static"
+    ]
+  },
+  "offers-deal-card": {
+    "origin": "section.moto-recommendations-v2 .swiper-slide",
+    "build": ".reco--deal .reco__card, .reco.deal .reco-card",
+    "n": 35,
+    "required": false,
+    "pages": [
+      "at-de-offers"
+    ],
+    "templates": [
+      "campaign"
+    ],
+    "note": "3 carousels (10/13/12 slides), 4 visible per carousel; off-screen slides advisory"
+  },
+  "static-media-text-row": {
+    "origin": ".contentBlockContainer",
+    "build": ".media-row__grid, .media-row-grid",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "at-de-motocare"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "static-compare-column": {
+    "origin": ".service-compare-container .compare-table-column",
+    "build": ".compare__col, .compare-col",
+    "n": 5,
+    "required": false,
+    "pages": [
+      "at-de-motocare"
+    ],
+    "templates": [
+      "static"
+    ],
+    "note": "advisory: live compare table uses 237px columns and scrolls sideways at 360, the approved prototype fits it to the viewport; geometry identical to the prototype 360 gate run"
+  },
+  "program-dexp-icon": {
+    "origin": "section.digitalExpContainer .iconContainer",
+    "build": ".dexp__item, .dexp-item",
+    "n": 3,
+    "required": false,
+    "pages": [
+      "at-de-razr-fold-fifa-world-cup-edition"
+    ],
+    "templates": [
+      "program"
+    ],
+    "note": "icon + label column; 360 widths follow min-content (80/90/90) as live"
+  },
+  "program-flexview-tile": {
+    "origin": ".flex-view--gallery article.flex-view--item",
+    "build": ".flexview__item, .flexview-item",
+    "n": 2,
+    "required": false,
+    "pages": [
+      "at-de-razr-fold-fifa-world-cup-edition"
+    ],
+    "templates": [
+      "program"
+    ],
+    "note": "two-up image tile, 718x732 at 1440; live keeps two 178px columns at 360"
+  }
+}

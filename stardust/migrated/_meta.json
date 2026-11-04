@@ -1,0 +1,195 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "at-de-homepage",
+  "modules": [
+    "banner",
+    "reco",
+    "hcar",
+    "tiles",
+    "trend",
+    "gallery",
+    "news",
+    "copy"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "banner",
+    "banner",
+    "banner",
+    "reco",
+    "hcar",
+    "tiles",
+    "tiles",
+    "trend",
+    "gallery",
+    "news",
+    "copy"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": null,
+    "css": "02c3d7e68b17"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US",
+    "description": "Shop Motorola&rsquo;s latest Android smartphones, budget-friendly options, accessories, Moto Care and support, and find deals that make upgrading to a new mobile device easier.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US",
+    "description": "Shop Motorola&rsquo;s latest Android smartphones, budget-friendly options, accessories, Moto Care and support, and find deals that make upgrading to a new mobile device easier.",
+    "url": "https://www.motorola.com/"
+  },
+  "migratedAt": "2026-11-03T19:31:35Z",
+  "designMdSha": "2d703879adf4",
+  "designJsonSha": "7fb439cd17ca",
+  "sourceCurrentSha": "4218c59a74e4",
+  "sourceProposedSha": "1bc8dc20fbfc",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-homepage",
+  "archetypeSha": "544d12125ef4",
+  "variants": [
+    "banner.plain banner.light-text banner.fit banner.medium banner.wide banner.tall-logo reco.titled hcar.small-logo hcar.landscape tiles.compact tiles.grid tiles.shade trend.roomy gallery.thirds copy.seo"
+  ],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content/index.html built from capture index.html: 3 banners (heading/copy/logo/CTA), reco 4 cards + title, hcar 3 slides, tiles grid (2 tiles + feature tile + 3 product cards with colour/swatch/price) + shade pair, trend title/4 tabs/3 cards, gallery 3 slides (clones dropped), newsletter, seo fine print; registration pop-up and empty html_upload omitted as on the archetype"
+  },
+  "contentDeviations": [
+    {
+      "kind": "omitted",
+      "source": "moto-webform registration pop-up (YOUR EXCLUSIVE OFFER AWAITS....)",
+      "target": null,
+      "reason": "modal pop-up not rendered at rest; omitted like the archetype homepage (no backend, D1)"
+    }
+  ],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.motorola.com/us/en/specials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-gen-6/brilliantcollection2026?pn=PBB70030US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/motorola-signature-2027",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/specials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/motorola-razr-fold/pmipmjj43my?pn=PBAY0003US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/specials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra-2026/pmipmjk44m3?pn=PBB30003US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/specials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-plus-2026/pmipmjq44ms?pn=PBC50000US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/specials",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-2026/pmipmjl44m7?pn=PBB70003US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/moto-g/g-stylus-2026/pmipmjg43mp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/family/razr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/pmipmhp40mv",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/family/edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/family/g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/family/headphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/motoaccessories/moto-watch-2026/pg38c08256",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/motoaccessories/brilliant-collection-signature-buds-2-plus/pg38c08989",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/motoaccessories/moto-tag-2/pg38c08034",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/moto-care",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/videopage",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-ultra/pmipmhn40ms?pn=PB770022US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/motorola-edge/edge-gen-6/pmipmhp40mv?pn=PB7A0006US",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/phones/razr/razr-plus-gen-2/pmipmgs38mh?pn=610214681256",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/p/fifaworldcup26edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/family/moto-things-accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/us/en/legal/privacy-policy",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,2 @@
+Source	Destination
+# no rows: every delivered page keeps its source path (no .html, no sanitised segments); the source root 301 to /us/en/homepage targets a page outside the plan, and / is served from the delivered index document (2026-11-03)

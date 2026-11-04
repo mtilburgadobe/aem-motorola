@@ -1,0 +1,10 @@
+{
+  "/at/de/homepage": {
+    "status": "previewed",
+    "attempts": 1,
+    "ts": "2026-11-03T15:33:20.714Z",
+    "put": 201,
+    "preview": 200,
+    "verify": "ok"
+  }
+}

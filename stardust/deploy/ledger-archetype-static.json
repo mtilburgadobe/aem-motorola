@@ -1,0 +1,11 @@
+{
+  "/at/de/motocare": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T16:18:39.996Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

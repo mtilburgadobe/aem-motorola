@@ -1,0 +1,106 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-03T21:23:51.901Z",
+  "origin": "https://main--0d32c52e--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "header mega menu + mobile drawer",
+   "id": "header-chrome",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "7 × header .hdr-nav .hdr-item (min 2)",
+   "thirdParty": "",
+   "ms": 2395,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product rails / carousels",
+   "id": "carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .hcar .hcar-slide (min 3)",
+   "thirdParty": "",
+   "ms": 2134,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product rails / carousels",
+   "id": "carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "4 × .reco .reco-card (min 4)",
+   "thirdParty": "",
+   "ms": 2136,
+   "environmentLimit": null
+  },
+  {
+   "feature": "product rails / carousels",
+   "id": "carousels",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .catchlist (min 1)",
+   "thirdParty": "assets.motorola.com:206×5",
+   "ms": 2559,
+   "environmentLimit": null
+  },
+  {
+   "feature": "muted in-view loop videos (program pages)",
+   "id": "program-video",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.81s)",
+   "thirdParty": "assets.motorola.com:206×9",
+   "ms": 8705,
+   "environmentLimit": "HLS source is CORS-limited to Safari/Chrome; other browsers show the poster"
+  },
+  {
+   "feature": "newsletter + lead/contest webforms",
+   "id": "webforms",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .webform form (min 1)",
+   "thirdParty": "",
+   "ms": 2039,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tags / RUM / consent (GTM, Evidon, ad pixels)",
+   "id": "tags-consent",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 3 gated host pattern(s) before consent",
+   "thirdParty": "",
+   "ms": 6078,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught script errors",
+   "id": "page-errors",
+   "class": "X",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 10 page(s)",
+   "thirdParty": "",
+   "ms": 23196,
+   "environmentLimit": null
+  }
+ ]
+}

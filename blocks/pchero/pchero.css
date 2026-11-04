@@ -1,0 +1,155 @@
+/* pchero — live .pc-hero-main (height = the video's inline 56vw); program prototype values */
+.pchero {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 56vw;
+  overflow: visible;
+  background: #fff;
+}
+
+.pchero.warm {
+  background: #f2efeb;
+}
+
+.pchero .pchero-media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.pchero .pchero-poster,
+.pchero .pchero-poster picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.pchero .pchero-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pchero .pchero-mobile {
+  display: none;
+}
+
+.pchero .pchero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+}
+
+.pchero .pchero-media.is-playing .pchero-video {
+  opacity: 1;
+}
+
+.pchero .pchero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 150px 30px 30px 80px;
+}
+
+.pchero .pchero-headline :is(h1, h2, h3, h4, h5, h6) {
+  max-width: 440px;
+  margin-bottom: 32px;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.pchero .pchero-sub p {
+  max-width: 340px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.pchero .pchero-sub :is(b, strong) {
+  font-weight: 700;
+}
+
+@media (width <= 767px) {
+  .pchero .pchero-desktop {
+    display: none;
+  }
+
+  .pchero .pchero-mobile {
+    display: block;
+  }
+
+  .pchero .pchero-content {
+    padding: 30px;
+  }
+
+  .pchero .pchero-headline :is(h1, h2, h3, h4, h5, h6) {
+    max-width: none;
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .pchero .pchero-sub p {
+    max-width: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}
+
+/* variant dark — live brilliant-collection-2026 hero: black stage, 50vw */
+.pchero.dark {
+  height: 50vw;
+  background: #000;
+}
+
+/* variant center — live brilliant-collection hero: copy centred at the bottom, white */
+.pchero.center .pchero-content {
+  top: auto;
+  bottom: 0;
+  align-items: center;
+  padding: 0 30px 62px;
+  color: #fff;
+  text-align: center;
+}
+
+.pchero.center .pchero-headline :is(h1, h2, h3, h4, h5, h6) {
+  max-width: none;
+  margin-bottom: 20px;
+  color: inherit;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.pchero.center .pchero-sub p {
+  max-width: 750px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (width <= 767px) {
+  .pchero.center .pchero-content {
+    top: 0;
+    bottom: auto;
+    padding: 30px;
+  }
+
+  .pchero.center .pchero-sub p {
+    max-width: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "frozenAt": "2026-11-03T21:03:54.548Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "fonts/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "8a1b6635a62b47a3c0239c8b6eceab159f6933a46ea4ee8d42a14a356778dffc",
+    "blocks/footer/footer.js": "501003e4bd74c36a7f59e3c75cb519843987811723c33eb0da1fa485c08859ec",
+    "blocks/header/header.css": "ea5f99c6ade204db8e0785936a27cfaf3d3788d002c184654091fd20bea0de43",
+    "blocks/header/header.js": "278d902a02fd7b7353095ee9daea3c8d2de7d52bed2279d200e2d3c439e1c20b",
+    "fonts/icomoon.woff2": "c187a3f157e744fd8d5e55d53ce3d990e7d08dc02fee94a447b130e15219d5d5",
+    "fonts/montserrat-cyrillic-ext.woff2": "81b6cd86022f6fbfd7770d4e081fef0b4fa6228a6c65b17366f0eb3efa2e7402",
+    "fonts/montserrat-cyrillic.woff2": "d5dbcb94aaa8ffdaa8a3aeb2209a095d812f4552cb1a3ecb4f3803ab859a4cea",
+    "fonts/montserrat-latin-ext.woff2": "7a50539fc1050e50849a891b2ea99d1a823463c56f0595fbb1e0513518b64c4d",
+    "fonts/montserrat-latin.woff2": "34208e63c50cc27f5c13b0c29629cf0561fa788f564a07f82cf877dc28e46b82",
+    "fonts/montserrat-vietnamese.woff2": "bfbb38ac6dcfd74b8ebb446be6aa3c57d5621228851f65bb0db6a2469d88f1ad",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "5fb992d5b29ea669b4cd60bd42e013783ee42ae2531f0188a90a73d4f51b8eda",
+    "styles/fonts.css": "d5098b2a61c5471d8679311d003dfa63d8065143779911c22af5ea4eb64560a5",
+    "styles/lazy-styles.css": "86988ffdc8d229baa214ebfdfd0ea9a09b1de6cdfa3d72e1b30dc10ce5ef76c2",
+    "styles/styles.css": "41cfd9ac10ed9159e2b97eb6dd083f6fcb90fd88c419bb6d4fff8c1ecd080a61"
+  }
+}

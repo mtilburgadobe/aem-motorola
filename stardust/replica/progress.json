@@ -1,0 +1,221 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "at-de-homepage",
+      "url": "https://www.motorola.com/at/de/homepage",
+      "prototype": "stardust/prototypes/at-de-homepage-proposed.html",
+      "iterations": {
+        "360": 4,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 5.15,
+          "dh": 5,
+          "contentDiff": "0/0",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS",
+          "label": "confirm"
+        },
+        "1440": {
+          "pixel": 2.62,
+          "dh": 1,
+          "contentDiff": "0/0",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS"
+        },
+        "cap": "PASS"
+      },
+      "residuals": [
+        "360 gallery band y5000-5500 25% in-band (autoplay timing)",
+        "trending tabs beyond first are API-fed: underline only",
+        "timed signup modal not replicated",
+        "live newsletter button overflows 360 (450px); build fits viewport",
+        "visual-diff HEADING FACE advisory (font-stack reading; both sides report faces loaded)",
+        "unit-geometry inner-element noise on reco/trending cards (boxes Δ≤1px)",
+        "chrome-parity 30 computed deltas at 360; header crop 0.00%, footer 1.63%"
+      ],
+      "motion": {
+        "observed": [
+          "gallery autoplay",
+          "mega-menu hover",
+          "product-card hover",
+          "trending tab click",
+          "legal disclosure"
+        ],
+        "implemented": [
+          "gallery autoplay",
+          "mega-menu hover",
+          "product-card hover",
+          "trending tab click",
+          "legal disclosure",
+          "gallery pause"
+        ],
+        "dead": [
+          "home-carousel next",
+          "gallery pause click",
+          "gallery hover",
+          "legal head click",
+          "header scroll-morph"
+        ]
+      }
+    },
+    "static": {
+      "archetype": "at-de-motocare",
+      "url": "https://www.motorola.com/at/de/motocare",
+      "prototype": "stardust/prototypes/at-de-motocare-proposed.html",
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 1.7,
+          "dh": 5,
+          "contentDiff": "0/0",
+          "clipped": 6,
+          "overflow": "ok",
+          "verdict": "PASS-with-residual",
+          "note": "6 clipped = live-identical clipping (live cells overflow:hidden at 960px, dark banner 59px) replicated as captured"
+        },
+        "1440": {
+          "pixel": 0.45,
+          "dh": 1,
+          "contentDiff": "0/0",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS"
+        },
+        "cap": "PASS"
+      },
+      "residuals": [
+        "360 clip 6 identical to live (capture-state policy)",
+        "360 footer 2-5px drift",
+        "unit-geometry compare-cell text boxes 5px (padding on p)",
+        "font-face advisory",
+        "footer variant on this template: back-port to canon at C0"
+      ],
+      "motion": {
+        "observed": [
+          "hover probes (no change)",
+          "header scroll"
+        ],
+        "implemented": [],
+        "dead": [
+          ".full_component_cta hover",
+          ".compare-table-column-details-row hover",
+          "header scroll-morph"
+        ]
+      }
+    },
+    "campaign": {
+      "archetype": "at-de-offers",
+      "url": "https://www.motorola.com/at/de/offers",
+      "prototype": "stardust/prototypes/at-de-offers-proposed.html",
+      "iterations": {
+        "360": 4,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 1.06,
+          "dh": -1,
+          "contentDiff": "0/0",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS",
+          "label": "iter3b"
+        },
+        "1440": {
+          "pixel": 0.34,
+          "dh": 0,
+          "contentDiff": "0/0",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS"
+        },
+        "cap": "PASS"
+      },
+      "residuals": [
+        "360 gift line height varies per live load (48/96px); build matches gate capture",
+        "360 hero text clipped at banner edge as on live",
+        "swatch select moves ring only (product data not connected)",
+        "post-iter3b footer polish verified by stitched shot only (0.49%)",
+        "footer variant: back-port to canon at C0"
+      ],
+      "motion": {
+        "observed": [
+          "carousel prev/next + dots (0.5s)",
+          "swatch selection ring"
+        ],
+        "implemented": [
+          "carousel prev/next + dots",
+          "swatch selection ring"
+        ],
+        "dead": [
+          "card hover",
+          "header scroll-morph",
+          "carousel/swatch frame movement"
+        ]
+      }
+    },
+    "program": {
+      "archetype": "at-de-razr-fold-fifa-world-cup-edition",
+      "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+      "prototype": "stardust/prototypes/at-de-razr-fold-fifa-world-cup-edition-proposed.html",
+      "iterations": {
+        "360": 2,
+        "1440": 3
+      },
+      "gates": {
+        "360": {
+          "pixel": 6.67,
+          "dh": 2,
+          "contentDiff": "0/2",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "PASS-pixel, residual 🟡2",
+          "note": "gated against frozen --vh 640 baseline (live capture stalls)"
+        },
+        "1440": {
+          "pixel": 5.5,
+          "dh": -61,
+          "contentDiff": "0/2",
+          "clipped": 0,
+          "overflow": "ok",
+          "verdict": "RESIDUAL (cap reached)",
+          "note": "dh -61: live sticky nav turns fixed during stitch, live.png loses ~63px footer padding; in-flow footer y 7713 vs 7714"
+        },
+        "cap": "PASS"
+      },
+      "residuals": [
+        "content-diff 🟡2 = carousel Item 2 of 2 caught mid-autoslide on live",
+        "1440 dh -61 capture artefact (sticky nav)",
+        "360 chrome-parity 32 footer deltas (16px offset between live runs)",
+        "hero/FIFA videos as frozen posters (HLS) — restoreAtDelivery",
+        "fixed two live 360 overflows instead of copying",
+        "program footer variant + sup sizing: back-port to canon at C0"
+      ],
+      "motion": {
+        "observed": [
+          "sticky nav",
+          "synced carousels",
+          "icon->media swap",
+          "flex-view hover swap"
+        ],
+        "implemented": [
+          "sticky nav",
+          "synced carousels",
+          "icon->media swap",
+          "flex-view hover swap"
+        ],
+        "dead": [
+          "icon/dot clicks",
+          "header scroll-morph"
+        ]
+      }
+    }
+  }
+}

@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--aem-motorola--mtilburgadobe.aem.page/
-- Live: https://main--aem-motorola--mtilburgadobe.aem.live/
+- Preview: https://main--0d32c52e--aemcoder.aem.page/
+- Live: https://main--0d32c52e--aemcoder.aem.live/
 
 ## Documentation
 
@@ -31,4 +31,4 @@ npm run lint
 1. Add the [AEM Code Sync GitHub App](https://github.com/apps/aem-code-sync) to the repository
 1. Install the [AEM CLI](https://github.com/adobe/helix-cli): `npm install -g @adobe/aem-cli`
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
-1. Open the `aem-motorola` directory in your favorite IDE and start coding :)
+1. Open the `0d32c52e` directory in your favorite IDE and start coding :)

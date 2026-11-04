@@ -1,0 +1,555 @@
+{
+  "slug": "at-de-contest",
+  "type": "campaign",
+  "renderBranch": "A'",
+  "template": "at-de-offers",
+  "modules": [
+    "banner",
+    "copy",
+    "reco"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "banner",
+    "copy",
+    "copy",
+    "reco",
+    "copy",
+    "copy"
+  ],
+  "canonShas": {
+    "header": "ed30b4989ceb",
+    "footer": "cf154197fb6d",
+    "css": "02c3d7e68b17"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT",
+    "description": "Ein Kauf. Eine Frage. Eine Gewinnchance. Kaufe ein teilnahmeberechtigtes motorola-Smartphone, lade deinen Kaufbeleg hoch und beantworte eine Frage zur FIFA Fussball-Weltmeisterschaft™, um deine Teilnahme zu bestätigen.",
+    "canonical": null,
+    "lang": "de-AT"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT",
+    "description": "Ein Kauf. Eine Frage. Eine Gewinnchance. Kaufe ein teilnahmeberechtigtes motorola-Smartphone, lade deinen Kaufbeleg hoch und beantworte eine Frage zur FIFA Fussball-Weltmeisterschaft™, um deine Teilnahme zu bestätigen.",
+    "url": "https://www.motorola.com/at/de/contest"
+  },
+  "migratedAt": "2026-11-03T18:26:50Z",
+  "designMdSha": "2d703879adf4",
+  "designJsonSha": "7fb439cd17ca",
+  "sourceCurrentSha": "45db978d8efb",
+  "sourceProposedSha": "76715f958b3f",
+  "fidelityTier": "sibling",
+  "archetypeSource": "at-de-offers",
+  "archetypeSha": "8c9c2dd61b7b",
+  "variants": [
+    "banner.static banner.solo copy.title copy.partners copy.fine reco.deal reco.flush"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "variance-probe",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content/at/de/contest.html built from capture at-de-contest.html: hero h2+sub, rules copy (verbatim incl. bold runs + terms link), stack heading, reco 7 cards (name, sku, swatches, price/OOS, CTAs, energy label, sheet), 7 partners, legal; 5 deviations logged",
+    "variance-probe": "stardust/migrate/variance/campaign.json: banner-container→homeCarousel (banner solo), stackmain/flex text (copy), reco padding 12→0 + grey cards (reco flush)",
+    "pixel-gate-1440": "gates/all-1440 at-de-contest 1.76% Δh 2 clip 0; MISSING 3 = nested buy-link double count (overrides.json)",
+    "pixel-gate-360": "gates/all-360 at-de-contest 6.37% Δh 31 clip 0 MISSING 0 HIDDEN 0 PASS"
+  },
+  "contentDeviations": [
+    {
+      "kind": "tag-normalised",
+      "source": "<b>",
+      "target": "<strong>",
+      "reason": "DA normalises b to strong; same bold rendering"
+    },
+    {
+      "kind": "whitespace",
+      "source": "AUTRIATC.pdf%0A",
+      "target": "AUTRIATC.pdf",
+      "reason": "trailing encoded newline in the terms PDF href stripped (whitespace transform)"
+    },
+    {
+      "kind": "dropped-empty",
+      "source": "moto-webform (0px, no content)",
+      "target": "-",
+      "reason": "live moto-webform renders empty (h 0) on this page; empty section dropped"
+    },
+    {
+      "kind": "dropped-hidden",
+      "source": "html_upload <title>Wo kann man unsere Smartphones kaufen?</title>",
+      "target": "-",
+      "reason": "non-rendered <title> inside the uploaded HTML fragment duplicates the visible h2"
+    },
+    {
+      "kind": "dynamic",
+      "source": "notify_me button (Benachrichtigt mich) opens a notify-me modal",
+      "target": "static dark pill, no modal",
+      "reason": "no commerce/notify backend connected (dynamic-features decision D1)"
+    }
+  ],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.motorola.com/at/de/family/all-smartphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmje43mf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-razr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-e",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmhg39mp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjk44m2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PMIPMJU45ML",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjt45mc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjh44mo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/all-smartphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmje43mf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjj43mx",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjq45m3",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjk44m2",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjl44m6",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-razr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PMIPMJU45ML",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjt45mc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjp44mp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjc43m9",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjh44mo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjh43mw",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjh43mu",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmjf43ml",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmhk40mb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-e",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pmipmhg39mp",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/all-smartphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/compare/index",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/brilliantcollection",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/brilliant-collection-2026",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/brilliant-collection",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/brilliant-collection-2026",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/all-accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07843",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-watches",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-tags",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06632",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08996",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07843",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PG38C08069",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pwipwia11w5",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/all-accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08248",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07843",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PG38C08069",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08162",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07949",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07165",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PWIPWIA11W5",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08254",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c07182",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-watches",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06071",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08027",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-tags",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/PG38C09014",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06632",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06281",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06448",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06632",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c08996",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/why-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/why-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/why-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/why-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/why-moto",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/business/home",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/business/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/business/home",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/business/contact-us",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/razr/razr-60-ultra/pmipmhn42m1?pn=PB8R0003SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/razr/razr-60-ultra/pmipmhn42m1?pn=PB8R0003SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/razr/razr-60/pmipmhv41mm?pn=PB860044SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/razr/razr-60/pmipmhv41mm?pn=PB860044SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/motorola-edge/motorola-edge-70/pmipmjc43m9?pn=PBA50054SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/motorola-edge/60-pro/pmipmht41mf?pn=PB7X0006SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/motorola-edge/motorola-edge-60/pmipmhr41m3?pn=PB7H0020ES",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/moto-g/56-5g/pmipmhu41mg?pn=PB7Y0027SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/moto-g/56-5g/pmipmhu41mg?pn=PB7Y0027SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/moto-g/85-5g/pmipmgv37m9?pn=PB2A0003SE",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/country-selector",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-razr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-edge",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-g",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/moto-e",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/phones/moto/moto-thinkphone/25-by-motorola/pmipmhg39mp?pn=PB5W0000GB",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/all-smartphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/pg38c06632",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/p/motoaccessories/all-moto-tags/pg38c06071",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/about",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/legal/terms-of-sale",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/legal/terms-of-use",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/legal/website-privacy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/about-innovation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.motorola.com/at/de/legal/product-privacy",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "at/de/contest/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "at/de/contest/_meta.json",
+  "driverVersion": "1"
+}

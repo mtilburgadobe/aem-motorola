@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.motorola.com/" target="_blank" rel="noopener">https://www.motorola.com/</a><br>Preview site: <a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--0d32c52e--aemcoder.aem.page/</a><br>Last updated: 2026-11-03 22:20 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 10 pages. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.motorola.com/" target="_blank" rel="noopener">https://www.motorola.com/</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/homepage" target="_blank" rel="noopener">https://www.motorola.com/at/de/homepage</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/brilliant-collection-2026" target="_blank" rel="noopener">https://www.motorola.com/at/de/brilliant-collection-2026</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/brilliant-collection" target="_blank" rel="noopener">https://www.motorola.com/at/de/brilliant-collection</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/motocare" target="_blank" rel="noopener">https://www.motorola.com/at/de/motocare</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/motoverse" target="_blank" rel="noopener">https://www.motorola.com/at/de/motoverse</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motoverse" target="_blank" rel="noopener">motoverse | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/offers" target="_blank" rel="noopener">https://www.motorola.com/at/de/offers</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/offers" target="_blank" rel="noopener">offer | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/business-edition" target="_blank" rel="noopener">https://www.motorola.com/at/de/business-edition</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/business-edition" target="_blank" rel="noopener">Business Edition | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/contest" target="_blank" rel="noopener">https://www.motorola.com/at/de/contest</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition</a></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Offers and promotions</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Home pages</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Product campaign pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Service and information pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel" id="blocks-used">
+    <h2 class="spectrum-panel-header">Blocks used</h2>
+    <div class="panel-body">
+      <p>29 blocks in 67 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block">page-title<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 8 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="7">fullbleed<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">dark</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">dark</span><span class="variant">left</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/business-edition" target="_blank" rel="noopener">Business Edition | motorola AT</a></td></tr>
+          <tr><td><span class="variant">luxe</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr><td><span class="variant">program</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">side</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+          <tr><td><span class="variant">top</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="7">banner<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">light-text</span><span class="variant">fit</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">light-text</span><span class="variant">medium</span><span class="variant">tall-logo</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">plain</span><span class="variant">light-text</span><span class="variant">wide</span><span class="variant">tall-logo</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">light-text</span><span class="variant">wide</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">static</span><span class="variant">solo</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr><td><span class="variant">static</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/offers" target="_blank" rel="noopener">offer | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="4">reco<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">deal</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/offers" target="_blank" rel="noopener">offer | motorola AT</a> <span class="blocks-count">×3</span></td></tr>
+          <tr><td><span class="variant">deal</span><span class="variant">flush</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr><td><span class="variant">titled</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">legal<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">plain</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">spaced</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="4">pchero<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">center</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr><td><span class="variant">dark</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+          <tr><td><span class="variant">warm</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">subnav<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">ocean</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr><td><span class="variant">slate</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">cblock<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">card</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="5">copy<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr><td><span class="variant">fine</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr><td><span class="variant">partners</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr><td><span class="variant">seo</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">title</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">dualcar<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr><td><span class="variant">thumbs</span><span class="variant">slow</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="2">flexview<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">tall</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">gallery<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">thirds</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">hcar<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">small-logo</span><span class="variant">landscape</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr class="group"><td class="block">news<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a>, <a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">stack<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a>, <a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="4">tiles<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">compact</span><span class="variant">grid</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">shade</span><span class="variant">compact</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr><td><span class="variant">shade</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">trend<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></td></tr>
+          <tr><td><span class="variant">roomy</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">vhero<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr><td><span class="variant">bare</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr><td><span class="variant">duo</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">catchlist<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection" target="_blank" rel="noopener">Entdecke die Dazzling Collection von motorola razr und moto buds loop mit Crystals by Swarovski® | motorola DE | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">compare<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">dexp<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">faq<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/business-edition" target="_blank" rel="noopener">Business Edition | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">hub<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motoverse" target="_blank" rel="noopener">motoverse | motorola AT</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">media-row<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a> <span class="blocks-count">×3</span></td></tr>
+          <tr class="group"><td class="block" rowspan="2">pcards<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">lead</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">pcarousel<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">slider<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/business-edition" target="_blank" rel="noopener">Business Edition | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">spotlight<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motoverse" target="_blank" rel="noopener">motoverse | motorola AT</a></td></tr>
+          <tr class="group"><td class="block">webform<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/business-edition" target="_blank" rel="noopener">Business Edition | motorola AT</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 29</span><span class="bp-range bp-range-2">Blocks 6–10 of 29</span><span class="bp-range bp-range-3">Blocks 11–15 of 29</span><span class="bp-range bp-range-4">Blocks 16–20 of 29</span><span class="bp-range bp-range-5">Blocks 21–25 of 29</span><span class="bp-range bp-range-6">Blocks 26–29 of 29</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">page-title <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 8 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/" target="_blank" rel="noopener">Shop 5G smartphones, Tablets, Accessories and Smart Devices | Motorola US</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/homepage" target="_blank" rel="noopener">Homepage Austria | Motorola | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/brilliant-collection-2026" target="_blank" rel="noopener">Das motorola razr 70 kaufen | Premium-Smartphone | Flip-Smartphone | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motocare" target="_blank" rel="noopener">Moto Care Garantieverlängerung | motorola AT | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/motoverse" target="_blank" rel="noopener">motoverse | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/offers" target="_blank" rel="noopener">offer | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/contest" target="_blank" rel="noopener">Motorola AT FIFA: Erlebe die FIFA Fussball-Weltmeisterschaft 2026™ vor Ort. | motorola AT</a></li>
+          <li><a href="https://main--0d32c52e--aemcoder.aem.page/at/de/razr-fold-fifa-world-cup-edition" target="_blank" rel="noopener">motorola razr fold FIFA Edition Smartphone | motorola razr fold, Teil der FIFA World Cup 26™ Collection | motorola AT | motorola AT</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>The migration is complete. All ten pages are live on the new platform, match the current site closely on desktop and mobile, and have passed every final check for links, quality and search data.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>Nothing further is planned for these pages; the remaining items are business decisions on forms, shop integration and tracking that we will take up with you.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

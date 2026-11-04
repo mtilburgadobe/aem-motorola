@@ -1,0 +1,153 @@
+/* subnav — live .sticky-nav-container (values from the program prototype, 1440 / 360) */
+.subnav {
+  position: relative;
+  z-index: 50;
+  width: 100%;
+}
+
+.subnav .subnav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 63px;
+  padding: 15px 20px;
+  background-image: linear-gradient(90deg, rgb(4 17 1 / 80%) 33.9%, rgb(156 199 156 / 80%) 96.86%);
+  transition: box-shadow 0.3s, z-index 0.3s;
+}
+
+.subnav.is-fixed .subnav-bar {
+  position: fixed;
+  top: var(--header-h);
+  left: 0;
+  z-index: 1000;
+  width: calc(100vw - 5px);
+  box-shadow: 0 2px 5px #0003;
+}
+
+.subnav .subnav-logo p {
+  line-height: 0;
+}
+
+.subnav .subnav-logo img {
+  display: block;
+  width: auto;
+  height: 30px;
+  margin-left: 35px;
+}
+
+.subnav .subnav-cta p {
+  margin: 0;
+}
+
+.subnav .subnav-cta a:any-link {
+  display: inline-block;
+  margin-right: 103px;
+  padding: 10px 26px;
+  border-radius: 30px;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.384px;
+  white-space: nowrap;
+}
+
+@media (width <= 767px) {
+  .subnav .subnav-bar {
+    height: 106px;
+    padding: 38px 20px 10px;
+  }
+
+  .subnav.is-fixed .subnav-bar {
+    width: 100%;
+  }
+
+  .subnav .subnav-logo img {
+    height: 24px;
+  }
+
+  .subnav .subnav-cta a:any-link {
+    width: 109px;
+    margin-right: 63px;
+    padding: 10px 26px;
+    font-weight: 400;
+    letter-spacing: 0;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+/* variant slate — live brilliant-collection-2026 sticky nav: solid #575a65, 46px logo, outline CTA */
+.subnav.slate .subnav-bar {
+  height: 66px;
+  padding: 10px 20px;
+  background: #575a65;
+}
+
+.subnav.slate .subnav-logo img {
+  width: 46px;
+  height: 46px;
+  margin-left: 120px;
+}
+
+.subnav.slate .subnav-cta a:any-link {
+  margin-right: 108px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+/* variant ocean — live brilliant-collection sticky nav: no logo, gradient bar, navy CTA pill */
+.subnav.ocean .subnav-bar {
+  justify-content: flex-end;
+  height: 59px;
+  padding: 10px 20px;
+  background-image: linear-gradient(90deg, rgb(0 20 40 / 80%) 0%, rgb(211 228 241 / 80%) 100%);
+}
+
+.subnav.ocean .subnav-logo:empty {
+  display: none;
+}
+
+.subnav.ocean .subnav-cta a:any-link {
+  margin-right: 50px;
+  padding: 10px 30px;
+  background: #001428;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+@media (width <= 767px) {
+  .subnav.slate .subnav-bar {
+    height: 66px;
+    padding: 10px 20px;
+  }
+
+  .subnav.slate .subnav-logo img {
+    height: 46px;
+    margin-left: 10px;
+  }
+
+  .subnav.slate .subnav-cta a:any-link {
+    width: auto;
+    margin-right: 0;
+    white-space: nowrap;
+  }
+
+  .subnav.ocean .subnav-bar {
+    height: 87px;
+    padding: 38px 20px 10px;
+  }
+
+  .subnav.ocean .subnav-cta a:any-link {
+    width: auto;
+    margin-right: 50px;
+    padding: 10px 26px;
+    white-space: nowrap;
+  }
+}

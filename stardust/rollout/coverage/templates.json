@@ -1,0 +1,163 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-03T15:13:43.312Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-03T22:18:48.220Z",
+  "templates": [
+    {
+      "id": "at-de-homepage",
+      "representativeSlug": "at-de-homepage",
+      "pages": [
+        "at-de-homepage"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner",
+        "gallery",
+        "hcar",
+        "legal",
+        "news",
+        "reco",
+        "tiles",
+        "trend"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "at-de-motocare",
+      "representativeSlug": "at-de-motocare",
+      "pages": [
+        "at-de-motocare"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "compare",
+        "fullbleed",
+        "media-row",
+        "stack"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "at-de-offers",
+      "representativeSlug": "at-de-offers",
+      "pages": [
+        "at-de-offers"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "banner",
+        "reco"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "at-de-razr-fold-fifa-world-cup-edition",
+      "representativeSlug": "at-de-razr-fold-fifa-world-cup-edition",
+      "pages": [
+        "at-de-razr-fold-fifa-world-cup-edition"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cblock",
+        "dexp",
+        "fbleed",
+        "flexview",
+        "legal",
+        "pcarousel",
+        "pchero",
+        "stack",
+        "vhero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "campaign",
+      "representativeSlug": "at-de-contest",
+      "pages": [
+        "at-de-contest"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "landing",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "at-de-brilliant-collection",
+      "pages": [
+        "at-de-brilliant-collection",
+        "at-de-brilliant-collection-2026"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "at-de-business-edition",
+      "pages": [
+        "at-de-business-edition",
+        "at-de-motoverse"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}
