@@ -1,0 +1,1831 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-03T13:50:58.900Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/DESIGN.md"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.36.1",
+    "mode": "descriptive current-state",
+    "notes": [
+      "extensions.breakpoints and extensions.modules intentionally absent — written by cap-probe / module steps."
+    ]
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T13:50:58.900Z",
+  "title": "Design System: Motorola (current state)",
+  "extensions": {
+    "colorMeta": {
+      "ground-white": {
+        "role": "neutral",
+        "displayName": "Ground White",
+        "canonical": "#ffffff"
+      },
+      "ink-black": {
+        "role": "neutral",
+        "displayName": "Ink Black",
+        "canonical": "#000000"
+      },
+      "cta-ink": {
+        "role": "primary",
+        "displayName": "CTA Ink",
+        "canonical": "#131417",
+        "sourceToken": "--atom-color-dark-300"
+      },
+      "tile-lavender": {
+        "role": "neutral",
+        "displayName": "Tile Lavender",
+        "canonical": "#e9eaf2"
+      },
+      "footer-navy": {
+        "role": "secondary",
+        "displayName": "Footer Navy",
+        "canonical": "#001428",
+        "sourceToken": "--atom-color-navy-950"
+      },
+      "card-link-blue": {
+        "role": "tertiary",
+        "displayName": "Card Link Blue",
+        "canonical": "#0d5c91"
+      },
+      "rule-grey": {
+        "role": "neutral",
+        "displayName": "Rule Grey",
+        "canonical": "#cccccc"
+      },
+      "banner-link-blue": {
+        "role": "tertiary",
+        "displayName": "Banner Link Blue",
+        "canonical": "#384ddd"
+      },
+      "cta-hover-grey": {
+        "role": "state",
+        "displayName": "CTA Hover Grey",
+        "canonical": "#333333",
+        "sourceToken": "--atom-color-semi-dark-grey"
+      },
+      "logo-purple": {
+        "role": "brand-mark",
+        "displayName": "Logo Purple",
+        "canonical": "#685bc6",
+        "note": "sampled from assets/logo.png; absent from CSS"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display (h2)",
+        "purpose": "Section/hero headlines; 48/56 → 28/32 at 360. Weight 600 renders as 700."
+      },
+      "headline": {
+        "displayName": "Headline (h4 promo tile)",
+        "purpose": "2-up promo tile titles; 36/40 → 24/40 (US 32)."
+      },
+      "title": {
+        "displayName": "Title (h3 product name)",
+        "purpose": "Product-card names, lowercase; 22/28 → 16/16."
+      },
+      "body-xl": {
+        "displayName": "Body XL",
+        "purpose": "Tile sublines."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Legal, captions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase pill CTA labels; 16 → 12 at 360."
+      }
+    },
+    "shadows": [
+      {
+        "name": "tile-lift",
+        "value": "rgba(0, 0, 0, 0.16) 0px 2px 4px 0px",
+        "purpose": "Product/teaser tiles (238×)."
+      },
+      {
+        "name": "us-card",
+        "value": "rgba(0, 0, 0, 0.1) 0px 2px 4px 0px",
+        "purpose": "US homepage cards (6×)."
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Montserrat",
+        "localPath": "stardust/current/assets/fonts/montserrat-cyrillic-ext.woff2",
+        "url": "https://p1-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F",
+        "licensingFlag": "open"
+      },
+      {
+        "family": "Montserrat",
+        "localPath": "stardust/current/assets/fonts/montserrat-cyrillic.woff2",
+        "url": "https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459W1hyyTh89ZNpQ.woff2",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116",
+        "licensingFlag": "open"
+      },
+      {
+        "family": "Montserrat",
+        "localPath": "stardust/current/assets/fonts/montserrat-vietnamese.woff2",
+        "url": "https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WZhyyTh89ZNpQ.woff2",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB",
+        "licensingFlag": "open"
+      },
+      {
+        "family": "Montserrat",
+        "localPath": "stardust/current/assets/fonts/montserrat-latin-ext.woff2",
+        "url": "https://p3-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WdhyyTh89ZNpQ.woff2",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF",
+        "licensingFlag": "open"
+      },
+      {
+        "family": "Montserrat",
+        "localPath": "stardust/current/assets/fonts/montserrat-latin.woff2",
+        "url": "https://p2-ofp.static.pub/SystemFragment/moto/fonts/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+        "weight": [
+          400,
+          500,
+          700
+        ],
+        "style": "normal",
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD",
+        "licensingFlag": "open"
+      },
+      {
+        "family": "icomoon",
+        "localPath": "stardust/current/assets/fonts/icomoon.woff2",
+        "url": "https://p1-ofp.static.pub/SystemFragment/iconfont/icomoon.woff2",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "licensingFlag": "private"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.2,
+        1.111,
+        1.636
+      ],
+      "sizesPx": [
+        48,
+        40,
+        36,
+        22
+      ],
+      "matchedScale": null,
+      "basis": "per-level weighted-score sizes at 1440 sorted desc: h2 48 → h1 40 → h4 36 → h3 22. Levels are also non-monotonic (h4 > h3). The authored molecule ramp (100/56/48/40/32/28/24/18/16/14/12) is likewise non-modular."
+    },
+    "moleculeRamp": {
+      "source": "pages/index.html — inline molecule dictionary ([data-molecule=\"typo-*\"]), mirrored on AT pages",
+      "levels": {
+        "typo-headline-h0-dt": {
+          "desktop": "100px/84px",
+          "mobile": "48px/40px",
+          "tablet": "48px/40px"
+        },
+        "typo-headline-h1-dt": {
+          "desktop": "56px/64px",
+          "mobile": "36px/40px",
+          "tablet": "36px/40px"
+        },
+        "typo-headline-h2-dt": {
+          "desktop": "48px/56px",
+          "mobile": "28px/32px",
+          "tablet": "28px/32px"
+        },
+        "typo-headline-h3-dt": {
+          "desktop": "40px/48px",
+          "mobile": "24px/24px",
+          "tablet": "24px/24px"
+        },
+        "typo-headline-h4-dt": {
+          "desktop": "32px/40px",
+          "mobile": "24px",
+          "tablet": "24px"
+        },
+        "typo-title-l-dt": {
+          "desktop": "28px/32px",
+          "mobile": "20px/24px"
+        },
+        "typo-title-m-dt": {
+          "desktop": "24px/32px",
+          "mobile": "18px/24px"
+        },
+        "typo-body-xl-dt": {
+          "all": "18px/24px"
+        },
+        "typo-body-l-dt": {
+          "all": "16px/24px"
+        },
+        "typo-body-m-dt": {
+          "all": "14px/20px"
+        },
+        "typo-body-s-dt": {
+          "all": "12px/16px"
+        }
+      },
+      "mediaQueries": [
+        "(min-width: 320px) and (max-width: 600px)",
+        "(min-width: 768px) and (max-width: 1024px)"
+      ]
+    },
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "name": "btn-primary-solid-dark-dt",
+          "background": "#131417",
+          "color": "#ffffff",
+          "borderRadius": "100px",
+          "padding": "12px 24px",
+          "paddingAt360": "6px 12px",
+          "fontSize": "16px",
+          "fontSizeAt360": "12px",
+          "fontWeight": 500,
+          "textTransform": "uppercase",
+          "minHeightAt360": "32px",
+          "shadow": null,
+          "hoverDelta": "background #131417 → #333333 (--atom-color-semi-dark-grey); focus #454545",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/at/de/homepage",
+              "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a",
+              "label": "Jetzt kaufen"
+            }
+          ]
+        },
+        "primaryLight": {
+          "name": "btn-primary-solid-light-dt",
+          "background": "#ffffff",
+          "color": "#131417",
+          "borderRadius": "100px",
+          "padding": "12px 24px",
+          "paddingAt360": "6px 12px",
+          "fontSize": "16px",
+          "fontSizeAt360": "12px",
+          "fontWeight": 500,
+          "textTransform": "uppercase",
+          "hoverDelta": "background #ffffff → #e5e5e5",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/us/en/homepage",
+              "selector": "#banner-0 > a > div:nth-of-type(2) > div:nth-of-type(2) > a",
+              "label": "Learn more"
+            }
+          ]
+        },
+        "secondary": {
+          "name": "btn-secondary-outline-dark-dt",
+          "background": "transparent",
+          "color": "#131417",
+          "border": "1px solid #131417",
+          "borderRadius": "100px",
+          "padding": "12px 24px",
+          "paddingAt360": "6px 12px",
+          "fontSize": "16px",
+          "fontSizeAt360": "12px",
+          "fontWeight": 500,
+          "textTransform": "uppercase",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/at/de/homepage",
+              "selector": "article > div:nth-of-type(2) > div > a",
+              "label": "Mehr erfahren"
+            }
+          ]
+        },
+        "ghostLight": {
+          "name": "btn-secondary-outline-light-dt",
+          "background": "transparent",
+          "color": "#ffffff",
+          "border": "1px solid #ffffff",
+          "borderRadius": "100px",
+          "padding": "12px 24px",
+          "fontSize": "16px",
+          "fontWeight": 500,
+          "textTransform": "uppercase",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/us/en/homepage",
+              "selector": "… > div > div:nth-of-type(2) > a > button",
+              "label": "Shop edge"
+            }
+          ]
+        },
+        "motoverseChip": {
+          "background": "transparent",
+          "color": "#ffffff",
+          "border": "1px solid #ffffff",
+          "borderRadius": "27px",
+          "padding": "20px 30px",
+          "paddingAt360": "6px 13px",
+          "fontSize": "18px",
+          "fontSizeAt360": "12px",
+          "fontWeight": 400,
+          "textTransform": "uppercase",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/at/de/motoverse",
+              "selector": ":nth-of-type(4) > div > a:nth-of-type(1)",
+              "label": "MOTO AI"
+            }
+          ]
+        },
+        "brilliantOutline": {
+          "background": "#ffffff",
+          "color": "#000000",
+          "border": "1px solid #000000",
+          "borderRadius": "20px",
+          "padding": "10px 21px",
+          "fontSize": "12px",
+          "fontWeight": 500,
+          "textTransform": "uppercase",
+          "citations": [
+            {
+              "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+              "selector": "#hover_display_panel … > a",
+              "label": "Strahlende Brillanz"
+            }
+          ],
+          "note": "program-page local variant"
+        },
+        "tab": {
+          "background": "#ffffff",
+          "color": "#000000 (active) / #595959 (inactive)",
+          "borderRadius": "0px",
+          "padding": "10px 12px",
+          "fontSize": "16px",
+          "fontWeight": 700,
+          "citations": [
+            {
+              "url": "https://www.motorola.com/at/de/homepage",
+              "selector": "#trending-v2 > div > div:nth-of-type(1) > button:nth-of-type(1)"
+            }
+          ]
+        }
+      },
+      "dualCTAPattern": "secondary-outline-then-primary-solid (product cards: MEHR ERFAHREN outline + JETZT KAUFEN solid; US: LEARN MORE + BUY NOW)",
+      "cards": {
+        "background": "#e9eaf2 (product tile ground) / image",
+        "borderRadius": "16px",
+        "padding": null,
+        "shadow": "rgba(0, 0, 0, 0.16) 0px 2px 4px 0px",
+        "border": null
+      },
+      "inputs": {
+        "newsletter": {
+          "borderRadius": "24px 0px 0px 24px",
+          "border": "1px solid #00264d",
+          "submit": {
+            "background": "#001428",
+            "color": "#ffffff",
+            "borderRadius": "0px 24px 24px 0px",
+            "padding": "10px 50px",
+            "fontSize": "16px",
+            "fontWeight": 400
+          }
+        },
+        "citations": [
+          {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "#moto_home_news_letter > div > form > div > div:nth-of-type(2) > button"
+          }
+        ]
+      },
+      "hover": [
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(255, 255, 255)"
+          },
+          "to": {
+            "backgroundColor": "rgb(229, 229, 229)"
+          },
+          "count": 4,
+          "source": {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(56, 77, 221)",
+            "color": "rgb(241, 245, 248)",
+            "borderColor": "rgb(14, 119, 218)"
+          },
+          "to": {
+            "backgroundColor": "rgb(14, 119, 218)",
+            "color": "rgb(246, 244, 244)",
+            "borderColor": "rgb(255, 255, 255)"
+          },
+          "count": 2,
+          "source": {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "#razr-70-ultra > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(56, 77, 221)",
+            "color": "rgb(249, 250, 251)"
+          },
+          "to": {
+            "backgroundColor": "rgb(14, 119, 218)",
+            "color": "rgb(255, 255, 255)"
+          },
+          "count": 2,
+          "source": {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "#razr-family > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(250, 251, 255)",
+            "color": "rgb(13, 13, 13)",
+            "borderColor": "rgb(3, 3, 3)"
+          },
+          "to": {
+            "backgroundColor": "rgb(246, 247, 248)",
+            "color": "rgb(0, 0, 0)",
+            "borderColor": "rgb(243, 241, 241)"
+          },
+          "count": 2,
+          "source": {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "#razr-fold > div > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgb(19, 20, 23)"
+          },
+          "to": {
+            "backgroundColor": "rgb(51, 51, 51)"
+          },
+          "count": 2,
+          "source": {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "#home-single-banner > a > div > div:nth-of-type(2) > div:nth-of-type(2) > a"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "borderColor": "rgb(255, 255, 255)"
+          },
+          "to": {
+            "borderColor": "rgb(4, 23, 46)"
+          },
+          "count": 2,
+          "source": {
+            "url": "https://www.motorola.com/at/de/business-edition",
+            "selector": "#moto-webform > div > fieldset > form > div:nth-of-type(2) > button"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          },
+          "to": {
+            "backgroundColor": "rgb(255, 255, 255)",
+            "color": "rgb(0, 0, 0)"
+          },
+          "count": 1,
+          "source": {
+            "url": "https://www.motorola.com/at/de/motoverse",
+            "selector": "div > section > div:nth-of-type(2) > div:nth-of-type(1) > div > div:nth-of-type(4) > div > a:nth-of-type(1)"
+          }
+        },
+        {
+          "kind": "button",
+          "from": {
+            "backgroundColor": "rgba(0, 0, 0, 0)"
+          },
+          "to": {
+            "backgroundColor": "rgba(255, 255, 255, 0.2)"
+          },
+          "count": 1,
+          "source": {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "div:nth-of-type(2) > div > div:nth-of-type(1) > div:nth-of-type(1) > article > div:nth-of-type(2) > div > a"
+          }
+        }
+      ]
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "16px",
+        "primaryBasis": "census aggregate.motifs.radius.mode and areaMode both 16px (69 elements, 6.9M px² — image tiles, promo cards, swatch panels)",
+        "secondary": "100px",
+        "secondaryBasis": "100px is the pill radius of every molecule button (btn-*: --atom-border-radius-100px); 246 elements",
+        "pill": "100px (buttons) / 50% (360 circular colour-swatch dots, carousel arrows)",
+        "primarySources": [
+          "at-de-brilliant-collection"
+        ],
+        "occurrences": {
+          "50%": 360,
+          "100px": 246,
+          "16px": 69,
+          "30px": 30,
+          "24px": 28,
+          "27px": 26,
+          "4px": 20,
+          "10px": 16,
+          "100%": 12,
+          "5px": 12,
+          "20px": 11,
+          "0px 24px 24px 0px": 4,
+          "24px 0px 0px 24px": 4,
+          "25px": 4,
+          "0.5px": 2,
+          "8px": 2
+        },
+        "citations": [
+          {
+            "value": "50%",
+            "sources": [
+              {
+                "url": "https://www.motorola.com/at/de/brilliant-collection",
+                "selector": "div > div > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > button:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.motorola.com/at/de/brilliant-collection",
+                "selector": "div > div > div > section > div:nth-of-type(2) > div:nth-of-type(2) > div > button:nth-of-type(2)"
+              }
+            ]
+          },
+          {
+            "value": "100px",
+            "sources": [
+              {
+                "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+                "selector": "#content1text > div > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.motorola.com/at/de/contest",
+                "selector": "#recommendations-v2 > div > div > div:nth-of-type(2) > div:nth-of-type(2) > span:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "16px",
+            "sources": [
+              {
+                "url": "https://www.motorola.com/at/de/brilliant-collection",
+                "selector": "div > div > div > article:nth-of-type(1) > div > div > a > img:nth-of-type(2)"
+              },
+              {
+                "url": "https://www.motorola.com/at/de/brilliant-collection",
+                "selector": "div > div > div > article:nth-of-type(2) > div > div > a > img:nth-of-type(2)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        {
+          "value": "rgba(0, 0, 0, 0.16) 0px 2px 4px 0px",
+          "count": 238,
+          "uses": "product-card / tile lift (238×, contest/offers/homepage cards)",
+          "source": {
+            "url": "https://www.motorola.com/at/de/contest",
+            "selector": "article > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+          }
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.1) 0px 2px 4px 0px",
+          "count": 6,
+          "uses": "US homepage card (6×)",
+          "source": {
+            "url": "https://www.motorola.com/us/en/homepage",
+            "selector": "div:nth-of-type(1) > article > div:nth-of-type(2) > div:nth-of-type(1) > div > div > div > div"
+          }
+        },
+        {
+          "value": "rgba(0, 0, 0, 0.01) 0px 0.0996855px 0.249214px 0px",
+          "count": 1,
+          "uses": "brilliant-collection hairline (1×, negligible)",
+          "source": {
+            "url": "https://www.motorola.com/at/de/brilliant-collection",
+            "selector": "main > div:nth-of-type(1) > div > div > div > div > div"
+          }
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0))",
+          "count": 238,
+          "uses": "bottom-up black scrim over tile imagery (238×)",
+          "source": {
+            "url": "https://www.motorola.com/at/de/contest",
+            "selector": "article > div:nth-of-type(1) > div > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div"
+          }
+        },
+        {
+          "value": "linear-gradient(rgb(227, 227, 227), rgb(196, 196, 196))",
+          "count": 18,
+          "uses": "grey button gradient on a floating link (body > div:nth-of-type(5) > a) — likely third-party widget",
+          "source": {
+            "url": "https://www.motorola.com/at/de/brilliant-collection",
+            "selector": "body > div:nth-of-type(5) > a"
+          }
+        },
+        {
+          "value": "linear-gradient(297deg, rgb(233, 234, 242) 3.63%, rgba(233, 234, 242, 0.3) 92.26%)",
+          "count": 14,
+          "uses": "pale-lavender panel wash (#e9eaf2 → 30%) on brilliant-collection-2026 hover panels",
+          "source": {
+            "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+            "selector": "#hover_display_panel > div > div:nth-of-type(2) > div > div:nth-of-type(1)"
+          }
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%)",
+          "count": 12,
+          "uses": "top-down black scrim on homepage cards",
+          "source": {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "section > div > section > div:nth-of-type(1) > ol > li:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1)"
+          }
+        },
+        {
+          "value": "linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.09) 12%, rgba(0, 0, 0, 0) 34%)",
+          "count": 8,
+          "uses": "top shade on homepage section cards",
+          "source": {
+            "url": "https://www.motorola.com/at/de/homepage",
+            "selector": "div > div > section > section > div > div:nth-of-type(1) > a > div"
+          }
+        },
+        {
+          "value": "linear-gradient(90deg, rgba(0, 20, 40, 0.8) 0%, rgba(211, 228, 241, 0.8) 100%)",
+          "count": 2,
+          "uses": "navy→pale-blue overlay on brilliant-collection hero",
+          "source": {
+            "url": "https://www.motorola.com/at/de/brilliant-collection",
+            "selector": "main > div:nth-of-type(1) > div > div > div > div > div"
+          }
+        }
+      ],
+      "patterns": [
+        {
+          "name": "hero-carousel",
+          "evidence": "index + at-de-homepage: swiper hero slides (.hero_slide / #banner-0…) full-bleed image + h2 typo-headline-h2-dt + white solid pill CTA; single-banner (#razr-fold, #home-single-banner) variants"
+        },
+        {
+          "name": "product-card-carousel",
+          "evidence": "\"Recommendations\" / \"Hero BLACK FRIDAY\" rows: 1:1 product image on #e9eaf2 tile, h3 22/700 lowercase product name, colour-swatch dots (50%), price, MEHR ERFAHREN outline pill + JETZT KAUFEN solid pill (offers, contest, homepage, index)"
+        },
+        {
+          "name": "promo-tile-2up",
+          "evidence": "\"Find your edge\" / \"Stylish yet durable\" (index, at-de-homepage): two image tiles with h4 36/700 (32 on US) + subline + pill CTA, black bottom scrim"
+        },
+        {
+          "name": "tabbed-matcher",
+          "evidence": "#trending-v2 \"Find your perfect match\" tabs (Photographers / Gamers …) — square tab buttons 16/700, #514f51 inactive text"
+        },
+        {
+          "name": "newsletter-band",
+          "evidence": "#moto_home_news_letter on index + at-de-homepage only: pill input (24px 0 0 24px) + navy #001428 submit (0 24px 24px 0)"
+        },
+        {
+          "name": "full-bleed-editorial",
+          "evidence": "program pages (brilliant-collection x2, razr-fold-fifa): full-bleed imagery sections 720–1027px tall at 1440 with 48–76px/600 h2 display lines"
+        },
+        {
+          "name": "nav-mega",
+          "evidence": "header .mega-menu-pc per top-level item: level2 list + product cards with images"
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "AT: 4 accordion columns + social row + country selector; US: 6 columns + legal block"
+        },
+        {
+          "name": "lowercase-product-naming",
+          "evidence": "headingsUppercasePercent 2; product names and campaign lines set lowercase (\"motorola razr 70\", \"die brilliant collection\")"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "holiday deals leaked early…",
+      "heroSubcopy": "Up to $700 off and FREE moto things with select purchases.",
+      "heroImage": {
+        "url": "https://p3-ofp.static.pub//fes/cms/2026/11/01/1tlti15irgb98rcg7wzj2acverp3ws498994.png",
+        "alt": "free moto things",
+        "source": "img",
+        "domPath": "main section#razr-fold.banner-container .banner-image > img",
+        "localPath": "stardust/current/assets/media/hero-index-1tlti15i.png",
+        "intrinsic": {
+          "w": 1884,
+          "h": 783
+        },
+        "rect": {
+          "x": 0,
+          "y": 88,
+          "width": 1435,
+          "height": 596
+        },
+        "rectSource": "census surfaces main > div:nth-of-type(1) @1440"
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "SHOP SALE",
+      "ctaSamples": [
+        "Jetzt kaufen",
+        "MEHR ERFAHREN",
+        "Produktdatenblatt",
+        "BUY NOW",
+        "LEARN MORE"
+      ],
+      "navItems": [
+        "smartphones",
+        "zubehör",
+        "vorteile",
+        "angebote",
+        "motoverse",
+        "für unternehmen"
+      ],
+      "navItemsUS": [
+        "smartphones",
+        "business",
+        "accessories",
+        "home devices",
+        "videos",
+        "software & support"
+      ],
+      "footerHeadings": [
+        "Produkte",
+        "Zubehör",
+        "Unterstützung",
+        "Über uns"
+      ],
+      "footerHeadingsUS": [
+        "Shop Motorola",
+        "Featured Products",
+        "Accessories & Home",
+        "Support",
+        "Business & Company",
+        "Legal & Policies"
+      ],
+      "firstParagraph": "Elevate every moment with edge.",
+      "firstParagraphAT": "Entdecke Motorola Collections mit Swarovski® Kristallen – unverwechselbare Geräte und Accessoires, die auffallen.",
+      "atHomeHeroHeadline": "Bis zu 27% Rabatt auf ausgewählte moto g Modelle",
+      "tone": {
+        "guess": "bold-direct",
+        "evidence": "short promotional imperatives (\"Jetzt kaufen\", \"SHOP SALE\"), du-form in German (\"Entdecke\", \"Manage deinen Tag\"), lowercase product/campaign names, price-led offer copy"
+      },
+      "voiceTable": {
+        "ctaFrequency": [
+          {
+            "label": "Jetzt kaufen",
+            "total": 65,
+            "pageCount": 6,
+            "pages": [
+              "at-de-brilliant-collection-2026",
+              "at-de-brilliant-collection",
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-offers",
+              "at-de-razr-fold-fifa-world-cup-edition"
+            ]
+          },
+          {
+            "label": "MEHR ERFAHREN",
+            "total": 35,
+            "pageCount": 3,
+            "pages": [
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-offers"
+            ]
+          },
+          {
+            "label": "Produktdatenblatt",
+            "total": 35,
+            "pageCount": 3,
+            "pages": [
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-offers"
+            ]
+          },
+          {
+            "label": "BUY NOW",
+            "total": 17,
+            "pageCount": 1,
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "label": "angebote",
+            "total": 13,
+            "pageCount": 9,
+            "pages": [
+              "at-de-brilliant-collection-2026",
+              "at-de-brilliant-collection",
+              "at-de-business-edition",
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-motocare",
+              "at-de-motoverse",
+              "at-de-offers",
+              "at-de-razr-fold-fifa-world-cup-edition"
+            ]
+          },
+          {
+            "label": "LEARN MORE",
+            "total": 12,
+            "pageCount": 1,
+            "pages": [
+              "index"
+            ]
+          },
+          {
+            "label": "Black Friday – Angebot entdecken",
+            "total": 9,
+            "pageCount": 9,
+            "pages": [
+              "at-de-brilliant-collection-2026",
+              "at-de-brilliant-collection",
+              "at-de-business-edition",
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-motocare",
+              "at-de-motoverse",
+              "at-de-offers",
+              "at-de-razr-fold-fifa-world-cup-edition"
+            ]
+          },
+          {
+            "label": "motoverse",
+            "total": 9,
+            "pageCount": 9,
+            "pages": [
+              "at-de-brilliant-collection-2026",
+              "at-de-brilliant-collection",
+              "at-de-business-edition",
+              "at-de-contest",
+              "at-de-homepage",
+              "at-de-motocare",
+              "at-de-motoverse",
+              "at-de-offers",
+              "at-de-razr-fold-fifa-world-cup-edition"
+            ]
+          }
+        ],
+        "headingFrequency": [
+          {
+            "text": "motorola edge 70",
+            "total": 5,
+            "pageCount": 4,
+            "level": 3
+          }
+        ],
+        "toneMetrics": {
+          "headingsTotal": 129,
+          "headingsUppercasePercent": 2,
+          "distinctHeadings": 99,
+          "distinctCtaLabels": 128
+        }
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 10,
+        "variants": {
+          "at": {
+            "pages": 9,
+            "navItems": [
+              "smartphones",
+              "zubehör",
+              "vorteile",
+              "angebote",
+              "motoverse",
+              "für unternehmen"
+            ],
+            "utility": [
+              "support",
+              "Anmelden / Konto erstellen"
+            ],
+            "announcement": "Black Friday – Angebot entdecken"
+          },
+          "us": {
+            "pages": 1,
+            "navItems": [
+              "smartphones",
+              "business",
+              "accessories",
+              "home devices",
+              "videos",
+              "software & support"
+            ],
+            "utility": [
+              "Sign in / Create Account"
+            ],
+            "announcement": "LEAK SALE DEALS. SHOP NOW!"
+          }
+        },
+        "headingSequence": [
+          "smartphones",
+          "zubehör",
+          "vorteile",
+          "angebote",
+          "motoverse",
+          "für unternehmen"
+        ],
+        "ctaLabels": [
+          "Black Friday – Angebot entdecken"
+        ],
+        "metrics": {
+          "height": "88px (1440 & 360)",
+          "position": "fixed",
+          "background": "#ffffff",
+          "announcementBar": {
+            "background": "#e9eaf2",
+            "minHeight": "19px",
+            "linkColor": "#384ddd",
+            "fontWeight": "bold (strong)"
+          },
+          "navRow": {
+            "maxWidth": "1464px",
+            "itemMinHeight": "69px",
+            "itemGap": "16px",
+            "itemWeight": 700
+          },
+          "logo": "40×40 at x20 y34"
+        },
+        "exampleSlug": "at-de-offers",
+        "exampleSelector": "header.navigation-header-pc",
+        "examplePages": [
+          "at-de-offers",
+          "at-de-homepage",
+          "index"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 10,
+        "variants": {
+          "at": {
+            "pages": 9,
+            "columns": [
+              "Produkte",
+              "Zubehör",
+              "Unterstützung",
+              "Über uns"
+            ],
+            "extras": [
+              "Folge uns auf Social Media (5 icons)",
+              "Standort ändern",
+              "Offizielle Website"
+            ],
+            "heightAt1440": "665px (719 on homepage)",
+            "heightAt360": "890px (1020 on homepage)"
+          },
+          "us": {
+            "pages": 1,
+            "columns": [
+              "Shop Motorola",
+              "Featured Products",
+              "Accessories & Home",
+              "Support",
+              "Business & Company",
+              "Legal & Policies"
+            ],
+            "extras": [
+              "Change Location",
+              "Official Website",
+              "legal paragraphs"
+            ],
+            "heightAt1440": "656px",
+            "heightAt360": "840px",
+            "note": "newsletter band \"Don’t miss anything!\" sits above it in main (#moto_home_news_letter)"
+          }
+        },
+        "headingSequence": [
+          "Produkte",
+          "Zubehör",
+          "Unterstützung",
+          "Über uns"
+        ],
+        "ctaLabels": [
+          "Standort ändern"
+        ],
+        "metrics": {
+          "background": "#ffffff",
+          "text": "#001428",
+          "classes": "moto-footer pc moto-footer-light-theme",
+          "padding": "20px",
+          "containerMaxWidthCss": "1170px"
+        },
+        "exampleSlug": "at-de-offers",
+        "exampleSelector": "footer",
+        "examplePages": [
+          "at-de-offers",
+          "index"
+        ]
+      },
+      {
+        "name": "announcement-bar",
+        "kind": "cta-band",
+        "occurrences": 10,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Black Friday – Angebot entdecken",
+          "LEAK SALE DEALS. SHOP NOW!"
+        ],
+        "exampleSlug": "at-de-offers",
+        "exampleSelector": "header .navbar-wrapper-small-banner",
+        "examplePages": [
+          "at-de-offers",
+          "index"
+        ],
+        "note": "part of the fixed header"
+      },
+      {
+        "name": "feedback-tab (third-party Confirmit)",
+        "kind": "other",
+        "occurrences": 10,
+        "ctaLabels": [
+          "Rückmeldung"
+        ],
+        "exampleSlug": "at-de-homepage",
+        "exampleSelector": "#cffbtb",
+        "examplePages": [
+          "at-de-homepage",
+          "at-de-offers"
+        ],
+        "note": "third-party injected; red #cf4039, Open Sans — do not recreate as brand"
+      },
+      {
+        "name": "consent-banner (Evidon)",
+        "kind": "other",
+        "occurrences": 10,
+        "ctaLabels": [
+          "Accept all"
+        ],
+        "exampleSelector": "#_evidon-banner-acceptbutton",
+        "examplePages": [
+          "index",
+          "at-de-homepage"
+        ],
+        "note": "third-party consent manager"
+      }
+    ],
+    "iconFont": {
+      "family": "icomoon",
+      "localPath": "stardust/current/assets/fonts/icomoon.woff2",
+      "sourceCss": "@font-face { font-family: 'icomoon'; src: url(\"https://p1-ofp.static.pub/SystemFragment/iconfont/icomoon.woff2\") format(\"woff\"); font-weight: normal; font-style: normal; font-display: block; }",
+      "glyphCount": 2,
+      "glyphs": [
+        {
+          "class": "iconfont-arrowDown",
+          "codepoint": "\\E91C",
+          "name": "arrow-down",
+          "sources": [
+            "https://www.motorola.com/at/de/brilliant-collection",
+            "https://www.motorola.com/at/de/brilliant-collection",
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "class": "iconfont-plus",
+          "codepoint": "\\E929",
+          "name": "plus",
+          "sources": [
+            "https://www.motorola.com/at/de/business-edition",
+            "https://www.motorola.com/at/de/business-edition"
+          ]
+        }
+      ],
+      "note": "Most UI icons (nav arrows, social, search, cart) are inline SVG; the icon font is used only for FAQ/accordion plus and arrow-down."
+    },
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1980,
+          "via": "max-width",
+          "selector": "div.layoutBox-sm.cms_currency_layout > div > div > div.contentBlockContainer",
+          "pages": [
+            "https://www.motorola.com/at/de/motocare"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "#home-single-banner",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+            "https://www.motorola.com/at/de/offers",
+            "https://www.motorola.com/at/de/motocare"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1366,
+          "via": "max-width",
+          "selector": "#digital > div.mainWrapper",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1200,
+          "via": "max-width",
+          "selector": "#app > div.legalContainer",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+            "https://www.motorola.com/at/de/motocare"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1161,
+          "via": "max-width",
+          "selector": "#full-bleed > div.full_bleed_component.fullBleedImage_component_dt > div.full_description_container",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1126,
+          "via": "fixed",
+          "selector": "div.carousel__viewport > ol.carousel__track > li.carousel__slide.carousel__slide--visible > div.navigation_v2_item.border-radius_brandVI_dt",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1020,
+          "via": "max-width",
+          "selector": "div.app > div > div.moto-flex-content > div.wrapper.topArea",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 937,
+          "via": "fixed",
+          "selector": "#atlas-banner > a.hero_container > div.hero_outer.hero_logo > div.hero_text",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 895,
+          "via": "max-width",
+          "selector": "#camer-hero1 > h2.hero-heading.typo-headline-h2-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 800,
+          "via": "max-width",
+          "selector": "#camer-hero1 > div.displaydetailContainer",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 740,
+          "via": "max-width",
+          "selector": "#moto_home_news_letter > div.newsLetterForm > form.form",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 710,
+          "via": "fixed",
+          "selector": "form.form > div.wrapper > div.checkField > label",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 670,
+          "via": "max-width",
+          "selector": "div.section_items_wrapper > div.left_image > div.text_container > h2.headline.typo-headline-h2-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 631,
+          "via": "max-width",
+          "selector": "#trending-v2 > div > div.tabs",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 600,
+          "via": "fixed",
+          "selector": "a.hero_container > div.hero_outer.hero_logo > div.hero_text > h2.hero_text_headlines.typo-headline-h2-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 558,
+          "via": "fixed",
+          "selector": "div.grid1 > div.allWrapperDiv > div.displayItems > div.textWrap",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 535,
+          "via": "fixed",
+          "selector": "div.grid1 > div.allWrapperDiv > div.displayItems > div.textWrap",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 501,
+          "via": "fixed",
+          "selector": "div.hero_text > h2.hero_text_headlines.typo-headline-h2-dt > p > b",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+            "https://www.motorola.com/at/de/motocare"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 469,
+          "via": "fixed",
+          "selector": "a.hero_container > div.hero_outer.hero_logo > div.hero_text > div.hero_text_subhead.typo-body-l-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 440,
+          "via": "max-width",
+          "selector": "#hero2 > div.pc-hero-main-content.hero-card-content-dt > h2.pc-hero-main-content-headline.typo-headline-h2-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 409,
+          "via": "fixed",
+          "selector": "#swarovski-launch > a.hero_container > div.hero_outer.hero_logo > div.hero_cta",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 362,
+          "via": "fixed",
+          "selector": "div.banner-image > div.banner-content > div.banner-text-wrapper > div.banner-logo",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 337,
+          "via": "fixed",
+          "selector": "div.grid1 > div.allWrapperDiv > div.displayItems > div.textWrap",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+            "https://www.motorola.com/at/de/motocare"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 284,
+          "via": "fixed",
+          "selector": "div.swiper-slide.brandVi-background_card-dt > article.products-list-v2 > div.container-top > h3.product-summary.typo-title-m-dt",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 256,
+          "via": "fixed",
+          "selector": "div.banner-image > div.banner-content > div.banner-text-wrapper > div.banner-logo",
+          "pages": [
+            "https://www.motorola.com/at/de/homepage",
+            "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+            "https://www.motorola.com/at/de/offers"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 0,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 1,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 2,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 3,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 4,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1900
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 5,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1900
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 6,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 7,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 515
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 8,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 740
+        },
+        {
+          "url": "https://www.motorola.com/at/de/homepage",
+          "section": 9,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1200
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 0,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": null
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 1,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": null
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 2,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 440
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 3,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1200
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 4,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 5,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 6,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1161
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 7,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1166
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 8,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 9,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 605
+        },
+        {
+          "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "section": 10,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1020
+        },
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "section": 0,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "section": 1,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "section": 2,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/offers",
+          "section": 3,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 0,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1200
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 1,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1920
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 2,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1980
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 3,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1980
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 4,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": null
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 5,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": 1200
+        },
+        {
+          "url": "https://www.motorola.com/at/de/motocare",
+          "section": 6,
+          "selector": "body.pc_httl.INDpositionLeft > div.page_body > main.main_content > div.clearfix.cms_layoutBox_auto_height",
+          "px": null
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1920 (https://www.motorola.com/at/de/homepage), fluid (https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition), 1920 (https://www.motorola.com/at/de/offers), fluid (https://www.motorola.com/at/de/motocare) — decide per template in the inconsistency register",
+        "module cap 1020px on a single section (div.app > div > div.moto-flex-content > div.wrapper.topArea, https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition) — intent or mistake? register it",
+        "module cap 740px on a single section (#moto_home_news_letter > div.newsLetterForm > form.form, https://www.motorola.com/at/de/homepage) — intent or mistake? register it",
+        "module cap 535px on a single section (div.grid1 > div.allWrapperDiv > div.displayItems > div.textWrap, https://www.motorola.com/at/de/homepage) — intent or mistake? register it",
+        "module cap 440px on a single section (#hero2 > div.pc-hero-main-content.hero-card-content-dt > h2.pc-hero-main-content-headline.typo-headline-h2-dt, https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-03T13:53:04.864Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.motorola.com/at/de/homepage",
+          "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+          "https://www.motorola.com/at/de/offers",
+          "https://www.motorola.com/at/de/motocare"
+        ]
+      }
+    },
+    "modules": [
+      {
+        "name": "banner-hero",
+        "sourceClass": "section.banner-container",
+        "instances": [
+          "index×3",
+          "at-de-homepage×2",
+          "at-de-offers"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "product-recommendations",
+        "sourceClass": "section.moto-recommendations-v2",
+        "instances": [
+          "index",
+          "at-de-homepage",
+          "at-de-offers×3",
+          "at-de-contest"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "home-carousel",
+        "sourceClass": ".homeCarousel",
+        "instances": [
+          "index",
+          "at-de-homepage",
+          "at-de-contest"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "trending-tabs",
+        "sourceClass": ".moto-trendings-v2",
+        "instances": [
+          "index",
+          "at-de-homepage"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "newsletter",
+        "sourceClass": ".newsLetterContainer",
+        "instances": [
+          "index",
+          "at-de-homepage"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "webform",
+        "sourceClass": ".moto-webform",
+        "instances": [
+          "index",
+          "at-de-homepage",
+          "at-de-offers",
+          "at-de-contest",
+          "at-de-business-edition"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "legal-note",
+        "sourceClass": ".moto-cms-legal",
+        "instances": [
+          "index",
+          "at-de-homepage",
+          "at-de-brilliant-collection"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "sticky-subnav",
+        "sourceClass": ".sticky-nav-container",
+        "instances": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "product-hero",
+        "sourceClass": ".pc-hero-main",
+        "instances": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-razr-fold-fifa-world-cup-edition×2"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "full-bleed-image",
+        "sourceClass": ".full_bleed_image_container",
+        "instances": [
+          "at-de-brilliant-collection-2026",
+          "at-de-brilliant-collection",
+          "at-de-business-edition",
+          "at-de-motocare×2",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "stack",
+        "sourceClass": ".stackmain",
+        "instances": [
+          "at-de-contest",
+          "at-de-motocare",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "flex-view",
+        "sourceClass": ".flex-view--wrapper",
+        "instances": [
+          "at-de-brilliant-collection",
+          "at-de-razr-fold-fifa-world-cup-edition"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "full-background-display",
+        "sourceClass": ".full_background_display",
+        "instances": [
+          "at-de-brilliant-collection-2026",
+          "at-de-motoverse"
+        ],
+        "status": "candidate"
+      },
+      {
+        "name": "html-embed",
+        "sourceClass": ".html_upload_pc",
+        "instances": [
+          "most pages (custom HTML/CSS fragments, often legal/styles)"
+        ],
+        "status": "candidate"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid near-black pill — buy/shop CTA.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Jetzt kaufen</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:#131417;color:#fff;font:500 16px/normal Montserrat,sans-serif;text-transform:uppercase;padding:12px 24px;border:0;border-radius:100px;text-decoration:none}.ds-btn-primary:hover{background:#333333}.ds-btn-primary:focus-visible{background:#454545;outline:2px solid #131417;outline-offset:2px}@media (max-width:600px){.ds-btn-primary{font-size:12px;padding:6px 12px;min-height:32px}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outline pill — learn-more CTA, left of the primary.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Mehr erfahren</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;background:transparent;color:#131417;font:500 16px/normal Montserrat,sans-serif;text-transform:uppercase;padding:12px 24px;border:1px solid #131417;border-radius:100px;text-decoration:none}.ds-btn-secondary:focus-visible{outline:2px solid #131417;outline-offset:2px}@media (max-width:600px){.ds-btn-secondary{font-size:12px;padding:6px 12px}}"
+    },
+    {
+      "name": "Primary Light Button",
+      "kind": "button",
+      "refersTo": "button-primary-light",
+      "description": "White pill on dark hero imagery.",
+      "html": "<a class=\"ds-btn-light\" href=\"#\">Learn more</a>",
+      "css": ".ds-btn-light{display:inline-flex;background:#fff;color:#131417;font:500 16px/normal Montserrat,sans-serif;text-transform:uppercase;padding:12px 24px;border:0;border-radius:100px;text-decoration:none}.ds-btn-light:hover{background:#e5e5e5}.ds-btn-light:focus-visible{outline:2px solid #fff;outline-offset:2px}"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "refersTo": "product-card",
+      "description": "Product photo on lavender tile, lowercase name, two-pill CTA row.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-card-img\"></div><h3>motorola edge 70</h3><div class=\"ds-card-ctas\"><a class=\"ds-o\">Mehr erfahren</a><a class=\"ds-s\">Jetzt kaufen</a></div></article>",
+      "css": ".ds-card{font-family:Montserrat,sans-serif;width:300px}.ds-card-img{aspect-ratio:1;background:#e9eaf2;border-radius:16px;box-shadow:rgba(0,0,0,.16) 0 2px 4px 0}.ds-card h3{font-size:22px;font-weight:700;line-height:28px;color:#000;margin:16px 0}.ds-card-ctas{display:flex;gap:8px}.ds-card-ctas a{border-radius:100px;padding:12px 24px;font-weight:500;text-transform:uppercase;font-size:16px}.ds-o{border:1px solid #131417;color:#131417}.ds-s{background:#131417;color:#fff}.ds-s:hover{background:#333}"
+    },
+    {
+      "name": "Site Header",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Fixed white 88px header: lavender announcement bar + 69px nav row.",
+      "html": "<header class=\"ds-hdr\"><div class=\"ds-bar\"><a href=\"#\"><strong>Black Friday – Angebot entdecken</strong></a></div><nav class=\"ds-nav\"><span class=\"ds-logo\"></span><a>smartphones</a><a>zubehör</a><a>vorteile</a><a>angebote</a><a>motoverse</a><a>für unternehmen</a></nav></header>",
+      "css": ".ds-hdr{background:#fff;font-family:Montserrat,sans-serif}.ds-bar{background:#e9eaf2;min-height:19px;text-align:center;font-size:12px}.ds-bar a{color:#384ddd;text-decoration:none}.ds-nav{max-width:1464px;margin:0 auto;display:flex;align-items:center;gap:16px;min-height:69px;padding:0 20px}.ds-logo{width:40px;height:40px;border-radius:50%;background:#685bc6}.ds-nav a{font-weight:700;color:#000;padding:0 8px}.ds-nav a:hover{text-decoration:underline}"
+    },
+    {
+      "name": "Newsletter Field",
+      "kind": "input",
+      "refersTo": "newsletter-submit",
+      "description": "Split pill: input left, navy submit right.",
+      "html": "<form class=\"ds-nl\"><input placeholder=\"E-Mail\"><button>Senden</button></form>",
+      "css": ".ds-nl{display:flex;font-family:Montserrat,sans-serif}.ds-nl input{border:1px solid #00264d;border-radius:24px 0 0 24px;padding:10px 16px;font-size:16px}.ds-nl button{background:#001428;color:#fff;border:1px solid #001428;border-radius:0 24px 24px 0;padding:10px 50px;font-size:16px}.ds-nl input:focus-visible,.ds-nl button:focus-visible{outline:2px solid #001428;outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Gallery Counter",
+    "overview": "The site is a white gallery wall with a sales counter in front of it. Chrome is reduced to black type on white, with one pale lavender-grey (#e9eaf2) that grounds product tiles and the announcement bar. Colour comes almost entirely from photography and partner campaigns: Pantone, Swarovski and FIFA. Montserrat is the only typeface in use. Headlines are set at weight 600, which renders as 700, and run large (48px section headers, 56–76px on program pages). Product and campaign names are written in lowercase.",
+    "keyCharacteristics": [
+      "Montserrat only: 600/700 headlines, 400/500 body, CTAs in uppercase at 500.",
+      "Black/white UI with #131417 near-black pill CTAs (100px radius).",
+      "Product imagery on #e9eaf2 tiles with a 16px radius and a soft 0 2px 4px shadow.",
+      "Fixed white 88px header: a 19px #e9eaf2 announcement bar above a 69px nav row with mega menus.",
+      "Lowercase product naming. Headings are almost never uppercase (2%)."
+    ],
+    "rules": [
+      {
+        "name": "The Photography-Carries-Colour Rule",
+        "body": "UI chrome stays black, white and lavender-grey. Saturated colour shows up only in images, product swatch dots and partner campaigns.",
+        "section": "colors"
+      },
+      {
+        "name": "The Lowercase-Names Rule",
+        "body": "Product and campaign names stay lowercase (\"motorola razr 70\", \"die brilliant collection\"). Uppercase is reserved for CTA labels, which are transformed by CSS.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "**Do** set all type in Montserrat, using the three single-weight faces (400/500/700) so that 600 headings render as 700 as they do live.",
+      "**Do** use 100px pills for every CTA: #131417 solid or 1px #131417 outline, 16px/500 uppercase, `12px 24px` padding (`6px 12px` at 12px on mobile).",
+      "**Do** ground product imagery on #e9eaf2 tiles with 16px corners and `rgba(0,0,0,.16) 0 2px 4px`.",
+      "**Do** keep product names lowercase."
+    ],
+    "donts": [
+      "**Don't** introduce coloured CTA fills on the AT pages. The only saturated CTA fill observed is the local #384ddd razr button on the US page.",
+      "**Don't** treat #cf4039 (the third-party feedback tab) or the logo purple #685bc6 as UI colours. Neither appears in brand UI CSS.",
+      "**Don't** uppercase headings. Only 2% of the crawl's headings are uppercase."
+    ]
+  }
+}

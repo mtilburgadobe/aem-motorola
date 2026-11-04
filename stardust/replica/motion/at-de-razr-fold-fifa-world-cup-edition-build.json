@@ -1,0 +1,543 @@
+{
+  "url": "http://localhost:8791/at-de-razr-fold-fifa-world-cup-edition-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7200,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6378,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4878,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "hdr",
+      "position": "fixed",
+      "height": "88px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".dexp__btn",
+      "frames": [
+        {
+          "t": 12470.80000000447,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12676.30000000447,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12882.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 13086.89999999851,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".pcarousel__dot",
+      "frames": [
+        {
+          "t": 14110.39999999851,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14313.70000000298,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14518.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 14726.60000000149,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".flexview__item",
+      "changed": [
+        "img.flexview__img.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.flexview__media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.flexview__img.flexview__img--hover",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.flexview__img",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.3s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "a.flexview__media",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.flexview__img.flexview__img--hover",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.flexview__img",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "0.00703498",
+            "transition": "opacity 0.3s"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "opacity",
+        "el": "section.flexview > div.flexview__gallery > article.flexview__item.is-hovered > a.flexview__media > img.flexview__img",
+        "y": 5600,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.flexview > div.flexview__gallery > article.flexview__item > a.flexview__media > img.flexview__img",
+        "y": 6400,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "main.main_content > section.dexp.is-expanded > div.dexp__inner > div.dexp__media > div.dexp__layer.dexp__layer--audio.is-active",
+        "y": 2998,
+        "dur": "0.4s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.main_content > section.dexp.is-expanded > div.dexp__inner > div.dexp__media > div.dexp__layer.dexp__layer--audio.is-active",
+        "y": 2998,
+        "dur": "0.4s, 0.4s"
+      },
+      {
+        "prop": "visibility",
+        "el": "main.main_content > section.dexp.is-expanded > div.dexp__inner > div.dexp__media > div.dexp__layer.dexp__layer--default",
+        "y": 2998,
+        "dur": "0.4s, 0.4s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main.main_content > section.dexp.is-expanded > div.dexp__inner > div.dexp__media > div.dexp__layer.dexp__layer--default",
+        "y": 2998,
+        "dur": "0.4s, 0.4s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.pcarousel > div.pcarousel__grid > div.pcarousel__main > section.pcarousel__track > div.pcarousel__rail",
+        "y": 1823,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.pcarousel > div.pcarousel__grid > div.pcarousel__side > section.pcarousel__track > div.pcarousel__rail",
+        "y": 1823,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.flexview > div.flexview__gallery > article.flexview__item.is-hovered > a.flexview__media > img.flexview__img",
+        "y": 6315,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-fixed"
+        ],
+        "el": "html > body > div.page > main.main_content > div.subnav.is-fixed",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-hovered"
+        ],
+        "el": "div.page > main.main_content > section.flexview > div.flexview__gallery > article.flexview__item.is-hovered",
+        "y": 5600
+      },
+      {
+        "added": [
+          "is-fixed"
+        ],
+        "el": "html > body > div.page > main.main_content > div.subnav.is-fixed",
+        "y": 2998
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.dexp__inner > div.dexp__text > ul.dexp__icons > li.dexp__item > div.dexp__btn.is-active",
+        "y": 2998
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "main.main_content > section.dexp.is-expanded > div.dexp__inner > div.dexp__media > div.dexp__layer.dexp__layer--audio.is-active",
+        "y": 2998
+      },
+      {
+        "added": [
+          "is-expanded"
+        ],
+        "el": "html > body > div.page > main.main_content > section.dexp.is-expanded",
+        "y": 2998
+      },
+      {
+        "added": [
+          "is-hovered"
+        ],
+        "el": "div.page > main.main_content > section.flexview > div.flexview__gallery > article.flexview__item.is-hovered",
+        "y": 6315
+      }
+    ]
+  }
+}

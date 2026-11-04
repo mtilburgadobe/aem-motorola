@@ -1,0 +1,74 @@
+{
+  "/at/de/brilliant-collection-2026": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:27:53.966Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/contest": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:27:53.967Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/homepage": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:01.002Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/motocare": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:01.098Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/motoverse": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:07.141Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/offers": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:08.187Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/at/de/razr-fold-fifa-world-cup-edition": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:12.300Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-03T21:28:14.988Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

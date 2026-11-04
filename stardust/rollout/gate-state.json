@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.motorola.com/",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/",
+      "template": "landing",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-homepage",
+      "url": "https://www.motorola.com/at/de/homepage",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage",
+      "template": "at-de-homepage",
+      "prototypePath": "stardust/prototypes/at-de-homepage-proposed.html"
+    },
+    {
+      "slug": "at-de-brilliant-collection-2026",
+      "url": "https://www.motorola.com/at/de/brilliant-collection-2026",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection-2026",
+      "template": "program",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-brilliant-collection",
+      "url": "https://www.motorola.com/at/de/brilliant-collection",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection",
+      "template": "program",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-motocare",
+      "url": "https://www.motorola.com/at/de/motocare",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/motocare",
+      "template": "at-de-motocare",
+      "prototypePath": "stardust/prototypes/at-de-motocare-proposed.html"
+    },
+    {
+      "slug": "at-de-motoverse",
+      "url": "https://www.motorola.com/at/de/motoverse",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/motoverse",
+      "template": "static",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-offers",
+      "url": "https://www.motorola.com/at/de/offers",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/offers",
+      "template": "at-de-offers",
+      "prototypePath": "stardust/prototypes/at-de-offers-proposed.html"
+    },
+    {
+      "slug": "at-de-business-edition",
+      "url": "https://www.motorola.com/at/de/business-edition",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition",
+      "template": "static",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-contest",
+      "url": "https://www.motorola.com/at/de/contest",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/contest",
+      "template": "campaign",
+      "prototypePath": null
+    },
+    {
+      "slug": "at-de-razr-fold-fifa-world-cup-edition",
+      "url": "https://www.motorola.com/at/de/razr-fold-fifa-world-cup-edition",
+      "status": "deployed",
+      "liveUrl": "https://main--0d32c52e--aemcoder.aem.live/at/de/razr-fold-fifa-world-cup-edition",
+      "template": "at-de-razr-fold-fifa-world-cup-edition",
+      "prototypePath": "stardust/prototypes/at-de-razr-fold-fifa-world-cup-edition-proposed.html"
+    }
+  ]
+}

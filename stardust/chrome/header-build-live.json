@@ -1,0 +1,1881 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage",
+ "at": "2026-11-03T21:55:26.324Z",
+ "shots": "stardust/.work/chrome/header-build-live",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Black Friday – Angebot entdecken",
+     "key": "black friday angebot entdecken",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>p>a",
+     "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/offers",
+     "expanded": null,
+     "rect": [
+      51,
+      0,
+      288,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "smartphones ALLE PHONES signature razr edge moto g moto e thinkphone razr 70 ult",
+     "key": "smartphones alle phones signature razr edge moto g moto e thinkphone razr 70 ult",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      38,
+      19,
+      151,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALLE PHONES",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         },
+         {
+          "text": "signature",
+          "href": "https://www.motorola.com/at/de/p/pmipmje43mf"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/at/de/family/moto-razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/at/de/family/moto-edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/at/de/family/moto-g"
+         },
+         {
+          "text": "moto e",
+          "href": "https://www.motorola.com/at/de/family/moto-e"
+         },
+         {
+          "text": "thinkphone",
+          "href": "https://www.motorola.com/at/de/p/pmipmhg39mp"
+         },
+         {
+          "text": "razr 70 ultra",
+          "href": "https://www.motorola.com/at/de/p/pmipmjk44m2"
+         },
+         {
+          "text": "edge 70 max",
+          "href": "https://www.motorola.com/at/de/p/pmipmjt45mc"
+         },
+         {
+          "text": "Alle Handys ansehen",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "390-001-smartphones-ALLE-PHONES-signature-razr-e.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null
+     },
+     "children": [
+      {
+       "name": "Alle Handys ansehen",
+       "key": "alle handys ansehen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+       "href": "https://www.motorola.com/at/de/family/all-smartphones",
+       "expanded": null,
+       "rect": [
+        232,
+        571,
+        194,
+        20
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "zubehör ZUBEHÖR pens speakers earbuds watches tags chargers fälle moto pen ultra",
+     "key": "zubehör zubehör pens speakers earbuds watches tags chargers fälle moto pen ultra",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      205,
+      19,
+      135,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ZUBEHÖR",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         },
+         {
+          "text": "pens",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "speakers",
+          "href": "https://www.motorola.com/at/de/p/pg38c07843"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets"
+         },
+         {
+          "text": "watches",
+          "href": "https://www.motorola.com/at/de/family/moto-watches"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/at/de/family/moto-tags"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/at/de/p/pg38c06632"
+         },
+         {
+          "text": "fälle",
+          "href": "https://www.motorola.com/at/de/p/pg38c08996"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "moto buds 2 plus",
+          "href": "https://www.motorola.com/at/de/p/PG38C08069"
+         },
+         {
+          "text": "Alle anzeigen",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "390-002-zubeh-r-ZUBEH-R-pens-speakers-earbuds-wa.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null
+     },
+     "children": [
+      {
+       "name": "Alle anzeigen",
+       "key": "alle anzeigen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-1>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div>a",
+       "href": "https://www.motorola.com/at/de/family/all-accessories",
+       "expanded": null,
+       "rect": [
+        252,
+        571,
+        133,
+        20
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "vorteile VORTEILE sonderrabatte moto trade-in moto care EMPFOHLEN die intelligen",
+     "key": "vorteile vorteile sonderrabatte moto tradein moto care empfohlen die intelligen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      356,
+      19,
+      101,
+      69
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "VORTEILE",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "sonderrabatte",
+          "href": "https://shop.sheerid.com/"
+         },
+         {
+          "text": "moto care",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/motocare"
+         }
+        ],
+        "headings": [],
+        "images": 2,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         390,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "390-003-vorteile-VORTEILE-sonderrabatte-moto-tra.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 3,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Black Friday – Angebot entdecken",
+     "key": "black friday angebot entdecken",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(1)>p>a",
+     "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/offers",
+     "expanded": null,
+     "rect": [
+      576,
+      0,
+      288,
+      19
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Motorola Homepage",
+     "key": "motorola homepage",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div:nth-of-type(1)>p>a",
+     "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage",
+     "expanded": null,
+     "rect": [
+      20,
+      34,
+      40,
+      40
+     ],
+     "actions": {}
+    },
+    {
+     "name": "smartphones ALLE PHONES signature razr edge moto g moto e thinkphone razr 70 ult",
+     "key": "smartphones alle phones signature razr edge moto g moto e thinkphone razr 70 ult",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      78,
+      19,
+      141,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALLE PHONES",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         },
+         {
+          "text": "signature",
+          "href": "https://www.motorola.com/at/de/p/pmipmje43mf"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/at/de/family/moto-razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/at/de/family/moto-edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/at/de/family/moto-g"
+         },
+         {
+          "text": "moto e",
+          "href": "https://www.motorola.com/at/de/family/moto-e"
+         },
+         {
+          "text": "thinkphone",
+          "href": "https://www.motorola.com/at/de/p/pmipmhg39mp"
+         },
+         {
+          "text": "razr 70 ultra",
+          "href": "https://www.motorola.com/at/de/p/pmipmjk44m2"
+         },
+         {
+          "text": "edge 70 plus",
+          "href": "https://www.motorola.com/at/de/p/PMIPMJU45ML"
+         },
+         {
+          "text": "edge 70 max",
+          "href": "https://www.motorola.com/at/de/p/pmipmjt45mc"
+         },
+         {
+          "text": "moto g87 5G",
+          "href": "https://www.motorola.com/at/de/p/pmipmjh44mo"
+         },
+         {
+          "text": "Alle Handys ansehen",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         },
+         {
+          "text": "Handys vergleichen",
+          "href": "https://www.motorola.com/at/de/compare/index"
+         },
+         {
+          "text": "Empfohlen",
+          "href": "https://www.motorola.com/at/de/p/brilliantcollection"
+         },
+         {
+          "text": "Swarovski® Crystals",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection-2026"
+         },
+         {
+          "text": "Swarovski® Crystals motorola collection",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-001-smartphones-ALLE-PHONES-signature-razr-e.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ALLE PHONES",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         },
+         {
+          "text": "signature",
+          "href": "https://www.motorola.com/at/de/p/pmipmje43mf"
+         },
+         {
+          "text": "razr",
+          "href": "https://www.motorola.com/at/de/family/moto-razr"
+         },
+         {
+          "text": "edge",
+          "href": "https://www.motorola.com/at/de/family/moto-edge"
+         },
+         {
+          "text": "moto g",
+          "href": "https://www.motorola.com/at/de/family/moto-g"
+         },
+         {
+          "text": "moto e",
+          "href": "https://www.motorola.com/at/de/family/moto-e"
+         },
+         {
+          "text": "thinkphone",
+          "href": "https://www.motorola.com/at/de/p/pmipmhg39mp"
+         },
+         {
+          "text": "razr 70 ultra",
+          "href": "https://www.motorola.com/at/de/p/pmipmjk44m2"
+         },
+         {
+          "text": "edge 70 plus",
+          "href": "https://www.motorola.com/at/de/p/PMIPMJU45ML"
+         },
+         {
+          "text": "edge 70 max",
+          "href": "https://www.motorola.com/at/de/p/pmipmjt45mc"
+         },
+         {
+          "text": "moto g87 5G",
+          "href": "https://www.motorola.com/at/de/p/pmipmjh44mo"
+         },
+         {
+          "text": "Alle Handys ansehen",
+          "href": "https://www.motorola.com/at/de/family/all-smartphones"
+         },
+         {
+          "text": "Handys vergleichen",
+          "href": "https://www.motorola.com/at/de/compare/index"
+         },
+         {
+          "text": "Empfohlen",
+          "href": "https://www.motorola.com/at/de/p/brilliantcollection"
+         },
+         {
+          "text": "Swarovski® Crystals",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection-2026"
+         },
+         {
+          "text": "Swarovski® Crystals motorola collection",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/brilliant-collection"
+         }
+        ],
+        "headings": [],
+        "images": 5,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-002-smartphones-ALLE-PHONES-signature-razr-e.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Alle Handys ansehen",
+       "key": "alle handys ansehen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div>a:nth-of-type(1)",
+       "href": "https://www.motorola.com/at/de/family/all-smartphones",
+       "expanded": null,
+       "rect": [
+        270,
+        571,
+        194,
+        20
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 10,
+         "panel": {
+          "links": [
+           {
+            "text": "motorola signature",
+            "href": "https://www.motorola.com/at/de/p/pmipmje43mf"
+           },
+           {
+            "text": "Handys vergleichen",
+            "href": "https://www.motorola.com/at/de/compare/index"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           268,
+           148,
+           512,
+           440
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.mm-media"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "img"
+          }
+         ],
+         "shot": "1440-003-Alle-Handys-ansehen-hover.png"
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "leave": true
+       },
+       "children": [
+        {
+         "name": "Handys vergleichen",
+         "key": "handys vergleichen",
+         "role": "link",
+         "kind": "link",
+         "sel": "#mega-menu-0>div>div:nth-of-type(1)>div>div:nth-of-type(2)>div>a",
+         "href": "https://www.motorola.com/at/de/compare/index",
+         "expanded": null,
+         "rect": [
+          268,
+          568,
+          185,
+          20
+         ],
+         "actions": {}
+        }
+       ]
+      },
+      {
+       "name": "Handys vergleichen",
+       "key": "handys vergleichen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-0>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div>a:nth-of-type(2)",
+       "href": "https://www.motorola.com/at/de/compare/index",
+       "expanded": null,
+       "rect": [
+        494,
+        571,
+        185,
+        20
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "zubehör ZUBEHÖR pens speakers earbuds watches tags chargers fälle moto pen ultra",
+     "key": "zubehör zubehör pens speakers earbuds watches tags chargers fälle moto pen ultra",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      235,
+      19,
+      125,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ZUBEHÖR",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         },
+         {
+          "text": "pens",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "speakers",
+          "href": "https://www.motorola.com/at/de/p/pg38c07843"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets"
+         },
+         {
+          "text": "watches",
+          "href": "https://www.motorola.com/at/de/family/moto-watches"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/at/de/family/moto-tags"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/at/de/p/pg38c06632"
+         },
+         {
+          "text": "fälle",
+          "href": "https://www.motorola.com/at/de/p/pg38c08996"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "moto sound flow",
+          "href": "https://www.motorola.com/at/de/p/pg38c07843"
+         },
+         {
+          "text": "moto buds 2 plus",
+          "href": "https://www.motorola.com/at/de/p/PG38C08069"
+         },
+         {
+          "text": "moto watch ultra",
+          "href": "https://www.motorola.com/at/de/p/pwipwia11w5"
+         },
+         {
+          "text": "Alle anzeigen",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-004-zubeh-r-ZUBEH-R-pens-speakers-earbuds-wa.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "ZUBEHÖR",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         },
+         {
+          "text": "pens",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "speakers",
+          "href": "https://www.motorola.com/at/de/p/pg38c07843"
+         },
+         {
+          "text": "earbuds",
+          "href": "https://www.motorola.com/at/de/family/wireless-headphones-headsets"
+         },
+         {
+          "text": "watches",
+          "href": "https://www.motorola.com/at/de/family/moto-watches"
+         },
+         {
+          "text": "tags",
+          "href": "https://www.motorola.com/at/de/family/moto-tags"
+         },
+         {
+          "text": "chargers",
+          "href": "https://www.motorola.com/at/de/p/pg38c06632"
+         },
+         {
+          "text": "fälle",
+          "href": "https://www.motorola.com/at/de/p/pg38c08996"
+         },
+         {
+          "text": "moto pen ultra",
+          "href": "https://www.motorola.com/at/de/p/pg38c08248"
+         },
+         {
+          "text": "moto sound flow",
+          "href": "https://www.motorola.com/at/de/p/pg38c07843"
+         },
+         {
+          "text": "moto buds 2 plus",
+          "href": "https://www.motorola.com/at/de/p/PG38C08069"
+         },
+         {
+          "text": "moto watch ultra",
+          "href": "https://www.motorola.com/at/de/p/pwipwia11w5"
+         },
+         {
+          "text": "Alle anzeigen",
+          "href": "https://www.motorola.com/at/de/family/all-accessories"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.gallery-track"
+        }
+       ],
+       "shot": "1440-005-zubeh-r-ZUBEH-R-pens-speakers-earbuds-wa.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "Alle anzeigen",
+       "key": "alle anzeigen",
+       "role": "link",
+       "kind": "link",
+       "sel": "#mega-menu-1>div>div:nth-of-type(1)>div>div:nth-of-type(1)>div>a",
+       "href": "https://www.motorola.com/at/de/family/all-accessories",
+       "expanded": null,
+       "rect": [
+        252,
+        571,
+        133,
+        20
+       ],
+       "actions": {}
+      }
+     ]
+    },
+    {
+     "name": "vorteile VORTEILE sonderrabatte moto trade-in moto care EMPFOHLEN die intelligen",
+     "key": "vorteile vorteile sonderrabatte moto tradein moto care empfohlen die intelligen",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(3)",
+     "expanded": "false",
+     "rect": [
+      376,
+      19,
+      91,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "VORTEILE",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "sonderrabatte",
+          "href": "https://shop.sheerid.com/"
+         },
+         {
+          "text": "moto trade-in",
+          "href": "https://tradein.recommerce.com/#/motorola-at/de"
+         },
+         {
+          "text": "moto care",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/motocare"
+         },
+         {
+          "text": "EMPFOHLEN",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "die intelligentere Art einzukaufen",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "die intelligentere Art einzukaufen",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-006-vorteile-VORTEILE-sonderrabatte-moto-tra.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "VORTEILE",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "sonderrabatte",
+          "href": "https://shop.sheerid.com/"
+         },
+         {
+          "text": "moto trade-in",
+          "href": "https://tradein.recommerce.com/#/motorola-at/de"
+         },
+         {
+          "text": "moto care",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/motocare"
+         },
+         {
+          "text": "EMPFOHLEN",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "die intelligentere Art einzukaufen",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         },
+         {
+          "text": "die intelligentere Art einzukaufen",
+          "href": "https://www.motorola.com/at/de/why-moto"
+         }
+        ],
+        "headings": [],
+        "images": 4,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-007-vorteile-VORTEILE-sonderrabatte-moto-tra.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "leave": true
+     },
+     "children": []
+    },
+    {
+     "name": "angebote",
+     "key": "angebote",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(4)>a",
+     "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/offers",
+     "expanded": null,
+     "rect": [
+      489,
+      38,
+      78,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "motoverse",
+     "key": "motoverse",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(5)>a",
+     "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/motoverse",
+     "expanded": null,
+     "rect": [
+      588,
+      38,
+      89,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "für unternehmen FÜR UNTERNEHMEN phones support Mobility for modern business Mühe",
+     "key": "für unternehmen für unternehmen phones support mobility for modern business mühe",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header>div:nth-of-type(2)>ul>li:nth-of-type(6)",
+     "expanded": "false",
+     "rect": [
+      694,
+      19,
+      168,
+      69
+     ],
+     "actions": {
+      "hover": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FÜR UNTERNEHMEN",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "phones",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "support",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "Mobility for modern business",
+          "href": "https://www.motorola.com/at/de/business/home"
+         },
+         {
+          "text": "Mühelose IT, Sichere Geräte",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition"
+         },
+         {
+          "text": "Wir sind hier, um zu helfen",
+          "href": "https://www.motorola.com/at/de/business/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "body",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-008-f-r-unternehmen-F-R-UNTERNEHMEN-phones-s.png"
+      },
+      "click": null,
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "FÜR UNTERNEHMEN",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "phones",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "support",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/homepage#"
+         },
+         {
+          "text": "Mobility for modern business",
+          "href": "https://www.motorola.com/at/de/business/home"
+         },
+         {
+          "text": "Mühelose IT, Sichere Geräte",
+          "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition"
+         },
+         {
+          "text": "Wir sind hier, um zu helfen",
+          "href": "https://www.motorola.com/at/de/business/contact-us"
+         }
+        ],
+        "headings": [],
+        "images": 3,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         88,
+         1440,
+         532
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease",
+         "target": "svg.hdr-arrow"
+        }
+       ],
+       "shot": "1440-009-f-r-unternehmen-F-R-UNTERNEHMEN-phones-s.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "leave": true
+     },
+     "children": [
+      {
+       "name": "FÜR UNTERNEHMEN",
+       "key": "für unternehmen",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-3>div>div:nth-of-type(1)>ul>li:nth-of-type(1)>a",
+       "expanded": null,
+       "rect": [
+        106,
+        148,
+        160,
+        42
+       ],
+       "actions": {
+        "hover": {
+         "opened": false,
+         "hides": 9
+        },
+        "click": null,
+        "key": null
+       }
+      },
+      {
+       "name": "phones",
+       "key": "phones",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-3>div>div:nth-of-type(1)>ul>li:nth-of-type(2)>a",
+       "expanded": null,
+       "rect": [
+        106,
+        202,
+        62,
+        23
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Mobility for modern business",
+            "href": "https://www.motorola.com/at/de/business/home"
+           },
+           {
+            "text": "Mühelose IT, Sichere Geräte",
+            "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           385
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.mm-media"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "img"
+          },
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          }
+         ],
+         "shot": "1440-010-phones-hover.png"
+        },
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Mobility for modern business",
+            "href": "https://www.motorola.com/at/de/business/home"
+           },
+           {
+            "text": "Mühelose IT, Sichere Geräte",
+            "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           385
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          }
+         ],
+         "shot": "1440-011-phones-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Mobility for modern business",
+            "href": "https://www.motorola.com/at/de/business/home"
+           },
+           {
+            "text": "Mühelose IT, Sichere Geräte",
+            "href": "https://main--0d32c52e--aemcoder.aem.live/at/de/business-edition"
+           }
+          ],
+          "headings": [],
+          "images": 2,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           385
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          }
+         ],
+         "shot": "1440-012-phones-key.png",
+         "tabReachesPanel": false
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      },
+      {
+       "name": "support",
+       "key": "support",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mega-menu-3>div>div:nth-of-type(1)>ul>li:nth-of-type(3)>a",
+       "expanded": null,
+       "rect": [
+        106,
+        237,
+        66,
+        23
+       ],
+       "actions": {
+        "hover": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Wir sind hier, um zu helfen",
+            "href": "https://www.motorola.com/at/de/business/contact-us"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           367
+          ]
+         },
+         "expanded": null,
+         "focus": "body",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "div.mm-media"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 300,
+           "delay": 0,
+           "easing": "ease",
+           "target": "img"
+          },
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          }
+         ],
+         "shot": "1440-013-support-hover.png"
+        },
+        "click": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Wir sind hier, um zu helfen",
+            "href": "https://www.motorola.com/at/de/business/contact-us"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           367
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          }
+         ],
+         "shot": "1440-014-support-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 6,
+         "panel": {
+          "links": [
+           {
+            "text": "Wir sind hier, um zu helfen",
+            "href": "https://www.motorola.com/at/de/business/contact-us"
+           }
+          ],
+          "headings": [],
+          "images": 1,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           294,
+           148,
+           512,
+           367
+          ]
+         },
+         "expanded": null,
+         "focus": "trigger",
+         "scrollLock": false,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "width",
+           "ms": null,
+           "delay": null,
+           "easing": null,
+           "target": "a.mm-tab-link"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ul.mm-cards"
+          },
+          {
+           "kind": "transition",
+           "prop": "transform",
+           "ms": 500,
+           "delay": 0,
+           "easing": "ease",
+           "target": "ol.gallery-track"
+          }
+         ],
+         "shot": "1440-015-support-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": false
+       },
+       "children": []
+      }
+     ]
+    },
+    {
+     "name": "support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header>div:nth-of-type(2)>div:nth-of-type(2)>ul>li>a",
+     "href": "https://de-de.support.motorola.com/",
+     "expanded": null,
+     "rect": [
+      1172,
+      38,
+      66,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open search",
+     "key": "open search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      1267,
+      35,
+      37,
+      38
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Go to Cart Page, cart is empty",
+     "key": "go to cart page cart is empty",
+     "role": "link",
+     "kind": "cart",
+     "sel": "#site-header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(2)>p>a",
+     "href": "https://www.motorola.com/at/de/cart",
+     "expanded": null,
+     "rect": [
+      1325,
+      38,
+      32,
+      32
+     ],
+     "actions": {}
+    },
+    {
+     "name": "account",
+     "key": "account",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "#site-header>div:nth-of-type(2)>div:nth-of-type(2)>div:nth-of-type(3)>div>div:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      1378,
+      38,
+      32,
+      32
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anmelden / Konto erstellen",
+          "href": "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1206,
+         70,
+         219,
+         55
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hdr-login-box"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hdr-login-box"
+        }
+       ],
+       "shot": "1440-016-account-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Anmelden / Konto erstellen",
+          "href": "https://account.motorola.com/at/de/account/login/index.html?returnUrl=https%3A%2F%2Fwww.motorola.com%2Fat%2Fde%2Fhomepage"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         1206,
+         70,
+         219,
+         55
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hdr-login-box"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 250,
+         "delay": 0,
+         "easing": "ease",
+         "target": "div.hdr-login-box"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 500,
+         "delay": 0,
+         "easing": "ease",
+         "target": "ol.gallery-track"
+        }
+       ],
+       "shot": "1440-017-account-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 88,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 17,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "black"
+}

@@ -1,0 +1,284 @@
+/* dexp — live .digitalExpContainer (program prototype values, 1440 / 360) */
+.dexp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.dexp .dexp-bg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.dexp .dexp-bg picture,
+.dexp .dexp-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.dexp .dexp-inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 1366px;
+  min-height: 982px;
+}
+
+.dexp .dexp-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 0 20px 0 100px;
+}
+
+.dexp .dexp-headline :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.dexp .dexp-desc p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.dexp .dexp-icons {
+  display: flex;
+  gap: 51px;
+  margin: 108px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dexp .dexp-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 90px;
+}
+
+.dexp .dexp-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  padding: 18px;
+  border: 0;
+  border-radius: 16px;
+  background: #1c1c1c;
+  cursor: pointer;
+  transition: width 0.3s;
+}
+
+.dexp .dexp-btn.is-active {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+
+.dexp .dexp-label p {
+  max-width: 90px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.dexp .dexp-media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-left: 100px;
+}
+
+.dexp .dexp-layer {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  line-height: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-50%);
+  transition: opacity 0.4s, visibility 0.4s;
+}
+
+.dexp .dexp-layer.is-active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dexp .dexp-layer-default {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+}
+
+.dexp .dexp-layer img {
+  display: block;
+  width: 483px;
+  max-width: none;
+  height: 600px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.dexp .dexp-layer-default img {
+  height: 710px;
+  border-radius: 0;
+}
+
+.dexp .dexp-layer-audio {
+  left: 120px;
+}
+
+.dexp .dexp-layer-audio img {
+  width: 400px;
+  height: 450px;
+}
+
+.dexp .dexp-btn .icon,
+.dexp .dexp-btn .icon img {
+  display: block;
+  flex: none;
+  width: 60px;
+  height: 60px;
+}
+
+.dexp .dexp-audio {
+  position: absolute;
+  right: 0;
+  bottom: 24px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  line-height: normal;
+}
+
+.dexp .dexp-play {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #fff;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.dexp .dexp-progress {
+  position: relative;
+  width: 80%;
+  height: 4px;
+  border-radius: 2px;
+  background: rgb(255 255 255 / 40%);
+}
+
+.dexp .dexp-fill {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: #fff;
+}
+
+.dexp .dexp-thumb {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.dexp .dexp-time {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  color: #919191;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media (width <= 767px) {
+  .dexp .dexp-inner {
+    flex-direction: column;
+    min-height: 0;
+    padding: 40px 20px;
+  }
+
+  .dexp .dexp-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .dexp .dexp-headline :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  /* live 40px overflows the 355px body by 5px; 37px keeps the row inside */
+  .dexp .dexp-icons {
+    gap: 37px;
+    margin-top: 30px;
+  }
+
+  .dexp .dexp-item {
+    flex: none;
+    width: min-content;
+    min-width: 80px;
+    max-width: 90px;
+  }
+
+  .dexp .dexp-btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .dexp .dexp-label p {
+    font-weight: 600;
+  }
+
+  .dexp .dexp-media {
+    width: 100%;
+    margin-top: 38px;
+    padding: 0;
+  }
+
+  .dexp .dexp-layer {
+    left: 0;
+  }
+
+  .dexp .dexp-layer img,
+  .dexp .dexp-layer-default img {
+    width: 315px;
+    height: 432px;
+  }
+
+  .dexp .dexp-layer-audio {
+    left: 10px;
+  }
+
+  .dexp .dexp-layer-audio img {
+    width: 295px;
+    height: 300px;
+  }
+}

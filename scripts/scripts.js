@@ -10,6 +10,7 @@ import {
   loadSections,
   loadCSS,
   buildBlock,
+  getMetadata,
 } from './aem.js';
 
 if (window.trustedTypes && window.trustedTypes.createPolicy) {
@@ -35,6 +36,20 @@ if (window.trustedTypes && window.trustedTypes.createPolicy) {
     createScriptURL: (input) => input,
     createScript: (input) => input,
   });
+}
+
+/**
+ * Resolves the chrome document (nav / footer) for the current page.
+ * Page metadata (`nav` / `footer`) wins; otherwise the locale prefix of the path
+ * (/at/de/… → /at/de/nav); any other path (the US root tree) uses /nav, /footer.
+ * @param {string} name 'nav' or 'footer'
+ * @returns {string} the document path
+ */
+export function getChromePath(name) {
+  const meta = getMetadata(name);
+  if (meta) return new URL(meta, window.location).pathname;
+  const m = window.location.pathname.match(/^\/([a-z]{2})\/([a-z]{2})(\/|$)/);
+  return m ? `/${m[1]}/${m[2]}/${name}` : `/${name}`;
 }
 
 /**
@@ -160,7 +175,9 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  // locale from the path prefix (/at/de/… → de-AT); the US root tree is en-US
+  const locale = window.location.pathname.match(/^\/([a-z]{2})\/([a-z]{2})(\/|$)/);
+  document.documentElement.lang = locale ? `${locale[2]}-${locale[1].toUpperCase()}` : 'en-US';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {

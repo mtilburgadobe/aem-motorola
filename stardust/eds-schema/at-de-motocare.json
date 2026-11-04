@@ -1,0 +1,571 @@
+{
+ "source": "http://localhost:8794/at-de-motocare-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "fullbleed",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Bestens abgesichert mit Moto Care"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "media-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Ein Jahr Displayschutz"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Unfälle passieren einfach. Mit dem Schutz bei Displaybruch bist du ein ganzes Jahr lang gegen Schäden am Display abgesichert. In diesem Zeitraum kannst du einen Anspruch ohne weitere Servicegebühren anmelden"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "*",
+     "href": "#fn1"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media-row__cell",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "media-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Zwei Jahre Unfallschutz"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hol dir etwas Sicherheit zu deinem Kauf. Wenn du deine Standard-Herstellergarantie um zwei Jahre Unfallschutz erweiterst, kannst du bis zu zwei Schadenersatzansprüche ohne Selbstbeteiligung anmelden."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media-row__cell",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "media-row",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Garantieverlängerung und Unfallschutz"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Hol dir etwas Sicherheit zu deinem Kauf. Wenn du deine Standard-Herstellergarantie um zwei Jahre Unfallschutz erweiterst, kannst du bis zu zwei Schadenersatzansprüche ohne Selbstbeteiligung anmelden."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.media-row__cell",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "compare",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tarife vergleichen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "SELBSTBETEILIGUNG"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "BERECHTIGUNG"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "GELTUNGSBEREICH"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "GARANTIEZEITRAUM"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "BESCHRÄNKUNGEN FÜR ANSPRÜCHE"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "ABDECKUNG TECHNISCHER UND MECHANISCHER AUSFÄLLE"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "ABDECKUNG VON FLÜSSIGKEITSSCHÄDEN"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "ABDECKUNG PHYSISCHER SCHÄDEN (EINSCHLIESSLICH DISPLAYBRUCH)"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "ABDECKUNG VON DISPLAYSCHÄDEN"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "ABDECKUNG VON VERLUST/DIEBSTAHL"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "WIDERRUFSRECHT"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Column 1:"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "REPARATUR DURCH AUTORISIERTES SERVICECENTER"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "STANDARDGEWÄHRLEISTUNG"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Keine Selbstbeteiligung oder zusätzliche Gebühren für Reparaturen im Rahmen der Originalgarantie"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Im Gerätekauf enthalten"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Technischer oder mechanischer Defekt"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "2 Jahre"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Keine Beschränkung bei Ansprüchen aufgrund standardmäßiger mechanischer Ausfälle"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Keine Selbstbeteiligung oder zusätzliche Gebühren für Reparaturen im Rahmen der Originalgarantie"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Nur für Geräte, die über motorola.com gekauft wurden"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Austausch des Displays im Fall einer versehentlichen Beschädigung des Displays"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "1 Jahr"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Ein (1) Anspruch gewährt"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Vollständige Rückerstattung bei Kündigung des Vertrags innerhalb von 30 Tagen ab Kaufdatum"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Keine Selbstbeteiligung oder zusätzliche Gebühren für Reparaturen im Rahmen der Originalgarantie"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Während der Laufzeit der Smartphone-Garantie (bis zu 24 Monate) zum Kauf verfügbar"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Technischer oder mechanischer Defekt"
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Erfahren Sie mehr über den erweiterten Service plan",
+     "href": "https://www.motorola.com/gb/en/legal/extended-service-plan-agreement"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "3 Jahre"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Keine Beschränkung bei Ansprüchen aufgrund standardmäßiger mechanischer Ausfälle"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Vollständige Rückerstattung bei Kündigung des Vertrags innerhalb von 30 Tagen ab Kaufdatum"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Keine Selbstbeteiligung oder zusätzliche Gebühren für Reparaturen im Rahmen der Originalgarantie"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Bis zu 30 Tage nach dem Smartphone-Kauf zum Kauf verfügbar"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Technischer oder mechanischer Defekt, versehentliche Beschädigung durch Flüssigkeit, versehentliche physische Beschädigung (einschließlich Stürze und Displaybruch)."
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Erfahren Sie mehr über den Schutzplan gegen unbeabsichtigte Schäden",
+     "href": "https://www.motorola.com/at/de/legal/accidental-damage-protection-agreement"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "2 oder 3 Jahre"
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "Keine Begrenzung für Standardansprüche bei mechanischen Defekten. Drei (3) Schadensfälle durch versehentliche Beschädigung sind zulässig."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "-"
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Vollständige Rückerstattung bei Kündigung des Vertrags innerhalb von 30 Tagen ab Kaufdatum"
+    }
+   ],
+   "imgCount": 12,
+   "editableTexts": 37,
+   "repeats": [
+    {
+     "unitSelector": "DIV.compare__col",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 24
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.compare__cell",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "DIV.compare__cell",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.compare__cell",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.compare__cell",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.compare__cell",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "fullbleed",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Du hast bereits Moto Care?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Wenn du einen Schadensanspruch anmelden oder eine Reparatur einleiten möchtest, dann kontaktiere uns bitte direkt. Ein Mitarbeiter wird sich dann darum kümmern."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Kontakt",
+     "href": "https://de-de.support.motorola.com/app/mcp/contactus"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "stack",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Vorbehaltlich der Höchstgrenzen des Servicevertrags. Wenn du den Moto Care Unfallschutz innerhalb von 30 Tagen nach Erhalt deines Geräts erwirbst, beginnt der Versicherungsschutz mit dem Datum, an dem du das Gerät gekauft hast. Falls dein Gerät nicht repariert werden kann, oder die Reparatur die Haftungsbeschränkung überschreitet, entspricht der maximal zu zahlende Betrag dem aktuellen Marktwert eines vergleichbaren Geräts oder dem gezahlten Einzelhandelspreis abzüglich Umsatzsteuer und gezahlter Forderungen. Wenn dein Gerät ersetzt oder erstattet wird, ist dieser Vertrag erfüllt."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ausnahmen und Beschränkungen sind möglich. Lies bitte die Geschäftsbedingungen. Darin findest du Informationen zu Ausnahmen, Beschränkungen, Anmeldung eines Anspruchs und Kündigung eines Versicherungsschutzes sowie eine Liste der Versicherungsanbieter. Eine vollständige Liste der Ausnahmen ist in den ausführlichen Geschäftsbedingungen unter „Extended Service Plan Agreement“ und „Accidental Damage Protection Agreement“ enthalten."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "*",
+     "href": "#fn1-ref"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  }
+ ]
+}

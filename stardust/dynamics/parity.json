@@ -1,0 +1,24 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-03T21:30:00Z" },
+  "method": "replica: dynamic groups from stardust/dynamic-features.md rebuilt as blocks / widgets; replayed on the aem.live origin",
+  "features": [
+    { "id": "header-chrome", "feature": "header mega menu + mobile drawer", "class": "M", "pages": 10, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "dom-count", "path": "/at/de/homepage", "selector": "header .hdr-nav .hdr-item", "min": 2 } ] },
+    { "id": "carousels", "feature": "product rails / carousels", "class": "L", "pages": 8, "disposition": "static-snapshot rows + client carousel", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": ".hcar .hcar-slide", "min": 3 },
+                  { "type": "dom-count", "path": "/at/de/homepage", "selector": ".reco .reco-card", "min": 4 },
+                  { "type": "dom-count", "path": "/at/de/brilliant-collection", "selector": ".catchlist", "min": 1 } ] },
+    { "id": "program-video", "feature": "muted in-view loop videos (program pages)", "class": "V", "pages": 3, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "environmentLimit": "HLS source is CORS-limited to Safari/Chrome; other browsers show the poster",
+      "checks": [ { "type": "video-plays", "path": "/at/de/razr-fold-fifa-world-cup-edition", "videoSelector": "video" } ] },
+    { "id": "webforms", "feature": "newsletter + lead/contest webforms", "class": "F", "pages": 1, "disposition": "rebuild-native UI", "reproducibility": "needs-backend", "status": "scaffolded-awaiting-owner",
+      "owner": "decision D1: which form backend receives submissions (no PII is sent until one is connected)",
+      "checks": [ { "type": "dom-count", "path": "/at/de/business-edition", "selector": ".webform form", "min": 1 } ] },
+    { "id": "tags-consent", "feature": "tags / RUM / consent (GTM, Evidon, ad pixels)", "class": "T", "pages": 10, "disposition": "embed-passthrough, scaffolded OFF", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "owner": "decision: tag container IDs and consent manager for the new origin",
+      "checks": [ { "type": "consent-gate", "path": "/at/de/homepage", "forbiddenHosts": ["www.googletagmanager.com", "c.evidon.com", "l.evidon.com"] } ] },
+    { "id": "page-errors", "feature": "no uncaught script errors", "class": "X", "pages": 10, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "no-page-errors", "paths": ["/", "/at/de/homepage", "/at/de/brilliant-collection-2026", "/at/de/brilliant-collection", "/at/de/motocare", "/at/de/motoverse", "/at/de/offers", "/at/de/business-edition", "/at/de/contest", "/at/de/razr-fold-fifa-world-cup-edition"] } ] },
+    { "id": "commerce", "feature": "prices, cart, account, sign-in", "class": "A", "pages": 10, "disposition": "static-snapshot / link-out (interim)", "reproducibility": "needs-backend", "status": "interim", "owner": "decision D2: live commerce integration", "checks": [] }
+  ]
+}

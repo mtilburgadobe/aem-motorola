@@ -1,0 +1,143 @@
+{
+  "archetype": "https://www.motorola.com/at/de/motocare",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "fullbleed": ".full_component",
+    "mediarow": ".contentBlockContainer",
+    "compare": ".service-compare-container"
+  },
+  "archetypeRaw": {
+    "sections": [],
+    "probes": {
+      "fullbleed": {
+        "sel": ".full_component",
+        "count": 0
+      },
+      "mediarow": {
+        "sel": ".contentBlockContainer",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 428
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 48px/56px 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 526,
+            "h": 296
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Ein Jahr DisplayschutzUnfälle passieren einfach. Mit dem Sch"
+      },
+      "compare": {
+        "sel": ".service-compare-container",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1435,
+            "h": 2714
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "28px 127px 0px 127px",
+          "font": "montserrat 16px/normal 400",
+          "borderRadius": "0px",
+          "heading": "h2 montserrat 28px/normal 600 rgb(0, 0, 0)",
+          "image": {
+            "w": 130,
+            "h": 49
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Tarife vergleichenColumn 1: SELBSTBETEILIGUNGColumn 1: BEREC"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.motorola.com/at/de/motoverse",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "mediarow",
+          "msg": "\".contentBlockContainer\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "compare",
+          "msg": "\".service-compare-container\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "fullbleed": {
+            "sel": ".full_component",
+            "count": 0
+          },
+          "mediarow": {
+            "sel": ".contentBlockContainer",
+            "count": 0
+          },
+          "compare": {
+            "sel": ".service-compare-container",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.motorola.com/at/de/business-edition",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "mediarow",
+          "msg": "\".contentBlockContainer\" matches 3 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "compare",
+          "msg": "\".service-compare-container\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [],
+        "probes": {
+          "fullbleed": {
+            "sel": ".full_component",
+            "count": 0
+          },
+          "mediarow": {
+            "sel": ".contentBlockContainer",
+            "count": 0
+          },
+          "compare": {
+            "sel": ".service-compare-container",
+            "count": 0
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "mediarow",
+      "compare"
+    ]
+  }
+}

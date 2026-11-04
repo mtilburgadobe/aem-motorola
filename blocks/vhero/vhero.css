@@ -1,0 +1,205 @@
+/* vhero — live .hero_container + navigation_v2 single video (program prototype values) */
+.vhero {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px 104px;
+  background: #fff;
+}
+
+.vhero .vhero-heading :is(h1, h2, h3, h4, h5, h6) {
+  max-width: 895px;
+  margin: 0 auto;
+  padding: 46px 0 32px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 55.04px;
+  text-align: center;
+}
+
+.vhero .vhero-frame {
+  position: relative;
+  width: min(78.2vw, 1920px);
+  margin: 0 auto;
+  padding-bottom: 24px;
+  line-height: 0;
+}
+
+.vhero .vhero-frame picture {
+  display: block;
+}
+
+.vhero .vhero-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.vhero .vhero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  object-fit: cover;
+  opacity: 0;
+}
+
+.vhero .vhero-frame.is-playing .vhero-video {
+  opacity: 1;
+}
+
+.vhero .vhero-detail p {
+  max-width: 800px;
+  margin: 10px auto 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+}
+
+.vhero .vhero-detail :is(b, strong) {
+  font-weight: 700;
+}
+
+@media (width <= 767px) {
+  .vhero {
+    padding: 53px 30px 58px;
+  }
+
+  .vhero .vhero-heading :is(h1, h2, h3, h4, h5, h6) {
+    max-width: none;
+    padding: 0;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -0.36px;
+    text-align: left;
+  }
+
+  .vhero .vhero-frame {
+    width: auto;
+    padding: 40px 0 4px;
+  }
+
+  .vhero .vhero-video {
+    top: 40px;
+  }
+
+  .vhero .vhero-detail p {
+    max-width: none;
+    margin: 16px 0 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+/* variant duo — live display-card: heading, rounded picture, detail in two columns */
+.vhero.duo {
+  padding: 64px 20px;
+}
+
+.vhero.duo .vhero-heading :is(h1, h2, h3, h4, h5, h6) {
+  max-width: 1126px;
+  padding: 0 0 64px;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.vhero.duo .vhero-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  width: min(78.2vw, 1920px);
+  margin: 0 auto;
+}
+
+.vhero.duo .vhero-detail p {
+  max-width: none;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* variant bare — live moto-flex-content video: frame only */
+.vhero.bare {
+  padding: 104px 20px 70px;
+}
+
+.vhero.bare .vhero-frame {
+  padding-bottom: 0;
+}
+
+.vhero.bare .vhero-frame img,
+.vhero.bare .vhero-frame .vhero-video {
+  border-radius: 0;
+}
+
+@media (width <= 767px) {
+  .vhero.duo {
+    padding: 64px 0;
+  }
+
+  .vhero.duo .vhero-heading :is(h1, h2, h3, h4, h5, h6) {
+    padding: 0 0 198px;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .vhero.duo .vhero-frame {
+    padding: 0 0 224px;
+  }
+
+  .vhero.duo .vhero-frame img {
+    border-radius: 0;
+  }
+
+  .vhero.duo .vhero-detail {
+    grid-template-columns: 1fr;
+    gap: 37px;
+    width: auto;
+  }
+
+  .vhero.duo .vhero-detail p {
+    margin: 0;
+  }
+
+  .vhero.bare {
+    padding: 100px 0 70px;
+  }
+
+  .vhero.bare .vhero-frame {
+    padding: 0;
+  }
+
+  .vhero.bare .vhero-video {
+    top: 0;
+  }
+}
+
+/* duo ≥768: live display-card picture is a square-cornered 640px cover box (measure.mjs 1440,
+   from the section top: heading +64, picture +226, detail copy +897) */
+@media (width >= 768px) {
+  .vhero.duo .vhero-heading :is(h1, h2, h3, h4, h5, h6) {
+    padding-bottom: 50px;
+  }
+
+  .vhero.duo .vhero-frame {
+    padding: 0 0 31px;
+  }
+
+  .vhero.duo .vhero-frame img {
+    height: 640px;
+    aspect-ratio: auto;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-11-03T22:19:54.247Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.motorola.com/",
+    "liveHost": "main--0d32c52e--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 10
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 10
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "landing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-brilliant-collection",
+      "path": "/at/de/brilliant-collection",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-brilliant-collection-2026",
+      "path": "/at/de/brilliant-collection-2026",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-business-edition",
+      "path": "/at/de/business-edition",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-contest",
+      "path": "/at/de/contest",
+      "stage": "optimised",
+      "templateId": "campaign",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-homepage",
+      "path": "/at/de/homepage",
+      "stage": "optimised",
+      "templateId": "at-de-homepage",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-motocare",
+      "path": "/at/de/motocare",
+      "stage": "optimised",
+      "templateId": "at-de-motocare",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-motoverse",
+      "path": "/at/de/motoverse",
+      "stage": "optimised",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-offers",
+      "path": "/at/de/offers",
+      "stage": "optimised",
+      "templateId": "at-de-offers",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "at-de-razr-fold-fifa-world-cup-edition",
+      "path": "/at/de/razr-fold-fifa-world-cup-edition",
+      "stage": "optimised",
+      "templateId": "at-de-razr-fold-fifa-world-cup-edition",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "at-de-homepage",
+      "archetype": "at-de-homepage",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "at-de-motocare",
+      "archetype": "at-de-motocare",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "at-de-offers",
+      "archetype": "at-de-offers",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "at-de-razr-fold-fifa-world-cup-edition",
+      "archetype": "at-de-razr-fold-fifa-world-cup-edition",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "campaign",
+      "archetype": "at-de-contest",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "landing",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "at-de-brilliant-collection",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "at-de-business-edition",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    }
+  ],
+  "blocks": {
+    "total": 19,
+    "converted": 19
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      50,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

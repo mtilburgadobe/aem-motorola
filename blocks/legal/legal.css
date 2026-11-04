@@ -1,0 +1,93 @@
+/* legal — live moto-cms-legal (values from canon.css legal note) */
+.legal {
+  background: #fff;
+  color: var(--navy);
+}
+
+.legal .legal-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+.legal .legal-head {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 16px;
+  padding: 24px 0 26px;
+  letter-spacing: -0.16px;
+  cursor: pointer;
+}
+
+.legal .legal-title {
+  margin-right: 40px;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.legal .legal-title :is(h2, h3, h4, p) {
+  color: inherit;
+  font: inherit;
+}
+
+.legal .legal-icon {
+  position: absolute;
+  top: 24px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  font-style: normal;
+}
+
+.legal .legal-icon::before {
+  content: "\e91c";
+  position: absolute;
+  font-family: icomoon, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  transition: transform 0.2s;
+}
+
+.legal .legal-head[aria-expanded="true"] .legal-icon::before {
+  transform: rotate(180deg);
+}
+
+.legal .legal-text {
+  margin: 0 16px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* variant plain — live .moto-flex-content legal copy (program template): open, centred column */
+.legal.plain {
+  padding: 30px 0;
+  color: var(--ink);
+}
+
+.legal.plain .legal-inner {
+  max-width: none;
+  padding: 0;
+}
+
+.legal.plain .legal-text {
+  width: min(66.6667vw, 1020px);
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (width <= 767px) {
+  .legal.plain .legal-text {
+    width: auto;
+    padding: 20px 30px 0;
+  }
+}
+
+/* variant spaced — live brilliant-collection moto-cms-legal (143px) + empty html_upload strip */
+.legal.spaced .legal-inner {
+  padding-bottom: 93px;
+}
